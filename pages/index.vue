@@ -5,18 +5,23 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
 </script>
 
 <template>
-  <section class="px-4 mt-12 mb-20 md:my-44 flex flex-col justify-center items-center space-y-14">
-    <div class="flex flex-col items-center space-y-8 text-center">
-      <h1 class="text-5xl font-bold">
-        {{ data.title }}
-      </h1>
-      <p class="max-w-[700px]">
-        {{ data.subtitle }}
-      </p>
-    </div>
-    <div class="flex flex-row justify-center space-x-6">
-      <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
-      <AtomsAppLink to="contact">Nous contacter</AtomsAppLink>
+  <section class="px-4 pt-12 pb-20 md:py-44 relative">
+    <AtomsGraphicsTrianglesMobile class="absolute -left-2 -bottom-11 md:hidden" />
+    <AtomsGraphicsTriangles class="hidden md:block absolute -left-12 bottom-[-2.875rem]" />
+    <AtomsGraphicsRound class="hidden md:block absolute top-6 right-10" />
+    <div class="flex flex-col justify-center items-center space-y-14">
+      <div class="flex flex-col items-center space-y-8 text-center">
+        <h1 class="text-5xl font-bold">
+          {{ data.title }}
+        </h1>
+        <p class="max-w-[700px]">
+          {{ data.subtitle }}
+        </p>
+      </div>
+      <div class="flex flex-row justify-center space-x-6">
+        <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
+        <AtomsAppLink to="contact">Nous contacter</AtomsAppLink>
+      </div>
     </div>
   </section>
   <section class="bg-primary-base text-white py-14 md:py-[7.5rem]">
@@ -55,9 +60,9 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
       </figure>
     </div>
   </section>
-  <section class="max-w-screen-xl mx-auto py-[6.125rem]">
+  <section class="max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
     <h2 class="px-4 text-[1.75rem] font-bold">Nos partenaires</h2>
-    <OrganismsTheCarouselPartners class="mt-11" />
+    <OrganismsTheCarouselPartners class="mt-11 px-4" />
   </section>
   <section
     class="pb-[4.375rem] lg:pb-0 bg-accent-purple text-white flex flex-col-reverse space-y-reverse space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:space-x-[6.25rem]">
