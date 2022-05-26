@@ -15,5 +15,5 @@ export default defineNuxtConfig({
       formUrl: process.env.FORM_URL,
     },
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt'],
 })

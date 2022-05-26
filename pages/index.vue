@@ -32,7 +32,7 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
     </ul>
   </section>
   <section
-    class="flex flex-col-reverse space-y-reverse space-y-10 md:flex-row md:justify-end md:items-center md:space-x-[6.25rem]">
+    class="flex flex-col-reverse space-y-reverse space-y-10 md:space-y-0 md:flex-row md:justify-end md:items-center md:space-x-[6.25rem]">
     <div class="px-4 flex flex-col items-center md:items-start space-y-14 md:space-y-10 max-w-3xl">
       <div class="space-y-8">
         <h2 class="text-[1.75rem] font-bold">{{ data.classement.title }}</h2>
@@ -55,8 +55,8 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
       </figure>
     </div>
   </section>
-  <section>
+  <section class="max-w-screen-xl mx-auto py-[6.125rem]">
     <h2 class="text-[1.75rem] font-bold">Nos partenaires</h2>
-    <OrganismsPartners />
+    <OrganismsPartners class="mt-11" />
   </section>
 </template>
