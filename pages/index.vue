@@ -57,6 +57,32 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
   </section>
   <section class="max-w-screen-xl mx-auto py-[6.125rem]">
     <h2 class="text-[1.75rem] font-bold">Nos partenaires</h2>
-    <OrganismsPartners class="mt-11" />
+    <OrganismsTheCarouselPartners class="mt-11" />
+  </section>
+  <section
+    class="bg-accent-purple text-white flex flex-col-reverse space-y-reverse space-y-10 md:space-y-0 md:flex-row md:justify-end md:items-center md:space-x-[6.25rem]">
+    <div class="px-4 flex flex-col items-center md:items-start space-y-14 md:space-y-10 max-w-3xl">
+      <div class="space-y-8">
+        <h2 class="text-[1.75rem] font-bold">{{ data['lights-on'].title }}</h2>
+        <p>{{ data['lights-on'].text }}</p>
+      </div>
+      <AtomsAppLink white>Découvrir le palmarès</AtomsAppLink>
+    </div>
+    <img class="w-[32rem]" src="/image 2.png" alt="Image d'illustration du texte">
+  </section>
+  <section class="mt-14">
+    <h2 class="max-w-screen-xl mx-auto text-[1.75rem] font-bold">Galerie Photos</h2>
+    <ul class="mt-11 grid grid-cols-5 grid-rows-2">
+      <li v-for="num in 10" :key="num" class="relative group">
+        <img src="/image 2.png" alt="">
+        <div
+          class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
+        </div>
+        <div
+          class="opacity-0 group-hover:opacity-100 absolute inset-0 flex justify-center items-center motion-safe:transition-all motion-safe:duration-300">
+          <AtomsIconsInstagram class="text-white" />
+        </div>
+      </li>
+    </ul>
   </section>
 </template>

@@ -72,10 +72,10 @@ const onIntersectionObserer = function (state) {
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
-    <ul tabindex="0" class="ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory " ref="slider">
-      <li class="snap-start" v-for="num in 10" :key="num" ref="slides"
+    <ul tabindex="0" class="ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory" ref="slider">
+      <li class="snap-start px-9" v-for="num in 10" :key="num" ref="slides"
         v-intersection-observer="[onIntersectionObserer, { root: slider }]">
-        <img src="/image 2.png" class="max-w-none h-32 w-32" alt="">
+        <img src="/image 2.png" class="max-w-none w-40 h-40" alt="">
       </li>
     </ul>
 
