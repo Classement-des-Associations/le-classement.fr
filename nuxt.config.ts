@@ -2,7 +2,19 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: ['~/assets/css/tailwind.css'],
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'shortcut icon', type: 'image/png', href: '/favicon.png' },
+      ],
+    },
+  },
+  runtimeConfig: {
+    public: {
+      formUrl: process.env.FORM_URL,
+    },
+  },
   build: {
     postcss: {
       postcssOptions: {

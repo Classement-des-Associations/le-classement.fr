@@ -8,6 +8,10 @@
   }
 }
 
+.router-link-active {
+  @apply text-primary-base font-semibold;
+}
+
 @font-face {
   font-family: 'Montserrat';
   font-weight: normal;
