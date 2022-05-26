@@ -15,14 +15,5 @@ export default defineNuxtConfig({
       formUrl: process.env.FORM_URL,
     },
   },
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
 })

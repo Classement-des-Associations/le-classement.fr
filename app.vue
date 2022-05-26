@@ -4,10 +4,12 @@ import './assets/css/tailwind.css'
 </script>
 
 <template>
-  <TheHeader />
-  <main>
-    <NuxtPage />
-  </main>
-  <TheFooter />
+  <div>
+    <TheHeader />
+    <main>
+      <NuxtPage />
+    </main>
+    <TheFooter />
+  </div>
 </template>
 

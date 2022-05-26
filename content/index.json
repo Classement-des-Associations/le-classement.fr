@@ -1,0 +1,29 @@
+{
+  "title": "Le Classement des Associations",
+  "subtitle": "Le Concours National de référence qui recense et classe toutes les associations étudiantes de France.",
+  "kpi": [
+    {
+      "title": "Associations",
+      "text": "Culturelles, humanitaires, caritatives, sportives",
+      "value": "+1000"
+    },
+    {
+      "title": "Écoles",
+      "text": "Commerces, ingénieurs, université, droit, IEP, design…",
+      "value": "+300"
+    },
+    {
+      "title": "Étudiants",
+      "text": "Ont soutenu leur associations lors du Classement des Associations 2021",
+      "value": "+10 000"
+    }
+  ],
+  "classement": {
+    "title": "Le Classement des Associations, c'est quoi ?",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo cupiditate non fuga aliquam! Fugit, adipisci ipsum quidem aliquid doloremque quaerat accusamus asperiores ex facere magnam fuga ab sint illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius in reiciendis ratione quia aliquid sequi repellat blanditiis, laudantium neque pariatur odio sint, obcaecati minima, quis possimus accusantium sed officiis? Similique?"
+  },
+  "quote": {
+    "text": "The only thing that stands between you and your dream is your own fear",
+    "author": "Paulo Coelho"
+  }
+}
