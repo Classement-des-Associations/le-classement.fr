@@ -24,8 +24,8 @@ function closeModal() {
   <button @click="openModal">
     <AtomsIconsMenu class="w-8 h-8" />
   </button>
-  <Dialog :open="isOpen" @close="setIsOpen">
-    <DialogPanel class="absolute top-0 left-0 right-0 bottom-0 bg-accent-purple text-white">
+  <Dialog @close="setIsOpen" :open="isOpen">
+    <DialogPanel class="absolute inset-0 bg-accent-purple text-white">
       <DialogTitle class="sr-only">Navigation mobile</DialogTitle>
 
       <div class="flex flex-row justify-between px-4 pt-4">
