@@ -25,7 +25,7 @@ const { data } = await useAsyncData('partenariats', () => queryContent('partners
         <img v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
-    <section class="max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+    <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Rejoindre nos partenaires</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="value in 10" :kye="10">
