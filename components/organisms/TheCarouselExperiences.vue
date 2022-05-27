@@ -67,7 +67,7 @@ const onIntersectionSlide = function (indice) {
       class="absolute flex flex-row justify-center items-center gap-[0.875rem] bottom-14 left-1/2 transform -translate-x-1/2">
       <button v-for="value in Object.keys(props.experiences).length" :key="value"
         class="bg-white rounded-full transition-all"
-        :class="{ 'w-3 h-3 mx-[0.125rem] shrink-0 opacity-50': !isCurrentSlide(value - 1), 'w-4 h-4 opacity-100': isCurrentSlide(value - 1) }"
+        :class="{ 'w-4 h-4 mx-[0.125rem] shrink-0 opacity-50': !isCurrentSlide(value - 1), 'w-5 h-5 opacity-100': isCurrentSlide(value - 1) }"
         @click="goTo(value - 1)" v-intersection-observer="[onIntersectionDot(value - 1), { root: slider }]"></button>
     </div>
   </section>
