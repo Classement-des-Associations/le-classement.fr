@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       formUrl: process.env.FORM_URL,
+      emailTo: process.env.EMAIL_TO,
+      phoneTo: process.env.PHONE_TO,
     },
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt'],
