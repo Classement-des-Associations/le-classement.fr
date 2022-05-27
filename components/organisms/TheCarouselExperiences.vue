@@ -23,23 +23,6 @@ const isCurrentSlide = function (indice) {
 }
 
 /**
- * Handle intersection with dots
- */
-const onIntersectionDot = function (indice) {
-  return function (state) {
-    const el = state[0]
-
-    if (el.isIntersecting && isCurrentSlide(indice)) {
-      el.target.setAttribute('tabindex', '-1')
-    } else if (el.isIntersecting) {
-      el.target.setAttribute('tabindex', '0')
-    } else {
-      el.target.setAttribute('tabindex', '-1')
-    }
-  }
-}
-
-/**
  * Handle intersection with slides
  */
 const onIntersectionSlide = function (indice) {
@@ -68,7 +51,8 @@ const onIntersectionSlide = function (indice) {
       <button v-for="value in Object.keys(props.experiences).length" :key="value"
         class="bg-white rounded-full transition-all"
         :class="{ 'w-4 h-4 mx-[0.125rem] shrink-0 opacity-50': !isCurrentSlide(value - 1), 'w-5 h-5 opacity-100': isCurrentSlide(value - 1) }"
-        @click="goTo(value - 1)" v-intersection-observer="[onIntersectionDot(value - 1), { root: slider }]"></button>
+        @click="goTo(value - 1)" :tabindex="isCurrentSlide(value - 1) ? '-1' : '0'"
+        :disabled="isCurrentSlide(value - 1) ? true : false"></button>
     </div>
   </section>
 </template>
