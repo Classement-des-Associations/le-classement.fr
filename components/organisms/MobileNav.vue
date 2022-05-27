@@ -26,7 +26,7 @@ function closeModal() {
   </button>
   <ClientOnly>
     <Dialog @close="setIsOpen" :open="isOpen">
-      <DialogPanel class="absolute inset-0 bg-accent-purple text-white">
+      <DialogPanel class="absolute z-20 inset-0 bg-accent-purple text-white">
         <DialogTitle class="sr-only">Navigation mobile</DialogTitle>
 
         <div class="flex flex-row justify-between px-4 pt-4">
