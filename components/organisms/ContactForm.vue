@@ -1,5 +1,9 @@
 <template>
-  <form>
+  <form name="contact" netlify data-netlify-honeypot="bot-field" method="POST">
+    <p class="hidden">
+      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+    <input type="hidden" name="form-name" value="contact" />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
       <label for="first_name" class="sr-only">Prénom</label>
       <input type="text" name="first_name" id="first_name" required
