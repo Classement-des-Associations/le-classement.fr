@@ -28,18 +28,18 @@ const { data } = await useAsyncData('index', () => queryContent('home').findOne(
         </li>
       </ul>
     </section>
-    <section
-      class="flex flex-col-reverse space-y-reverse space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:space-x-[6.25rem]">
-      <div class="px-4 flex flex-col items-center lg:items-start space-y-14 lg:space-y-10 max-w-3xl">
-        <div class="space-y-8">
-          <AtomsAppSectionTitle>{{ data.classement.title }}</AtomsAppSectionTitle>
-          <p>{{ data.classement.text }}</p>
-        </div>
-        <AtomsAppLink>En savoir plus</AtomsAppLink>
-      </div>
-      <img class="md:max-w-[32rem] 2xl:max-w-[64rem] w-full mx-auto" src="/image.png"
-        alt="Image d'illustration du texte">
-    </section>
+    <OrganismsArticleImage>
+      {{ data.classement.title }}
+      <template #texts>
+        <p v-for="text in data.classement.texts" :key="text">{{ text }}</p>
+      </template>
+      <template #more>
+        <AtomsAppLink to="/le-classement/palmares">En savoir plus</AtomsAppLink>
+      </template>
+      <template #image="{ data }">
+        <img v-bind="data" src="/image.png" alt="">
+      </template>
+    </OrganismsArticleImage>
     <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
       <div
         class="px-4 max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
@@ -53,24 +53,24 @@ const { data } = await useAsyncData('index', () => queryContent('home').findOne(
         </figure>
       </div>
     </section>
-    <section class="max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
-      <h2 class="px-4 text-[1.75rem] font-bold">Nos partenaires</h2>
+    <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+      <AtomsAppSectionTitle>Nos partenaires</AtomsAppSectionTitle>
       <OrganismsTheCarouselPartners class="mt-11 px-4" />
     </section>
-    <section
-      class="pb-[4.375rem] lg:pb-0 bg-accent-purple text-white flex flex-col-reverse space-y-reverse space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:space-x-[6.25rem]">
-      <div class="px-4 flex flex-col items-center lg:items-start space-y-14 lg:space-y-10 max-w-3xl">
-        <div class="space-y-8">
-          <AtomsAppSectionTitle>{{ data['lights-on'].title }}</AtomsAppSectionTitle>
-          <p>{{ data['lights-on'].text }}</p>
-        </div>
-        <AtomsAppLink white>Découvrir le palmarès</AtomsAppLink>
-      </div>
-      <img class="md:max-w-[32rem] mx-auto 2xl:max-w-[64rem] w-full" src="/image.png"
-        alt="Image d'illustration du texte">
-    </section>
+    <OrganismsArticleImage class="bg-accent-purple text-white">
+      {{ data['lights-on'].title }}
+      <template #texts>
+        <p v-for="text in data['lights-on'].texts" :key="text">{{ text }}</p>
+      </template>
+      <template #more>
+        <AtomsAppLink to="/le-classement/palmares" white>En savoir plus</AtomsAppLink>
+      </template>
+      <template #image="{ data }">
+        <img v-bind="data" src="/image.png" alt="">
+      </template>
+    </OrganismsArticleImage>
     <section class="mt-14">
-      <h2 class="px-4 max-w-screen-xl mx-auto text-[1.75rem] font-bold">Galerie Photos</h2>
+      <AtomsAppSectionTitle class="px-4 max-w-screen-xl mx-auto">Galerie Photos</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="num in 10" :key="num" class="relative group">
           <img src="/image.png" alt="">

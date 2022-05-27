@@ -41,12 +41,12 @@ const { data } = await useAsyncData('a-propos', () => queryContent('about').find
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage left class="bg-white text-black">
-      {{ data.aneo.title }}
+      {{ data.bnem.title }}
       <template #texts>
-        <p v-for="text in data.aneo.texts" :key="text">{{ text }}</p>
+        <p v-for="text in data.bnem.texts" :key="text">{{ text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink :to="data.aneo.link">En savoir plus</AtomsAppLink>
+        <AtomsAppLink :to="data.bnem.link">En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
         <img v-bind="data" src="/image.png" alt="">

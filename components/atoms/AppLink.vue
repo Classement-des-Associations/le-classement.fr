@@ -14,7 +14,11 @@ const getClassName = function () {
   const classNames = ['motion-safe:transition-all motion-safe:duration-300']
 
   if (props.fill) {
-    classNames.push('bg-primary-base hover:bg-primary-variation-1 text-white')
+    if (props.white) {
+      classNames.push('bg-white text-black')
+    } else {
+      classNames.push('bg-primary-base hover:bg-primary-variation-1 text-white')
+    }
   } else {
     if (props.white) {
       classNames.push('bg-transparent text-white outline outline-2 outline-white outline-offset-[-2px] hover:bg-white hover:text-black')
