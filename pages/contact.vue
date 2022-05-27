@@ -8,7 +8,7 @@ const { data } = await useAsyncData('contact', () => queryContent('contact').fin
   <div>
     <section class="px-4 py-14 bg-ultra-light-grey">
       <AtomsAppSectionTitle> {{ data.title }} </AtomsAppSectionTitle>
-      <OrganismsContactForm class="mt-8" />
+      <OrganismsTheContactForm class="mt-8" />
     </section>
     <section class="md:hidden py-14 px-4 bg-accent-purple text-white">
       <AtomsAppSectionTitle> {{ data.contact.title }} </AtomsAppSectionTitle>
