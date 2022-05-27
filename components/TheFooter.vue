@@ -34,13 +34,13 @@
         <span id="secondary-nav" class="sr-only">Navigation secondaire</span>
         <ul class="flex flex-row justify-center space-x-10 text-white text-sm leading-4 tracking-wider font-semibold">
           <li>
-            <NuxtLink class="hover:underline hover:underline-offset-4" to="confidentialite">Confidentialité</NuxtLink>
+            <NuxtLink class="hover:underline hover:underline-offset-4" to="/confidentialite">Confidentialité</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="hover:underline hover:underline-offset-4" to="reglement">Règlement</NuxtLink>
+            <NuxtLink class="hover:underline hover:underline-offset-4" to="/reglement">Règlement</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="hover:underline hover:underline-offset-4" to="contact">Contact</NuxtLink>
+            <NuxtLink class="hover:underline hover:underline-offset-4" to="/contact">Contact</NuxtLink>
           </li>
         </ul>
       </nav>
