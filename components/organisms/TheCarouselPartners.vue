@@ -37,7 +37,7 @@ const prev = function () {
 /**
  * Used to track slide 
  */
-const onIntersectionObserer = function (state) {
+const onIntersectionObserver = function (state) {
   const el = state[0]
   if (el.isIntersecting) {
     el.target.setAttribute('tabindex', '0')
@@ -74,7 +74,7 @@ const onIntersectionObserer = function (state) {
 
     <ul tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory" ref="slider">
       <li class="snap-start px-9" v-for="num in 10" :key="num" ref="slides"
-        v-intersection-observer="[onIntersectionObserer, { root: slider }]">
+        v-intersection-observer="[onIntersectionObserver, { root: slider }]">
         <img src="/image.png" class="max-w-none w-40 h-40" alt="">
       </li>
     </ul>

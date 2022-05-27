@@ -1,0 +1,60 @@
+{
+  "title": "Le Concours",
+  "subtitle": "Tu hésites encore à t'inscrire ? Retrouve toutes les informations pratiques pour t'inscrire au Classement des Associations",
+  "experiences": [
+    {
+      "title": "Vivre une expérience  inoubliable, riche en émotions",
+      "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.",
+      "background-color": "bg-accent-purple"
+    },
+    {
+      "title": "Valoriser ton association auprès du  monde professionnel",
+      "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.",
+      "background-color": "bg-primary-base"
+    },
+    {
+      "title": "Enrichir tes réseaux personnel et professionnel",
+      "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.",
+      "background-color": "bg-primary-variation-1"
+    }
+  ],
+  "course": {
+    "title": "Le Déroulement du Concours",
+    "progress": [
+      {
+        "number": "01",
+        "title": "Dépôt des candidatures",
+        "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum.",
+        "date": "1er avril - 15 mail 2022"
+      },
+      {
+        "number": "02",
+        "title": "Dépôt des candidatures",
+        "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum.",
+        "date": "1er avril - 15 mail 2022"
+      },
+      {
+        "number": "03",
+        "title": "Dépôt des candidatures",
+        "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum.",
+        "date": "1er avril - 15 mail 2022"
+      },
+      {
+        "number": "04",
+        "title": "Dépôt des candidatures",
+        "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum.",
+        "date": "1er avril - 15 mail 2022"
+      },
+      {
+        "number": "05",
+        "title": "Dépôt des candidatures",
+        "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum.",
+        "date": "1er avril - 15 mail 2022"
+      }
+    ]
+  },
+  "price": {
+    "title": "Le prix",
+    "text": "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum."
+  }
+}
