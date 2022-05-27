@@ -5,25 +5,16 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
 </script>
 
 <template>
-  <section class="px-4 pt-12 pb-20 md:py-44 relative">
-    <AtomsGraphicsTrianglesMobile class="absolute -left-2 -bottom-11 md:hidden" />
-    <AtomsGraphicsTriangles class="hidden md:block absolute -left-12 bottom-[-2.875rem]" />
-    <AtomsGraphicsRound class="hidden md:block absolute top-6 right-10" />
-    <div class="flex flex-col justify-center items-center space-y-14">
-      <div class="flex flex-col items-center space-y-8 text-center">
-        <h1 class="text-5xl font-bold">
-          {{ data.title }}
-        </h1>
-        <p class="max-w-[700px]">
-          {{ data.subtitle }}
-        </p>
-      </div>
-      <div class="flex flex-row justify-center space-x-6">
-        <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
-        <AtomsAppLink to="contact">Nous contacter</AtomsAppLink>
-      </div>
-    </div>
-  </section>
+  <OrganismsHero>
+    {{ data.title }}
+    <template #subtitle>
+      {{ data.subtitle }}
+    </template>
+    <template #actions>
+      <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
+      <AtomsAppLink to="contact">Nous contacter</AtomsAppLink>
+    </template>
+  </OrganismsHero>
   <section class="bg-primary-base text-white py-14 md:py-[7.5rem]">
     <ul
       class="max-w-[1120px] mx-auto flex flex-col items-center space-y-[3.75rem] md:space-y-0 md:flex-row md:justify-between">
@@ -40,12 +31,12 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
     class="flex flex-col-reverse space-y-reverse space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:space-x-[6.25rem]">
     <div class="px-4 flex flex-col items-center lg:items-start space-y-14 lg:space-y-10 max-w-3xl">
       <div class="space-y-8">
-        <h2 class="text-[1.75rem] font-bold">{{ data.classement.title }}</h2>
+        <AtomsAppSectionTitle>{{ data.classement.title }}</AtomsAppSectionTitle>
         <p>{{ data.classement.text }}</p>
       </div>
       <AtomsAppLink>En savoir plus</AtomsAppLink>
     </div>
-    <img class="w-full mx-auto" src="/image.png" alt="Image d'illustration du texte">
+    <img class="md:max-w-[32rem] 2xl:max-w-[64rem] w-full mx-auto" src="/image.png" alt="Image d'illustration du texte">
   </section>
   <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
     <div
@@ -68,12 +59,12 @@ const { data } = await useAsyncData('index', () => queryContent('/').findOne())
     class="pb-[4.375rem] lg:pb-0 bg-accent-purple text-white flex flex-col-reverse space-y-reverse space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:space-x-[6.25rem]">
     <div class="px-4 flex flex-col items-center lg:items-start space-y-14 lg:space-y-10 max-w-3xl">
       <div class="space-y-8">
-        <h2 class="text-[1.75rem] font-bold">{{ data['lights-on'].title }}</h2>
+        <AtomsAppSectionTitle>{{ data['lights-on'].title }}</AtomsAppSectionTitle>
         <p>{{ data['lights-on'].text }}</p>
       </div>
       <AtomsAppLink white>Découvrir le palmarès</AtomsAppLink>
     </div>
-    <img class="w-full" src="/image.png" alt="Image d'illustration du texte">
+    <img class="md:max-w-[32rem] mx-auto 2xl:max-w-[64rem] w-full" src="/image.png" alt="Image d'illustration du texte">
   </section>
   <section class="mt-14">
     <h2 class="px-4 max-w-screen-xl mx-auto text-[1.75rem] font-bold">Galerie Photos</h2>
