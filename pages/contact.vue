@@ -2,13 +2,25 @@
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('contact', () => queryContent('contact').findOne())
+
+const isFormSubmitted = ref(false)
+const formSubmissionText = ref('')
+
+function handleForm(message) {
+  console.log(message)
+  isFormSubmitted.value = true
+  formSubmissionText.value = message
+}
 </script>
 
 <template>
   <div>
     <section class="px-4 py-14 bg-ultra-light-grey">
       <AtomsAppSectionTitle> {{ data.title }} </AtomsAppSectionTitle>
-      <OrganismsTheContactForm class="mt-8" />
+      <transition name="fade" mode="out-in">
+        <OrganismsTheContactForm class="mt-8" @success="handleForm" v-if="!isFormSubmitted" />
+        <p v-else class="mt-8"> {{ formSubmissionText }}</p>
+      </transition>
     </section>
     <section class="md:hidden py-14 px-4 bg-accent-purple text-white">
       <AtomsAppSectionTitle> {{ data.contact.title }} </AtomsAppSectionTitle>

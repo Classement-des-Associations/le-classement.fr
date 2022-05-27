@@ -1,22 +1,29 @@
 <script setup>
-const form = ref()
+const formContact = ref()
+const emit = defineEmits(['success'])
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  let formData = new FormData(form);
+  const formData = new FormData(formContact.value);
   fetch("/", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
+    .then((res) =>
+      emit(
+        'success',
+        res.ok ? 'Merci pour votre message !' : 'Une erreur est survenue !'
+      )
+    )
+    .catch(() => emit('success', 'Une erreur est survenue !'))
 };
 </script>
 
 
 <template>
-  <form name="contact" data-netlify="true" netlify-honeypot="bot-field" @submit.prevent="handleSubmit" ref="form">
+  <form name="contact" data-netlify="true" netlify-honeypot="bot-field" @submit.prevent="handleSubmit"
+    ref="formContact">
     <p class="hidden">
       <label>Don't fill this out if you're human: <input name="bot-field" /></label>
     </p>
