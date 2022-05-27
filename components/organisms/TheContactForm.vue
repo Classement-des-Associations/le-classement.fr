@@ -5,7 +5,8 @@ const emit = defineEmits(['success'])
 const handleSubmit = (e) => {
   e.preventDefault();
   const formData = new FormData(formContact.value);
-  fetch("/", {
+  // Unhandle route from SSR (because of Nuxt3 and it's serverless mode)
+  fetch("/contactform", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
