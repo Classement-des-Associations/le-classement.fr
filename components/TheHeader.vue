@@ -25,30 +25,30 @@ const config = useRuntimeConfig()
               <MenuItems class="w-52 absolute top-8 z-10 bg-white flex flex-col">
                 <MenuItem v-slot="{ active }">
                 <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
-                  to="le-classement/a-propos">
+                  to="/le-classement/a-propos">
                   À Propos
                 </NuxtLink>
                 </MenuItem>
                 <MenuItem v-slot="{ active }">
                 <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
-                  to="le-classement/concours">
+                  to="/le-classement/concours">
                   Le Concours
                 </NuxtLink>
                 </MenuItem>
                 <MenuItem v-slot="{ active }">
                 <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
-                  to="le-classement/palmares">
+                  to="/le-classement/palmares">
                   Le Palmarès
                 </NuxtLink>
                 </MenuItem>
               </MenuItems>
             </Menu>
             <li>
-              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="partenariats">
+              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/partenariats">
                 Partenariats</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="contact">Contact
+              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/contact">Contact
               </NuxtLink>
             </li>
           </ul>

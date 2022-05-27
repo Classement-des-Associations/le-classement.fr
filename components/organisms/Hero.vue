@@ -9,7 +9,7 @@
         <AtomsAppHeroTitle>
           <slot />
         </AtomsAppHeroTitle>
-        <AtomsAppHeroSubtitle class="max-w-[700px]">
+        <AtomsAppHeroSubtitle class="max-w-3xl">
           <slot name="subtitle" />
         </AtomsAppHeroSubtitle>
       </div>
