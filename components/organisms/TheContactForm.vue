@@ -29,13 +29,13 @@ const handleSubmit = (e) => {
       <label>Don't fill this out if you're human: <input name="bot-field" /></label>
     </p>
     <input type="hidden" name="form-name" value="contact" />
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
       <label for="first_name" class="sr-only">Prénom</label>
       <input type="text" name="first_name" id="first_name" required
-        class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Prénom">
+        class="md:mr-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Prénom">
       <label for="last_name" class="sr-only">Nom</label>
       <input type="text" name="last_name" id="last_name" required
-        class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Nom">
+        class="md:ml-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Nom">
       <label for="email" class="sr-only">Adresse mail</label>
       <input type="email" name="email" id="email" required
         class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2" placeholder="Adresse mail">
@@ -44,9 +44,9 @@ const handleSubmit = (e) => {
         class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2"
         placeholder="Votre message"></textarea>
     </div>
-    <div class="mt-8 flex flex-row justify-center">
+    <div class="mt-8 md:mt-8 flex flex-row justify-center md:justify-start">
       <button type="submit"
-        class="py-3 px-4 bg-accent-purple text-white text-sm font-semibold rounded-[0.625rem]">Envoyer</button>
+        class="py-3 px-4 bg-accent-purple md:bg-primary-base text-white text-sm font-semibold rounded-[0.625rem]">Envoyer</button>
     </div>
   </form>
 </template>
