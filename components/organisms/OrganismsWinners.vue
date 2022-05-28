@@ -14,7 +14,7 @@ const others = computed(() => props.winners.slice(3))
 
 <template>
   <div>
-    <ul class="grid grid-cols-3 gap-4 lg:gap-[4.25rem] justify-items-center uppercase  text-center">
+    <ul class="px-4 xl:px-0 grid grid-cols-3 gap-4 lg:gap-[4.25rem] justify-items-center uppercase  text-center">
       <li class="mt-14 lg:mt-[4.75rem] w-full">
         <NuxtLink :to="podium[1].link" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
@@ -24,7 +24,7 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[1].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 w-full h-full px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
+            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
             <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
               <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
             </div>
@@ -48,7 +48,7 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[0].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 w-full h-full px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
+            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
             <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
               <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
             </div>
@@ -74,7 +74,8 @@ const others = computed(() => props.winners.slice(3))
             </h3>
             <div>{{ podium[2].school }}</div>
           </div>
-          <div class="mt-6 lg:mt-0 pb-3 px-[3.25rem] pt-11 w-full bg-white rounded-t-[1.25rem] shadow-default relative">
+          <div
+            class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full bg-white rounded-t-[1.25rem] shadow-default relative">
             <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
               <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
             </div>
@@ -90,7 +91,7 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
     </ul>
-    <ul class="relative w-full bg-white lg:top-[-6rem] rounded-b-[1.125rem] divide-y divide-[#808080]/10">
+    <ul class="relative w-full bg-white lg:top-[-6rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
       <li v-for="(other, index) in others" class="py-7 uppercase">
         <NuxtLink :to="podium[0].link" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">

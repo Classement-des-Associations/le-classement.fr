@@ -23,8 +23,7 @@ const currentYear = ref(years[0])
       <div class="py-12 bg-accent-purple text-white">
         <OrganismsTheCarouselYears class="max-w-screen-xl mx-auto" :years="years" @year="currentYear = $event" />
       </div>
-      <OrganismsWinners :winners="data.winners[currentYear]"
-        class="mt-14 lg:mt-[6.5rem] px-4 max-w-screen-xl mx-auto" />
+      <OrganismsWinners :winners="data.winners[currentYear]" class="mt-14 lg:mt-[6.5rem] max-w-screen-xl mx-auto" />
     </section>
     <section class="max-w-screen-xl mx-auto bg-white">
       <AtomsAppSectionTitle class="mt-[6.5rem] px-4"> {{ data.final.title }} </AtomsAppSectionTitle>
