@@ -16,11 +16,14 @@ module.exports = {
       'accent-purple': '#4B3069',
       'accent-blue': '#0A6B72',
       black: '#291B25',
-      'light-grey': '#EDEDED',
-      'ultra-light-grey': '#E6E6E6',
+      'light-grey': '#d4d4d4',
+      'ultra-light-grey': '#f9f9f9',
       white: '#FFFFFF',
     },
     extend: {
+      boxShadow: {
+        default: '0 4px 40px 0px rgba(161, 160, 160, 0.1)',
+      },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },

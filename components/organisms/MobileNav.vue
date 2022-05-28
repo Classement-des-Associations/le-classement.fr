@@ -60,7 +60,7 @@ function closeModal() {
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/le-palmares"
+                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/palmares"
                     active-class="underline underline-offset-4">
                     Le Palmarès
                   </NuxtLink>

@@ -52,10 +52,10 @@ const { data } = await useAsyncData('concours', () => queryContent('contest').fi
         <img v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
-    <section class="py-14 md:py-[6.25rem] px-4 bg-ultra-light-grey">
+    <section class="pt-14 pb-8 md:pt-[6.5rem] md:pb-20 bg-ultra-light-grey">
       <div class="max-w-screen-xl mx-auto">
-        <AtomsAppSectionTitle> {{ data.course.title }} </AtomsAppSectionTitle>
-        <OrganismsTheCardsConcours :progress="data.course.progress" class="mt-11 md:mt-[3.75rem]" />
+        <AtomsAppSectionTitle class="px-4"> {{ data.course.title }} </AtomsAppSectionTitle>
+        <OrganismsTheCardsConcours :progress="data.course.progress" class="px-4 mt-5 md:mt-[2.875rem]" />
       </div>
     </section>
     <section class="py-14 md:py-[6.25rem] px-4 bg-ultra-light-grey md:bg-white">

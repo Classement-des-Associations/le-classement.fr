@@ -1,0 +1,103 @@
+{
+  "title": "Le Palmarès",
+  "subtitle": "Chaque année, Le Classement établit le palmarès des meilleures associations étudiantes issues des Grandes Ecoles et Universités françaises.",
+  "winners": {
+    "2021": [
+      {
+        "name": "Savoir oser la solidarité",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Le Petit Tou",
+        "school": "Toulouse BS",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Le père Noël est-il un rocker ?",
+        "school": "EDHEC",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      }
+    ],
+    "2020": [
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Le Petit Tou",
+        "school": "Toulouse BS",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Le père Noël est-il un rocker ?",
+        "school": "EDHEC",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Savoir oser la solidarité",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      },
+      {
+        "name": "Bureau de l'international ALOHA",
+        "school": "Grenoble EM",
+        "link": "https://google.com"
+      }
+    ]
+  },
+  "final": {
+    "title": "La Finale 2021"
+  }
+}
