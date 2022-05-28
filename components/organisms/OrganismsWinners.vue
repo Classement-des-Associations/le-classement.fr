@@ -67,7 +67,7 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
       <li class="mt-12 lg:mt-[9.125rem] w-full">
-        <NuxtLink :to="podium[0].link" target="_blank">
+        <NuxtLink :to="podium[2].link" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[2].name }}
