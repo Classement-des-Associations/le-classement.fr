@@ -5,6 +5,7 @@ const { data } = await useAsyncData('a-propos', () => queryContent('about').find
 
 useHead({
   title: data.value.title,
+  description: data.value.subtitle,
 })
 </script>
 
@@ -26,9 +27,11 @@ useHead({
           {{ data.text }}
         </p>
         <div class="grid grid-cols-3 justify-items-center">
-          <img src="/image.png" alt="" class="max-h-72" />
-          <img src="/image.png" alt="" class="max-h-72" />
-          <img src="/image.png" alt="" class="max-h-72" />
+          <img src="~/assets/images/bnem_logo.png"
+            alt="Logo du BNEM - Bureau National des étudiants en École de Management" class="max-h-72" />
+          <img src="~/assets/images/bnei_logo.png" alt="Logo du BNEI - Bureau National des Élèves Ingénieurs"
+            class="max-h-72" />
+          <img src="~/assets/images/aneo_logo.png" alt="Logo d'aneo" class="max-h-72" />
         </div>
       </div>
     </section>

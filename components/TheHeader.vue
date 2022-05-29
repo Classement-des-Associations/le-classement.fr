@@ -22,23 +22,23 @@ const config = useRuntimeConfig()
                 </span>
                 <AtomsIconsArrowBottom class="h-3 w-3 text-black" />
               </MenuButton>
-              <MenuItems class="w-52 absolute top-8 z-10 bg-white flex flex-col">
-                <MenuItem v-slot="{ active }">
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
-                  to="/le-classement/a-propos">
-                  À Propos
-                </NuxtLink>
-                </MenuItem>
-                <MenuItem v-slot="{ active }">
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
+              <MenuItems class="w-52 absolute top-8 z-30 bg-white flex flex-col">
+                <MenuItem>
+                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
                   to="/le-classement/concours">
                   Le Concours
                 </NuxtLink>
                 </MenuItem>
-                <MenuItem v-slot="{ active }">
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold" :class='{ "": active }'
+                <MenuItem>
+                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
                   to="/le-classement/palmares">
                   Le Palmarès
+                </NuxtLink>
+                </MenuItem>
+                <MenuItem>
+                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
+                  to="/le-classement/a-propos">
+                  À Propos
                 </NuxtLink>
                 </MenuItem>
               </MenuItems>

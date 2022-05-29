@@ -1,27 +1,43 @@
 {
-  "title": "Envoyer-nous un message",
+  "title": "Envoyer un message",
   "contact": {
-    "title": "Contact"
+    "title": "Nos contacts"
   },
   "questions": {
     "title": "Questions les plus fréquemment posées",
     "data": [
       {
-        "title": "Comment je m'inscrit ?",
+        "title": "Comment puis-je inscrire mon association ?",
         "answers": [
-          "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderumEt has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est . Est dzded."
+          "C'est très simple ! Il te suffit de cliquer sur le bonton s'inscrire en haut à droite sur le site ! Sur mobile, tu peux retourner sur la page d'accueil pour le trouver !",
+          "Ensuite, tu remplis le formulaire ! Attention, les inscriptions prennent fin le 15 juillet 2022."
         ]
       },
       {
-        "title": "Comment je m'inscrit ?",
+        "title": "Comment savoir si mon inscription est bien prise en compte ?",
         "answers": [
-          "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderumEt has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est . Est dzded."
+          "Une fois que tu as rempli le formulaire et que tu l'as validé alors ton inscription est bien prise en compte. Sous 5 jours, tu recevras un mail de notre part avec l'ensemble des consignes pour la suite de l'aventure et si ce n'est pas le cas alors je te conseille de nous addresser un petit mail !"
         ]
       },
       {
-        "title": "Comment je m'inscrit ?",
+        "title": "Je ne comprends pas les consignes.",
         "answers": [
-          "Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderumEt has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est . Est dzded."
+          "Aucun soucis, c'est peut nous qui ne sommes pas clair !",
+          "En cas de doutes sur les consignes ou sur les attentes, n'hésite pas à nous contacter et on fera le maximum pour te répondre par mail ou par téléphone !"
+        ]
+      },
+      {
+        "title": "Où puis-je trouver le règlement ?",
+        "answers": [
+          "Tu trouveras le règlement dans le pied de page du site.",
+          "Si tu as des questions, n'hésite pas à nous contacter !"
+        ]
+      },
+      {
+        "title": "Qui organise le Classement des Associations 2022 ?",
+        "answers": [
+          "Le Classement des associations, édition 2022, est organisé par 2 associations étudiantes, le BNEI, Bureau National des Élèves Ingénieurs et le BNEM, le Bureau National des étudiants en Écoles de Management. Par conséquent, nous sommes comme les participants, étudiants et bénévoles !",
+          "Le Classement des Associations est un projet d'Aneo."
         ]
       }
     ]

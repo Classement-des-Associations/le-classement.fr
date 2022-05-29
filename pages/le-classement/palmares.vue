@@ -5,6 +5,7 @@ const { data } = await useAsyncData('palmares', () => queryContent('/winners').f
 
 useHead({
   title: data.value.title,
+  description: data.value.subtitle,
 })
 
 const years = Object.keys(data.value.winners).sort((a, b) => b - a)

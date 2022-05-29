@@ -3,6 +3,9 @@ import './assets/css/tailwind.css'
 
 useHead({
   titleTemplate: '%s - Le Classement des Associations',
+  htmlAttrs: {
+    lang: 'fr'
+  }
 })
 </script>
 

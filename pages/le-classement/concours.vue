@@ -5,6 +5,7 @@ const { data } = await useAsyncData('concours', () => queryContent('contest').fi
 
 useHead({
   title: data.value.title,
+  description: data.value.subtitle,
 })
 </script>
 

@@ -3,6 +3,7 @@ const { data } = await useAsyncData('partenariats', () => queryContent('partners
 
 useHead({
   title: data.value.title,
+  description: data.value.subtitle,
 })
 </script>
 

@@ -12,6 +12,7 @@ const emit = defineEmits(['year'])
 
 
 const slider = ref()
+const slides = ref([])
 
 const skip = ref(1)
 
@@ -51,6 +52,19 @@ const onIntersectYear = function (year) {
     const el = state[0]
     if (el.isIntersecting) {
       emit('year', year)
+
+      if (el.target === slides.value[0]) {
+        atBeginning.value = true
+      } else if (el.target === slides.value[slides.value.length - 1]) {
+        atEnd.value = true
+      }
+    }
+    else {
+      if (el.target === slides.value[0]) {
+        atBeginning.value = false
+      } else if (el.target === slides.value[slides.value.length - 1]) {
+        atEnd.value = false
+      }
     }
   }
 }
@@ -67,10 +81,11 @@ const onIntersectYear = function (year) {
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
-    <ul tabindex="0" class="flex flex-row w-full overflow-x-scroll snap-x snap-mandatory" ref="slider">
-      <li v-for="year in props.years" :key="year"
-        class="py-4 text-8xl font-extrabold w-full shrink-0 snap-start text-center">
-        <h2 v-intersection-observer="[onIntersectYear(year), { root: slider }]">
+    <ul tabindex="0" class="flex flex-row w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
+      <li v-for="year in props.years" :key="year" ref="slides"
+        class="py-4 text-8xl font-extrabold w-full shrink-0 snap-start text-center"
+        v-intersection-observer="[onIntersectYear(year), { root: slider }]">
+        <h2>
           {{ year }}
         </h2>
       </li>

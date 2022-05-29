@@ -4,12 +4,12 @@
   "kpi": [
     {
       "title": "Associations",
-      "text": "Culturelles, humanitaires, caritatives, sportives",
+      "text": "Culturelles, humanitaires, caritatives, sportives, ... depuis la création du concours",
       "value": "+1000"
     },
     {
       "title": "Écoles",
-      "text": "Commerces, ingénieurs, université, droit, IEP, design…",
+      "text": "Commerces, ingénieurs, université, droit, IEP, design, ... depuis la création du concours",
       "value": "+300"
     },
     {
@@ -21,8 +21,9 @@
   "classement": {
     "title": "Le Classement des Associations, c'est quoi ?",
     "texts": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo cupiditate non fuga aliquam! Fugit, adipisci ipsum quidem aliquid doloremque quaerat accusamus asperiores ex facere magnam fuga ab sint illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      " Eius in reiciendis ratione quia aliquid sequi repellat blanditiis, laudantium neque pariatur odio sint, obcaecati minima, quis possimus accusantium sed officiis? Similique?"
+      "Le Classement des associations, c'est la compétition annuelle entre associations étudiantes pour élire la meilleure.",
+      "Durant plusieurs mois, les associations inscrites doivent montrer qu'elles méritent de gagner le titre ! Pour cela, différents critères sont pris en compte et différents rendus sont demandés comme une plaquette de présentation de l'association, un contenu visuel !",
+      "La compétition se conclut par un superbe évènement à Paris où les finalistes viennent pitcher devant le jury et le public ! Puis la grande association gagnante est annoncée et la fête commence !"
     ]
   },
   "quote": {
@@ -32,8 +33,7 @@
   "lights-on": {
     "title": "Lumière sur...",
     "texts": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo cupiditate non fuga aliquam! Fugit, adipisci ipsum quidem aliquid doloremque quaerat accusamus asperiores ex facere magnam fuga ab sint illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      " Eius in reiciendis ratione quia aliquid sequi repellat blanditiis, laudantium neque pariatur odio sint, obcaecati minima, quis possimus accusantium sed officiis? Similique?"
+      "Contacter ISAE supaero pour avoir une présentation de leur association à notre endroit !"
     ]
   }
 }

@@ -48,12 +48,6 @@ function closeModal() {
               <span class="text-lg font-semibold">Le Classement</span>
               <ul class="mt-6 space-y-6">
                 <li>
-                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/a-propos"
-                    active-class="underline underline-offset-4">
-                    À Propos
-                  </NuxtLink>
-                </li>
-                <li>
                   <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/concours"
                     active-class="underline underline-offset-4">
                     Le Concours
@@ -63,6 +57,12 @@ function closeModal() {
                   <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/palmares"
                     active-class="underline underline-offset-4">
                     Le Palmarès
+                  </NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/a-propos"
+                    active-class="underline underline-offset-4">
+                    À Propos
                   </NuxtLink>
                 </li>
               </ul>

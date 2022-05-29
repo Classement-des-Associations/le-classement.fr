@@ -5,6 +5,8 @@ const { data } = await useAsyncData('index', () => queryContent('home').findOne(
 
 useHead({
   title: 'Accueil',
+  description: data.value.subtitle,
+
 })
 
 </script>

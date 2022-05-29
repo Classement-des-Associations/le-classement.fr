@@ -42,7 +42,7 @@ const handleSubmit = (e) => {
       <label for="message" class="sr-only">Votre message</label>
       <textarea name="message" id="message" cols="30" rows="5" required
         class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2"
-        placeholder="Votre message"></textarea>
+        placeholder="Ton message"></textarea>
     </div>
     <div class="mt-8 md:mt-8 flex flex-row justify-center md:justify-start">
       <button type="submit"

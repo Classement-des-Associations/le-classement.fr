@@ -5,6 +5,8 @@ const { data } = await useAsyncData('contact', () => queryContent('contact').fin
 
 useHead({
   title: data.value.title,
+  description: data.value.subtitle,
+
 })
 
 const isFormSubmitted = ref(false)

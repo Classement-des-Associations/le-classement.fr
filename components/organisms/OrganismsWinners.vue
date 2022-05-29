@@ -15,8 +15,8 @@ const others = computed(() => props.winners.slice(3))
 <template>
   <div>
     <ul class="px-4 xl:px-0 grid grid-cols-3 gap-4 lg:gap-[4.25rem] justify-items-center uppercase  text-center">
-      <li class="mt-14 lg:mt-[4.75rem] w-full">
-        <NuxtLink :to="podium[1].link" target="_blank">
+      <li class="mt-8 lg:mt-[4.75rem] w-full group">
+        <NuxtLink class="h-full" :to="podium[1].link" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[1].name }}
@@ -25,9 +25,7 @@ const others = computed(() => props.winners.slice(3))
           </div>
           <div
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
-            <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
-              <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
-            </div>
+            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">2</span>
             <div class="hidden lg:block mt-6 lg:text-lg space-y-4">
               <h3 class="font-bold">
@@ -39,8 +37,8 @@ const others = computed(() => props.winners.slice(3))
           </div>
         </NuxtLink>
       </li>
-      <li class="w-full">
-        <NuxtLink :to="podium[0].link" target="_blank">
+      <li class="w-full group">
+        <NuxtLink class="h-full" :to="podium[0].link" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[0].name }}
@@ -49,9 +47,7 @@ const others = computed(() => props.winners.slice(3))
           </div>
           <div
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
-            <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
-              <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
-            </div>
+            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
             <div class="relative text-5xl lg:text-[4rem] font-extrabold">1
               <img src="/medal.png" alt="Médaille en or"
                 class="absolute right-1/2 transform translate-x-[90%] top-1/2 lg:w-9 lg:h-9">
@@ -66,8 +62,8 @@ const others = computed(() => props.winners.slice(3))
           </div>
         </NuxtLink>
       </li>
-      <li class="mt-12 lg:mt-[9.125rem] w-full">
-        <NuxtLink :to="podium[2].link" target="_blank">
+      <li class="mt-14 lg:mt-[9.125rem] w-full group">
+        <NuxtLink class="h-full" :to="podium[2].link" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[2].name }}
@@ -75,10 +71,8 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[2].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full bg-white rounded-t-[1.25rem] shadow-default relative">
-            <div class="hidden md:block absolute top-4 right-4 p-3 bg-primary-variation-1 text-white rounded-full">
-              <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
-            </div>
+            class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full h-full bg-white rounded-t-[1.25rem] shadow-default relative">
+            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">3</span>
             <div class="hidden lg:block mt-6 text-sm md:text-lg space-y-4">
               <h3 class="font-bold">
@@ -91,20 +85,23 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
     </ul>
-    <ul class="relative w-full bg-white lg:top-[-6rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
-      <li v-for="(other, index) in others" class="py-7 uppercase">
+    <ul class="relative right-0 left-0 bg-white lg:top-[-6rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
+      <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
         <NuxtLink :to="podium[0].link" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">
-            <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold">{{ index + 3 }}</span>
+            <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold">{{ index + 4 }}</span>
             <div class="ml-12 space-y-2">
               <h3 class="text-sm lg:text-lg font-semibold lg:font-bold">{{ other.name }}</h3>
               <span class="text-[#808080] text-sm lg:text-lg">{{ other.school }}</span>
             </div>
           </div>
-          <div class="hidden md:block mr-4 p-3 bg-primary-variation-1 text-white rounded-full">
-            <AtomsIconsGoTo /> <span class="sr-only">Vers le site de l'association</span>
-          </div>
+          <AtomsWinnersAppAnchorExternal class="mr-4" />
         </NuxtLink>
+      </li>
+      <li v-else class="w-full h-24">
+        <span class="sr-only">
+          Cette liste est vide
+        </span>
       </li>
     </ul>
   </div>

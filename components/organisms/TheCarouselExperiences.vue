@@ -38,7 +38,8 @@ const onIntersectionSlide = function (indice) {
 
 <template>
   <section class="relative">
-    <div class="flex flex-row text-white overflow-x-scroll snap-x snap-mandatory" ref="slider" tabindex="0">
+    <div class="flex flex-row text-white overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider"
+      tabindex="0">
       <article v-for="(experience, indice) in props.experiences" :key="experience.title"
         class="px-4 pt-14 pb-[7.5rem] w-screen shrink-0 snap-start" :class="experience['background-color']"
         v-intersection-observer="[onIntersectionSlide(indice), { root: slider }]">
