@@ -3,6 +3,10 @@ const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('palmares', () => queryContent('/winners').findOne())
 
+useHead({
+  title: data.value.title,
+})
+
 const years = Object.keys(data.value.winners).sort((a, b) => b - a)
 const currentYear = ref(years[0])
 </script>

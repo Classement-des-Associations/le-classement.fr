@@ -2,6 +2,11 @@
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('index', () => queryContent('home').findOne())
+
+useHead({
+  title: 'Accueil',
+})
+
 </script>
 
 <template>

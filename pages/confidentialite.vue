@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title: 'Politique de confidentialité',
+})
+</script>
+
 <template>
   <div>
     <ContentDoc path="/privacy" tag="article"

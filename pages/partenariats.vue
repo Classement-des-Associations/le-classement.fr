@@ -1,5 +1,9 @@
 <script setup>
 const { data } = await useAsyncData('partenariats', () => queryContent('partners').findOne())
+
+useHead({
+  title: data.value.title,
+})
 </script>
 
 <template>

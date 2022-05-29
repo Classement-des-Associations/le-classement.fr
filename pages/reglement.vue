@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title: 'Le règlement',
+})
+</script>
+
 <template>
   <div>
     <ContentDoc path="/rules" tag="article"

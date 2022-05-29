@@ -2,6 +2,10 @@
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('a-propos', () => queryContent('about').findOne())
+
+useHead({
+  title: data.value.title,
+})
 </script>
 
 <template>

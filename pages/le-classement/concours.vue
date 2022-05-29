@@ -2,6 +2,10 @@
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('concours', () => queryContent('contest').findOne())
+
+useHead({
+  title: data.value.title,
+})
 </script>
 
 <template>

@@ -3,6 +3,10 @@ const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('contact', () => queryContent('contact').findOne())
 
+useHead({
+  title: data.value.title,
+})
+
 const isFormSubmitted = ref(false)
 const formSubmissionText = ref('')
 
