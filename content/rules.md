@@ -1,3 +1,111 @@
-# Règlement
+# Règlement du Classement des Associations - édition 2022
 
-Le site est en construction
+_Dernière mise à jour:_ **2022-05-31**
+
+## Article 1 - Aneo, société organisatrice
+
+Aneo, Cabinet de Conseil en Organisation et en Technologies est une société par actions simplifiée créée en 2002 à BOULOGNE BILLANCOURT (92). Son effectif est compris entre 150 et 250 salariés. Aneo lance cette année la 11ème édition du « Classement des Associations » qui a pour but de valoriser l’expérience associative des étudiants.
+
+## Article 2 - BNEI et BNEM, sous-traitant
+
+Bureau National des Élèves Ingénieurs ou BNEI, association à but non lucratif est l’association représentante des élèves-ingénieurs créée en 1998.  
+
+Bureau National des étudiants en Ecole de Management ou BNEM, association à but non lucratif est l’association représentante des étudiants en école de management créée en 2020.
+
+Dénommées par la suite comme Organisateurs.
+
+Le BNEI et le BNEM organise la 11ème édition du « Classement des Associations » qui a pour but de valoriser l’expérience associative des étudiants.
+
+## Article 3 - Objectifs et intérêts du classement
+
+Le Classement des Associations est destiné aux étudiants de l’Enseignement Supérieur. Ce concours concerne tous les types d’associations étudiantes. Toutes les associations se disputent la première place du classement. Le but du Classement des Associations étant également d’offrir aux associations de la visibilité auprès des étudiants et des entreprises et de permettre aux participants d’enrichir leur réseau.
+
+## Article 4 - Éligibilité des candidats
+
+Le Classement est ouvert à toutes les associations étudiantes d’établissements de l’enseignement supérieur, privés ou publics francophones.
+
+La participation au Classement des Associations est gratuite et sans obligation d’achat.
+
+## Article 5 - Comment participer ?
+
+Les candidats au Classement des Associations 2022 pourront s’inscrire du 01 avril 2022 au 17 juillet 2022.
+
+Pour son inscription au Classement, le Participant doit fournir les informations suivantes : son nom ; son prénom ; une adresse électronique valide ; un numéro de téléphone ; nom de l’association, nom et ville de l’établissement. Ces informations seront fournies via un formulaire électronique disponible sur les différents réseaux sociaux du Classement et sur le site internet.
+
+Le Participant s’engage à être actuellement étudiant(e) inscrit(e) dans l’enseignement supérieur et pouvant le justifier par une carte d’étudiant ; à être majeure (et pouvant le prouver par une pièce d’identité). Pour terminer son inscription au Classement, le Participant doit cocher la case indiquant qu’il accepte le Règlement du Classement. Toute inscription comportant des informations inexactes ou incomplètes ne pourra être prise en compte et disqualifiera le Participant. Par cette inscription, le Participant accepte d’être contacté par courriers électroniques envoyés par les Organisateurs dans le cadre de sa participation au Classement. Il accepte également d’être contacté par téléphone s’il fait partie des participants présélectionnés ou des Lauréats. Afin de classer les différentes associations, plusieurs rendus seront à fournir tout au long du concours. La forme, le contenu et les dates butoirs de dépôt seront fournis après inscription de l’association.
+
+Le Participant s’engage à soumettre un dossier écrit présentant son association ou son projet sous la forme d’un document au format pdf, comprenant au maximum 10 slides. Le document devra comprendre une liste exhaustive d’informations concernant l’association qui sera transmise aux étudiants à l’inscription. Pour accompagner ce dossier écrit une courte présentation et un visuel seront demandés afin d’illustrer la page de l’association sur la plateforme de vote.  
+
+A la suite de la soumission du dossier écrit, 2 associations seront sélectionnées par le public grâce à la plateforme de vote.
+
+Le Participant s’engage à soumettre une vidéo. Le contenu demandé sera transmis au participant après son inscription. À la suite de la soumission du dossier écrit et de la vidéo 16 associations seront invitées à l'événement. Les autres participants du classement seront invités à l’évènement.  Les associations sélectionnées viendront pitcher lors de l'événement qui aura lieu le 25 novembre 2022, à Paris, sous réserve d’une possibilité d’organiser un événement physique en période de crise sanitaire. Tous les rendus (écrit, vidéo, pitch) seront pris en compte pour établir le classement.
+
+Seuls les dossiers suffisamment complets, rédigés de manière lisible en langue française, seront pris en compte. Tout dossier portant des indications fausses ou réceptionné par courrier postal sera disqualifié. Tout projet présenté devant le jury devra être original et ne pas être une reprise ou copie d’actions réalisées par d’autres initiatives. Les frais afférents à la participation (frais de constitution de dossier, déplacements, etc.) sont à la charge des candidats.
+
+## Article 6 - Calendrier et modifications
+
+**Etape 1** : Dépôt de candidatures
+
+- Lancement des inscriptions :  01 avril 2022
+- Fin des inscriptions : 17 juillet 2022
+
+**Etape 2** : Réalisation du rendu écrit
+
+- 10 slides pdf
+- Envoi avant le 31 juillet 2022 par mail
+
+**Etape 3**: Réalisation de la vidéo
+
+- Envoi avant le 09 octobre 2022  
+
+**Etape 4** : Annonce des 16 finalistes
+
+- Le 30 octobre 2022
+
+**Etape 5** : Évènement final à Paris
+
+- Réalisation des pitchs des 16 finalistes
+- Remise des prix
+- Soirée de clôture de l’édition 2022
+- Le 25 novembre 2022
+
+La Société Organisatrice se réserve le droit à tout moment d’interrompre, de différer, de reporter ou d’annuler le Classement des Associations et/ou d’en modifier ses modalités et dotations après information par tous les moyens appropriés, en cas de force majeure ou si les circonstances indépendantes de sa volonté l’exigeaient, sa responsabilité ne pouvant être engagée de ce fait. La Société Organisatrice se réserve le droit de reporter à une date ultérieure la date limite de dépôt des dossiers et des vidéos. Toute modification serait communiquée aux candidats par voie électronique et le Règlement serait alors mis à jour en conséquence autant que de besoin et la dernière version serait mise en ligne sur le site Internet de la Société Organisatrice dans les meilleurs délais. Il est expressément précisé que les dates du calendrier sont fournies à titre indicatif. La Société Organisatrice se réserve le droit de modifier à tout moment le calendrier du Classement des Associations pour quelque cause que ce soit, sous réserve d’en informer préalablement les candidats dans les meilleurs délais.
+
+## Article 7 - Les prix et lots à gagner
+
+Les prix octroyés par la Société Organisatrice ANEO, accompagnant les trophées, sont au nombre de 16. Ils consistent en une dotation financière ou matérielle qui sera attribuée aux associations candidates du concours suivant leur ordre de sélection. La dotation est d’au moins 1 000 € pour les 16 finalistes.
+
+## Article 8 - Les lots à gagner
+
+À la suite de la soumission du dossier écrit et de la vidéo 16 associations seront invitées à l'événement. Elles seront contactées par mail le 30 octobre 2022 (Cette date pourra être modifiée par la Société Organisatrice). Ce courriel indiquera que leurs bureaux sont invités à se présenter lors de l’événement Le Classement des Associations qui se déroulera le 25 novembre 2022 à Paris. Pendant cette demi-journée, les étudiants auront l’occasion de pitcher leurs multiples projets associatifs mis en place au cours de l’année et leur mode de fonctionnement. Les résultats du Classement resteront confidentiels jusqu’à leur proclamation. Cérémonie avec remise des Prix façon Oscars. Remise du Titre de Meilleure Association de France. Cocktail afterwork avec les partenaires et gala avec tous les participants.  
+
+La dotation correspondant à chaque prix sera versée à l’association lauréate qui aura été désignée par la Société Organisatrice selon les modalités visées à l’article 7 du Règlement, sous réserve de la production d’un justificatif attestant de la création de l’association ainsi que de l’ouverture d’un compte bancaire au nom de ladite association. Le versement interviendra avant le 31 janvier 2023
+
+## Article 9 - Engagement des candidats
+
+Chacun des candidats représentant les associations sélectionnées autorise expressément la Société Organisatrice à utiliser à titre de relations publiques afin de promouvoir le Classement des Associations et la Société Organisatrice elle-même, son identité et son image ainsi que le résumé non-confidentiel du projet de son équipe, sans que cela ne puisse lui conférer une rémunération, un droit ou un avantage quelconque. S’il se révélait que tout ou partie des informations fournies par les candidats étaient fausses, l’association dont ils font partie pourrait être éliminée immédiatement du Classement sans réclamation possible et voir le prix devant être accordé à son association annulée. Par ailleurs, si l’absence de véracité des informations fournies était connue postérieurement à l’attribution du prix visé à l’article 7 du Règlement, l’association ayant perçu ledit prix devra restituer en numéraire la valeur de ce dernier. En outre, le prix devra être remboursé à la Société Organisatrice dans l’hypothèse où le projet est annulé ou n’est pas mené à bien ou n’est pas mené selon les termes prévus. En participant au Classement des Associations, chacun des candidats reconnaît expressément être titulaire de l’ensemble des droits attachés au projet de son association et s’engage à relever et garantir la Société Organisatrice de toute condamnation qui serait prononcée contre elle sur la base d’une violation d’un droit de propriété intellectuelle attaché au projet présenté.
+
+## Article 10 - Traitement des données personnelles
+
+Les données à caractère personnel recueillies dans le cadre du Classement des Associations sont traitées conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, relative à l’informatique, aux fichiers et aux libertés (la « loi Informatique et Libertés »). La Société Organisatrice est responsable du traitement de ces données. Conformément à la loi Informatique et Libertés, chaque candidat dispose d’un droit d’accès, de rectification et d’opposition pour toute information nominative le concernant qu’il peut exercer en écrivant à l’adresse postale suivante :‍  
+
+<center>
+Aneo<br />
+Classement des Associations 2022<br />
+122, avenue du Général Leclerc<br />
+92100 Boulogne-Billancourt
+</center>
+
+‍La Société Organisatrice s’engage à conserver confidentielles les informations qui lui auront été soumises dans le cadre du Classement des Associations et à ne pas en faire usage à son profit. Les données seront utilisées uniquement dans l’objectif du classement.
+
+## Article 11 - Responsabilités
+
+La Société Organisatrice ne saurait être tenue responsable de tout problème de liaison téléphonique, d’acheminement du courrier, et de tout problème de communication inhérent au réseau Internet ou de tout dysfonctionnement empêchant le bon déroulement du Classement des Associations. La Société Organisatrice ne saurait davantage être tenue pour responsable au cas où un ou plusieurs candidats ne pourraient parvenir à adresser leur candidature sur le formulaire ou les documents complémentaires demandés à l’adresse électronique [contact@le-classement.fr](mailto:contact@le-classement.fr) et participer au Classement des Associations du fait de toute défaillance technique ou de tout problème lié notamment à l’encombrement du réseau. Plus généralement, la Société Organisatrice ne saurait être tenue pour responsable du fait de la mauvaise réception ou de l’absence de réception du courrier électronique adressé à l’adresse électronique [contact@le-classement.fr](mailto:contact@le-classement.fr) résultant notamment de coupures de communication, d’incidents liés à l’utilisation de l’ordinateur, ou de toute autre connexion technique. Dans tous les cas, si le bon déroulement administratif et/ou technique du Classement des Associations est perturbé par des dysfonctionnements graves, ainsi que par un virus, bug informatique, intervention humaine non-autorisée ou toute autre cause indépendante de la volonté de la Société Organisatrice, celle-ci se réserve le droit d’interrompre, d’annuler, de différer ou de reporter le Classement des Associations.
+
+## Article 12 - Acceptation du règlement
+
+La participation au Classement des Associations emporte acceptation sans restriction ni réserve du Règlement dans son intégralité par chacune des associations candidates. Le Règlement est également consultable sur le site www.le-classement.fr et peut être également adressé gratuitement par courriel à toute personne qui en fait la demande par courrier électronique à l’adresse suivante : [contact@le-classement.fr](mailto:contact@le-classement.fr)
+
+## Article 13 - Droit applicable - Juridiction
+
+Le présent Règlement est soumis au droit français. La Société Organisatrice se réserve le droit de trancher toute difficulté pouvant survenir quant à l’interprétation ou l’application du présent Règlement. Tout litige qui ne pourrait être réglé à l’amiable serait soumis aux tribunaux compétents.

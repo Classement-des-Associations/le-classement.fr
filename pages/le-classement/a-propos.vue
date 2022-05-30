@@ -44,7 +44,7 @@ useHead({
         <AtomsAppLink :to="data.bnei.link" white>En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img v-bind="data" src="~/assets/images/bnei_about.png" alt="Photo de groupe du BNEI">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage left class="bg-white text-black">

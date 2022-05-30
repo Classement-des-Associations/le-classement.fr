@@ -1,13 +1,13 @@
 {
   "title": "À propos",
-  "subtitle": "Chaque année, le Classement des Associations établit le palmarès des meilleurs associations étudiantes issues des Grandes Écoles et Universités française.",
-  "text": "Pour la première année depuis sa création (2012), le Classement des Associations est organisé par deux associations étudiantes, le Bureau National des étudiants en Écoles de Management et le Bureau National des Élèves Ingénieurs. Le Classement des Associations est un projet d'Aneo.",
+  "subtitle": "Chaque année, le Classement des Associations établit le palmarès des meilleures associations étudiantes issues des Grandes Écoles et Universités françaises.",
+  "text": "Pour la première année depuis sa création en 2012, le Classement des Associations est organisé par deux associations étudiantes, le Bureau National des étudiants en Écoles de Management et le Bureau National des Élèves Ingénieurs. Le Classement des Associations est un projet d'Aneo.",
   "bnei": {
     "title": "À propos du BNEI",
     "texts": [
       "Créé en 1998, le Bureau National des Élèves Ingénieurs représente les élèves-ingénieurs en fédérant les bureaux des élèves ainsi que les élus.",
       "Le BNEI représente les élèves-ingénieurs en portant leur voix et une vision étudiante auprès des instances (gouvernement, ministère, …), des conférences (conférence des directeurs des écoles française d'ingénieurs, conférence des grandes écoles, …), d'associations spécialisées mais également auprès des écoles et administrations.",
-      "Le bureau informe en vulgarisant l'information les élèves-ingénieurs de l'actualité de l'enseignement supérieur. Enfin, il permet la montée en compétence des élèves-ingénieurs et favorise la vie associative via des temps de formations."
+      "Le bureau informe, en vulgarisant l'information, les élèves-ingénieurs de l'actualité de l'enseignement supérieur. Enfin, il permet la montée en compétence des élèves-ingénieurs et favorise la vie associative via des temps de formations."
     ],
     "link": "https://www.bnei.fr/"
   },
@@ -23,10 +23,10 @@
   "aneo": {
     "title": "À propos d'ANEO",
     "texts": [
-      "Aneo est une agence conseil fondée en 2002, accompagnant les entreprises dans leurs transformations organisationnelles et digitales. Notre but est d'accompagner les entreprises dans leurs stratégies, aux travers de leur organisation au sens large et des impacts induits par le contexte et les évolutions technologiques.",
-      "Nous rendons l'entreprise plus humaine et plus à l'écoute des femmes et des hommes qui la composent.  En effet, nous sommes convaincus que la valeur apportée au client trouve son origine dans l'épanouissement des collaborateurs, et dans la culture de leurs singularités. ",
-      "Notre mission : aider les entreprises à imaginer, à penser et à mettre en œuvre. Cela au travers de nos 5 expertises complémentaires : la stratégie et le business, la transformation des Hommes et des organisations, la technologie et le digital, le pilotage de projet et l'expertise métier."
+      "Aneo est une agence de conseil fondée en 2002, accompagnant les entreprises dans leurs transformations organisationnelles et digitales. Leur but est d'accompagner les entreprises dans leurs stratégies, aux travers de leur organisation au sens large et des impacts induits par le contexte et les évolutions technologiques.",
+      "Ils rendent l'entreprise plus humaine et plus à l'écoute des femmes et des hommes qui la composent.  En effet, la valeur apportée au client trouve son origine dans l'épanouissement des collaborateurs, et dans la culture de leurs singularités. ",
+      "Leur mission : aider les entreprises à imaginer, à penser et à mettre en œuvre. Cela au travers de nos 5 expertises complémentaires : la stratégie et le business, la transformation des Hommes et des organisations, la technologie et le digital, le pilotage de projet et l'expertise métier."
     ],
-    "link": "https://www.bnem.fr/"
+    "link": "https://aneo.eu/"
   }
 }
