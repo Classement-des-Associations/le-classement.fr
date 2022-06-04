@@ -30,7 +30,7 @@ useHead({
         <p class="text-sm">{{ data.experiences[0].text }}</p>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage class="hidden md:grid text-black bg-white" left>
@@ -42,7 +42,7 @@ useHead({
         <AtomsAppLink to="/le-classement/palmares">Découvrir le palmarès</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage class="hidden md:grid bg-accent-blue text-white">
@@ -54,7 +54,7 @@ useHead({
         <AtomsAppLink to="/partenariats" white>Découvrir nos partenaires</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
     <section class="pt-14 pb-8 md:pt-[6.5rem] md:pb-20 bg-ultra-light-grey">
@@ -65,7 +65,7 @@ useHead({
     </section>
     <section class="py-14 md:py-[6.25rem] px-4 bg-ultra-light-grey md:bg-white">
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center">
-        <img src="/meilleure_association.png" alt="" class="w-60 mx-auto md:w-auto" />
+        <img loading="lazy" src="/meilleure_association.png" alt="" class="w-60 mx-auto md:w-auto" />
         <div class="mt-10 md:mt-0 md:ml-[6.25rem]">
           <AtomsAppSectionTitle> {{ data.price.title }} </AtomsAppSectionTitle>
           <p class="mt-8 text-sm">{{ data.price.text }}</p>

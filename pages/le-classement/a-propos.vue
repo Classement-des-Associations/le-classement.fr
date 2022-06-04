@@ -27,11 +27,11 @@ useHead({
           {{ data.text }}
         </p>
         <div class="grid grid-cols-3 justify-items-center">
-          <img src="~/assets/images/bnem_logo.png"
+          <img loading="lazy" src="~/assets/images/bnem_logo.webp"
             alt="Logo du BNEM - Bureau National des étudiants en École de Management" class="max-h-72" />
-          <img src="~/assets/images/bnei_logo.png" alt="Logo du BNEI - Bureau National des Élèves Ingénieurs"
-            class="max-h-72" />
-          <img src="~/assets/images/aneo_logo.png" alt="Logo d'aneo" class="max-h-72" />
+          <img loading="lazy" src="~/assets/images/bnei_logo.webp"
+            alt="Logo du BNEI - Bureau National des Élèves Ingénieurs" class="max-h-72" />
+          <img loading="lazy" src="~/assets/images/aneo_logo.webp" alt="Logo d'aneo" class="max-h-72" />
         </div>
       </div>
     </section>
@@ -44,7 +44,7 @@ useHead({
         <AtomsAppLink :to="data.bnei.link" white>En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="~/assets/images/bnei_about.png" alt="Photo de groupe du BNEI">
+        <img loading="lazy" v-bind="data" src="~/assets/images/bnei_about.webp" alt="Photo de groupe du BNEI">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage left class="bg-white text-black">
@@ -56,7 +56,7 @@ useHead({
         <AtomsAppLink :to="data.bnem.link">En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/bnem_about.webp" alt="Image d'une foule">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage class="bg-accent-purple text-white">
@@ -68,7 +68,7 @@ useHead({
         <AtomsAppLink :to="data.aneo.link" white>En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/aneo_about.webp" alt="Image de l'open space d'aneo">
       </template>
     </OrganismsArticleImage>
   </div>

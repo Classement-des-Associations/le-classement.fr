@@ -33,7 +33,7 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[1].school }}</div>
             </div>
-            <img src="/image.png" alt="" class="hidden lg:block mt-11 rounded-t-[1.25rem]">
+            <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 rounded-t-[1.25rem]">
           </div>
         </NuxtLink>
       </li>
@@ -49,7 +49,7 @@ const others = computed(() => props.winners.slice(3))
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
             <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
             <div class="relative text-5xl lg:text-[4rem] font-extrabold">1
-              <img src="/medal.png" alt="Médaille en or"
+              <img loading="lazy" src="/medal.png" alt="Médaille en or"
                 class="absolute right-1/2 transform translate-x-[90%] top-1/2 lg:w-9 lg:h-9">
             </div>
             <div class="hidden lg:block mt-6 lg:text-lg space-y-4">
@@ -58,7 +58,8 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[0].school }}</div>
             </div>
-            <img src="/image.png" alt="" class="hidden lg:block mt-11 h-1/2 object-cover rounded-t-[1.25rem]">
+            <img loading="lazy" src="/image.png" alt=""
+              class="hidden lg:block mt-11 h-1/2 object-cover rounded-t-[1.25rem]">
           </div>
         </NuxtLink>
       </li>
@@ -80,7 +81,7 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[2].school }}</div>
             </div>
-            <img src="/image.png" alt="" class="hidden lg:block mt-11 object-cover rounded-t-[1.25rem]">
+            <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 object-cover rounded-t-[1.25rem]">
           </div>
         </NuxtLink>
       </li>

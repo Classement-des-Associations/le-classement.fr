@@ -27,14 +27,14 @@ useHead({
         <AtomsAppLink to="/contact" white>Nous contacter</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="/image.png" alt="">
       </template>
     </OrganismsArticleImage>
     <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Rejoindre nos partenaires</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="value in 10" :kye="10">
-          <img src="/image.png" alt="">
+          <img loading="lazy" src="/image.png" alt="">
         </li>
       </ul>
     </section>

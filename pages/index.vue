@@ -1,4 +1,5 @@
 <script setup>
+
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('index', () => queryContent('home').findOne())
@@ -8,6 +9,10 @@ useHead({
   description: data.value.subtitle,
 
 })
+
+const loadGalerieImage = function (num) {
+  return `/images/galerie/${num}.webp`
+}
 
 </script>
 
@@ -44,13 +49,14 @@ useHead({
         <AtomsAppLink to="/le-classement/palmares">En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/le_classement.webp"
+          alt="Photo des coupes de l'édition 2021" class="object-left">
       </template>
     </OrganismsArticleImage>
     <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
       <div
         class="px-4 max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
-        <img class="rounded-full w-36 h-36" src="/image.png" alt="Photo de profil">
+        <img loading="lazy" class="rounded-full w-36 h-36" src="/image.png" alt="Photo de profil">
         <figure class="flex flex-col space-y-4">
           <p class="text-lg">{{ data.quote.text }}
           </p>
@@ -70,17 +76,18 @@ useHead({
         <p v-for="text in data['lights-on'].texts" :key="text">{{ text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink to="/le-classement/palmares" white>En savoir plus</AtomsAppLink>
+        <AtomsAppLink to="/le-classement/concours" white>En savoir plus</AtomsAppLink>
       </template>
-      <template #image="{ data }">
-        <img v-bind="data" src="/image.png" alt="">
+      <template #image="{ data: bind }">
+        <img loading="lazy" v-bind="bind" src="~/assets/images/supaero_space_section.webp" :alt="data['lights-on'].alt">
       </template>
     </OrganismsArticleImage>
     <section class="mt-14">
       <AtomsAppSectionTitle class="px-4 max-w-screen-xl mx-auto">Galerie Photos</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
-        <li v-for="num in 10" :key="num" class="relative group">
-          <img src="/image.png" alt="">
+        <li v-for="num in 10" :key="num" class="relative group h-full w-full">
+          <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
+            class="object-cover w-auto h-full aspect-square">
           <div
             class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
           </div>

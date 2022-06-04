@@ -31,9 +31,11 @@
     "author": "Paulo Coelho"
   },
   "lights-on": {
-    "title": "Lumière sur...",
+    "title": "Lumière sur... Supaero Space Section",
     "texts": [
-      "Contacter ISAE supaero pour avoir une présentation de leur association à notre endroit !"
-    ]
+      "La Supaero Space Section est un club technique étudiant au sein de l'école d'ingénieur ISAE-Supaéro dont le but est de concevoir, créer et lancer des fusées expérimentales. Nous avons une soixantaine de membres impliqués dans 3 projets. Ce club existe depuis plus de 10 ans et il permet aux élèves de se former et de s'épanouir dans des projets d'équipe toujours plus complexes, toujours plus beau !",
+      "Partager serait le premier mot pour nous définir, tout d'abord partager la passion car c'est ce qui nous regroupe dans un premier temps mais aussi partager les connaissances car comme tout club étudiant, nous avons un fort roulement d'année en année."
+    ],
+    "alt": "Photo de groupe de l'association Supaero Space Section"
   }
 }
