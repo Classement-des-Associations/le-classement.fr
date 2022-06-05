@@ -24,7 +24,7 @@ const currentYear = ref(years[0])
         <AtomsAppLink to="/contact">Nous contacter</AtomsAppLink>
       </template>
     </OrganismsHero>
-    <section class="mb-2 bg-ultra-light-grey">
+    <section class="mb-2 pb-24 bg-ultra-light-grey">
       <div class="py-12 bg-accent-purple text-white">
         <OrganismsTheCarouselYears class="max-w-screen-xl mx-auto" :years="years" @year="currentYear = $event" />
       </div>
