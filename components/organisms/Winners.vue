@@ -33,7 +33,7 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[1].school }}</div>
             </div>
-            <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 rounded-t-[1.25rem]">
+            <!-- <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 rounded-t-[1.25rem]"> -->
           </div>
         </NuxtLink>
       </li>
@@ -58,8 +58,8 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[0].school }}</div>
             </div>
-            <img loading="lazy" src="/image.png" alt=""
-              class="hidden lg:block mt-11 h-1/2 object-cover rounded-t-[1.25rem]">
+            <!-- <img loading="lazy" src="/image.png" alt=""
+              class="hidden lg:block mt-11 h-1/2 object-cover rounded-t-[1.25rem]"> -->
           </div>
         </NuxtLink>
       </li>
@@ -81,12 +81,12 @@ const others = computed(() => props.winners.slice(3))
               </h3>
               <div>{{ podium[2].school }}</div>
             </div>
-            <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 object-cover rounded-t-[1.25rem]">
+            <!-- <img loading="lazy" src="/image.png" alt="" class="hidden lg:block mt-11 object-cover rounded-t-[1.25rem]"> -->
           </div>
         </NuxtLink>
       </li>
     </ul>
-    <ul class="relative right-0 left-0 bg-white lg:top-[-6rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
+    <ul class="relative right-0 left-0 bg-white lg:top-[0rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
       <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
         <NuxtLink :to="podium[0].link" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">

@@ -30,7 +30,8 @@ useHead({
         <p class="text-sm">{{ data.experiences[0].text }}</p>
       </template>
       <template #image="{ data }">
-        <img loading="lazy" v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/concours_experience.webp"
+          alt="Image montrant des jeunes parler en groupe">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage class="hidden md:grid text-black bg-white" left>
@@ -42,7 +43,8 @@ useHead({
         <AtomsAppLink to="/le-classement/palmares">Découvrir le palmarès</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img loading="lazy" v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/concours_valoriser.webp"
+          alt="Image montrant l'un des gagnants du concours parler au micro">
       </template>
     </OrganismsArticleImage>
     <OrganismsArticleImage class="hidden md:grid bg-accent-blue text-white">
@@ -54,7 +56,8 @@ useHead({
         <AtomsAppLink to="/partenariats" white>Découvrir nos partenaires</AtomsAppLink>
       </template>
       <template #image="{ data }">
-        <img loading="lazy" v-bind="data" src="/image.png" alt="">
+        <img loading="lazy" v-bind="data" src="~/assets/images/concours_reseaux.webp"
+          alt="Image montrant un intervenant parler au micro devant un grand écran">
       </template>
     </OrganismsArticleImage>
     <section class="pt-14 pb-8 md:pt-[6.5rem] md:pb-20 bg-ultra-light-grey">

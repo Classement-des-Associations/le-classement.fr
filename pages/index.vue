@@ -66,10 +66,10 @@ const loadGalerieImage = function (num) {
         </figure>
       </div>
     </section>
-    <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+    <!-- <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Nos partenaires</AtomsAppSectionTitle>
       <OrganismsTheCarouselPartners class="mt-11 px-4" />
-    </section>
+    </section> -->
     <OrganismsArticleImage class="bg-accent-purple text-white">
       {{ data['lights-on'].title }}
       <template #texts>
