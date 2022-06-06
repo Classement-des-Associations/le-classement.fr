@@ -49,6 +49,7 @@ export default defineNuxtConfig({
       formUrl: process.env.FORM_URL,
       emailTo: process.env.EMAIL_TO,
       phoneTo: process.env.PHONE_TO,
+      microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
     },
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt'],
