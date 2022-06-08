@@ -53,7 +53,7 @@ const loadGalerieImage = function (num) {
           alt="Photo des coupes de l'édition 2021" class="object-left">
       </template>
     </OrganismsArticleImage>
-    <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
+    <!-- <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
       <div
         class="px-4 max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
         <img loading="lazy" class="rounded-full w-36 h-36" src="/image.png" alt="Photo de profil">
@@ -65,7 +65,7 @@ const loadGalerieImage = function (num) {
           </blockquote>
         </figure>
       </div>
-    </section>
+    </section> -->
     <!-- <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Nos partenaires</AtomsAppSectionTitle>
       <OrganismsTheCarouselPartners class="mt-11 px-4" />
@@ -76,10 +76,23 @@ const loadGalerieImage = function (num) {
         <p v-for="text in data['lights-on'].texts" :key="text">{{ text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink to="/le-classement/concours" white>En savoir plus</AtomsAppLink>
+        <AtomsAppLink to="http://supaerospacesection.com/" target="_blank" white>En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data: bind }">
         <img loading="lazy" v-bind="bind" src="~/assets/images/supaero_space_section.webp" :alt="data['lights-on'].alt">
+      </template>
+    </OrganismsArticleImage>
+    <OrganismsArticleImage class="bg-accent-blue text-white" left>
+      {{ data['lights-on-second'].title }}
+      <template #texts>
+        <p v-for="text in data['lights-on-second'].texts" :key="text">{{ text }}</p>
+      </template>
+      <template #more>
+        <AtomsAppLink to="https://www.savoiroserlasolidarite.org/" target="_blank" white>En savoir plus</AtomsAppLink>
+      </template>
+      <template #image="{ data: bind }">
+        <img loading="lazy" v-bind="bind" src="~/assets/images/savoir_oser_solidarite.webp"
+          :alt="data['lights-on-second'].alt">
       </template>
     </OrganismsArticleImage>
     <section class="mt-14">
