@@ -53,10 +53,11 @@ const loadGalerieImage = function (num) {
           alt="Photo des coupes de l'édition 2021" class="object-left">
       </template>
     </OrganismsArticleImage>
-    <!-- <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
+    <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
       <div
         class="px-4 max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
-        <img loading="lazy" class="rounded-full w-36 h-36" src="/image.png" alt="Photo de profil">
+        <img loading="lazy" class="rounded-full w-36 h-36 object-cover object-right"
+          src="~/assets/images/quote_louise.webp" alt="Photo de profil de Louise">
         <figure class="flex flex-col space-y-4">
           <p class="text-lg">{{ data.quote.text }}
           </p>
@@ -65,7 +66,7 @@ const loadGalerieImage = function (num) {
           </blockquote>
         </figure>
       </div>
-    </section> -->
+    </section>
     <!-- <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Nos partenaires</AtomsAppSectionTitle>
       <OrganismsTheCarouselPartners class="mt-11 px-4" />
