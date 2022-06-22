@@ -9,6 +9,7 @@
   "devDependencies": {
     "@nuxt/content": "^2.0.0",
     "@nuxtjs/tailwindcss": "^5.1.2",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/typography": "^0.5.2",
     "@vueuse/components": "^8.5.0",
     "@vueuse/core": "^8.5.0",

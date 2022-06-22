@@ -100,8 +100,10 @@ const loadGalerieImage = function (num) {
       <AtomsAppSectionTitle class="px-4 max-w-screen-xl mx-auto">Galerie Photos</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="num in 10" :key="num" class="relative group h-full w-full">
-          <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
-            class="object-cover w-auto h-full aspect-square">
+          <div class="aspect-w-square aspect-h-square">
+            <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
+            class="object-cover w-full h-full">
+          </div>
           <div
             class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
           </div>

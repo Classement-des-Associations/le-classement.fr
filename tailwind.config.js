@@ -9,6 +9,9 @@ module.exports = {
     './nuxt.config.{js,ts}',
   ],
   theme: {
+    aspectRatio: {
+      square: '1 / 1',
+    },
     colors: {
       'primary-base': '#FF6944',
       'primary-variation-1': '#F9B666',
@@ -29,5 +32,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [require('@tailwindcss/aspect-ratio'), require('@tailwindcss/typography')],
 }
