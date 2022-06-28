@@ -100,7 +100,7 @@ const loadGalerieImage = function (num) {
       <AtomsAppSectionTitle class="px-4 max-w-screen-xl mx-auto">Galerie Photos</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="num in 10" :key="num" class="relative group h-full w-full">
-          <a href="https://www.instagram.com/leclassement/">
+          <NuxtLink to="https://www.instagram.com/leclassement/">
             <div class="aspect-w-square aspect-h-square">
               <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
               class="object-cover w-full h-full">
@@ -112,7 +112,7 @@ const loadGalerieImage = function (num) {
               class="opacity-0 group-hover:opacity-100 absolute inset-0 flex justify-center items-center motion-safe:transition-all motion-safe:duration-300">
               <AtomsIconsInstagram class="text-white" />
             </div>
-          </a>
+          </NuxtLink>
         </li>
       </ul>
     </section>

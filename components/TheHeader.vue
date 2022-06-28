@@ -8,7 +8,9 @@ const config = useRuntimeConfig()
   <header class="bg-white p-4">
     <div class="max-w-screen-xl mx-auto flex flex-row justify-between">
       <div class="flex flex-row space-x-8 justify-center items-center">
-        <AtomsLogosClassementShort class="h-[40px] w-[40px] md:h-[50px] md:w-[50px]" />
+        <NuxtLink to="/">
+          <AtomsLogosClassementShort class="h-[40px] w-[40px] md:h-[50px] md:w-[50px] text-black hover:text-primary-variation-1 motion-safe:transition-all motion-safe:duration-300" />
+        </NuxtLink>
         <nav aria-labelledby="primary-nav" class="hidden md:block text-sm leading-[1.125rem]">
           <span id="primary-nav" class="sr-only">Navigation primaire</span>
           <ul class="flex flex-row justify-center space-x-2">
@@ -16,11 +18,11 @@ const config = useRuntimeConfig()
               <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/">Accueil</NuxtLink>
             </li>
             <Menu class="relative" as="li">
-              <MenuButton class="flex flex-row space-x-2 items-center">
+              <MenuButton class="flex flex-row space-x-2 items-center text-black hover:text-primary-variation-1 hover:font-semibold">
                 <span>
                   Le Classement
                 </span>
-                <AtomsIconsArrowBottom class="h-3 w-3 text-black" />
+                <AtomsIconsArrowBottom class="h-3 w-3" />
               </MenuButton>
               <MenuItems class="w-52 absolute top-8 z-30 bg-white flex flex-col">
                 <MenuItem>
