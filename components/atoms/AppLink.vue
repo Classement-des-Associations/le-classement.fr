@@ -21,9 +21,9 @@ const getClassName = function () {
     }
   } else {
     if (props.white) {
-      classNames.push('bg-transparent text-white outline outline-2 outline-white outline-offset-[-2px] hover:bg-white hover:text-black')
+      classNames.push('bg-transparent text-white border-2 border-white hover:bg-white hover:text-black')
     } else {
-      classNames.push('bg-white text-primary-base outline outline-2 outline-primary-base outline-offset-[-2px] hover:text-primary-variation-1 hover:outline-primary-variation-1')
+      classNames.push('bg-white text-primary-base border-2 hover:text-primary-variation-1 hover:border-primary-variation-1')
     }
   }
 
