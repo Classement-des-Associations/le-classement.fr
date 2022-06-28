@@ -48,23 +48,23 @@ function handleForm(message) {
           </div>
           <ul class="mt-8 px-4 text-black flex flex-row space-x-12">
             <li>
-              <NuxtLink target="_blank" to="https://www.linkedin.com/company/le-classement/" class="w-8 h-8">
-                <AtomsIconsLinkedIn />
+              <NuxtLink target="_blank" to="https://www.linkedin.com/company/le-classement/" class="flex flex-row justify-center items-center w-12 h-12 rounded-full hover:bg-black hover:text-white motion-safe:transition-all duration-300">
+                <AtomsIconsLinkedIn class="w-8 h-8"/>
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink target="_blank" to="https://www.facebook.com/le.classement" class="w-8 h-8">
-                <AtomsIconsFacebook />
+              <NuxtLink target="_blank" to="https://www.facebook.com/le.classement" class="flex flex-row justify-center items-center w-12 h-12 rounded-full hover:bg-black hover:text-white motion-safe:transition-all duration-300">
+                <AtomsIconsFacebook class="w-8 h-8"/>
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink target="_blank" to="https://www.instagram.com/leclassement/" class="w-8 h-8">
-                <AtomsIconsInstagram />
+              <NuxtLink target="_blank" to="https://www.instagram.com/leclassement/" class="flex flex-row justify-center items-center w-12 h-12 rounded-full hover:bg-black hover:text-white motion-safe:transition-all duration-300">
+                <AtomsIconsInstagram class="w-8 h-8"/>
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink target="_blank" to="https://twitter.com/Leclassement" class="w-8 h-8">
-                <AtomsIconsTwitter />
+              <NuxtLink target="_blank" to="https://twitter.com/Leclassement" class="flex flex-row justify-center items-center w-12 h-12 rounded-full hover:bg-black hover:text-white motion-safe:transition-all duration-300">
+                <AtomsIconsTwitter class="w-8 h-8"/>
               </NuxtLink>
             </li>
           </ul>
