@@ -53,9 +53,9 @@ const loadGalerieImage = function (num) {
           alt="Photo des coupes de l'édition 2021" class="object-left">
       </template>
     </OrganismsArticleImage>
-    <section class="py-[4.375rem] mt-14 lg:mt-0 bg-ultra-light-grey">
+    <section class="lg:px-[7.5rem] py-14 lg:py-[4.375rem] bg-ultra-light-grey">
       <div
-        class="px-4 max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
+        class="px-4 lg:px-0 flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-[4.5rem] text-center md:text-left">
         <img loading="lazy" class="rounded-full w-36 h-36 object-cover object-right"
           src="~/assets/images/quote_louise.webp" alt="Photo de profil de Louise">
         <figure class="flex flex-col space-y-4">
@@ -100,17 +100,19 @@ const loadGalerieImage = function (num) {
       <AtomsAppSectionTitle class="px-4 max-w-screen-xl mx-auto">Galerie Photos</AtomsAppSectionTitle>
       <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
         <li v-for="num in 10" :key="num" class="relative group h-full w-full">
-          <div class="aspect-w-square aspect-h-square">
-            <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
-            class="object-cover w-full h-full">
-          </div>
-          <div
-            class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
-          </div>
-          <div
-            class="opacity-0 group-hover:opacity-100 absolute inset-0 flex justify-center items-center motion-safe:transition-all motion-safe:duration-300">
-            <AtomsIconsInstagram class="text-white" />
-          </div>
+          <a href="https://www.instagram.com/leclassement/">
+            <div class="aspect-w-square aspect-h-square">
+              <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
+              class="object-cover w-full h-full">
+            </div>
+            <div
+              class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
+            </div>
+            <div
+              class="opacity-0 group-hover:opacity-100 absolute inset-0 flex justify-center items-center motion-safe:transition-all motion-safe:duration-300">
+              <AtomsIconsInstagram class="text-white" />
+            </div>
+          </a>
         </li>
       </ul>
     </section>

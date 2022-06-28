@@ -18,10 +18,9 @@ const imageClassNames = function () {
 </script>
 
 <template>
-  <section class="pb-[4.5rem] lg:pb-0 grid lg:grid-cols-2 lg:items-center" :class="{ 'lg:justify-items-end': !left }">
-    <div class="px-4 mt-10 lg:mt-0 lg:max-w-[38rem] flex flex-col space-y-10 lg:space-y-14 items-center lg:items-start"
-      :class="{ 'lg:col-start-2': left }">
-      <div class="space-y-8">
+  <section class="flex flex-col-reverse lg:space-x-[6.25rem] pb-[4.5rem] lg:pb-0" :class="{'lg:flex-row': !left, 'lg:space-x-reverse lg:flex-row-reverse': props.left}">
+    <div class="w-full flex-grow flex flex-col justify-center items-center lg:items-start px-4 lg:px-0" :class="{'lg:ml-[7.5rem]': !left, 'lg:mr-[7.5rem]': left}">
+      <div class="w-full space-y-8 mt-10 mb-10 lg:mt-0 lg:mb-14">
         <AtomsAppSectionTitle>
           <slot />
         </AtomsAppSectionTitle>
