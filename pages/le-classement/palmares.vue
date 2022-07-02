@@ -30,11 +30,11 @@ const currentYear = ref(years[0])
       </div>
       <OrganismsWinners :winners="data.winners[currentYear]" class="mt-14 lg:mt-[6.5rem] max-w-screen-xl mx-auto" />
     </section>
-    <section class="max-w-screen-xl mx-auto bg-white">
+    <section class="max-w-screen-xl mx-auto bg-white md:mb-[4.5rem]">
       <AtomsAppSectionTitle class="mt-[6.5rem] px-4"> {{ data.final.title }} </AtomsAppSectionTitle>
       <div class="w-full h-auto mt-8 md:mt-11">
         <iframe src="https://player.vimeo.com/video/393641381?h=e0e06d5eb5" width="640" height="360" frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full "></iframe>
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full"></iframe>
       </div>
     </section>
   </div>
