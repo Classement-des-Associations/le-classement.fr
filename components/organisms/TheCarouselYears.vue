@@ -73,6 +73,10 @@ const onIntersectYear = function (year) {
 onMounted(() => {
   to((current, offset) => current + (offset * slides.value.length))
 })
+
+onUpdated(() => {
+  to((current, offset) => current + (offset * slides.value.length))
+})
 </script>
 
 <template>
