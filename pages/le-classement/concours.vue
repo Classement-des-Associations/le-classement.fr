@@ -62,13 +62,13 @@ useHead({
     </OrganismsArticleImage>
     <section class="pt-14 pb-8 md:pt-[6.5rem] md:pb-20 bg-ultra-light-grey">
       <div class="max-w-screen-xl mx-auto">
-        <AtomsAppSectionTitle class="px-4"> {{ data.course.title }} </AtomsAppSectionTitle>
-        <OrganismsTheCardsConcours :progress="data.course.progress" class="px-4 mt-5 md:mt-[2.875rem]" />
+        <AtomsAppSectionTitle class="px-4 xl:p-0"> {{ data.course.title }} </AtomsAppSectionTitle>
+        <OrganismsTheCardsConcours :progress="data.course.progress" class="px-4 xl:px-0 mt-5 md:mt-[2.875rem]" />
       </div>
     </section>
     <section class="py-14 md:py-[6.25rem] px-4 bg-ultra-light-grey md:bg-white">
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center">
-        <img loading="lazy" src="/meilleure_association.png" alt="" class="w-60 mx-auto md:w-auto" />
+        <img loading="lazy" src="/meilleure_association.png" alt="" class="w-32 mx-auto md:w-auto" />
         <div class="mt-10 md:mt-0 md:ml-[6.25rem]">
           <AtomsAppSectionTitle> {{ data.price.title }} </AtomsAppSectionTitle>
           <p class="mt-8 text-sm">{{ data.price.text }}</p>

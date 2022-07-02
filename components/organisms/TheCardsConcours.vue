@@ -8,8 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <section class="flex w-full overflow-x-auto snap-x snap-mandatory">
+  <section class="flex gap-6 w-full overflow-x-auto snap-x snap-mandatory scroll-p-4 scroll-m-4">
     <MoleculesCardConcours v-for="item in props.progress" :key="item.number" :content="item"
-      class="m-6 snap-start shrink-0 xl:shrink" />
+      class="snap-start shrink-0 xl:shrink" />
   </section>
 </template>
