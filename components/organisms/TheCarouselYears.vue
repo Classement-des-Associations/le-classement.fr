@@ -88,7 +88,7 @@ onMounted(() => {
 
     <ul tabindex="0" class="flex flex-row w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
       <li v-for="year in props.years" :key="year" ref="slides"
-        class="py-4 text-8xl font-extrabold w-full shrink-0 snap-start text-center"
+        class="py-4 text-[4rem] lg:text-8xl font-extrabold w-full shrink-0 snap-start text-center"
         v-intersection-observer="[onIntersectYear(year), { root: slider }]">
         <h2>
           {{ year }}
