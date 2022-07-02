@@ -30,7 +30,7 @@ const loadGalerieImage = function (num) {
     </OrganismsHero>
     <section class="bg-primary-base text-white py-14 md:py-[7.5rem]">
       <ul
-        class="max-w-[1120px] mx-auto flex flex-col items-center space-y-[3.75rem] md:space-y-0 md:flex-row md:justify-between">
+        class="max-w-[1120px] mx-auto flex flex-col items-center space-y-[2.5rem] md:space-y-0 md:flex-row md:justify-between">
         <li class="p-4 w-72 lg:w-64 space-y-9 md:space-y-12 text-center" v-for="kpi in data.kpi">
           <span class="text-[4rem] font-extrabold whitespace-nowrap">{{ kpi.value }}</span>
           <div class="space-y-3 md:space-y-2">
@@ -103,7 +103,7 @@ const loadGalerieImage = function (num) {
           <NuxtLink to="https://www.instagram.com/leclassement/">
             <div class="aspect-w-square aspect-h-square">
               <img loading="lazy" :src="loadGalerieImage(num)" alt="Image du classement de 2021"
-              class="object-cover w-full h-full">
+                class="object-cover w-full h-full">
             </div>
             <div
               class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
