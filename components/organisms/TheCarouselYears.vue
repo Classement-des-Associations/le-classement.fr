@@ -68,6 +68,11 @@ const onIntersectYear = function (year) {
     }
   }
 }
+
+// On mounted, move the scroll to the end
+onMounted(() => {
+  to((current, offset) => current + (offset * slides.value.length))
+})
 </script>
 
 <template>

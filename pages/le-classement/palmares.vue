@@ -8,7 +8,7 @@ useHead({
   description: data.value.subtitle,
 })
 
-const years = Object.keys(data.value.winners).sort((a, b) => b - a)
+const years = Object.keys(data.value.winners).sort((a, b) => a - b)
 const currentYear = ref(years[0])
 </script>
 
