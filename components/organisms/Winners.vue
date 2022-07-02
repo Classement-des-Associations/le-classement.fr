@@ -90,8 +90,8 @@ const others = computed(() => props.winners.slice(3))
       <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
         <NuxtLink :to="other.link" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">
-            <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold">{{ index + 4 }}</span>
-            <div class="ml-12 space-y-2">
+            <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold w-12 flex-shrink-0">{{ index + 4 }}</span>
+            <div class="md:ml-12 space-y-2">
               <h3 class="text-sm lg:text-lg font-semibold lg:font-bold">{{ other.name }}</h3>
               <span class="text-[#808080] text-sm lg:text-lg">{{ other.school }}</span>
             </div>
