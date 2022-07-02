@@ -88,7 +88,7 @@ const others = computed(() => props.winners.slice(3))
     </ul>
     <ul class="relative right-0 left-0 bg-white lg:top-[0rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
       <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
-        <NuxtLink :to="podium[0].link" target="_blank" class="flex flex-row justify-between items-center">
+        <NuxtLink :to="other.link" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">
             <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold">{{ index + 4 }}</span>
             <div class="ml-12 space-y-2">
