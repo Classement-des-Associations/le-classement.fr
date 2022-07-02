@@ -24,7 +24,7 @@ useHead({
     <section class="md:hidden -z-10">
       <OrganismsTheCarouselExperiences :experiences="data.experiences" />
     </section>
-    <OrganismsArticleImage class="hidden md:grid text-white" :class="data.experiences[0]['background-color']">
+    <OrganismsArticleImage class="hidden md:flex text-white" :class="data.experiences[0]['background-color']">
       {{ data.experiences[0].title }}
       <template #texts>
         <p class="text-sm">{{ data.experiences[0].text }}</p>
@@ -34,7 +34,7 @@ useHead({
           alt="Image montrant des jeunes parler en groupe">
       </template>
     </OrganismsArticleImage>
-    <OrganismsArticleImage class="hidden md:grid text-black bg-white" left>
+    <OrganismsArticleImage class="hidden md:flex text-black bg-white" left>
       {{ data.experiences[1].title }}
       <template #texts>
         <p class="text-sm">{{ data.experiences[1].text }}</p>
@@ -47,7 +47,7 @@ useHead({
           alt="Image montrant l'un des gagnants du concours parler au micro">
       </template>
     </OrganismsArticleImage>
-    <OrganismsArticleImage class="hidden md:grid bg-accent-blue text-white">
+    <OrganismsArticleImage class="hidden md:flex bg-accent-blue text-white">
       {{ data.experiences[2].title }}
       <template #texts>
         <p class="text-sm">{{ data.experiences[2].text }}</p>
