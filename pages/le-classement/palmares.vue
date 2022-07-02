@@ -34,7 +34,7 @@ const currentYear = ref(years[0])
       <AtomsAppSectionTitle class="mt-[6.5rem] px-4"> {{ data.final.title }} </AtomsAppSectionTitle>
       <div class="w-full h-auto mt-8 md:mt-11">
         <iframe src="https://player.vimeo.com/video/393641381?h=e0e06d5eb5" width="640" height="360" frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full"></iframe>
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full -mt-20 md:m-0"></iframe>
       </div>
     </section>
   </div>
