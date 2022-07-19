@@ -24,7 +24,7 @@ const loadGalerieImage = function (num) {
         {{ data.subtitle }}
       </template>
       <template #actions>
-        <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
+        <AtomsAppLink taget="_blank" fill disabled title="Inscriptions terminées">S'inscrire</AtomsAppLink>
         <AtomsAppLink to="/contact">Nous contacter</AtomsAppLink>
       </template>
     </OrganismsHero>

@@ -8,6 +8,10 @@ const props = defineProps({
     type: Boolean,
     default: false
   },
+  disabled: {
+    type: Boolean,
+    default: false
+  },
 })
 
 const getClassName = function () {
@@ -27,12 +31,16 @@ const getClassName = function () {
     }
   }
 
+  if(props.disabled) {
+    classNames.push('cursor-not-allowed opacity-70')
+  }
+
   return classNames.join(' ')
 }
 </script>
 
 <template>
-  <NuxtLink class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]" :class="getClassName()">
+  <NuxtLink class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]" :class="getClassName()" :disabled="props.disabled">
     <slot />
   </NuxtLink>
 </template>

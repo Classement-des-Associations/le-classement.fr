@@ -57,7 +57,7 @@ const config = useRuntimeConfig()
         </nav>
       </div>
       <div class="hidden md:flex md:flex-row md:justify-center md:items-center">
-        <AtomsAppLink target="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
+        <AtomsAppLink target="_blank" fill disabled title="Inscriptions terminées">S'inscrire</AtomsAppLink>
       </div>
       <div class="md:hidden flex flex-row items-center">
         <OrganismsMobileNav />
