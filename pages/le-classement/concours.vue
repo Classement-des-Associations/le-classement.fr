@@ -17,7 +17,7 @@ useHead({
         {{ data.subtitle }}
       </template>
       <template #actions>
-        <AtomsAppLink taget="_blank" fill :to="config.public.formUrl">S'inscrire</AtomsAppLink>
+        <AtomsAppLink target="_blank" fill disabled title="Inscriptions terminées">S'inscrire</AtomsAppLink>
         <AtomsAppLink to="/contact">Nous contacter</AtomsAppLink>
       </template>
     </OrganismsHero>
