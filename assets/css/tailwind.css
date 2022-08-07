@@ -10,7 +10,7 @@
 }
 
 .router-link-active {
-  @apply text-primary-base font-semibold;
+  @apply text-primary-variation-1 font-semibold cursor-default;
 }
 
 .no-scrollbar::-webkit-scrollbar {

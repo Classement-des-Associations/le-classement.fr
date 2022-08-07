@@ -40,7 +40,7 @@ useHead({
         <p class="text-sm">{{ data.experiences[1].text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink to="/le-classement/palmares">Découvrir le palmarès</AtomsAppLink>
+        <AtomsAppLink to="/winners">Découvrir le palmarès</AtomsAppLink>
       </template>
       <template #image="{ data }">
         <img loading="lazy" v-bind="data" src="~/assets/images/concours_valoriser.webp"
@@ -53,7 +53,7 @@ useHead({
         <p class="text-sm">{{ data.experiences[2].text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink to="/partenariats" white>Découvrir nos partenaires</AtomsAppLink>
+        <AtomsAppLink to="/become-partner" white>Découvrir nos partenaires</AtomsAppLink>
       </template>
       <template #image="{ data }">
         <img loading="lazy" v-bind="data" src="~/assets/images/concours_reseaux.webp"

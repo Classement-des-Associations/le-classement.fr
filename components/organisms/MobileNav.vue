@@ -35,48 +35,28 @@ function closeModal() {
             <AtomsIconsClose class="w-8 h-8" />
           </button>
         </div>
-
         <nav aria-labelledby="primary-nav-mobile" class="mt-14 ml-4">
           <span class="sr-only" id="primary-nav-mobile">Navigation primaire mobile</span>
           <ul class="space-y-10">
             <li>
               <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/"
-                active-class="underline underline-offset-4">Accueil
+                active-class="underline underline-offset-4">Le Classement
+              </NuxtLink>
+            </li>
+             <li>
+              <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/contest"
+                active-class="underline underline-offset-4">Le Concours
               </NuxtLink>
             </li>
             <li>
-              <span class="text-lg font-semibold">Le Classement</span>
-              <ul class="mt-6 space-y-6">
-                <li>
-                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/concours"
-                    active-class="underline underline-offset-4">
-                    Le Concours
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/palmares"
-                    active-class="underline underline-offset-4">
-                    Le Palmarès
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink @click="closeModal" class="text-lg" to="/le-classement/a-propos"
-                    active-class="underline underline-offset-4">
-                    À Propos
-                  </NuxtLink>
-                </li>
-              </ul>
-
-            </li>
-            <li>
-              <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/partenariats"
+              <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/winners"
                 active-class="underline underline-offset-4">
-                Partenariats
+                Le Palmarès
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/contact"
-                active-class="underline underline-offset-4">Contact
+              <NuxtLink @click="closeModal" class="text-lg font-semibold" to="/become-partner"
+                active-class="underline underline-offset-4">Devenir Partenaire
               </NuxtLink>
             </li>
           </ul>
