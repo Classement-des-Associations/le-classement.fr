@@ -88,7 +88,7 @@ function handleForm(message) {
         </NuxtLink>
       </div>
     </section>
-    <section class="mb-[4.5rem] md:mb-32 mt-14 md:mt-[6.375rem] px-4 max-w-screen-xl mx-auto">
+    <section class="mb-[4.5rem] md:mb-32 mt-14 md:mt-[6.375rem] px-4 max-w-screen-xl mx-auto" id="#faq">
       <AtomsAppSectionTitle> {{ data.questions.title }} </AtomsAppSectionTitle>
       <div class="mt-11 flex flex-col space-y-6">
         <MoleculesQuestionDisclosure v-for="question in data.questions.data" :key="question.title" :question="question">
