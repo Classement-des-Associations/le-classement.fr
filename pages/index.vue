@@ -46,7 +46,7 @@ const loadGalerieImage = function (num) {
         <p v-for="text in data.classement.texts" :key="text">{{ text }}</p>
       </template>
       <template #more>
-        <AtomsAppLink to="/le-classement/palmares">En savoir plus</AtomsAppLink>
+        <AtomsAppLink to="/winners">En savoir plus</AtomsAppLink>
       </template>
       <template #image="{ data }">
         <img loading="lazy" v-bind="data" src="~/assets/images/le_classement.webp"

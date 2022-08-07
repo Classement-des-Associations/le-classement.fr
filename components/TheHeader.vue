@@ -1,6 +1,4 @@
 <script setup>
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
-
 const config = useRuntimeConfig()
 </script>
 
@@ -15,42 +13,18 @@ const config = useRuntimeConfig()
           <span id="primary-nav" class="sr-only">Navigation primaire</span>
           <ul class="flex flex-row justify-center space-x-2">
             <li>
-              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/">Accueil</NuxtLink>
+              <NuxtLink class="inline-block py-1 px-4 hover:text-primary-variation-1 transform hover:scale-105 transition ease-in" to="/">Le Classement</NuxtLink>
             </li>
-            <Menu class="relative" as="li">
-              <MenuButton class="flex flex-row space-x-2 items-center text-black hover:text-primary-variation-1 hover:font-semibold">
-                <span>
-                  Le Classement
-                </span>
-                <AtomsIconsArrowBottom class="h-3 w-3" />
-              </MenuButton>
-              <MenuItems class="w-52 absolute top-8 z-30 bg-white flex flex-col">
-                <MenuItem>
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
-                  to="/le-classement/concours">
-                  Le Concours
-                </NuxtLink>
-                </MenuItem>
-                <MenuItem>
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
-                  to="/le-classement/palmares">
-                  Le Palmarès
-                </NuxtLink>
-                </MenuItem>
-                <MenuItem>
-                <NuxtLink class="pl-4 py-2 hover:text-primary-variation-1 hover:font-semibold"
-                  to="/le-classement/a-propos">
-                  À Propos
-                </NuxtLink>
-                </MenuItem>
-              </MenuItems>
-            </Menu>
-            <li>
-              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/partenariats">
-                Partenariats</NuxtLink>
+              <li>
+              <NuxtLink class="inline-block py-1 px-4 hover:text-primary-variation-1 transform hover:scale-105 transition ease-in" to="/contest">
+                Le Concours</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="py-1 px-4 hover:text-primary-variation-1 hover:font-semibold" to="/contact">Contact
+              <NuxtLink class="inline-block py-1 px-4 hover:text-primary-variation-1 transform hover:scale-105 transition ease-in" to="/winners">
+                Le Palmarès</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="inline-block py-1 px-4 hover:text-primary-variation-1 transform hover:scale-105 transition ease-in" to="/become-partner">Devenir Partenaire
               </NuxtLink>
             </li>
           </ul>
