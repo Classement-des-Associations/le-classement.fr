@@ -1,4 +1,4 @@
-# Règlement du Classement des Associations - édition 2022
+# Règlement 2022
 
 _Dernière mise à jour:_ **2022-05-31**
 

@@ -2,7 +2,6 @@
 import './assets/css/tailwind.css'
 
 useHead({
-  titleTemplate: '%s - Le Classement des Associations',
   htmlAttrs: {
     lang: 'fr'
   }
@@ -11,11 +10,9 @@ useHead({
 
 <template>
   <div>
-    <TheHeader />
-    <main>
-      <NuxtPage />
-    </main>
-    <TheFooter />
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
 

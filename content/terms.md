@@ -1,4 +1,4 @@
-# Conditions Générales d'Utilisation
+# Les conditions générales d'utilisation
 
 ## Article 1 : Objet
 

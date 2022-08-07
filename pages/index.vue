@@ -1,24 +1,19 @@
 <script setup>
-
-const config = useRuntimeConfig()
-
 const { data } = await useAsyncData('index', () => queryContent('home').findOne())
-
-useHead({
-  title: 'Accueil',
-  description: data?.value?.subtitle ?? '',
-})
 
 const loadGalerieImage = function (num) {
   return `/images/galerie/${num}.webp`
 }
-
 </script>
 
 <template>
   <div>
+    <Head>
+      <Title> Accueil - Le Classement des Associations </Title>
+      <Meta name="description" content="Le concours national de référence qui recense et classe les meilleurs associations étudiante !" />
+    </Head>
     <OrganismsHero>
-      {{ data.title }}
+      <!-- {{ data.title }} -->
       <template #subtitle>
         {{ data.subtitle }}
       </template>
