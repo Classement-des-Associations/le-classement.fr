@@ -116,5 +116,21 @@ const loadGalerieImage = function (num) {
         </li>
       </ul>
     </section>
+      <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+      <AtomsAppSectionTitle>Organisé par</AtomsAppSectionTitle>
+       <div class="mt-11 px-4 md:py-6 grid grid-cols-1 gap-20 md:gap-2 md:grid-cols-3 justify-items-center place-items-center">
+        <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank"> 
+          <img loading="lazy" src="~/assets/images/logo_aneo_index.webp" alt="Logo d'Aneo"/>
+          </NuxtLink>          
+        <NuxtLink to="https://bnei.fr" rel="noopener" target="_blank">
+          <img loading="lazy" src="~/assets/images/logo_bnei_index.webp"
+            alt="Logo du BNEI - Bureau National des Élèves Ingénieurs"/>
+          </NuxtLink>
+        <NuxtLink to="https://bnem.fr" rel="noopener" target="_blank">
+          <img loading="lazy" src="~/assets/images/logo_bnem_index.webp"
+            alt="Logo du BNEM - Bureau National des étudiants en École de Management" />
+          </NuxtLink>
+        </div>
+    </section>
   </div>
 </template>
