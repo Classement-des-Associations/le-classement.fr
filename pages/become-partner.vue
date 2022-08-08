@@ -1,14 +1,13 @@
 <script setup>
 const { data } = await useAsyncData('partenariats', () => queryContent('partners').findOne())
-
-useHead({
-  title: data.value.title,
-  description: data.value.subtitle,
-})
 </script>
 
 <template>
   <div>
+    <Head>
+      <Title> Devenir partenaire - Le Classement des Associations </Title>
+      <Meta name="description" content="Parce qu'un Classement des Associations sans partenaire n'est pas le même ! Alors rejoignez-nous dans l'aventure !" />
+    </Head>
     <OrganismsHero>
       {{ data.title }}
       <template #subtitle>

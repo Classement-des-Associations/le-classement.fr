@@ -3,17 +3,16 @@ const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('palmares', () => queryContent('/winners').findOne())
 
-useHead({
-  title: data.value.title,
-  description: data.value.subtitle,
-})
-
 const years = Object.keys(data.value.winners).sort((a, b) => a - b)
 const currentYear = ref(years[0])
 </script>
 
 <template>
   <div>
+    <Head>
+      <Title> Le palmarès - Le Classement des Associations </Title>
+       <Meta name="description" content="L'ensemble des associations gagnantes du Classement des associations des éditions précédentes !" />
+    </Head>
     <OrganismsHero>
       {{ data.title }}
       <template #subtitle>

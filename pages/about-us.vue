@@ -3,14 +3,14 @@ const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('a-propos', () => queryContent('about').findOne())
 
-useHead({
-  title: data.value.title,
-  description: data.value.subtitle,
-})
 </script>
 
 <template>
   <div>
+    <Head>
+      <Title> À propos - Le Classement des Associations </Title>
+      <Meta name="description" content="Apprends en plus sur les organisateurs du Classement des Associations !" />
+    </Head>
     <OrganismsHero>
       {{ data.title }}
       <template #subtitle>

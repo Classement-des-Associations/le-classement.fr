@@ -3,12 +3,6 @@ const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('contact', () => queryContent('contact').findOne())
 
-useHead({
-  title: data.value.title,
-  description: data.value.subtitle,
-
-})
-
 const isFormSubmitted = ref(false)
 const formSubmissionText = ref('')
 
@@ -21,6 +15,10 @@ function handleForm(message) {
 
 <template>
   <div>
+    <Head>
+      <Title> Nous contacter - Le Classement des Associations </Title>
+      <Meta name="description" content="Toutes nos coordonnées et une foire aux questions !" />
+    </Head>
     <section class="px-4 py-14 md:pb-[5.5rem] bg-ultra-light-grey">
       <div class="max-w-screen-xl mx-auto grid md:grid-cols-2 md:justify-items-center">
         <div class="w-full md:px-12">

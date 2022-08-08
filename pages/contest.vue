@@ -2,15 +2,14 @@
 const config = useRuntimeConfig()
 
 const { data } = await useAsyncData('concours', () => queryContent('contest').findOne())
-
-useHead({
-  title: data.value.title,
-  description: data.value.subtitle,
-})
 </script>
 
 <template>
   <div>
+    <Head>
+      <Title> Le concours - Le Classement des Associations </Title>
+      <Meta name="description" content="Découvre toutes les bonnes raisons de participer au Classement des Associations" />
+    </Head>
     <OrganismsHero class="z-10">
       {{ data.title }}
       <template #subtitle>
