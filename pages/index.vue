@@ -15,7 +15,7 @@ const loadGalerieImage = function (num) {
         content="Le concours national de référence qui recense et classe les meilleurs associations étudiante !" />
     </Head>
     <OrganismsHero>
-      {{ data.title }}
+      Le Classement des Associations
       <template #subtitle>
         {{ data.subtitle }}
       </template>
