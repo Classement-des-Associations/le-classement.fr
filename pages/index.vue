@@ -1,6 +1,4 @@
 <script setup>
-const { data } = await useAsyncData('index', () => queryContent('home').findOne())
-
 const loadGalerieImage = function (num) {
   return `/images/galerie/${num}.webp`
 }
@@ -8,7 +6,8 @@ const loadGalerieImage = function (num) {
 
 <template>
   <div>
-
+    <ContentDoc path="/home" />
+    <!-- 
     <Head>
       <Title> Accueil - Le Classement des Associations </Title>
       <Meta name="description"
@@ -63,10 +62,10 @@ const loadGalerieImage = function (num) {
         </figure>
       </div>
     </section>
-    <!-- <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+    <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Nos partenaires</AtomsAppSectionTitle>
       <OrganismsTheCarouselPartners class="mt-11 px-4" />
-    </section> -->
+    </section> 
     <OrganismsArticleImage class="bg-accent-purple text-white">
       {{ data['lights-on'].title }}
       <template #texts>
@@ -128,6 +127,6 @@ const loadGalerieImage = function (num) {
             alt="Logo du BNEM - Bureau National des étudiants en École de Management" />
         </NuxtLink>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
