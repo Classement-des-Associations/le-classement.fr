@@ -8,12 +8,14 @@ const loadGalerieImage = function (num) {
 
 <template>
   <div>
+
     <Head>
       <Title> Accueil - Le Classement des Associations </Title>
-      <Meta name="description" content="Le concours national de référence qui recense et classe les meilleurs associations étudiante !" />
+      <Meta name="description"
+        content="Le concours national de référence qui recense et classe les meilleurs associations étudiante !" />
     </Head>
     <OrganismsHero>
-      <!-- {{ data.title }} -->
+      {{ data.title }}
       <template #subtitle>
         {{ data.subtitle }}
       </template>
@@ -110,21 +112,22 @@ const loadGalerieImage = function (num) {
         </li>
       </ul>
     </section>
-      <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
+    <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
       <AtomsAppSectionTitle>Organisé par</AtomsAppSectionTitle>
-       <div class="mt-11 px-4 md:py-6 grid grid-cols-1 gap-20 md:gap-2 md:grid-cols-3 justify-items-center place-items-center">
-        <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank"> 
-          <img loading="lazy" src="~/assets/images/logo_aneo_index.webp" alt="Logo d'Aneo"/>
-          </NuxtLink>          
+      <div
+        class="mt-11 px-4 md:py-6 grid grid-cols-1 gap-20 md:gap-2 md:grid-cols-3 justify-items-center place-items-center">
+        <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">
+          <img loading="lazy" src="~/assets/images/logo_aneo_index.webp" alt="Logo d'Aneo" />
+        </NuxtLink>
         <NuxtLink to="https://bnei.fr" rel="noopener" target="_blank">
           <img loading="lazy" src="~/assets/images/logo_bnei_index.webp"
-            alt="Logo du BNEI - Bureau National des Élèves Ingénieurs"/>
-          </NuxtLink>
+            alt="Logo du BNEI - Bureau National des Élèves Ingénieurs" />
+        </NuxtLink>
         <NuxtLink to="https://bnem.fr" rel="noopener" target="_blank">
           <img loading="lazy" src="~/assets/images/logo_bnem_index.webp"
             alt="Logo du BNEM - Bureau National des étudiants en École de Management" />
-          </NuxtLink>
-        </div>
+        </NuxtLink>
+      </div>
     </section>
   </div>
 </template>
