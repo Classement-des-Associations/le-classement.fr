@@ -1,0 +1,98 @@
+---
+title: À propos - Le Classement des Associations
+description: Apprends en plus sur les organisateurs du Classement des Associations !
+---
+
+::hero
+---
+actions:
+  - href: ''
+    text: S'inscrire
+    disabled: true
+    filled: true
+  - href: '/contact'
+    text: Nous contacter
+---
+
+À propos
+
+#subtitle
+Chaque année, le Classement des Associations établit le palmarès des meilleures associations étudiantes issues des Grandes Écoles et Universités françaises.
+::
+
+::about-all
+---
+organizers:
+  - src: /assets/images/logo_aneo_index.webp
+    alt: Logo d'Aneo
+    href: https://aneo.eu
+  - src: /assets/images/logo_bnei_index.webp
+    alt: Logo du BNEI - Bureau National des Élèves Ingénieurs
+    href: https://bnei.fr
+  - src: /assets/images/logo_bnem_index.webp
+    alt: Logo du BNEM - Bureau National des étudiants en École de Management
+    href: https://bnem.fr
+---
+
+Pour la première année depuis sa création en 2012, le Classement des Associations est organisé par deux associations étudiantes, le Bureau National des étudiants en Écoles de Management et le Bureau National des Élèves Ingénieurs. Le Classement des Associations est un projet d'Aneo.
+::
+
+::call-to-action
+---
+accent: blue
+action:
+  to: https://bnei.fr
+  text: En savoir plus
+image:
+  alt: Photo de groupe du BNEI
+  src: /assets/images/bnei_about.webp
+---
+À propos du BNEI
+
+#text
+Créé en 1998, le Bureau National des Élèves Ingénieurs représente les élèves-ingénieurs en fédérant les bureaux des élèves ainsi que les élus.
+
+Le BNEI représente les élèves-ingénieurs en portant leur voix et une vision étudiante auprès des instances (gouvernement, ministère, …), des conférences (conférence des directeurs des écoles française d'ingénieurs, conférence des grandes écoles, …), d'associations spécialisées mais également auprès des écoles et administrations.
+
+Le bureau informe, en vulgarisant l'information, les élèves-ingénieurs de l'actualité de l'enseignement supérieur. Enfin, il permet la montée en compétence des élèves-ingénieurs et favorise la vie associative via des temps de formations.
+::
+
+::call-to-action
+---
+left: true
+action:
+  to: https://bnem.fr
+  text: En savoir plus
+image:
+  alt: Image d'une foule
+  src: /assets/images/bnem_about.webp
+---
+À propos du BNEM
+
+#text
+Le Bureau National des étudiants en École de Management est la première association portant la voix des étudiants de la filière école de management.
+
+Il a pour mission de porter la parole des étudiants, faire émerger des propositions et concevoir le futur des écoles de management !
+
+Pour faire cela, il lutte pour l'égalité des genres, la diversité sociale et les enjeux écologiques.
+::
+
+::call-to-action
+---
+accent: purple
+action:
+  to: https://aneo.eu
+  text: En savoir plus
+image:
+  alt: Image de l'open space d'Aneo
+  src: /assets/images/aneo_about.webp
+---
+À propos d'ANEO
+
+#text
+Aneo est une agence de conseil fondée en 2002, accompagnant les entreprises dans leurs transformations organisationnelles et digitales. Leur but est d'accompagner les entreprises dans leurs stratégies, aux travers de leur organisation au sens large et des impacts induits par le contexte et les évolutions technologiques.
+
+Ils rendent l'entreprise plus humaine et plus à l'écoute des femmes et des hommes qui la composent.  En effet, la valeur apportée au client trouve son origine dans l'épanouissement des collaborateurs, et dans la culture de leurs singularités.
+
+Leur mission : aider les entreprises à imaginer, à penser et à mettre en œuvre. Cela au travers de nos 5 expertises complémentaires : la stratégie et le business, la transformation des Hommes et des organisations, la technologie et le digital, le pilotage de projet et l'expertise métier.
+::

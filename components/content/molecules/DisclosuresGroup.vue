@@ -1,8 +1,8 @@
 <template>
   <section class="mt-11 flex flex-col gap-6">
     <h3 class="text-xl md:text-2xl font-bold">
-      <Markdown :use="$slots.title" unwrap="p" />
+      <Markdown :use="$slots.default" unwrap="p" />
     </h3>
-    <slot></slot>
+    <slot name="disclosures"></slot>
   </section>
 </template>

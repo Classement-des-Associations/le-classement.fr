@@ -1,10 +1,11 @@
-<script setup>
-const props = defineProps({
+<script setup lang="ts">
+const props = defineProps<{
   winners: {
-    type: Array,
-    required: true
-  }
-})
+    name: string,
+    school: string,
+    href: string,
+  }[]
+}>()
 
 // Get 3 first winners
 const podium = computed(() => props.winners.slice(0, 3))
@@ -16,7 +17,7 @@ const others = computed(() => props.winners.slice(3))
   <div>
     <ul class="px-4 xl:px-0 grid grid-cols-3 gap-4 lg:gap-[4.25rem] justify-items-center uppercase  text-center">
       <li class="mt-8 lg:mt-[4.75rem] w-full group">
-        <NuxtLink class="h-full" :to="podium[1].link" target="_blank">
+        <NuxtLink class="h-full" :to="podium[1].href" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[1].name }}
@@ -38,7 +39,7 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
       <li class="w-full group">
-        <NuxtLink class="h-full" :to="podium[0].link" target="_blank">
+        <NuxtLink class="h-full" :to="podium[0].href" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[0].name }}
@@ -64,7 +65,7 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
       <li class="mt-14 lg:mt-[9.125rem] w-full group">
-        <NuxtLink class="h-full" :to="podium[2].link" target="_blank">
+        <NuxtLink class="h-full" :to="podium[2].href" target="_blank">
           <div class="lg:hidden text-sm md:text-lg space-y-2">
             <h3 class="font-bold">
               {{ podium[2].name }}
@@ -88,7 +89,7 @@ const others = computed(() => props.winners.slice(3))
     </ul>
     <ul class="relative right-0 left-0 bg-white lg:top-[0rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
       <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
-        <NuxtLink :to="other.link" target="_blank" class="flex flex-row justify-between items-center">
+        <NuxtLink :to="other.href" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">
             <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold w-12 flex-shrink-0">{{ index + 4 }}</span>
             <div class="md:ml-12 space-y-2">

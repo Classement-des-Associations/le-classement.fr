@@ -43,7 +43,7 @@ const onIntersectionSlide = function (indice) {
       <article v-for="(experience, indice) in props.experiences" :key="experience.title"
         class="px-4 pt-14 pb-[7.5rem] w-screen shrink-0 snap-start" :class="experience['background-color']"
         v-intersection-observer="[onIntersectionSlide(indice), { root: slider }]">
-        <AtomsAppSectionTitle>{{ experience.title }}</AtomsAppSectionTitle>
+        <AtomsSectionTitle>{{ experience.title }}</AtomsSectionTitle>
         <p class="mt-8 text-sm">{{ experience.text }}</p>
       </article>
     </div>

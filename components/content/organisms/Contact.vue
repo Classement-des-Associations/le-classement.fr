@@ -17,18 +17,18 @@ function handleForm(message) {
   <section class="px-4 py-14 md:pb-[5.5rem] bg-ultra-light-grey">
     <div class="max-w-screen-xl mx-auto grid md:grid-cols-2">
       <div class="w-full">
-        <AtomsAppSectionTitle>
+        <AtomsSectionTitle>
           <Markdown :use="$slots.title" unwrap="p" />
-        </AtomsAppSectionTitle>
+        </AtomsSectionTitle>
         <transition name="fade" mode="out-in">
           <OrganismsTheContactForm class="mt-8" @success="handleForm" v-if="!isFormSubmitted" />
           <p v-else class="mt-8"> {{ formSubmissionText }}</p>
         </transition>
       </div>
       <div class="hidden md:block max-w-md w-full justify-self-end">
-        <AtomsAppSectionTitle>
+        <AtomsSectionTitle>
           <Markdown :use="$slots.contact" unwrap="p" />
-        </AtomsAppSectionTitle>
+        </AtomsSectionTitle>
         <div class="mt-8 px-4 py-6 flex flex-col bg-white text-sm">
           <NuxtLink :to="'tel:' + phone" class="py-3 flex flex-row space-x-4 items-center">
             <AtomsIconsSmartphone />
