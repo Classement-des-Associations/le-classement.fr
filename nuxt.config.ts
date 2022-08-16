@@ -9,7 +9,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'fr',
+      },
       meta: [
+        {
+          name: 'google-site-verification',
+          content: 'TdbVQQq00musVnOqyiFS2ulrIvi29dUNAhPXtGXWags',
+        },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
