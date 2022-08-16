@@ -28,7 +28,7 @@ Le concours national de référence qui recense et classe les meilleurs associat
   Culturelles, humanitaires, caritatives, sportives, ... depuis la création du concours
 
   #value
-  +1000
+  +1 000
   ::
 
   ::headband-item
@@ -48,7 +48,7 @@ Le concours national de référence qui recense et classe les meilleurs associat
   Ont soutenu leur associations lors du Classement des Associations 2021
   
   #value
-  +300
+  +10 000
   ::
 ::
 
