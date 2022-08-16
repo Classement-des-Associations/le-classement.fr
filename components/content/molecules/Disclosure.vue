@@ -12,7 +12,7 @@ import {
       <DisclosureButton
         class="flex flex-row justify-between text-left text-sm md:text-lg leading-4 font-semibold md:font-normal">
         <span>
-          <Markdown :use="$slots.title" unwrap="p" />
+          <ContentSlot :use="$slots.title" unwrap="p" />
         </span>
         <AtomsIconsArrowBottom class="transition-transform duration-300" :class="open ? 'transform rotate-180' : ''" />
       </DisclosureButton>
@@ -20,7 +20,7 @@ import {
         enter-to-class="opacity-100" leave-active-class="transition duration-300 ease-out"
         leave-from-class="opacity-100" leave-to-class="opacity-0">
         <DisclosurePanel class="mt-4 text-sm leading-[1.125rem] flex flex-col space-y-4">
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </DisclosurePanel>
       </transition>
     </article>

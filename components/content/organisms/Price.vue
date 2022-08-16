@@ -11,10 +11,10 @@ defineProps<{
       <img loading="lazy" :src="src" :alt="alt" class="w-32 mx-auto md:w-auto" />
       <div class="mt-10 md:mt-0 md:ml-[6.25rem]">
         <AtomsSectionTitle>
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </AtomsSectionTitle>
         <p class="mt-8 text-sm">
-          <Markdown :use="$slots.text" unwrap="p" />
+          <ContentSlot :use="$slots.text" unwrap="p" />
         </p>
       </div>
     </div>

@@ -23,7 +23,7 @@ const isBlue = accent === 'blue'
       :class="{ 'xl:ml-20 2xl:ml-[7.5rem]': !left, 'xl:mr-20  2xl:mr-[7.5rem]': left }">
       <div class="w-full space-y-8">
         <AtomsSectionTitle>
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </AtomsSectionTitle>
         <div class="flex flex-col space-y-4 text-sm leading-[1.25rem]">
           <slot name="text"></slot>

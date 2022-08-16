@@ -59,7 +59,7 @@ action:
   text: En savoir plus
 image:
   alt: Image montrant les coupes pour les gagnants
-  src: /assets/images/le_classement.webp
+  src: assets/images/le_classement.webp
 ---
 Le Classement des Associations, c'est quoi ?
 
@@ -73,7 +73,7 @@ La compétition se conclut par un superbe évènement à Paris où les finaliste
 
 ::quote
 ---
-src: /assets/images/quote_louise.webp
+src: assets/images/quote_louise.webp
 alt: Photo de profil de Louise
 ---
 
@@ -92,7 +92,7 @@ action:
   text: En savoir plus
 image:
   alt: Photo de groupe de l'association Supaero Space Section
-  src: /assets/images/supaero_space_section.webp
+  src: assets/images/supaero_space_section.webp
 ---
 
 Lumière sur... Supaero Space Section
@@ -111,7 +111,7 @@ action:
   text: En savoir plus
 image:
   alt: Photo de groupe de l'association Savoir Oser la solidarité
-  src: /assets/images/savoir_oser_solidarite.webp
+  src: assets/images/savoir_oser_solidarite.webp
 ---
 
 Lumière sur... Savoir Oser la solidarité
@@ -150,13 +150,13 @@ images:
 ::organized-by
 ---
 organizers:
-  - src: /assets/images/logo_aneo_index.webp
+  - src: assets/images/logo_aneo_index.webp
     alt: Logo d'Aneo
     href: https://aneo.eu
-  - src: /assets/images/logo_bnei_index.webp
+  - src: assets/images/logo_bnei_index.webp
     alt: Logo du BNEI - Bureau National des Élèves Ingénieurs
     href: https://bnei.fr
-  - src: /assets/images/logo_bnem_index.webp
+  - src: assets/images/logo_bnem_index.webp
     alt: Logo du BNEM - Bureau National des étudiants en École de Management
     href: https://bnem.fr
 ---

@@ -13,7 +13,7 @@ defineProps<{
   <section class="bg-ultra-light-grey py-14 md:py-24">
     <div class="px-4 max-w-screen-xl mx-auto space-y-14 md:space-y-24">
       <p class="text-base md:text-lg md:leading-[1.125rem]">
-        <Markdown :use="$slots.default" unwrap="p" />
+        <ContentSlot :use="$slots.default" unwrap="p" />
       </p>
       <div class="grid grid-cols-3 justify-items-center">
         <NuxtLink v-for="organizer in organizers" :key="organizer.href" :to="organizer.href" rel="noopener"

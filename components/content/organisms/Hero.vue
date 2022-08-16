@@ -20,10 +20,10 @@ defineProps<{
     <div class="flex flex-col justify-center items-center space-y-14">
       <div class="flex flex-col items-center space-y-8 text-center">
         <AtomsHeroTitle>
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </AtomsHeroTitle>
         <AtomsHeroSubtitle class="max-w-3xl">
-          <Markdown :use="$slots.subtitle" unwrap="p" />
+          <ContentSlot :use="$slots.subtitle" unwrap="p" />
         </AtomsHeroSubtitle>
       </div>
       <div class="flex flex-row justify-center items-center space-x-4 md:space-x-6">

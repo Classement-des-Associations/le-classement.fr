@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <section class="px-4 max-w-screen-xl mx-auto py-14 md:py-[6.125rem]">
     <AtomsSectionTitle>
-      <Markdown :use="$slots.default" unwrap="p" />
+      <ContentSlot :use="$slots.default" unwrap="p" />
     </AtomsSectionTitle>
     <div
       class="mt-11 px-4 md:py-6 grid grid-cols-1 gap-20 md:gap-2 md:grid-cols-3 justify-items-center place-items-center">

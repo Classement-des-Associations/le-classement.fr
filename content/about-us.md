@@ -23,13 +23,13 @@ Chaque année, le Classement des Associations établit le palmarès des meilleur
 ::about-all
 ---
 organizers:
-  - src: /assets/images/logo_aneo_index.webp
+  - src: assets/images/logo_aneo_index.webp
     alt: Logo d'Aneo
     href: https://aneo.eu
-  - src: /assets/images/logo_bnei_index.webp
+  - src: assets/images/logo_bnei_index.webp
     alt: Logo du BNEI - Bureau National des Élèves Ingénieurs
     href: https://bnei.fr
-  - src: /assets/images/logo_bnem_index.webp
+  - src: assets/images/logo_bnem_index.webp
     alt: Logo du BNEM - Bureau National des étudiants en École de Management
     href: https://bnem.fr
 ---
@@ -45,7 +45,7 @@ action:
   text: En savoir plus
 image:
   alt: Photo de groupe du BNEI
-  src: /assets/images/bnei_about.webp
+  src: assets/images/bnei_about.webp
 ---
 À propos du BNEI
 
@@ -65,7 +65,7 @@ action:
   text: En savoir plus
 image:
   alt: Image d'une foule
-  src: /assets/images/bnem_about.webp
+  src: assets/images/bnem_about.webp
 ---
 À propos du BNEM
 
@@ -85,7 +85,7 @@ action:
   text: En savoir plus
 image:
   alt: Image de l'open space d'Aneo
-  src: /assets/images/aneo_about.webp
+  src: assets/images/aneo_about.webp
 ---
 À propos d'ANEO
 

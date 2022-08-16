@@ -14,7 +14,7 @@ actions:
     text: Nous contacter
 ---
 
-Palmarès
+Le Palmarès
 
 #subtitle
 Chaque année, le Classement établit le palmarès des meilleures associations étudiantes des Grandes Écoles et Universités françaises

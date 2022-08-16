@@ -9,11 +9,11 @@ defineProps(['alt', 'src'])
       <img loading="lazy" class="rounded-full w-36 h-36 object-cover object-right" :src="src" :alt="alt">
       <figure class="flex flex-col space-y-4">
         <p class="text-lg">
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </p>
         <blockquote>
           <figcaption class="text-lg font-semibold">
-            <Markdown :use="$slots.author" unwrap="p" />
+            <ContentSlot :use="$slots.author" unwrap="p" />
           </figcaption>
         </blockquote>
       </figure>

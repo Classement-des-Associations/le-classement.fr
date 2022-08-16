@@ -10,7 +10,7 @@ actions:
     text: Nous contacter
 ---
 
-Partenariats
+Devenir Partenaire
 
 #subtitle
 Rejoignez l'aventure avec nous !
@@ -24,7 +24,7 @@ action:
   text: Nous contacter
 image:
   alt: Photo d'un ensemble de jeunes dans une salle
-  src: /assets/images/partners.webp
+  src: assets/images/partners.webp
 ---
 Votre entreprise au centre de la vie association étudiante
 
