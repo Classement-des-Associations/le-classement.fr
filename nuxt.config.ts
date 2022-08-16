@@ -9,7 +9,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'fr',
+      },
       meta: [
+        {
+          name: 'google-site-verification',
+          content: 'TdbVQQq00musVnOqyiFS2ulrIvi29dUNAhPXtGXWags',
+        },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
@@ -46,6 +53,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
         { rel: 'shortcut icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'author', type: 'text/plain', href: '/humans.txt' },
       ],
     },
   },
