@@ -1,5 +1,12 @@
-<script setup>
+<script setup lang="ts">
 import { vIntersectionObserver } from '@vueuse/components'
+
+defineProps<{
+  partners: {
+    src: string,
+    alt: string
+  }[]
+}>()
 
 const slider = ref()
 const slides = ref([])
@@ -74,9 +81,9 @@ const onIntersectionObserver = function (state) {
     </button>
 
     <ul tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
-      <li class="snap-start px-9" v-for="num in 10" :key="num" ref="slides"
+      <li class="snap-start px-9" v-for="partner in partners" :key="partner.src" ref="slides"
         v-intersection-observer="[onIntersectionObserver, { root: slider }]">
-        <img loading="lazy" src="/image.png" class="max-w-none w-40 h-40 object-cover" alt="">
+        <img loading="lazy" :src="partner.src" class="max-w-none w-40 h-40 object-cover" :alt="partner.alt">
       </li>
     </ul>
 

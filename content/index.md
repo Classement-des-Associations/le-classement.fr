@@ -1,0 +1,166 @@
+---
+title: Accueil - Le Classement des Associations
+description: Le concours national de référence qui recense et classe les meilleurs associations étudiante !
+---
+
+::hero
+---
+actions:
+  - href: ''
+    text: S'inscrire
+    disabled: true
+    filled: true
+  - href: '/contact'
+    text: Nous contacter
+---
+
+Le Classement des Associations
+
+#subtitle
+Le concours national de référence qui recense et classe les meilleurs associations étudiante !
+::
+
+::headband
+  ::headband-item
+  Associations
+
+  #text
+  Culturelles, humanitaires, caritatives, sportives, ... depuis la création du concours
+
+  #value
+  +1 000
+  ::
+
+  ::headband-item
+  Écoles
+
+  #text
+  Commerces, ingénieurs, université, droit, IEP, design, ... depuis la création du concours
+  
+  #value
+  +300
+  ::
+
+  ::headband-item
+  Étudiants
+
+  #text
+  Ont soutenu leur associations lors du Classement des Associations 2021
+  
+  #value
+  +10 000
+  ::
+::
+
+::call-to-action
+---
+action:
+  to: /winners
+  text: En savoir plus
+image:
+  alt: Image montrant les coupes pour les gagnants
+  src: /images/le_classement.webp
+---
+Le Classement des Associations, c'est quoi ?
+
+#text
+Le Classement des associations, c'est la compétition annuelle entre associations étudiantes pour élire la meilleure.
+
+Durant plusieurs mois, les associations inscrites doivent montrer qu'elles méritent de gagner le titre ! Pour cela, différents critères sont pris en compte et différents rendus sont demandés comme une plaquette de présentation de l'association, un contenu visuel !
+
+La compétition se conclut par un superbe évènement à Paris où les finalistes viennent pitcher devant le jury et le public ! Puis la grande association gagnante est annoncée et la fête commence !
+::
+
+::quote
+---
+src: /images/quote_louise.webp
+alt: Photo de profil de Louise
+---
+
+Un seul mot pour décrire le Classement : Inoubliable ! Si tu fais partie d'une association, participe ! C'est une expérience enrichissante !
+
+#author
+Louise
+::
+
+::call-to-action
+---
+left: true
+accent: purple
+action:
+  to: http://supaerospacesection.com/
+  text: En savoir plus
+image:
+  alt: Photo de groupe de l'association Supaero Space Section
+  src: /images/supaero_space_section.webp
+---
+
+Lumière sur... Supaero Space Section
+
+#text
+La Supaero Space Section est un club technique étudiant au sein de l'école d'ingénieur ISAE-Supaéro dont le but est de concevoir, créer et lancer des fusées expérimentales. Nous avons une soixantaine de membres impliqués dans 3 projets. Ce club existe depuis plus de 10 ans et il permet aux élèves de se former et de s'épanouir dans des projets d'équipe toujours plus complexes, toujours plus beau !
+
+Partager serait le premier mot pour nous définir, tout d'abord partager la passion car c'est ce qui nous regroupe dans un premier temps mais aussi partager les connaissances car comme tout club étudiant, nous avons un fort roulement d'année en année.
+::
+
+::call-to-action
+---
+accent: blue
+action:
+  to: https://www.savoiroserlasolidarite.org/
+  text: En savoir plus
+image:
+  alt: Photo de groupe de l'association Savoir Oser la solidarité
+  src: /images/savoir_oser_solidarite.webp
+---
+
+Lumière sur... Savoir Oser la solidarité
+
+#text
+Nos projets sont la concrétisation d'une idée en laquelle nous croyons sincèrement : celle que même la plus petite et ponctuelle action solidaire peut grandement et durablement améliorer la condition de l'autre et le monde dans lequel nous vivons💚
+::
+
+::gallery
+---
+hrefImages: https://www.instagram.com/leclassement/
+images:
+  - src: /images/gallery/1.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/2.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/3.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/4.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/5.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/6.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/7.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/8.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/9.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+  - src: /images/gallery/10.webp
+    alt: Photo des participants lors de la cérémonie des années précédentes
+---
+::
+
+::organized-by
+---
+organizers:
+  - src: /images/logo_aneo_index.webp
+    alt: Logo d'Aneo
+    href: https://aneo.eu
+  - src: /images/logo_bnei_index.webp
+    alt: Logo du BNEI - Bureau National des Élèves Ingénieurs
+    href: https://bnei.fr
+  - src: /images/logo_bnem_index.webp
+    alt: Logo du BNEM - Bureau National des étudiants en École de Management
+    href: https://bnem.fr
+---
+
+Organisé par
+
+::

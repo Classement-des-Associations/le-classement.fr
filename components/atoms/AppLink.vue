@@ -1,37 +1,30 @@
-<script setup>
-const props = defineProps({
-  fill: {
-    type: Boolean,
-    default: false
-  },
-  white: {
-    type: Boolean,
-    default: false
-  },
-  disabled: {
-    type: Boolean,
-    default: false
-  },
-})
+<script setup lang="ts">
+const { filled, white, disabled } = defineProps<{
+  filled?: boolean,
+  white?: boolean,
+  disabled?: boolean
+}>()
 
-const getClassName = function () {
+const linkClassNames = function () {
   const classNames = ['motion-safe:transition-all motion-safe:duration-300']
 
-  if (props.fill) {
-    if (props.white) {
-      classNames.push('py-3 px-4 bg-white text-black')
+  if (filled) {
+    classNames.push('py-3 px-4')
+    if (white) {
+      classNames.push('bg-white text-black')
     } else {
-      classNames.push('py-3 px-4 bg-primary-base hover:bg-primary-variation-1 text-white')
+      classNames.push('bg-primary-base hover:bg-primary-variation-1 text-white')
     }
   } else {
-    if (props.white) {
-      classNames.push('py-[0.625rem] px-[0.875rem] bg-transparent text-white border-2 border-white hover:bg-white hover:text-black')
+    classNames.push('py-[0.625rem] px-[0.875rem] border-2')
+    if (white) {
+      classNames.push('border-white bg-transparent hover:bg-white text-white hover:text-black')
     } else {
-      classNames.push('py-[0.625rem] px-[0.875rem] text-primary-base border-2 border-primary-base hover:text-primary-variation-1 hover:border-primary-variation-1')
+      classNames.push('border-primary-base hover:border-primary-variation-1 text-primary-base hover:text-primary-variation-1')
     }
   }
 
-  if(props.disabled) {
+  if (disabled) {
     classNames.push('cursor-not-allowed opacity-70')
   }
 
@@ -40,7 +33,8 @@ const getClassName = function () {
 </script>
 
 <template>
-  <NuxtLink class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]" :class="getClassName()" :disabled="props.disabled">
-    <slot />
+  <NuxtLink class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]"
+    :class="linkClassNames()" :disabled="disabled">
+    <slot></slot>
   </NuxtLink>
 </template>

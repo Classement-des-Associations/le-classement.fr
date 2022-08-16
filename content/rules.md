@@ -1,3 +1,9 @@
+---
+title: Le règlement - Le Classement des Associations
+description: L'ensemble des consignes à respecter pour pouvoir participer au Classement des Associations !
+---
+
+::prose
 # Règlement 2022
 
 _Dernière mise à jour:_ **2022-05-31**
@@ -109,3 +115,4 @@ La participation au Classement des Associations emporte acceptation sans restric
 ## Article 13 - Droit applicable - Juridiction
 
 Le présent Règlement est soumis au droit français. La Société Organisatrice se réserve le droit de trancher toute difficulté pouvant survenir quant à l’interprétation ou l’application du présent Règlement. Tout litige qui ne pourrait être réglé à l’amiable serait soumis aux tribunaux compétents.
+::

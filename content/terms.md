@@ -1,3 +1,8 @@
+---
+title: Les conditions générales d'utilisation - Le Classement des Associations
+---
+
+::prose
 # Les conditions générales d'utilisation
 
 ## Article 1 : Objet
@@ -100,3 +105,4 @@ La durée du présent contrat est indéterminée. Le contrat produit ses effets 
 Le présent contrat dépend de la législation française.
 
 En cas de litige non résolu à l’amiable entre l’Utilisateur et l’Éditeur, les tribunaux de Paris sont compétents pour régler le contentieux.
+::
