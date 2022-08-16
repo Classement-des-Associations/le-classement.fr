@@ -24,7 +24,7 @@ action:
   text: Nous contacter
 image:
   alt: Photo d'un ensemble de jeunes dans une salle
-  src: assets/images/partners.webp
+  src: /images/partners.webp
 ---
 Votre entreprise au centre de la vie association étudiante
 

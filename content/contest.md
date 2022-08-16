@@ -25,7 +25,7 @@ Tu hésites encore à t'inscrire ? Retrouve toutes les informations pratiques po
 ---
 accent: purple
 image:
-  src: assets/images/concours_experience.webp
+  src: /images/concours_experience.webp
   alt: Image montrant des jeunes parler en groupe  
 ---
 Vivre une expérience  inoubliable, riche en émotions
@@ -41,7 +41,7 @@ action:
   to: /winners
   text: Découvrir le palmarès
 image:
-  src: assets/images/concours_valoriser.webp
+  src: /images/concours_valoriser.webp
   alt: Image montrant l'un des gagnants du concours parler au micro  
 ---
 Valoriser ton association auprès du  monde professionnel
@@ -57,7 +57,7 @@ action:
   to: '/become-partner'
   text: Découvrir nos partenaires
 image:
-  src: assets/images/concours_reseaux.webp
+  src: /images/concours_reseaux.webp
   alt: Image montrant un intervenant parler au micro devant un grand écran
 ---
 Enrichir tes réseaux personnel et professionnel
@@ -138,7 +138,7 @@ Le déroulement du concours
 
 ::price
 ---
-src: assets/images/meilleure_association.webp
+src: /images/meilleure_association.webp
 alt: Visuel d'illustration du meilleur prix
 ---
 Le prix

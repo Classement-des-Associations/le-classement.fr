@@ -59,7 +59,7 @@ action:
   text: En savoir plus
 image:
   alt: Image montrant les coupes pour les gagnants
-  src: assets/images/le_classement.webp
+  src: /images/le_classement.webp
 ---
 Le Classement des Associations, c'est quoi ?
 
@@ -73,7 +73,7 @@ La compétition se conclut par un superbe évènement à Paris où les finaliste
 
 ::quote
 ---
-src: assets/images/quote_louise.webp
+src: /images/quote_louise.webp
 alt: Photo de profil de Louise
 ---
 
@@ -92,7 +92,7 @@ action:
   text: En savoir plus
 image:
   alt: Photo de groupe de l'association Supaero Space Section
-  src: assets/images/supaero_space_section.webp
+  src: /images/supaero_space_section.webp
 ---
 
 Lumière sur... Supaero Space Section
@@ -111,7 +111,7 @@ action:
   text: En savoir plus
 image:
   alt: Photo de groupe de l'association Savoir Oser la solidarité
-  src: assets/images/savoir_oser_solidarite.webp
+  src: /images/savoir_oser_solidarite.webp
 ---
 
 Lumière sur... Savoir Oser la solidarité
@@ -124,25 +124,25 @@ Nos projets sont la concrétisation d'une idée en laquelle nous croyons sincèr
 ---
 hrefImages: https://www.instagram.com/leclassement/
 images:
-  - src: assets/images/gallery/1.webp
+  - src: /images/gallery/1.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/2.webp
+  - src: /images/gallery/2.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/3.webp
+  - src: /images/gallery/3.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/4.webp
+  - src: /images/gallery/4.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/5.webp
+  - src: /images/gallery/5.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/6.webp
+  - src: /images/gallery/6.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/7.webp
+  - src: /images/gallery/7.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/8.webp
+  - src: /images/gallery/8.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/9.webp
+  - src: /images/gallery/9.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
-  - src: assets/images/gallery/10.webp
+  - src: /images/gallery/10.webp
     alt: Photo des participants lors de la cérémonie des années précédentes
 ---
 ::
@@ -150,13 +150,13 @@ images:
 ::organized-by
 ---
 organizers:
-  - src: assets/images/logo_aneo_index.webp
+  - src: /images/logo_aneo_index.webp
     alt: Logo d'Aneo
     href: https://aneo.eu
-  - src: assets/images/logo_bnei_index.webp
+  - src: /images/logo_bnei_index.webp
     alt: Logo du BNEI - Bureau National des Élèves Ingénieurs
     href: https://bnei.fr
-  - src: assets/images/logo_bnem_index.webp
+  - src: /images/logo_bnem_index.webp
     alt: Logo du BNEM - Bureau National des étudiants en École de Management
     href: https://bnem.fr
 ---
