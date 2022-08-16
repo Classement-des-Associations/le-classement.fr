@@ -33,7 +33,8 @@
         </div>
         <nav aria-labelledby="secondary-nav">
           <span id="secondary-nav" class="sr-only">Navigation secondaire</span>
-          <ul class="flex flex-row justify-center space-x-10 text-white text-sm leading-4 tracking-wider font-semibold">
+          <ul
+            class="grid grid-cols-3 lg:grid-cols-5 gap-4 justify-items-center text-white text-sm leading-4 tracking-wider font-semibold">
             <li>
               <NuxtLink class="hover:underline hover:underline-offset-4" to="/about-us">À propos</NuxtLink>
             </li>
