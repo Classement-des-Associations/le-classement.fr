@@ -15,7 +15,7 @@ defineProps<{
       <p class="text-base md:text-lg md:leading-[1.125rem]">
         <ContentSlot :use="$slots.default" unwrap="p" />
       </p>
-      <div class="grid grid-cols-3 justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 justify-items-center">
         <NuxtLink v-for="organizer in organizers" :key="organizer.href" :to="organizer.href" rel="noopener"
           target="_blank">
           <img loading="lazy" :src="organizer.src" :alt="organizer.alt" />

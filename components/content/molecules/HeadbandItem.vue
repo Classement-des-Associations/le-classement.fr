@@ -1,6 +1,6 @@
 <template>
   <li class="p-4 w-72 lg:w-64 space-y-9 md:space-y-12 text-center">
-    <span class="text-[4rem] font-extrabold whitespace-nowrap">
+    <span class="text-[4rem] md:text-[2.5rem] xl:text-[4rem] font-extrabold whitespace-nowrap">
       <ContentSlot :use="$slots.value" unwrap="p" />
     </span>
     <div class="space-y-3 md:space-y-2">
