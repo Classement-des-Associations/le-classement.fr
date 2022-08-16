@@ -12,7 +12,7 @@ defineProps<{
       <li v-for="image in images" :key="image.src" class="relative group h-full w-full">
         <NuxtLink :to="hrefImages">
           <div class="aspect-w-square aspect-h-square">
-            <img loading="lazy" :src="image.src" alt="image.alt" class="object-cover w-full h-full">
+            <img loading="lazy" :src="image.src" :alt="image.alt" class="object-cover w-full h-full">
           </div>
           <div
             class="opacity-0 absolute inset-0 bg-black group-hover:opacity-50 motion-safe:transition-all motion-safe:duration-300">
