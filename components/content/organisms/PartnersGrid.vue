@@ -1,6 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   partners: {
+    name: string;
     src: string,
     alt: string,
     href: string
