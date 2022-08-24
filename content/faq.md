@@ -1,3 +1,8 @@
+---
+title: FAQ - Le Classement des Associations
+description: Retrouve toutes les réponses aux questions les plus fréquentes sur le Classement des Associations.
+--- 
+
 ::questions-answers{id="faq"}
 Question les plus fréquemment posées
 
