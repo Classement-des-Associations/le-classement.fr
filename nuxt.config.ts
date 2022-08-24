@@ -7,6 +7,10 @@ export default defineNuxtConfig({
       crawlLinks: true,
     },
   },
+  schemaOrg: {
+    canonicalHost: 'https://le-classement.fr',
+    defaultLanguage: 'fr',
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -23,7 +27,7 @@ export default defineNuxtConfig({
           content: 'Le Classement des Associations',
         },
         { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'twitter:site', name: 'twitter:site', content: '@bneiassos' },
+        { hid: 'twitter:site', name: 'twitter:site', content: '@Leclassement' },
         {
           hid: 'twitter:card',
           name: 'twitter:card',
@@ -65,5 +69,5 @@ export default defineNuxtConfig({
       microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
     },
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt', 'nuxt-schema-org'],
 })
