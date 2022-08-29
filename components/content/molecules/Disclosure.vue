@@ -19,8 +19,8 @@ import {
       <transition enter-active-class="transition duration-300 ease-out" enter-from-class="opacity-0"
         enter-to-class="opacity-100" leave-active-class="transition duration-300 ease-out"
         leave-from-class="opacity-100" leave-to-class="opacity-0">
-        <DisclosurePanel class="mt-4 text-sm leading-[1.125rem] flex flex-col space-y-4">
-          <ContentSlot :use="$slots.default" unwrap="p" />
+        <DisclosurePanel class="mt-4 text-sm leading-[1.125rem]">
+          <ContentSlot :use="$slots.default" />
         </DisclosurePanel>
       </transition>
     </article>

@@ -44,14 +44,78 @@ Question les plus fréquemment posées
     #title
     Où puis-je trouver le règlement ?
     ::
+  ::
 
+  ::disclosures-group
+  L'organisation
+
+  #disclosures
     ::disclosure
     Le Classement des associations, édition 2022, est organisé par 2 associations étudiantes, le BNEI, Bureau National des Élèves Ingénieurs et le BNEM, le Bureau National des étudiants en Écoles de Management. Par conséquent, nous sommes comme les participants, étudiants et bénévoles !
 
-    Le Classement des Associations est un projet d'Aneo.
+    Le Classement des Associations est un projet porté et créé par Aneo depuis 10 ans. Aneo est une société de conseil en transformation. Pour en savoir plus sur les fondateurs : [https://www.aneo.eu/](https://www.aneo.eu/).
 
     #title
     Qui organise le Classement des Associations 2022 ?
+    ::
+  ::
+
+  ::disclosures-group
+  La plateforme de vote
+
+  #disclosures
+    ::disclosure
+    La plateforme de vote est un site en ligne disponible à l’adresse suivante : [https://vote.le-classement.fr](https://vote.le-classement.fr).
+
+    Cette plateforme permet de découvrir l’ensemble des associations en compétition pour devenir la meilleure association étudiante. Tu y découvriras des visuels ainsi que des documents de présentations réalisés par l’ensemble des associations ! Tu pourras aussi y retrouver leurs réseaux si tu souhaites les contacter.
+
+    #title
+    Qu'est ce que la plateforme de vote ?
+    ::
+
+    ::disclosure
+    L’ensemble du contenu des associations a été produit par les associations elle-même. Durant quelques mois, et pour la première phase de ce Classement, les associations ont produites un rendu écrit (le PDF), un visuel (l’image) et le texte (la description).
+
+    #title
+    D'où provient l'ensemble du contenu des associations ?
+    ::
+
+    ::disclosure
+    Toute le monde peut voter. Tu dois posséder une adresse électronique valide afin de pouvoir voter.
+
+    #title
+    Qui peut voter ?
+    ::
+
+    ::disclosure
+    Généralement, la plateforme de vote ouvre la dernière semaine d’août afin de les refermer fin septembre. Suis-nous sur les réseaux pour connaître la date d’ouverture !
+
+    #title
+    Quand voter ?
+    ::
+
+    ::disclosure
+    Pour voter, tu dois te rendre sur le plateforme de vote. Ensuite, tu trouves l’association pour laquelle tu vas donner ta voix. Puis, tu cliques sur le bouton orange 'voter pour l’association' et tu saisis ton adresse électronique. Une fois le vote validé, tu recevras un mail afin de le confirmer.
+      Dans le mail que tu recevras, tu trouveras un lien sur lequel il faudra cliquer. Ce dernier te redirigera sur le plateforme de vote afin d’enregistrer le vote !
+
+
+    #title
+    Comment voter ?
+    ::
+
+    ::disclosure
+    Voter te permet de soutenir ton association préférée.
+    Les deux (2) associations avec le plus de votes auront le privilège de se qualifier directement pour la cérémonie finale qui aura lieu le 02 décembre 2022 ! Pour rappel, les 16 associations qui iront en finale, se verront remettre un chèque de mille (1000) euros. Il est donc important de soutenir ton association favorite et de faire passer le message !
+
+    #title
+    Pourquoi voter ?
+    ::
+
+    ::disclosure
+    Pas de panique ! Il te suffit de nous envoyer un mail, [contact@le-classement.fr](mailto:contact@le-classement.fr), afin que l'on rectifie cela au plus vite !
+
+    #title
+    Il y a une erreur avec les documents de mon associations ?
     ::
   ::
 ::
