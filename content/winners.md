@@ -6,9 +6,8 @@ description: L'ensemble des associations gagnantes du Classement des association
 ::hero
 ---
 actions:
-  - href:
-    text: S'inscrire
-    disabled: true
+  - href: https://vote.le-classement.fr
+    text: Voter
     filled: true
   - href: /contact
     text: Nous contacter

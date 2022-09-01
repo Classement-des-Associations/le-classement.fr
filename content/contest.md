@@ -6,11 +6,9 @@ description: Découvre toutes les bonnes raisons de participer au Classement des
 ::hero
 ---
 actions:
-  - href: ''
-    text: S'inscrire
-    disabled: true
+  - href: https://vote.le-classement.fr
+    text: Voter
     filled: true
-    title: 'Inscriptions terminées'
   - href: '/contact'
     text: Nous contacter
 ---
@@ -110,10 +108,23 @@ Le déroulement du concours
   ::
 
   ::contest-steps-card
-  Annonce des finalistes
+  Ouverture des votes
 
   #number
   04
+
+  #text
+  Grâce à la plateforme de vote, tu auras la possibilité de découvrir les projets et les actions de toutes les associations participantes !
+
+  #date
+  31 août - 30 septembre 2022 
+  ::
+
+  ::contest-steps-card
+  Annonce des finalistes
+
+  #number
+  05
 
   #text
   A la suite des différents rendus, 16 associations seront qualifiées pour l'évènement final.
@@ -126,7 +137,7 @@ Le déroulement du concours
   Invitation à la cérémonie finale
 
   #number
-  05
+  06
 
   #text
   16 finalistes, une ultime épreuve, une poignée de minutes pour faire la différence ! Puis, remise des prix, rencontre avec nos partenaires autour d'un apéro à l'Opéra Bastille et célébration au gala !
