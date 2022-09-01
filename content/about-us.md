@@ -6,9 +6,8 @@ description: Apprends en plus sur les organisateurs du Classement des Associatio
 ::hero
 ---
 actions:
-  - href: ''
-    text: S'inscrire
-    disabled: true
+  - href: https://vote.le-classement.fr
+    text: Voter
     filled: true
   - href: '/contact'
     text: Nous contacter

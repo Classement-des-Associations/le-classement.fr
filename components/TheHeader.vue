@@ -40,7 +40,7 @@ const config = useRuntimeConfig()
         </nav>
       </div>
       <div class="hidden md:flex md:flex-row md:justify-center md:items-center">
-        <AtomsAppLink target="_blank" fill disabled title="Inscriptions terminées">S'inscrire</AtomsAppLink>
+        <AtomsAppLink target="_blank" href="https://vote.le-classement.fr" fill>Voter</AtomsAppLink>
       </div>
       <div class="md:hidden flex flex-row items-center">
         <OrganismsTheMobileNavigation />

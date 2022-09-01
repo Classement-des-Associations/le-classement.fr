@@ -6,9 +6,8 @@ description: Le concours national de référence qui recense et classe les meill
 ::hero
 ---
 actions:
-  - href: ''
-    text: S'inscrire
-    disabled: true
+  - href: https://vote.le-classement.fr
+    text: Voter
     filled: true
   - href: '/contact'
     text: Nous contacter
