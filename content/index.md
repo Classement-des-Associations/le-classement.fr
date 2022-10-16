@@ -16,7 +16,7 @@ actions:
 Le Classement des Associations
 
 #subtitle
-Le concours national de référence qui recense et classe les meilleurs associations étudiante !
+Le concours national de référence qui recense et classe les meilleures associations étudiantes !
 ::
 
 ::headband
