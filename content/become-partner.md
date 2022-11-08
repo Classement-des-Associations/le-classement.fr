@@ -41,6 +41,10 @@ partners:
     src: /images/partners/le-monde-des-grandes-ecoles-et-universites.webp
     href: https://www.mondedesgrandesecoles.fr/
     alt: Logo du Monde des Grandes Ecoles et Universités
+  - name: La Poste Groupe
+    src: /images/partners/la-poste-groupe.webp
+    href: https://www.lapostegroupe.com/
+    alt: Logo de La Poste Groupe
 ---
 
 Nos partenaires
