@@ -15,7 +15,7 @@ defineProps<{
     <AtomsSectionTitle>
       <ContentSlot :use="$slots.default" unwrap="p" />
     </AtomsSectionTitle>
-    <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
+    <ul class="mt-11 grid grid-cols-2 md:grid-cols-5 items-center justify-center">
       <li v-for="partner in partners" :ley="partner.src">
         <a :href="partner.href" target="_blank" rel="noopener">
           <img loading="lazy" :src="partner.src" :alt="partner.alt">
