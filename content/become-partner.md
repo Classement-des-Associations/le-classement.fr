@@ -45,6 +45,10 @@ partners:
     src: /images/partners/la-poste-groupe.webp
     href: https://www.lapostegroupe.com/
     alt: Logo de La Poste Groupe
+  - name: Campus Screens by Teewii
+    src: /images/partners/campus-screens-by-teewii.webp
+    href: https://www.teewii.fr/
+    alt: Logo de Campus Screens by Teewii
 ---
 
 Nos partenaires
