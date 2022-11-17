@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import './assets/css/tailwind.css'
-
 useSchemaOrg([
   defineOrganization({
     name: 'Le Classement des Associations',
@@ -21,9 +19,9 @@ useSchemaOrg([
 
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <TheHeader />
+    <NuxtPage />
+    <TheFooter />
   </div>
 </template>
 

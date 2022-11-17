@@ -1,10 +1,5 @@
 <template>
   <div>
-    <TheHeader />
-    <main>
-      <NuxtPage />
-    </main>
-    <TheFooter />
+    <slot />
   </div>
 </template>
-
