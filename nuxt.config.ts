@@ -72,6 +72,6 @@ export default defineNuxtConfig({
     documentDriven: true,
   },
   routeRules: {
-    "/blog/**": { static: true },
+    "/**/": { static: true },
   },
 });
