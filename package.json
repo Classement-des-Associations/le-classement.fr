@@ -17,10 +17,11 @@
     "@vueuse/core": "^9.5.0",
     "@vueuse/nuxt": "^9.5.0",
     "nuxt": "3.0.0",
-    "nuxt-schema-org": "^1.0.2",
+    "nuxt-schema-org": "^1.1.0-beta.6",
     "sitemap": "^7.1.1"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.4"
+    "@headlessui/vue": "^1.7.4",
+    "nuxt-icon": "^0.1.7"
   }
 }
