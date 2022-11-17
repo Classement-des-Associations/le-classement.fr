@@ -67,6 +67,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-icon",
     "nuxt-schema-org",
+    "@nuxtjs/fontaine",
   ],
   content: {
     documentDriven: true,
