@@ -17,7 +17,7 @@ const isBlog = computed(() => router.currentRoute.value.path.includes('/blog'))
         <nav aria-labelledby="primary-nav" class="hidden md:block text-sm leading-[1.125rem]">
           <span id="primary-nav" class="sr-only">Navigation primaire</span>
           <ul class="flex flex-row justify-center space-x-2">
-            <template v-for="item in   navigation" :key="item._path">
+            <template v-for="item in navigation" :key="item._path">
               <li v-if="item.for === 'header'">
                 <NuxtLink
                   class="inline-block font-medium py-1 px-4 hover:text-primary-base transform transition ease-in"
