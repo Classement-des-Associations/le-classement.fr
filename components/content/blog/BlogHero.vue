@@ -1,4 +1,5 @@
 <template>
+  <!-- Need to reuse this with slots to allow to change color and add graphics -->
   <section class="relative bg-primary-variation-2 px-4 pt-12 pb-20 md:py-44">
     <AtomsGraphicsTrianglesMobile class="absolute -left-2 -bottom-11 md:hidden" />
     <AtomsGraphicsTriangles class="hidden md:block absolute -left-12 bottom-[-2.875rem]" />
@@ -9,6 +10,7 @@
         <AtomsHeroTitle class="text-primary-base">
           <ContentSlot :use="$slots.default" unwrap="p" />
         </AtomsHeroTitle>
+        <!-- Need to abstract this -->
         <AtomsHeroSubtitle class="max-w-3xl">
           <ContentSlot :use="$slots.subtitle" unwrap="p" />
         </AtomsHeroSubtitle>

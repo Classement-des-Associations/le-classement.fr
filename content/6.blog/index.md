@@ -27,6 +27,6 @@ Entrevoir la vie associative avec notre histoire,<br />des témoignages, des ass
   ::
 ::
 
-::blog-articles-list
+::blog-card-list{id="articles"}
 Les articles
 ::
