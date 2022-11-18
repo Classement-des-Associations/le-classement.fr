@@ -1,10 +1,13 @@
 <script setup>
+const router = useRouter()
 const { showActionButton, actionButton } = useAppConfig()
 const { navigation } = useContent()
+
+const isBlog = computed(() => router.currentRoute.value.path.includes('/blog'))
 </script>
 
 <template>
-  <header class="bg-white p-4">
+  <header class="p-4 transition-colors ease-in" :class="{ 'bg-white': !isBlog, 'bg-primary-variation-2': isBlog }">
     <div class="max-w-screen-xl mx-auto flex flex-row justify-between">
       <div class="flex flex-row space-x-8 justify-center items-center">
         <NuxtLink to="/">
@@ -14,7 +17,7 @@ const { navigation } = useContent()
         <nav aria-labelledby="primary-nav" class="hidden md:block text-sm leading-[1.125rem]">
           <span id="primary-nav" class="sr-only">Navigation primaire</span>
           <ul class="flex flex-row justify-center space-x-2">
-            <template v-for="item in navigation" :key="item._path">
+            <template v-for="item in   navigation" :key="item._path">
               <li v-if="item.for === 'header'">
                 <NuxtLink
                   class="inline-block font-medium py-1 px-4 hover:text-primary-base transform transition ease-in"
