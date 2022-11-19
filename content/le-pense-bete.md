@@ -9,6 +9,19 @@ Liste des liens
 
 #sections
   ::links-list-section
+  Découvrir le Classement
+
+  #items
+    ::links-list-item
+    ---
+    to: https://le-classement.fr
+    icon: heroicons:home-solid
+    text: Classement
+    ---
+    ::
+  ::
+
+  ::links-list-section
   Cérémonie finale
 
   #items
