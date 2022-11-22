@@ -17,9 +17,11 @@ defineProps<{
     </AtomsSectionTitle>
     <ul class="mt-11 grid grid-cols-2 md:grid-cols-5 items-center justify-center">
       <li v-for="partner in partners" :ley="partner.src">
-        <a :href="partner.href" target="_blank" rel="noopener">
-          <img loading="lazy" :src="partner.src" :alt="partner.alt">
-        </a>
+        <NuxtLink :to="partner.href">
+          <div class="aspect-w-square aspect-h-square">
+            <img loading="lazy" :src="partner.src" :alt="partner.alt" class=" object-contain">
+          </div>
+        </NuxtLink>
       </li>
     </ul>
   </section>
