@@ -23,7 +23,7 @@ Icon
 #designList
   ::design-kit-logo-card
   ---
-  imageName: icon-rounded-dark
+  imageName: icon-rounded-black
   cardClass: 'bg-white'
   infoType: primary
   ---
@@ -40,7 +40,7 @@ Logo
 #designList
   ::design-kit-logo-card
   ---
-  imageName: full-logo-dark
+  imageName: full-logo-black
   cardClass: 'bg-white'
   infoType: primary
   ---
