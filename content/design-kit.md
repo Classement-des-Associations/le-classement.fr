@@ -22,7 +22,7 @@ Logo du Classement des Associations
 #description
 Le logo est le nom du concours "Le Classement des Associations" où le "C" et le "A" sont imbriqués. Cette imbrication, caractéristique du concours, permet aussi de créer l'icon du Classement des Associations.
 #titleExtra
-Icon
+Icônes
 #designList
   ::design-kit-logo-card
   ---

@@ -8,7 +8,7 @@ const { navigation } = useContent()
     <div class="max-w-screen-xl mx-auto flex flex-col gap-14">
       <div class="flex flex-col gap-11 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
         <div class="contents lg:flex lg:flex-row lg:items-center">
-          <AtomsLogosClassementFull class="mx-auto" />
+          <AtomsLogosClassementFull class="mx-auto" @click.right.prevent="navigateTo('design-kit')" />
           <ul class="lg:ml-16 flex flex-row justify-center space-x-[1.375rem] lg:space-x-12">
             <template v-for="social in socials" :key="social.to">
               <li>
