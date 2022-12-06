@@ -30,6 +30,12 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
+      backgroundImage: {
+        association: "linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)",
+        vote: "linear-gradient(206.57deg, #FF6944 53.61%, #F9B666 83.33%)",
+        classement: "linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)",
+        partenaire: "linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)",
+      },
     },
   },
   corePlugins: {

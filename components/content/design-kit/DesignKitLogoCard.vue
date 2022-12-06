@@ -1,26 +1,42 @@
 <script lang="ts" setup>
-defineProps<{
+const { infoType } = defineProps<{
   imageName: string,
   cardClass: string,
-  infoType: 'primary'
+  infoType: 'primary' | 'secondary' | 'secondary-dark'
 }>()
+
+const infoClass = function (): string {
+  if (infoType === 'primary')
+    return 'border-primary-base text-black'
+  else if (infoType === 'secondary')
+    return 'border-black text-black'
+  else if (infoType === 'secondary-dark')
+    return 'border-gray-300 text-gray-300'
+
+  return ''
+}
 </script>
 
 <template>
-  <li>
-    <div>
-      <div>
-        <ContentSlot :use="$slots.info" unwrap="p"> </ContentSlot>
+  <li class="flex flex-col space-y-2">
+    <div class="overflow-hidden rounded-xl ring-1 ring-gray-200 flex items-center justify-center h-[140px] relative"
+      :class="cardClass">
+      <div class="px-4 py-5 sm:p-6">
+        <div class="absolute right-2 top-2 rounded-md text-xs bg-transparent border p-1" :class="infoClass()">
+          <ContentSlot :use="$slots.info" unwrap="p"> </ContentSlot>
+        </div>
+        <img :src="`/assets/design-kit/logo/${imageName}.svg`" :alt="imageName" class="h-10">
       </div>
-      <img :src="`/assets/design-kit/logo/${imageName}.svg`" :alt="imageName">
     </div>
-    <div>
-      <p>
+    <div class="flex justify-between">
+      <p class="font-semibold text-black">
         <ContentSlot :use="$slots.name" unwrap="p"></ContentSlot>
       </p>
       <div>
-        <a :href="`/assets/design-kit/logo/${imageName}.svg`" aria-label="Télécharger le svg" download>svg</a>
-        <a :href="`/assets/design-kit/logo/${imageName}.png`" aria-label="Télécharger le png" download>png</a>
+        <a :href="`/assets/design-kit/logo/${imageName}.svg`" aria-label="Télécharger le svg" download
+          class="pr-2  text-gray-400 first-letter:hover:text-gray-500 hover:underline">svg</a>
+        <a :href="`/assets/design-kit/logo/${imageName}.png`" aria-label="Télécharger le png" download
+          class="text-gray-400 first-letter:hover:text-gray-500 hover:underline">png</a>
       </div>
     </div>
   </li>

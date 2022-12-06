@@ -12,6 +12,9 @@ Bienvenue sur la page de définition du design du Classement des Associations. L
 ::
 
 ::design-kit-section
+---
+sectionClass: 'pb-8'
+---
 #category
 Logotype
 #title
@@ -28,13 +31,40 @@ Icon
   infoType: primary
   ---
   #info
-  Primary
+  Primaire
   #name
-  Icône - Arrondi - Sombre
+  Icône complet
+  ::
+
+  ::design-kit-logo-card
+  ---
+  imageName: icon-white
+  cardClass: 'bg-black'
+  infoType: secondary-dark
+  ---
+  #info
+  Secondaire
+  #name
+  Icône blanc
+  ::
+
+  ::design-kit-logo-card
+  ---
+  imageName: icon-black
+  cardClass: 'bg-white'
+  infoType: secondary
+  ---
+  #info
+  Secondaire
+  #name
+  Icône noir
   ::
 ::
 
 ::design-kit-section
+---
+sectionClass: 'pb-8'
+---
 #titleExtra
 Logo
 #designList
@@ -45,25 +75,199 @@ Logo
   infoType: primary
   ---
   #info
-  Primary
+  Primaire
   #name
-  Logo - Sombre
+  Logo noir
+  ::
+
+  ::design-kit-logo-card
+  ---
+  imageName: full-logo-white
+  cardClass: 'bg-black'
+  infoType: secondary-dark
+  ---
+  #info
+  Secondaire
+  #name
+  Logo blanc
   ::
 ::
 
 ::design-kit-section
+---
+sectionClass: 'pb-8'
+---
 #category
 Couleurs
 #title
 Palette de couleurs
 #description
+Les couleurs du Classement ont été choisies pour marquer la diversité des associations et des projets portés. Très colorées, elles permettent de mettre en avant les associations et de rendre attractif le concours.
 #designList
- ::design-kit-color-card
+  ::design-kit-color-card
   ---
-  colorClass:
-  hexaColor:
+  colorClass: 'bg-primary-base'
+  hexaColor: '#FF6944'
   ---
   #color
+  Primary base
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-primary-variation-1'
+  hexaColor: '#F9B666'
+  ---
+  #color
+  Primary variation 1
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-primary-variation-2'
+  hexaColor: '#FFF6EA'
+  ---
+  #color
+  Primary variation 2
+  #buttonText
+  copy
+  ::
+::
+
+::design-kit-section
+---
+sectionClass: 'pb-8'
+---
+#titleExtra
+Accents
+#designList
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-accent-purple'
+  hexaColor: '#4B3069'
+  ---
+  #color
+  Accent purple
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-accent-blue'
+  hexaColor: '#0A6B72'
+  ---
+  #color
+  Accent blue
+  #buttonText
+  copy
+  ::
+::
+
+::design-kit-section
+---
+sectionClass: 'pb-8'
+---
+#titleExtra
+Neutres
+#designList
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-black'
+  hexaColor: '#291B25'
+  ---
+  #color
+  Black
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-light-grey'
+  hexaColor: '#D4D4D4'
+  ---
+  #color
+  Light grey
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-ultra-light-grey'
+  hexaColor: '#F9F9F9'
+  ---
+  #color
+  Ultra light grey
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-white ring-1 ring-gray-200'
+  hexaColor: '#FFFFFF'
+  ---
+  #color
+  White
+  #buttonText
+  copy
+  ::
+::
+
+::design-kit-section
+---
+sectionClass: 'pb-8'
+---
+#titleExtra
+Gradients
+#designList
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-classement'
+  hexaColor: 'linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)'
+  ---
+  #color
+  Classement
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-association'
+  hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
+  ---
+  #color
+  Association
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-vote'
+  hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
+  ---
+  #color
+  Vote
+  #buttonText
+  copy
+  ::
+
+  ::design-kit-color-card
+  ---
+  colorClass: 'bg-partenaire'
+  hexaColor: 'linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)'
+  ---
+  #color
+  Partenaire
   #buttonText
   copy
   ::
