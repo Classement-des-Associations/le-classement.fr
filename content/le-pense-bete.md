@@ -22,14 +22,34 @@ Liste des liens
   ::
 
   ::links-list-section
-  Cérémonie finale
+  Réseaux sociaux
 
   #items
     ::links-list-item
     ---
-    to: https://www.pass-event.com/events/1125-le-classement-des-associations 
-    icon: heroicons:ticket-solid
-    text: Billetterie
+    to: https://www.instagram.com/classementdesassociations/
+    icon: mdi:instagram
+    text: Instagram
+    ---
+    ::
+  ::
+
+  #items
+    ::links-list-item
+    ---
+    to: https://www.linkedin.com/company/classement-des-associations/
+    icon: mdi:linkedin
+    text: LinkedIn
+    ---
+    ::
+  ::
+
+  #items
+    ::links-list-item
+    ---
+    to: https://twitter.com/classement_asso
+    icon: mdi:twitter
+    text: Twitter
     ---
     ::
   ::
