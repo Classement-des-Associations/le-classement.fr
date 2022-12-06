@@ -211,7 +211,7 @@ Neutres
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-white ring-1 ring-gray-200'
+  colorClass: 'bg-white ring-1 ring-zinc-200'
   hexaColor: '#FFFFFF'
   ---
   #color

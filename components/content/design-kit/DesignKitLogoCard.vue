@@ -11,7 +11,7 @@ const infoClass = function (): string {
   else if (infoType === 'secondary')
     return 'border-black text-black'
   else if (infoType === 'secondary-dark')
-    return 'border-gray-300 text-gray-300'
+    return 'border-zinc-300 text-zinc-300'
 
   return ''
 }
@@ -19,7 +19,7 @@ const infoClass = function (): string {
 
 <template>
   <li class="flex flex-col space-y-2">
-    <div class="overflow-hidden rounded-xl ring-1 ring-gray-200 flex items-center justify-center h-[140px] relative"
+    <div class="overflow-hidden rounded-xl ring-1 ring-zinc-200 flex items-center justify-center h-[140px] relative"
       :class="cardClass">
       <div class="px-4 py-5 sm:p-6">
         <div class="absolute right-2 top-2 rounded-md text-xs bg-transparent border p-1" :class="infoClass()">
@@ -34,9 +34,9 @@ const infoClass = function (): string {
       </p>
       <div>
         <a :href="`/assets/design-kit/logo/${imageName}.svg`" aria-label="Télécharger le svg" download
-          class="pr-2  text-gray-400 first-letter:hover:text-gray-500 hover:underline">svg</a>
+          class="pr-2  text-zinc-400 first-letter:hover:text-zinc-500 hover:underline">svg</a>
         <a :href="`/assets/design-kit/logo/${imageName}.png`" aria-label="Télécharger le png" download
-          class="text-gray-400 first-letter:hover:text-gray-500 hover:underline">png</a>
+          class="text-zinc-400 first-letter:hover:text-zinc-500 hover:underline">png</a>
       </div>
     </div>
   </li>
