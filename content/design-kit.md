@@ -276,7 +276,6 @@ Gradients
 ::design-kit-section
 ---
 sectionClass: 'pt-16 pb-8'
-highlight: false
 ---
 #category
 Typography
