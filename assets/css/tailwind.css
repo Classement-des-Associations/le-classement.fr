@@ -9,6 +9,21 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 0.6em;
+  height: 0.6em;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-white dark:bg-zinc-900;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.6em;
+  @apply bg-zinc-300 hover:bg-zinc-400 active:bg-zinc-500 dark:bg-zinc-700 hover:dark:bg-zinc-600 active:dark:bg-zinc-500;
+}
+
 .active-header {
   @apply text-primary-base cursor-default;
 }
