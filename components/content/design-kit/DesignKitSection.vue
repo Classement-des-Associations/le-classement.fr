@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <section :class="sectionClass" class="mx-auto sm:px-6 lg:px-8 px-4 max-w-7xl pb-16 pt-8">
+  <section :class="sectionClass" class="mx-auto sm:px-6 lg:px-8 px-4 max-w-7xl">
     <p v-if="$slots.category" class="text-sm font-semibold text-gray-400">
       <ContentSlot :use="$slots.category" unwrap="p"></ContentSlot>
     </p>
@@ -15,6 +15,9 @@ defineProps<{
     <p v-if="$slots.description" class="pb-10 prose max-w-none">
       <ContentSlot :use="$slots.description" unwrap="p"></ContentSlot>
     </p>
+    <div v-if="$slots.typography" class="pb-10 prose max-w-none">
+      <ContentSlot :use="$slots.typography"></ContentSlot>
+    </div>
     <h3 v-if="$slots.titleExtra" class="pb-6 text-lg font-semibold text-black">
       <ContentSlot :use="$slots.titleExtra" unwrap="p"></ContentSlot>
     </h3>

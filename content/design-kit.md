@@ -13,7 +13,7 @@ Bienvenue sur la page de définition du design du Classement des Associations. L
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #category
 Logotype
@@ -63,7 +63,7 @@ Icônes
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #titleExtra
 Logo
@@ -95,7 +95,7 @@ Logo
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #category
 Couleurs
@@ -140,7 +140,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #titleExtra
 Accents
@@ -171,7 +171,7 @@ Accents
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #titleExtra
 Neutres
@@ -223,7 +223,7 @@ Neutres
 
 ::design-kit-section
 ---
-sectionClass: 'pb-8'
+sectionClass: 'pb-16 pt-8'
 ---
 #titleExtra
 Gradients
@@ -271,4 +271,21 @@ Gradients
   #buttonText
   copy
   ::
+::
+
+::design-kit-section
+---
+sectionClass: 'pt-16 pb-8'
+highlight: false
+---
+#category
+Typography
+#title
+Font Montserrat
+#description
+La font Montserrat est utilisée pour le titre et le texte. Elle permet de rester neutre pour laisser la place aux associations et aux projets tout en restant moderne. Sans sérif, elle est facile à lire et peut être utilisée sur tous les supports dans des tailles différentes et des graisses différentes.
+#typography
+[Montserrat]{ .text-5xl }
+<br /><br />
+[The quick brown fox jumps over the lazy dog.]{ .text-4xl }
 ::
