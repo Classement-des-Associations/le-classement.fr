@@ -32,9 +32,7 @@ Liste des liens
     text: Instagram
     ---
     ::
-  ::
 
-  #items
     ::links-list-item
     ---
     to: https://www.linkedin.com/company/classement-des-associations/
@@ -42,9 +40,7 @@ Liste des liens
     text: LinkedIn
     ---
     ::
-  ::
-
-  #items
+    
     ::links-list-item
     ---
     to: https://twitter.com/classement_asso
