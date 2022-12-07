@@ -19,8 +19,8 @@ const infoClass = function (): string {
 
 <template>
   <li class="flex flex-col space-y-2">
-    <div class="overflow-hidden rounded-xl ring-1 ring-zinc-200 flex items-center justify-center h-[140px] relative"
-      :class="cardClass">
+    <div class="overflow-hidden rounded-xl flex items-center justify-center h-[140px] relative"
+      :class="[{ 'ring-1 ring-zinc-200': ['primary', 'secondary'].includes(infoType) }, cardClass]">
       <div class="px-4 py-5 sm:p-6">
         <div class="absolute right-2 top-2 rounded-md text-xs bg-transparent border p-1" :class="infoClass()">
           <ContentSlot :use="$slots.info" unwrap="p"> </ContentSlot>
