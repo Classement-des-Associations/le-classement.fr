@@ -22,6 +22,27 @@ Liste des liens
   ::
 
   ::links-list-section
+  Les plaquettes
+
+  #items
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/plaquettes/2023/le-classement_partenaires-courte.pdf
+    icon: carbon:enterprise
+    text: Partenaires
+    ---
+    ::
+
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/plaquettes/2023/le-classement_tour-asso.pdf
+    icon: carbon:enterprise
+    text: Tour Asso
+    ---
+    ::
+  ::
+
+  ::links-list-section
   Réseaux sociaux
 
   #items
