@@ -62,11 +62,11 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "nuxt-schema-org",
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
     "@vueuse/nuxt",
     "nuxt-icon",
-    "nuxt-schema-org",
     "@nuxtjs/fontaine",
   ],
   content: {

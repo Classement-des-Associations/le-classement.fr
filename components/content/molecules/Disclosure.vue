@@ -5,11 +5,11 @@ const open = ref(false)
 <template>
   <SchemaOrgQuestion>
     <template #name>
-      <ContentSlot :use="$slots.title" unwrap="p" />
+      <ContentSlot :use="$slots.question" />
     </template>
     <template #acceptedAnswer>
       <div>
-        <ContentSlot :use="$slots.default" />
+        <ContentSlot :use="$slots.answer" />
       </div>
     </template>
     <article class="pb-4 flex flex-col border-b border-[#808080] border-opacity-50">
