@@ -19,6 +19,14 @@ Liste des liens
     text: Classement
     ---
     ::
+
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/faq
+    icon: heroicons:question-mark-circle-solid
+    text: Questions / Réponses
+    ---
+    ::
   ::
 
   ::links-list-section
