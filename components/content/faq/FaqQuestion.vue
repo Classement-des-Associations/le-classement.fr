@@ -11,8 +11,8 @@ const icon = computed(() => open.value ? 'heroicons:chevron-up-solid' : 'heroico
         <Icon :name="icon" class="w-4 h-4" />
       </button>
     </h3>
-    <div v-show="open" class="mt-2 prose max-w-none">
+    <Prose v-show="open" class="mt-2 max-w-none">
       <ContentSlot :use="$slots.answer" />
-    </div>
+    </Prose>
   </li>
 </template>
