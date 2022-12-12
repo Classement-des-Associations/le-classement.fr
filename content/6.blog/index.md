@@ -1,14 +1,18 @@
 ---
 for: header
+sitemap:
+  priority: 1
+  changefreq: weekly
+  lastmod:
 title: Le Blog
-description: Entrevoir la vie associative avec notre histoire, des témoignages, des associations et nos partenaires !
+description: Entrevoir la vie associative avec nos histoires, des témoignages, des associations et nos partenaires !
 ---
 
 ::blog-hero
 Le Blog
 
 #subtitle
-Entrevoir la vie associative avec notre histoire,<br />des témoignages, des associations et nos partenaires !
+Entrevoir la vie associative avec nos histoires,<br />des témoignages, des associations et nos partenaires !
 
 #actions
   ::app-link
