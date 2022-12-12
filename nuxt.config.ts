@@ -1,7 +1,8 @@
 export default defineNuxtConfig({
   schemaOrg: {
     canonicalHost: "https://le-classement.fr",
-    defaultLanguage: "fr",
+    defaultLanguage: "fr-FR",
+    tagPosition: "head",
   },
   app: {
     head: {
@@ -70,6 +71,7 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true,
+    defaultLocale: "fr",
     navigation: {
       fields: ["for"],
     },

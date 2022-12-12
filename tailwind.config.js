@@ -2,13 +2,13 @@ module.exports = {
   content: [
     "app.vue",
     "./content/**/*.{md,json}",
-    "./composables/**/*.{js,ts}",
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       aspectRatio: {
