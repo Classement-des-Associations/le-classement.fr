@@ -77,6 +77,6 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    // "/**/": { static: true },
+    "/**/": { static: true },
   },
 });
