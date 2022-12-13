@@ -1,4 +1,4 @@
-export type Gradient = "association" | "vote" | "classement" | "partenaire";
+import { Gradient } from "~~/types/gradient";
 
 export const useGradient = (type: Gradient = "classement") => {
   let gradient: string = "";
