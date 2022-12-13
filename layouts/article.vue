@@ -33,16 +33,16 @@ const proseClass = function (type: Gradient = 'classement') {
 
 <template>
   <div class="bg-primary-variation-2">
-    <article class="max-w-2xl mx-auto pt-16 sm:pt-32 flex flex-col">
+    <article class="max-w-2xl mx-auto pt-16 sm:pt-32 px-4 flex flex-col">
       <div class="flex flex-col gap-4 items-start" :class="{ 'mb-6': page.image }">
-        <h1 class="text-5xl font-bold tracking-tight bg-clip-text text-transparent" :class="gradient">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent" :class="gradient">
           {{ page.title }}
         </h1>
         <time class="text-sm text-black font-light order-first" :datetime="datetime.toISOString()">
           {{ datetime.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' }) }}
         </time>
       </div>
-      <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl">
+      <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
       <div class="w-full mx-auto prose max-w-2xl prose-zinc prose-img:rounded-lg
         prose-a:prose-headings:no-underline
         prose-a:transition-all prose-a:ease-in  prose-a:prose-p:font-semibold prose-a:prose-p:bg-clip-text prose-a:prose-p:text-transparent
