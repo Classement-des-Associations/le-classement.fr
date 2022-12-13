@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "app.vue",
@@ -25,17 +27,17 @@ module.exports = {
         "ultra-light-grey": "#f9f9f9",
         white: "#FFFFFF",
       },
-      boxShadow: {
-        default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
-      },
-      fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
-      },
       backgroundImage: {
         association: "linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)",
         vote: "linear-gradient(206.57deg, #FF6944 53.61%, #F9B666 83.33%)",
         classement: "linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)",
         partenaire: "linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)",
+      },
+      boxShadow: {
+        default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
@@ -45,5 +47,8 @@ module.exports = {
   plugins: [
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
+    plugin(function ({ addVariant }) {
+      addVariant("blog", ".blog &");
+    }),
   ],
 };

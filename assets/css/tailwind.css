@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-white;
+  @apply bg-white blog:bg-primary-variation-2;
 }
 
 ::-webkit-scrollbar-thumb {
