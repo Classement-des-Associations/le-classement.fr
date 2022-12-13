@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "app.vue",
@@ -45,5 +47,8 @@ module.exports = {
   plugins: [
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
+    plugin(function ({ addVariant }) {
+      addVariant("blog", ".blog &");
+    }),
   ],
 };
