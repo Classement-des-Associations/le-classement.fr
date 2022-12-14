@@ -44,7 +44,7 @@ const proseClass = function (type: Gradient = 'classement') {
       </div>
       <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
       <div class="w-full mx-auto prose max-w-2xl prose-zinc prose-img:rounded-lg
-        prose-a:prose-headings:no-underline
+        prose-a:prose-headings:no-underline prose-a:prose-headings:font-semibold
         prose-a:transition-all prose-a:ease-in  prose-a:prose-p:font-semibold prose-a:prose-p:bg-clip-text prose-a:prose-p:text-transparent
         " :class="proseClass(page.type)">
         <slot />
