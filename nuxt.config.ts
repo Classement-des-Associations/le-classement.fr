@@ -36,11 +36,6 @@ export default defineNuxtConfig({
           property: "og:image:alt",
           content: "Image d'illustration pour le classement",
         },
-        {
-          hid: "twitter:image",
-          name: "twitter:image",
-          content: "https://le-classement.fr/preview.png",
-        },
       ],
       link: [
         { rel: "icon", type: "image/png", href: "/favicon.png" },
