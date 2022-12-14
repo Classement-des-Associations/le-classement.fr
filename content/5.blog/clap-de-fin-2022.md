@@ -63,6 +63,7 @@ images:
   - src: 16-cce.webp
     alt: Photo du pitch de l'association La Course Croisière EDHEC sur scène avec sa présentation dans le fond
 ---
+#description
 Carousel d'images des associations passant sur scène
 ::
 
@@ -119,6 +120,7 @@ images:
   - src: 3.webp
     alt: Photo du cocktail dinatoire
 ---
+#description
 Carousel d'images du cocktail dinatoire
 ::
 
