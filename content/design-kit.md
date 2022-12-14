@@ -5,6 +5,7 @@ description: Tous les éléments graphiques du Classement des Associations.
 ---
 
 ::hero
+#title
 Design kit
 
 #subtitle
