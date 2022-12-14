@@ -27,6 +27,11 @@ export default defineNuxtConfig({
           content: "summary_large_image",
         },
         {
+          hid: "og:image",
+          property: "og:image",
+          content: "https://le-classement.fr/preview.png",
+        },
+        {
           hid: "og:image:alt",
           property: "og:image:alt",
           content: "Image d'illustration pour le classement",
