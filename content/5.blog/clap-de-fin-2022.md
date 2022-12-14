@@ -99,11 +99,11 @@ C'est donc après l'ensemble de ces épreuves que nous vous dévoilons le top 16
 
 | # | Association | Établissement |
 | --- |---| --- |
-| 1 | **Sup’Bio Dance** | EPITA |
+| 1 | **Sup’Bio Dance** | EPITA, Epitech, Sup'Biotech |
 | 2 | **Les Enfoiros de l'INSA** | INSA Toulouse |
 | 3 | **Hum’Am** | Arts et Métiers ParisTech |
-| 4 | **La Course Croisière EDHEC** | EDHEC |
-| 5 | **Le Chti Grand Lille** | EDHEC |
+| 4 | **La Course Croisière EDHEC** | EDHEC Business School |
+| 5 | **Le Chti Grand Lille** | EDHEC Business School |
 | 6 | **Unis-Terre** | Kedge Business School |
 | 7 | **Le Viking** | Neoma Business School |
 | 8 | **Le Petit Tou** | TBS Education |
