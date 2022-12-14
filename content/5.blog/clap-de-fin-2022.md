@@ -12,8 +12,6 @@ layout: article
 
 Depuis maintenant plusieurs mois, les associations sont challengées par le Classement des Associations pour trouver et élire la meilleure association étudiante de France. Le 2 décembre 2022 à l'Opéra Bastille, a eu lieu la cérémonie finale. En son sein, la dernière épreuve du concours avec les pitch devant un jury de professionnels, la remise des prix, le cocktail dînatoire et le tant attendu gala !
 
-dernière épreuve pour les associations, celle des pitch devant un jury !
-
 ## La cérémonie finale
 
 C’est donc au cœur de l’[Opéra Bastille](https://www.operadeparis.fr/), dans son amphithéâtre, que la cérémonie finale de l’édition 2022 du Classement des Associations a eu lieu.
@@ -120,7 +118,7 @@ Vous pouvez aussi retrouver le [palmarès des années précédentes](https://le-
 
 ## Le cocktail dinatoire
 
-L’annonce de l’association victorieuse a laissé place au cocktail dinatoire pour permettre à l’ensemble des associations, des membres du jury et des partenaires d’échanger et de discuter.
+L’annonce de l’association victorieuse a laissé place au cocktail dînatoire pour permettre à l’ensemble des associations, des membres du jury et des partenaires d’échanger et de discuter.
 
 ::carousel
 ---
@@ -135,14 +133,14 @@ images:
     alt: Photo du cocktail dinatoire
 ---
 #description
-Carousel d'images du cocktail dinatoire
+Carousel d'images du cocktail dînatoire
 ::
 
 Durant plus d’une heure, avec un cocktail d’exception et une flûte de champagne, chacun a pu découvrir les projets des uns et des autres, échanger sur leurs expériences et se raconter des histoires. Chacun a pu discuter avec nos partenaires ou les différents membres du jury.
 
 ## Le gala
 
-Enfin, et pour terminer en beauté cette édition 2022, célébrer la victoire de Sup’Bio Dance et surtout pour fêter la beauté de la vie associative étudiante, un gala a eu lieu sur La Péniche de Paris face à Notre Dame de Paris.
+Enfin, pour terminer en beauté cette édition 2022, célébrer la victoire de Sup’Bio Dance et surtout pour fêter la beauté de la vie associative étudiante, un gala a eu lieu sur La Péniche de Paris face à Notre Dame de Paris.
 
 ![Photo du gala](/images/blog/clap-de-fin-2022/gala.webp)
 
@@ -150,7 +148,7 @@ Enfin, et pour terminer en beauté cette édition 2022, célébrer la victoire d
 
 ## À l’année prochaine
 
-Nous espérons que cette édition 2022 du Classement des Associations aura plu à chacun de ses participants ! On se retrouve fin janvier pour le lancement de l’édition 2023 et beaucoup de nouveautés ! En attendant, rendez-vous sur nos différents réseaux pour ne rien manquer !
+Nous espérons que cette édition 2022 du Classement des Associations aura plu à chacun de ses participants ! On se retrouve fin janvier pour le lancement de l’édition 2023 avec beaucoup de nouveautés ! En attendant, rendez-vous sur nos différents réseaux pour ne rien manquer !
 
 ::socials
 ::
