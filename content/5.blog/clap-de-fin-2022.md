@@ -31,17 +31,17 @@ id: associations
 path: /images/blog/clap-de-fin-2022/associations/
 images:
   - src: 1-ovalies.webp
-    alt: Photo du pitch de l'association Ovalies sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association Les Ovalies sur scène avec sa présentation dans le fond
   - src: 2-espr.webp
     alt: Photo du pitch de l'association Esp'r sur scène avec sa présentation dans le fond
   - src: 3-chti.webp
-    alt: Photo du pitch de l'association Le Chti sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association Le Chti Grand Lille sur scène avec sa présentation dans le fond
   - src: 4-supbiodance.webp
     alt: Photo du pitch de l'association Sup'Bio Dance sur scène avec sa présentation dans le fond
   - src: 5-humam.webp
     alt: Photo du pitch de l'association Hum'am sur scène avec sa présentation dans le fond
   - src: 6-enfoiros.webp
-    alt: Photo du pitch de l'association Les Enfoiros de l'INSA Toulouse sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association Les Enfoiros de l'INSA sur scène avec sa présentation dans le fond
   - src: 7-petittou.webp
     alt: Photo du pitch de l'association Le Petit Tou sur scène avec sa présentation dans le fond
   - src: 8-audencia.webp
@@ -49,19 +49,19 @@ images:
   - src: 9-declic.webp
     alt: Photo du pitch de l'association Déclic Entreprendre sur scène avec sa présentation dans le fond
   - src: 10-tat.webp
-    alt: Photo du pitch de l'association Tutorat Associatif Toulousain sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association Le Tutorat Associatif Toulousain sur scène avec sa présentation dans le fond
   - src: 11-vertmines.webp
     alt: Photo du pitch de l'association Cercle des élèves des Mines d'Alès sur scène avec sa présentation dans le fond
   - src: 12-nuitinstitut.webp
-    alt: Photo du pitch de l'association Nuit de l'Institut sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association La Nuit de l'Institut sur scène avec sa présentation dans le fond
   - src: 13-unisterre.webp
-    alt: Photo du pitch de l'association Unis Terre sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association Unis-Terre sur scène avec sa présentation dans le fond
   - src: 14-viking.webp
     alt: Photo du pitch de l'association Le Viking sur scène avec sa présentation dans le fond
   - src: 15-agrovelocity.webp
-    alt: Photo du pitch de l'association Agrovelocity sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association AgroVéloCity sur scène avec sa présentation dans le fond
   - src: 16-cce.webp
-    alt: Photo du pitch de l'association Course Croisière EDHEC sur scène avec sa présentation dans le fond
+    alt: Photo du pitch de l'association La Course Croisière EDHEC sur scène avec sa présentation dans le fond
 ---
 Carousel d'images des associations passant sur scène
 ::
@@ -85,9 +85,9 @@ C’est donc après un rendu écrit, un rendu vidéo, une plateforme de vote et 
 | # | Association |
 | --- | --- |
 | 1 | Sup’Bio Dance |
-| 2 | Les Enfoiros |
+| 2 | Les Enfoiros de l'INSA |
 | 3 | Hum’Am |
-| 4 | Course Croisière EDHEC |
+| 4 | La Course Croisière EDHEC |
 | 5 | Le Chti Grand Lille |
 | 6 | Unis-Terre |
 | 7 | Le Viking |
@@ -96,14 +96,14 @@ C’est donc après un rendu écrit, un rendu vidéo, une plateforme de vote et 
 | 10 | Déclic Entreprendre |
 | 11 | Audencia Junior Conseil |
 | 12 | Esp’R |
-| 13 | Tutorat Associatif Toulousain |
-| 14 | Cercle des Élèves des Mines d’Alès |
-| 15 | Ovalies |
-| 16 | Nuit de l’Institut |
+| 13 | Le Tutorat Associatif Toulousain |
+| 14 | Le Cercle des Élèves des Mines d’Alès |
+| 15 | Les Ovalies |
+| 16 | La Nuit de l’Institut |
 
 Vous pouvez aussi retrouver le [palmarès des années précédentes](https://le-classement.fr/le-palmares).
 
-## Cocktail dinatoire
+## Le cocktail dinatoire
 
 L’annonce de l’association victorieuse a laissé place au cocktail dinatoire pour permettre à l’ensemble des associations, des membres du jury et des partenaires d’échanger et de discuter.
 
@@ -124,7 +124,7 @@ Carousel d'images du cocktail dinatoire
 
 Durant plus d’une heure, avec un cocktail d’exception et une flûte de champagne, chacun a pu découvrir les projets des uns et des autres, échanger sur leurs expériences et se raconter des histoires.
 
-## Gala
+## Le gala
 
 Enfin, et pour terminer en beauté cette édition 2022, célébrer la victoire de Sup’Bio Dance et surtout pour fêter la beauté de la vie associative étudiante, un gala a eu lieu sur La Péniche de Paris face à Notre Dame de Paris.
 
@@ -144,5 +144,6 @@ Nous remercions une dernière fois nos partenaires :
 - [Le Groupe La Poste](https://www.lapostegroupe.com/)
 - [Vibly](https://vibly.fr/)
 - [Le Monde des Grandes Écoles](https://www.mondedesgrandesecoles.fr/)
+- [Teewii](https://www.teewii.fr/)
 
 Et [Aneo](https://www.aneo.eu/) qui permet chaque année au Classement d’exister !
