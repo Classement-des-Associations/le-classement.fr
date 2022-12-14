@@ -85,6 +85,12 @@ Pour l'année 2022, c'est l'association Sup'Bio Dance qui remporte le titre de m
 
 ![Photo de l'association Sup'Bio Dance sur scène](/images/blog/clap-de-fin-2022/gagnant.webp)
 
+Quelques mots de Marion, co-présidente de l'association, et Yanne, vice-présidente :
+
+> C’est l’une des premières compétitions qu’on a pu réalisé au sein de l’association. On est une petite asso qui fait petit à petit sa place et c’est le fruit de tout le travail qu’on a pu réaliser jusque là. On est fier de nous et très surpris [de notre victoire]. 
+>
+> On a pleins de choses à montrer d’autres projets encore plus fous et potentiellement avoir d’autres partenaires afin de réaliser de plus grandes ambitions.
+
 ## Le top 16
 
 Cette année, un unique classement pour l’ensemble des associations participantes mais des critères qui permettent à toutes les associations d’avoir une chance de remporter le titre de meilleure association étudiante. En effet, l'ensemble des associations ont été notées sur leurs rendus écrits et leurs rendus vidéos. Ce premier classement nous a permis de déterminer les 16 associations qui ont été sélectionnées pour pitcher à la finale du Classement des Associations.
