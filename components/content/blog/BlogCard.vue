@@ -7,12 +7,12 @@ const gradient = useGradient(article.type)
 </script>
 
 <template>
-  <article class="relative bg-white rounded-xl before:rounded-xl p-5 gradient-border"
+  <article class="relative bg-white group rounded-xl before:rounded-xl p-5 gradient-border"
     :class="`gradient-border-${article.type}`">
     <NuxtLink :to="article._path" class="relative z-10 flex flex-col gap-4">
-      <div class="aspect-w-16 aspect-h-9">
-        <img class="h-full w-full object-cover rounded" v-if="article.image.src" :src="article.image.src"
-          :alt="article.image.alt">
+      <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
+        <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
+          v-if="article.image.src" :src="article.image.src" :alt="article.image.alt" loading="lazy">
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">{{

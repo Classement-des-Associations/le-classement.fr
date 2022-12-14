@@ -32,19 +32,9 @@ export default defineNuxtConfig({
           content: "https://le-classement.fr/preview.png",
         },
         {
-          hid: "og:image:secure_url",
-          property: "og:image:secure_url",
-          content: "https://le-classement.fr/preview.png",
-        },
-        {
           hid: "og:image:alt",
           property: "og:image:alt",
           content: "Image d'illustration pour le classement",
-        },
-        {
-          hid: "twitter:image",
-          name: "twitter:image",
-          content: "https://le-classement.fr/preview.png",
         },
       ],
       link: [

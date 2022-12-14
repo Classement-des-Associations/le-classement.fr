@@ -1,12 +1,8 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { vIntersectionObserver } from '@vueuse/components'
 
-defineProps<{
-  partners: {
-    src: string,
-    alt: string
-  }[]
-}>()
+
+defineProps<{ id: string, path: string, images: { src: string, alt: string }[] }>()
 
 const slider = ref()
 const slides = ref([])
@@ -21,7 +17,7 @@ const atEnd = ref(false)
  * 
  * @param strategy Function to tell how to move slide
  */
-const to = function (strategy) {
+const to = function (strategy: (current: number, offset: number) => number) {
   const current = slider.value.scrollLeft
   const offset = slider.value.firstElementChild.getBoundingClientRect().width
   slider.value.scrollTo({ left: strategy(current, offset), behavior: 'smooth' })
@@ -44,7 +40,7 @@ const prev = function () {
 /**
  * Used to track slide 
  */
-const onIntersectionObserver = function (state) {
+const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
   const el = state[0]
   if (el.isIntersecting) {
     el.target.setAttribute('tabindex', '0')
@@ -69,29 +65,35 @@ const onIntersectionObserver = function (state) {
 </script>
 
 <template>
-  <section tabindex="0" aria-labelledby="carousel-label" class="flex flex-row" @keydown.left="prev"
+  <div tabindex="0" :aria-labelledby="id" class="not-prose flex flex-row gap-2" @keydown.left="prev"
     @keydown.right="next">
-
-    <span id="carousel-label" class="sr-only">Carousel de nos partenaires</span>
+    <span :id="id" class="sr-only">
+      <ContentSlot :use="$slots.description" unwrap="p" />
+    </span>
 
     <button @click="prev" :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
       :aria-disabled="atBeginning">
-      <AtomsIconsArrowLeft class="w-6 h-6 md:w-20 md:h-20" />
+      <Icon name="heroicons:chevron-left" class="w-6 h-6 md:w-10 md:h-10" />
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
-    <ul tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
-      <li class="snap-start px-9" v-for="partner in partners" :key="partner.src" ref="slides"
-        v-intersection-observer="[onIntersectionObserver, { root: slider }]">
-        <img loading="lazy" :src="partner.src" class="max-w-none w-40 h-40 object-cover" :alt="partner.alt">
-      </li>
+    <ul tabindex="0" class="w-full flex overflow-x-scroll snap-x snap-mandatory no-scrollbar list-none gap-4"
+      ref="slider">
+      <template v-for="image in images" :key="image.alt">
+        <li class="snap-start shrink-0 w-full flex flex-col gap-1" ref="slides"
+          v-intersection-observer="[onIntersectionObserver, { root: slider }]">
+          <img :src="`${path}${image.src}`" :alt="image.alt" class="object-cover rounded-lg" loading="lazy">
+          <p class="italic text-center text-sm text-zinc-400">
+            {{ image.alt }}
+          </p>
+        </li>
+      </template>
     </ul>
 
     <button @click="next" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
-      :aria-disabled="atEnd" class="md:ml-16">
-      <AtomsIconsArrowLeft class="w-6 h-6 md:w-20 md:h-20 transform rotate-180" />
+      :aria-disabled="atEnd">
+      <Icon name="heroicons:chevron-right" class="w-6 h-6 md:w-10 md:h-10" />
       <span class="sr-only">Passer à l'item suivant</span>
     </button>
-
-  </section>
+  </div>
 </template>
