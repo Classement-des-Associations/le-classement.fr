@@ -18,7 +18,7 @@ C’est donc au cœur de l’[Opéra Bastille](https://www.operadeparis.fr/), da
 
 ![Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille](/images/blog/clap-de-fin-2022/salle.webp)
 
-L’objectif de l’après-midi était simple. Les 16 finalistes venus pitcher devait convaincre, du mieux qu'ils le peuvent, le jury de professionnels pour gagner le plus de points pour tenter de décrocher le titre de la meilleure association étudiante de France.
+L’objectif de l’après-midi était simple. Les 16 finalistes venus pitcher devaient convaincre, du mieux qu'ils le peuvent, le jury de professionnels pour gagner le plus de points pour tenter de décrocher le titre de la meilleure association étudiante de France.
 
 Cette année, la thématique imposée était la suivante :
 
