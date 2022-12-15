@@ -10,7 +10,7 @@ dateModified: 2022-12-14
 layout: article
 ---
 
-Depuis maintenant plusieurs mois, les associations sont challengées par le Classement des Associations pour trouver et élire la meilleure association étudiante de France. Le 2 décembre 2022 à l'Opéra Bastille, a eu lieu la cérémonie finale. En son sein, la dernière épreuve du concours avec les pitch devant un jury de professionnels, la remise des prix, le cocktail dînatoire et le tant attendu gala !
+Depuis maintenant plusieurs mois, les associations sont challengées par le Classement des Associations pour trouver et élire la meilleure association étudiante de France. Le 2 décembre 2022 à l'Opéra Bastille, a eu lieu la cérémonie finale. En son sein, la dernière épreuve du concours avec les pitchs devant un jury de professionnels, la remise des prix, le cocktail dînatoire et le tant attendu gala !
 
 ## La cérémonie finale
 
@@ -20,12 +20,12 @@ C’est donc au cœur de l’[Opéra Bastille](https://www.operadeparis.fr/), da
 
 L’objectif de l’après-midi était simple. Les 16 finalistes venus pitcher devait convaincre, du mieux qu'ils le peuvent, le jury de professionnels pour gagner le plus de points pour tenter de décrocher le titre de la meilleure association étudiante de France.
 
-Cette année, La thématique imposée était la suivante était la suivante :
+Cette année, La thématique imposée était la suivante :
 
 > Face à un nouvel élève durant le forum des associations, vous devez l’amener à intégrer votre association.
 > 
 
-Ainsi, les une après les autres et sous l’œil attentif du public et du jury, les associations sont passées sur scène. Chacune avec son style, sa vision mais avec la même envie de montrer ce qu'elle mérite le titre.
+Ainsi, les unes après les autres et sous l’œil attentif du public et du jury, les associations sont passées sur scène. Chacune avec son style, sa vision mais avec la même envie de montrer ce qu'elle mérite le titre.
 
 ::carousel
 ---
@@ -73,7 +73,7 @@ Une fois l'ensemble des associations passées, il est l’heure pour le jury de 
 
 ![Photo du jury en train de réfléchir](/images/blog/clap-de-fin-2022/jury.webp)
 
-Pendant ce temps, les partenaires du Classement des Associations ont pu se présenter sur notre scène, exposer leurs motivations ce qu’ils aiment tant dans la vie associative étudiante. Ils ont pu présenter ce mettent à disposition des associations étudiantes et surtout ce qu’ils mettent à disposition des étudiants et des jeunes diplômés.
+Pendant ce temps, les partenaires du Classement des Associations ont pu se présenter sur notre scène, exposer leurs motivations ce qu’ils aiment tant dans la vie associative étudiante. Ils ont pu présenter se mettent à disposition des associations étudiantes et surtout ce qu’ils mettent à disposition des étudiants et des jeunes diplômés.
 
 Puis, après cette longue délibération, le jury est revenu sur scène pour transmettre l’ordre de ce top 16 aux présentateurs. Ainsi, après toutes ces épreuves, ces heures de travails pour les associations et de longues minutes, le temps était venu d'annoncer le classement.
 
@@ -85,9 +85,9 @@ Pour l'année 2022, c'est l'association Sup'Bio Dance qui remporte le titre de m
 
 Quelques mots de Marion, présidente de l'association, et Yanne, futur président :
 
-> C’est l’une des premières compétitions qu’on a pu réalisé au sein de l’association. On est une petite asso qui fait petit à petit sa place et c’est le fruit de tout le travail qu’on a pu réaliser jusque là. On est fier de nous et très surpris [de notre victoire]. 
+> C’est l’une des premières compétitions qu’on a pu réaliser au sein de l’association. On est une petite asso qui fait petit à petit sa place et c’est le fruit de tout le travail qu’on a pu réaliser jusque-là. On est fier de nous et très surpris de notre victoire. 
 >
-> On a pleins de choses à montrer d’autres projets encore plus fous et potentiellement avoir d’autres partenaires afin de réaliser de plus grandes ambitions.
+> On a plein de choses à montrer d’autres projets encore plus fous et potentiellement avoir d’autres partenaires afin de réaliser de plus grandes ambitions.
 
 ## Le top 16
 
@@ -171,7 +171,7 @@ Les différents membres du jury :
 
 [Aneo](https://www.aneo.eu/) qui permet chaque année au Classement d’exister !
 
-Et l'ensemble des association qui ont participé à cette édition 2022 !
+Et l'ensemble des associations qui ont participé à cette édition 2022 !
 
 ::carousel
 ---
