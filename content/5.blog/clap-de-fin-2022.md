@@ -20,7 +20,7 @@ C’est donc au cœur de l’[Opéra Bastille](https://www.operadeparis.fr/), da
 
 L’objectif de l’après-midi était simple. Les 16 finalistes venus pitcher devait convaincre, du mieux qu'ils le peuvent, le jury de professionnels pour gagner le plus de points pour tenter de décrocher le titre de la meilleure association étudiante de France.
 
-Cette année, La thématique imposée était la suivante :
+Cette année, la thématique imposée était la suivante :
 
 > Face à un nouvel élève durant le forum des associations, vous devez l’amener à intégrer votre association.
 > 
