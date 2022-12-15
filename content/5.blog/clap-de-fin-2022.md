@@ -73,7 +73,7 @@ Une fois l'ensemble des associations passées, il est l’heure pour le jury de 
 
 ![Photo du jury en train de réfléchir](/images/blog/clap-de-fin-2022/jury.webp)
 
-Pendant ce temps, les partenaires du Classement des Associations ont pu se présenter sur notre scène, exposer leurs motivations ce qu’ils aiment tant dans la vie associative étudiante. Ils ont pu présenter se mettent à disposition des associations étudiantes et surtout ce qu’ils mettent à disposition des étudiants et des jeunes diplômés.
+Pendant ce temps, les partenaires du Classement des Associations ont pu se présenter sur notre scène, exposer leurs motivations ce qu’ils aiment tant dans la vie associative étudiante.
 
 Puis, après cette longue délibération, le jury est revenu sur scène pour transmettre l’ordre de ce top 16 aux présentateurs. Ainsi, après toutes ces épreuves, ces heures de travails pour les associations et de longues minutes, le temps était venu d'annoncer le classement.
 
