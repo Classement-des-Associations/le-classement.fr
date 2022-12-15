@@ -83,7 +83,7 @@ Pour l'année 2022, c'est l'association Sup'Bio Dance qui remporte le titre de m
 
 ![Photo de l'association Sup'Bio Dance sur scène](/images/blog/clap-de-fin-2022/gagnant.webp)
 
-Quelques mots de Marion, présidente de l'association, et Yanne, vice-président :
+Quelques mots de Marion, présidente de l'association, et Yanne, futur président :
 
 > C’est l’une des premières compétitions qu’on a pu réalisé au sein de l’association. On est une petite asso qui fait petit à petit sa place et c’est le fruit de tout le travail qu’on a pu réaliser jusque là. On est fier de nous et très surpris [de notre victoire]. 
 >
