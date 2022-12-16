@@ -43,24 +43,6 @@
 
 @font-face {
   font-family: "Montserrat";
-  font-weight: 300;
+  font-weight: 100 900;
   src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 400;
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-  font-weight: 800;
 }

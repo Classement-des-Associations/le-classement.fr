@@ -9,7 +9,7 @@ description: Tous les liens importants du Classement des Associations.
 ---
 
 ::links-list
-Liste des liens
+Notre liste de liens
 
 #sections
   ::links-list-section
@@ -52,10 +52,34 @@ Liste des liens
     text: Tour Asso
     ---
     ::
+
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/plaquettes/2023/le-classement_discovery.pdf
+    icon: material-symbols:rocket-launch
+    text: Classement Discovery
+    ---
+    ::
+
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/plaquettes/2023/le-classement_plateforme-vote.pdf
+    icon: material-symbols:how-to-vote
+    text: Plateforme de vote
+    ---
+    ::
+
+    ::links-list-item
+    ---
+    to: https://le-classement.fr/plaquettes/2023/le-classement_ceremonie-finale.pdf
+    icon: lucide:party-popper
+    text: Cérémonie finale
+    ---
+    ::
   ::
 
   ::links-list-section
-  Réseaux sociaux
+  Nos réseaux sociaux
 
   #items
     ::links-list-item
