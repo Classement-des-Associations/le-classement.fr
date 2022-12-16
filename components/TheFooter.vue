@@ -37,10 +37,8 @@ const { navigation } = useContent()
       <div class="flex flex-col items-center gap-4">
         <div class="h-[1px] w-full max-w-[256px] rounded-full bg-white"></div>
         <p class="flex flex-col md:flex-row items-center gap-2 md:gap-0 text-white text-sm font-light"><span>Le
-            Classement des Associations - 2022</span><span class="hidden md:inline">&nbsp;-&nbsp;</span><span>Par
-            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Aneo</NuxtLink>, le <NuxtLink
-              to="https://bnei.fr" rel="noopener" target="_blank">BNEI</NuxtLink> et le <NuxtLink to="https://bnem.fr"
-              rel="noopener" target="_blank">BNEM</NuxtLink>
+            Classement des Associations - 2022</span><span class="hidden md:inline">&nbsp;-&nbsp;</span><span>
+            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Aneo</NuxtLink>
           </span></p>
       </div>
     </div>
