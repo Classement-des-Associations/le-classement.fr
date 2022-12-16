@@ -9,7 +9,7 @@ description: Tous les liens importants du Classement des Associations.
 ---
 
 ::links-list
-Liste des liens
+Notre liste de liens
 
 #sections
   ::links-list-section
@@ -79,7 +79,7 @@ Liste des liens
   ::
 
   ::links-list-section
-  Réseaux sociaux
+  Nos réseaux sociaux
 
   #items
     ::links-list-item
