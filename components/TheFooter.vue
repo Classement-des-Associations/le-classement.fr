@@ -38,7 +38,7 @@ const { navigation } = useContent()
         <div class="h-[1px] w-full max-w-[256px] rounded-full bg-white"></div>
         <p class="flex flex-col md:flex-row items-center gap-2 md:gap-0 text-white text-sm font-light"><span>Le
             Classement des Associations - 2022</span><span class="hidden md:inline">&nbsp;-&nbsp;</span><span>
-            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Aneo</NuxtLink>
+            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Par Aneo</NuxtLink>
           </span></p>
       </div>
     </div>
