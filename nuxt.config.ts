@@ -46,8 +46,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      emailTo: process.env.EMAIL_TO,
-      phoneTo: process.env.PHONE_TO,
       microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
     },
   },
