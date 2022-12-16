@@ -1,34 +1,34 @@
-<script setup>
-const formContact = ref()
-const emit = defineEmits(['message'])
+<script lang="ts" setup>
+const message = ref<string | null>(null)
 
-const handleSubmit = (e) => {
+const handleSubmit = (e: Event) => {
   e.preventDefault();
-  const formData = new FormData(formContact.value);
+  const form = e.target as HTMLFormElement;
+  const formData = new FormData(form);
+
   // Unhandle route from SSR (because of Nuxt3 and it's serverless mode)
   fetch("/contactform", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
+    body: new URLSearchParams(formData as any).toString(),
   })
     .then((res) =>
-      emit(
-        'message',
-        res.ok ? 'Merci pour votre message !' : 'Une erreur est survenue !'
-      )
+      message.value = res.ok ? "Merci pour votre message !" : "Une erreur est survenue !"
     )
-    .catch(() => emit('message', 'Une erreur est survenue !'))
+    .catch(() => message.value = "Une erreur est survenue !")
 };
 </script>
 
 
 <template>
   <div>
-    <h2 class="text-2xl md:text-3xl font-bold">
+    <h2 class="mb-8 text-2xl md:text-3xl font-bold">
       <ContentSlot :use="$slots.title" unwrap="p"></ContentSlot>
     </h2>
-    <form class="mt-8" name="contact" data-netlify="true" netlify-honeypot="bot-field" @submit.prevent="handleSubmit"
-      ref="formContact">
+    <p v-if="message">
+      {{ message }}
+    </p>
+    <form v-else name="contact" data-netlify="true" netlify-honeypot="bot-field" @submit.prevent="handleSubmit">
       <p class="hidden">
         <label>Don't fill this out if you're human: <input name="bot-field" /></label>
       </p>
