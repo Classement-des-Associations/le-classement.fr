@@ -47,6 +47,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
+      indexable: true,
     },
   },
   modules: [
@@ -56,7 +57,11 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "nuxt-schema-org",
     "@nuxtjs/fontaine",
+    "nuxt-simple-robots",
   ],
+  robots: {
+    sitemap: "https://le-classement.fr/sitemap.xml",
+  },
   content: {
     documentDriven: true,
     defaultLocale: "fr",

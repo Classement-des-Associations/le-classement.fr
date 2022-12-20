@@ -27,6 +27,8 @@ useHead({
   },
 })
 
+defineRobotMeta()
+
 useSchemaOrg([
   defineOrganization({
     name: 'Le Classement des Associations',
