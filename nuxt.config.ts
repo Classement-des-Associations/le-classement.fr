@@ -56,7 +56,11 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "nuxt-schema-org",
     "@nuxtjs/fontaine",
+    "nuxt-simple-robots",
   ],
+  robots: {
+    sitemap: "https://le-classement.fr/sitemap.xml",
+  },
   content: {
     documentDriven: true,
     defaultLocale: "fr",
