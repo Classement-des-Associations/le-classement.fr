@@ -47,6 +47,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
+      indexable: true,
     },
   },
   modules: [
