@@ -69,6 +69,12 @@ export default defineNuxtConfig({
       fields: ["for"],
     },
   },
+  nitro: {
+    prerender: {
+      routes: ["/", "/design-kit", "/le-pense-bete", "/sitemap.xml"],
+      crawlLinks: true,
+    },
+  },
   routeRules: {
     // "/**/": { static: true },
   },
