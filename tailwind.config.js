@@ -37,9 +37,6 @@ module.exports = {
       boxShadow: {
         default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
       },
-      fontFamily: {
-        montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
-      },
     },
   },
   corePlugins: {
