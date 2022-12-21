@@ -1,4 +1,5 @@
 const plugin = require("tailwindcss/plugin");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -37,7 +38,7 @@ module.exports = {
         default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
       },
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
+        montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
     },
   },
