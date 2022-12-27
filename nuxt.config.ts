@@ -58,9 +58,13 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxtjs/fontaine",
     "nuxt-simple-robots",
+    "nuxt-simple-sitemap",
   ],
   robots: {
     sitemap: "https://le-classement.fr/sitemap.xml",
+  },
+  sitemap: {
+    hostname: "https://le-classement.fr",
   },
   content: {
     documentDriven: true,
@@ -71,7 +75,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ["/", "/design-kit", "/le-pense-bete", "/sitemap.xml"],
+      routes: ["/", "/design-kit", "/le-pense-bete"],
       crawlLinks: true,
     },
   },
