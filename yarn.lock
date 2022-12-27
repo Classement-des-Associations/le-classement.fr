@@ -1433,17 +1433,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/nesting@npm:^0.0.0-insiders.565cd3e":
-  version: 0.0.0-insiders.565cd3e
-  resolution: "@tailwindcss/nesting@npm:0.0.0-insiders.565cd3e"
-  dependencies:
-    postcss-nested: ^5.0.5
-  peerDependencies:
-    postcss: ^8.2.15
-  checksum: f8afe9e03947929f1344c47c079c2c12e44f509d142fb5c737b92b4e407120e0272a8bd13b3903a582d75cf6ee6d3d806e9e53c6aba90f5a30847666e72582e7
-  languageName: node
-  linkType: hard
-
 "@tailwindcss/typography@npm:^0.5.8":
   version: 0.5.8
   resolution: "@tailwindcss/typography@npm:0.5.8"
@@ -8651,17 +8640,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-nested@npm:^5.0.5":
-  version: 5.0.6
-  resolution: "postcss-nested@npm:5.0.6"
-  dependencies:
-    postcss-selector-parser: ^6.0.6
-  peerDependencies:
-    postcss: ^8.2.14
-  checksum: dbcbfd11e514f485ac0d2b649b32bcbd855665a88a76f697f8be6c5017aa0260954ecccd2475bbd5865a5d248eae9a4e6e10d2d51927621d05430381aa37e43b
-  languageName: node
-  linkType: hard
-
 "postcss-nesting@npm:^10.2.0":
   version: 10.2.0
   resolution: "postcss-nesting@npm:10.2.0"
@@ -8818,7 +8796,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.10, postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5, postcss-selector-parser@npm:^6.0.6, postcss-selector-parser@npm:^6.0.9":
+"postcss-selector-parser@npm:^6.0.10, postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5, postcss-selector-parser@npm:^6.0.9":
   version: 6.0.11
   resolution: "postcss-selector-parser@npm:6.0.11"
   dependencies:
@@ -9493,7 +9471,6 @@ __metadata:
     "@nuxtjs/fontaine": ^0.2.3
     "@nuxtjs/tailwindcss": ^6.2.0
     "@tailwindcss/aspect-ratio": ^0.4.2
-    "@tailwindcss/nesting": ^0.0.0-insiders.565cd3e
     "@tailwindcss/typography": ^0.5.8
     "@unlighthouse/nuxt": ^0.4.7
     "@vueuse/components": ^9.9.0
