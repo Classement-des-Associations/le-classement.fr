@@ -1,1 +1,5 @@
-export type Gradient = "association" | "vote" | "classement" | "partenaire";
+export type Gradient =
+  | "association"
+  | "discovery"
+  | "classement"
+  | "partenaire";

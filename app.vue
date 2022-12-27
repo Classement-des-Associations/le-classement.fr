@@ -13,10 +13,6 @@ const htmlClass = computed(() => {
 useHead({
   title: 'Le Classement des Associations',
   titleTemplate: (title) => {
-    if (title === 'Le Classement des Associations') {
-      return title
-    }
-
     return `${title} - Le Classement des Associations`
   },
   htmlAttrs: {
