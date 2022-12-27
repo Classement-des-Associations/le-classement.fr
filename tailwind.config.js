@@ -1,5 +1,4 @@
-const plugin = require("tailwindcss/plugin");
-const defaultTheme = require("tailwindcss/defaultTheme");
+// const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   content: [
@@ -43,10 +42,10 @@ module.exports = {
     aspectRatio: true,
   },
   plugins: [
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/typography"),
-    plugin(function ({ addVariant }) {
-      addVariant("blog", ".blog &");
-    }),
+    // require("@tailwindcss/aspect-ratio"),
+    // require("@tailwindcss/typography"),
+    // plugin(function ({ addVariant }) {
+    //   addVariant("blog", ".blog &");
+    // }),
   ],
 };

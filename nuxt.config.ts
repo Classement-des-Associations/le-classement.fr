@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  experimental: {
+    componentIslands: true,
+  },
+
   extends: ["nuxt-seo-kit"],
   modules: [
     "@vueuse/nuxt",

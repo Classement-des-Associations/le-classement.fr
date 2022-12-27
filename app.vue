@@ -19,6 +19,7 @@ const htmlClass = computed(() => {
       <SeoKit />
       <SchemaOrgOrganization name="Le Classement des Associations" logo="/logo.png"
         :sameAs="['https://www.linkedin.com/company/classement-des-associations/', 'https://www.instagram.com/classementdesassociations/', 'https://twitter.com/Leclassement']" />
+      <OgImageScreenshot />
     </Head>
 
     <Body class="bg-white blog:bg-primary-variation-2">
