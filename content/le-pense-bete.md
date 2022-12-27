@@ -3,6 +3,7 @@ sitemap:
 navigation: false
 title: Le Pense Bête
 description: Tous les liens importants du Classement des Associations.
+image: https://le-classement.fr/preview.png
 ---
 
 ::links-list
