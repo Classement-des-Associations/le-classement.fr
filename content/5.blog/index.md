@@ -1,9 +1,5 @@
 ---
 for: header
-sitemap:
-  priority: 1
-  changefreq: weekly
-  lastmod:
 title: Le Blog
 description: Entrevoir la vie associative avec nos histoires, des témoignages, des associations et nos partenaires !
 ---
