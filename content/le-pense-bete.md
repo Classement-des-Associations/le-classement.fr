@@ -1,8 +1,5 @@
 ---
 sitemap:
-  priority: 1
-  changefreq: weekly
-  lastmod: 2022-12-10
 navigation: false
 title: Le Pense Bête
 description: Tous les liens importants du Classement des Associations.
