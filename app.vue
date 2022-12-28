@@ -10,43 +10,25 @@ const htmlClass = computed(() => {
   return ''
 })
 
-useHead({
-  title: 'Le Classement des Associations',
-  titleTemplate: (title) => {
-    return `${title} - Le Classement des Associations`
-  },
-  htmlAttrs: {
-    class: htmlClass,
-  },
-  bodyAttrs: {
-    class: 'bg-white blog:bg-primary-variation-2',
-  },
-})
-
-defineRobotMeta()
-
-useSchemaOrg([
-  defineOrganization({
-    name: 'Le Classement des Associations',
-    logo: '/logo.png',
-    sameAs: [
-      'https://www.linkedin.com/company/classement-des-associations/',
-      'https://www.instagram.com/classementdesassociations/',
-      'https://twitter.com/Leclassement',
-    ],
-  }),
-  defineWebSite({
-    name: 'Le Classement des Associations'
-  }),
-  defineWebPage(),
-])
 </script>
 
 <template>
-  <div>
-    <TheHeader />
-    <NuxtPage />
-    <TheFooter />
-  </div>
+  <Html dir="ltr" :class="htmlClass">
+
+    <Head>
+      <SeoKit />
+      <SchemaOrgOrganization name="Le Classement des Associations" logo="/logo.png"
+        :sameAs="['https://www.linkedin.com/company/classement-des-associations/', 'https://www.instagram.com/classementdesassociations/', 'https://twitter.com/Leclassement']" />
+    </Head>
+
+    <Body class="bg-white blog:bg-primary-variation-2">
+      <TheHeader />
+      <main>
+        <NuxtPage />
+      </main>
+      <TheFooter />
+    </Body>
+
+  </Html>
 </template>
 
