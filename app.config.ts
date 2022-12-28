@@ -4,6 +4,15 @@ export default defineAppConfig({
     to: "",
     text: "",
   },
+  nuxtIcon: {
+    aliases: {
+      classement: "fluent-emoji:sparkles",
+      "tour-asso": "fluent-emoji:telescope",
+      concours: "fluent-emoji:trophy",
+      discovery: "fluent-emoji:rocket",
+      "ceremonie-finale": "fluent-emoji:party-popper",
+    },
+  },
   socials: [
     {
       name: "Instagram",
