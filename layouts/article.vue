@@ -50,5 +50,6 @@ const proseClass = function (type: Gradient = 'classement') {
         <slot />
       </div>
     </article>
+    <BlogRelatedArticlesList />
   </div>
 </template>

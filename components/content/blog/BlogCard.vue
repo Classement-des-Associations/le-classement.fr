@@ -12,12 +12,12 @@ const gradient = useGradient(article.type)
     <NuxtLink :to="article._path" class="relative z-10 flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
-          v-if="article.image.src" :src="article.image.src" :alt="article.image.alt" loading="lazy">
+          v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy">
       </div>
       <div>
-        <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">{{
-            article.type
-        }}</span>
+        <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">
+          {{ article.type }}
+        </span>
       </div>
       <div class="flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">{{ article.title }}</h3>
