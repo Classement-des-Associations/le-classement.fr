@@ -5,8 +5,8 @@ defineProps<{
 </script>
 
 <template>
-  <div class="border rounded-lg p-4 text-black" :class="{
-  'border-blue-300 bg-blue-50': type === 'info',
+  <div class="border rounded-lg p-4" :class="{
+  'border-sky-300 bg-sky-50 text-sky-600': type === 'info',
 }">
     <ContentSlot :use="$slots.default"></ContentSlot>
   </div>

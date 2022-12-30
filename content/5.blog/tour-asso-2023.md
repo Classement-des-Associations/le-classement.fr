@@ -14,9 +14,19 @@ L'équipe du Classement est heureuse de vous présenter l'une des grandes nouvea
 
 ## La présentation du Tour Asso 2023
 
+Au Classement des Associations, nous sommes persuadés de trois choses :
+
+- Les associations étudiantes sont des acteurs essentiels de la vie étudiante et de la vie associative de l'ensemble des établissements d'enseignement supérieur ;
+- Les associations ne sont pas assez connues et reconnues par les étudiants, les écoles et les entreprises ;
+- L'engagement des étudiants est une force pour celui qui s'engage.
+
+C'est avec ces trois idées en tête que nous avons imaginé le Tour Asso.
+
+Ainsi, le Tour Asso consiste à partir à la rencontre des associations étudiantes, des étudiants qui les composent et à la découverte de leurs projets et de leurs actions. L'objectif ? Les faire découvrir et rayonner auprès de l'ensemble de la communauté étudiante, des écoles et des entreprises grâce à des articles, des publications et des vidéos.
+
 
 ::alert{type="info"}
-Encore des questions, n'hésitez pas à prendre connaissance de notre [FAQ](/faq) ou à nous contacter via [notre formulaire](/nous-contacter).
+Encore des questions ? Prenez connaissance de notre [FAQ](/faq) ou à nous contacter via [notre formulaire](/nous-contacter).
 ::
 
 ## Inviter le Classement des Associations
