@@ -24,6 +24,8 @@ C'est avec ces trois idées en tête que nous avons imaginé le Tour Asso.
 
 Ainsi, le Tour Asso consiste à partir à la rencontre des associations étudiantes, des étudiants qui les composent et à la découverte de leurs projets et de leurs actions. L'objectif ? Les faire découvrir et rayonner auprès de l'ensemble de la communauté étudiante, des écoles et des entreprises grâce à des articles, des publications et des vidéos.
 
+Pour les associations, c'est une occasion unique pour se mettre en avant et pour découvrir les autres associations étudiantes et leurs projets. Pour les écoles, c'est une opportunité de découvrir la vie étudiante et associative de leurs étudiants et plus globalement de l'ensemble de la communauté étudiante. Pour les entreprises, c'est une occasion de découvrir les étudiants qui composent les associations et de mieux comprendre leurs motivations et leurs engagements.
+
 
 ::alert{type="info"}
 Encore des questions ? Prenez connaissance de notre [FAQ](/faq) ou à nous contacter via [notre formulaire](/nous-contacter).
