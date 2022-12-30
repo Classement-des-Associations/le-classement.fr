@@ -1,42 +1,57 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# le-classement.fr
 
-## Setup
+Official website from Classement des Associations
 
-Make sure to install the dependencies:
+## Tech Stack
 
-```bash
-# yarn
-yarn install
+**Client:** Nuxt3, Nuxt Content, TailwindCSS
 
-# npm
-npm install
+**Server:** Netlify
 
-# pnpm
-pnpm install --shamefully-hoist
-```
 
-## Development Server
+## Run Locally
 
-Start the development server on http://localhost:3000
+Clone the project
 
 ```bash
-npm run dev
+  git clone https://github.com/Barbapapazes/le-classement.fr.git
 ```
 
-## Production
-
-Build the application for production:
+Go to the project directory
 
 ```bash
-npm run build
+  cd le-classement.fr
 ```
 
-Locally preview production build:
+Install dependencies
 
 ```bash
-npm run preview
+  yarn
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Start the server
+
+```bash
+  yarn dev
+```
+
+
+## Deployment
+
+First, you need to build this project.
+
+```bash
+  yarn build
+```
+
+Then, you can preview the result.
+
+```bash
+  yarn preview
+```
+
+## Authors
+
+- [@barbapapazes](https://www.github.com/barbapapazes)
+

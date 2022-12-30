@@ -4,7 +4,7 @@ const { navigation } = useContent()
 </script>
 
 <template>
-  <header class="bg-white p-4">
+  <header class="p-4 transition-colors ease-in">
     <div class="max-w-screen-xl mx-auto flex flex-row justify-between">
       <div class="flex flex-row space-x-8 justify-center items-center">
         <NuxtLink to="/" @click.right.prevent="navigateTo('design-kit')">

@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
     @apply text-black;
   }
 }
@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-white;
+  @apply bg-white blog:bg-primary-variation-2;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -43,24 +43,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  font-weight: 300;
+  font-weight: 100 900;
+  font-display: swap;
   src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 400;
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
-  font-weight: 800;
 }
