@@ -16,8 +16,8 @@ const gradient = useGradient(article.type)
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">{{
-            article.type
-        }}</span>
+    article.type
+}}</span>
       </div>
       <div class="flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">{{ article.title }}</h3>
@@ -33,20 +33,20 @@ const gradient = useGradient(article.type)
 </template>
 
 <style>
-.gradient-border-association::before {
-  @apply bg-association
+.gradient-border-tour-asso::before {
+  @apply bg-tour-asso
 }
 
-.gradient-border-vote::before {
-  @apply bg-vote
+.gradient-border-discovery::before {
+  @apply bg-discovery
 }
 
 .gradient-border-classement::before {
   @apply bg-classement
 }
 
-.gradient-border-partenaire::before {
-  @apply bg-partenaire
+.gradient-border-partenaires::before {
+  @apply bg-partenaires
 }
 
 .gradient-border::before {
