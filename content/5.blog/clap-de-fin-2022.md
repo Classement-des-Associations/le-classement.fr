@@ -151,6 +151,8 @@ Enfin, pour terminer en beauté cette édition 2022, célébrer la victoire de S
 Nous espérons que cette édition 2022 du Classement des Associations aura plu à chacun de ses participants ! On se retrouve fin janvier pour le lancement de l’édition 2023 avec beaucoup de nouveautés ! En attendant, rendez-vous sur nos différents réseaux pour ne rien manquer !
 
 ::socials
+#srOnly
+Réseaux sociaux de l'association à suivre pour ne rien manquer
 ::
 
 Nous remercions une dernière fois nos partenaires :
