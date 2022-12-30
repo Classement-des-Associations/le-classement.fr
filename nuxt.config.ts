@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@unlighthouse/nuxt",
     "nuxt-icon",
-    "nuxt-schema-org",
   ],
 
   runtimeConfig: {
