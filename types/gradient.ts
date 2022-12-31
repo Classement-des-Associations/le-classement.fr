@@ -1,5 +1,7 @@
 export type Gradient =
-  | "association"
-  | "discovery"
   | "classement"
-  | "partenaire";
+  | "partenaires"
+  | "tour-asso"
+  | "concours"
+  | "discovery"
+  | "ceremonie-finale";

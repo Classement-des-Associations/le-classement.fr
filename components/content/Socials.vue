@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="not-prose">
-    <p class="sr-only">
+    <p class="sr-only" v-if="$slots.srOnly">
       <ContentSlot :use="$slots.srOnly" unwrap="p"></ContentSlot>
     </p>
     <ul class="flex flex-row gap-6" :class="{ 'justify-evenly': !start }">
