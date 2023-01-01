@@ -1,4 +1,4 @@
-export type Gradient =
+export type Part =
   | "classement"
   | "partenaires"
   | "tour-asso"

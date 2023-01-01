@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Gradient } from '~~/types/gradient';
+import { Gradient } from '~~/types/gradient'
 
 const { gradient } = defineProps<{
   id: string
@@ -13,7 +13,7 @@ const { gradient } = defineProps<{
   bottomLineClass?: string
 }>()
 
-const gradientBg = useGradient(gradient);
+const gradientBg = useGradient(gradient)
 </script>
 
 <template>
