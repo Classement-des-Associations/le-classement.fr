@@ -2,9 +2,9 @@
 type: tour-asso
 title: Présentation du Tour Asso 2023
 description: Grande nouveauté de son édition 2023, le Classement des Associations part à la rencontre des projets et des actions des associations étudiantes. L'objectif ? Les faire découvrir et rayonner auprès de l'ensemble de la communauté étudiante, des écoles et des entreprises.
-# image:
-#   src:
-#   alt:
+image:
+  src: /images/blog/tour-asso-2023/cover.webp
+  alt: Photographie d'un bateau sur l'eau
 datePublished: 2023-01-02
 dateModified: 2023-01-02
 layout: article
