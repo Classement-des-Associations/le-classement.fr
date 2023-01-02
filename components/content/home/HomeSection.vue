@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { Gradient } from '~~/types/gradient'
+import { Part } from '~~/types/part';
 
-const { gradient } = defineProps<{
+const { part } = defineProps<{
   id: string
   sectionClass?: string
-  gradient?: Gradient
+  part: Part
   icon: string
   maxTextWidth?: boolean
   topLine?: boolean
@@ -13,7 +13,7 @@ const { gradient } = defineProps<{
   bottomLineClass?: string
 }>()
 
-const gradientBg = useGradient(gradient)
+const colors = useColorsByPart(part)
 </script>
 
 <template>
@@ -39,7 +39,8 @@ const gradientBg = useGradient(gradient)
         </div>
 
         <p class="text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth }">
-          <span v-if="$slots.textGradient" class="inline text-transparent bg-clip-text" :class="gradientBg">
+          <span v-if="$slots.textGradient" class="inline text-transparent bg-clip-text"
+            :class="colors.backgroundGradient">
             <ContentSlot :use="$slots.textGradient" unwrap="p" />
             <span>&nbsp;</span>
           </span>
