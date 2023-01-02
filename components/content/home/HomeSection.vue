@@ -42,8 +42,8 @@ const colors = useColorsByPart(part)
           <span v-if="$slots.textGradient" class="inline text-transparent bg-clip-text"
             :class="colors.backgroundGradient">
             <ContentSlot :use="$slots.textGradient" unwrap="p" />
-            <span>&nbsp;</span>
           </span>
+          <span>&#8203;&#32;&#8203;</span>
           <span v-if="$slots.text" class="inline">
             <ContentSlot :use="$slots.text" unwrap="p" />
           </span>

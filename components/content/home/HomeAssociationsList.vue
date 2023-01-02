@@ -26,13 +26,17 @@ const toImg = function (src: string) {
 <template>
   <div aria-hidden="true" :class="sectionClass" class="relative overflow-hidden flex flex-col gap-5">
     <div v-if="data" v-for="(line, index) in data.lines" :key="index" class="slider">
+
       <div class="slide-track" :class="index === 1 ? 'animation-reverse' : 'animation'">
+
         <template v-for="item in [...line, ...line]" :key="item.src">
           <div class="slide shrink-0 rounded-lg">
             <img :src="toImg(item.src)" :alt="item.alt">
           </div>
         </template>
+
       </div>
+
     </div>
   </div>
 </template>
