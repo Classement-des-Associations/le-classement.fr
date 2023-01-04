@@ -27,5 +27,8 @@
     "nuxt-simple-sitemap": "^0.5.7",
     "sitemap": "^7.1.1",
     "tailwindcss-border-gradient-radius": "^3.0.1"
+  },
+  "dependencies": {
+    "three": "^0.148.0"
   }
 }

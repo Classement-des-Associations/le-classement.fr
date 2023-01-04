@@ -9497,6 +9497,7 @@ __metadata:
     nuxt-simple-sitemap: ^0.5.7
     sitemap: ^7.1.1
     tailwindcss-border-gradient-radius: ^3.0.1
+    three: ^0.148.0
   languageName: unknown
   linkType: soft
 
@@ -10261,6 +10262,13 @@ __metadata:
   version: 0.17.1
   resolution: "third-party-web@npm:0.17.1"
   checksum: 8d916f3aff258809e08918d70388e9b06daf1a983e21d924193caf83d1ee6422039ae7c588eaba353722cfd1583da047192650f23baa98f7a0464e77b140db3c
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.148.0":
+  version: 0.148.0
+  resolution: "three@npm:0.148.0"
+  checksum: 3f6359585c006c6f78b2fc1adeb90559d9b7cd6daf5cf916e81494ff228f4a9beffe37136bd8d5b0afbf377ac070b70624245bec2e9ee557035e2c485ce05197
   languageName: node
   linkType: hard
 
