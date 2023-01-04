@@ -5,18 +5,21 @@ type TextColor = string;
 type BackgroundColor = string;
 type BorderColor = string;
 type BackgroundGradient = `bg-${Part}`;
+type LineColor = `bg-line-${Part}`;
 
 type Colors = {
   textColor: TextColor;
   backgroundColor: BackgroundColor;
-  borderColor?: BorderColor;
-  backgroundGradient?: BackgroundGradient;
+  lineColor: LineColor;
+  borderColor: BorderColor;
+  backgroundGradient: BackgroundGradient;
 };
 
 export const useColorsByPart = (type: Part): Ref<Colors> => {
   const colors: Colors = {
     textColor: "text-primary-base",
     backgroundColor: "bg-primary-base",
+    lineColor: `bg-line-${type}`,
     borderColor: "border-primary-base",
     backgroundGradient: `bg-${type}`,
   };

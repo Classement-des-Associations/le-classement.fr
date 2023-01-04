@@ -16,7 +16,7 @@ const colors = useColorsByPart(part);
   <BaseSection :class="sectionClass">
     <div class="flex flex-row">
       <div class="shrink-0 w-7 flex flex-row justify-center">
-        <div class="w-[3px] rounded-full bg-line-tour-asso">
+        <div class="w-[3px] rounded-full" :class="colors.lineColor">
         </div>
       </div>
 
@@ -41,7 +41,7 @@ const colors = useColorsByPart(part);
         </div>
 
         <div class="relative -left-4 mt-12 mb-32 flex flex-row gap-10 items-center">
-          <img src="/images/home/decorations/tour-asso.png" alt="Décoration" class="h-80" aria-hidden="true">
+          <img :src="`/images/home/decorations/${part}.png`" alt="Décoration" class="h-80" aria-hidden="true">
           <div class="flex flex-col gap-4 items-start">
             <p class="border rounded-full px-2 py-0.5 text-sm font-normal"
               :class="[colors.textColor, colors.borderColor]">
