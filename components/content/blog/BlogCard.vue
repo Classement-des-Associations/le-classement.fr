@@ -9,17 +9,17 @@ const gradient = useGradient(article.type)
 <template>
   <article class="relative bg-white group rounded-xl before:rounded-xl p-5 gradient-border"
     :class="`gradient-border-${article.type}`">
-    <NuxtLink :to="article._path" class="relative z-10 flex flex-col gap-4">
+    <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           v-if="article.image.src" :src="article.image.src" :alt="article.image.alt" loading="lazy">
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">{{
-    article.type
-}}</span>
+            article.type
+        }}</span>
       </div>
-      <div class="flex flex-col gap-2">
+      <div class="flex-grow flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">{{ article.title }}</h3>
         <p class="text-base text-black">
           {{ article.description }}
