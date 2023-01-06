@@ -96,7 +96,7 @@ A ce jour l'association Hum'am, c'est **350 000€ de budget** depuis sa créati
 > En tant que responsable communication de l'Hum'am, j'échangeais régulièrement avec le Classement des Associations sur Instagram. C'était avec Estéban et Eva je crois. Je me rappelle que lorsque les votes avaient commencé, on était neuvième ou onzième au classement dans mes souvenirs, et je leur avais dit: "La remontada arrive !".
 > 
 
-> Bon finalement niveau vote c'était pas trop ça mais on a quand même fait la remontada à notre manière en finissant troisième du classement. Maintenant l**'objectif c'est de maintenir cette remontada pour l'année prochaine**.
+> Bon finalement niveau vote c'était pas trop ça mais on a quand même fait la remontada à notre manière en finissant troisième du classement. Maintenant l'**objectif c'est de maintenir cette remontada pour l'année prochaine**.
 > 
 
 *Amadou Moustapha FALL, Responsable Communication 2022*
