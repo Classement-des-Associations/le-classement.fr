@@ -5,8 +5,8 @@ description: Découvrez le retour d'expérience d'Hum'am, l'association humanita
 image:
   src: /assets/blog/images/retour-des-finalistes-humam/cover.webp
   alt: Association Hum'am sur scène après leur 3ième place au concours.
-datePublished: 2022-01-06
-dateModified: 2022-01-06
+datePublished: 2023-01-06
+dateModified: 2023-01-06
 layout: article
 ---
 
