@@ -2,9 +2,9 @@
 defineProps<{
   sectionClass?: string;
   primaryButtonText?: string;
-  primaryButtonLink?: string;
+  primaryButtonHref?: string;
   secondaryButtonText?: string;
-  secondaryButtonLink?: string;
+  secondaryButtonHref?: string;
 }>();
 </script>
 
@@ -24,11 +24,11 @@ defineProps<{
           <ContentSlot :use="$slots.title" unwrap="p"></ContentSlot>
         </h2>
 
-        <div class="relative flex flex-row gap-5">
-          <NuxtLink :to="primaryButtonLink">
+        <div class="relative flex flex-row items-center gap-5">
+          <HomeLink v-if="primaryButtonHref" :to="primaryButtonHref">
             {{ primaryButtonText }}
-          </NuxtLink>
-          <NuxtLink :to="secondaryButtonLink">
+          </HomeLink>
+          <NuxtLink :to="secondaryButtonHref">
             {{ secondaryButtonText }}
           </NuxtLink>
         </div>

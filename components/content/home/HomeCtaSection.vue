@@ -20,7 +20,7 @@ const colors = useColorsByPart(part);
         </div>
       </div>
 
-      <div class="mt-14">
+      <div class="mt-10">
         <div class="ml-14 flex flex-col gap-5 items-start">
           <p class="max-w-[40rem] text-2xl font-medium">
             <span :class="colors.textColor">
@@ -41,7 +41,7 @@ const colors = useColorsByPart(part);
         </div>
 
         <div class="relative -left-4 mt-12 mb-32 flex flex-row gap-10 items-center">
-          <img :src="`/images/home/decorations/${part}.png`" alt="Décoration" class="h-80" aria-hidden="true">
+          <img :src="`/assets/home/images/decorations/${part}.png`" alt="Décoration" class="h-80" aria-hidden="true">
           <div class="flex flex-col gap-4 items-start">
             <p class="border rounded-full px-2 py-0.5 text-sm font-normal"
               :class="[colors.textColor, colors.borderColor]">
@@ -61,7 +61,7 @@ const colors = useColorsByPart(part);
         </div>
       </div>
 
-      <div class="mt-14">
+      <div class="mt-10">
         <ContentSlot :use="$slots.extra" unwrap="p" />
       </div>
 

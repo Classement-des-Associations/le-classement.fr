@@ -7,9 +7,7 @@ const { part } = defineProps<{
   part: Part
   icon: string
   maxTextWidth?: boolean
-  topLine?: boolean
   topLineClass?: string
-  bottomLine?: boolean
   bottomLineClass?: string
 }>()
 
@@ -20,7 +18,7 @@ const colors = useColorsByPart(part)
   <BaseSection :class="sectionClass" :id="id">
     <div class="flex flex-col gap-4">
       <div class="w-7 flex flex-row justify-center">
-        <div v-if="topLine" class="w-[3px] h-40 rounded-full bg-gradient-to-t" :class="topLineClass">
+        <div v-if="topLineClass" class="w-[3px] h-40 rounded-full bg-gradient-to-t" :class="topLineClass">
         </div>
       </div>
 
@@ -33,8 +31,8 @@ const colors = useColorsByPart(part)
       </div>
 
       <div class="flex flex-row gap-6">
-        <div class="w-7 flex flex-row justify-center">
-          <div v-if="bottomLine" class="w-[3px] h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass">
+        <div class="shrink-0 w-7 flex flex-row justify-center">
+          <div v-if="bottomLineClass" class="w-[3px] h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass">
           </div>
         </div>
 
@@ -52,8 +50,8 @@ const colors = useColorsByPart(part)
     </div>
 
     <div v-if="$slots.extra" :class="{
-  'mt-20': !bottomLine, 'mt-4': bottomLine
-}">
+      'mt-20': !bottomLineClass, 'mt-4': bottomLineClass
+    }">
       <ContentSlot :use="$slots.extra" />
     </div>
   </BaseSection>

@@ -3208,6 +3208,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cosmiconfig@npm:8.0.0":
+  version: 8.0.0
+  resolution: "cosmiconfig@npm:8.0.0"
+  dependencies:
+    import-fresh: ^3.2.1
+    js-yaml: ^4.1.0
+    parse-json: ^5.0.0
+    path-type: ^4.0.0
+  checksum: ff4cdf89ac1ae52e7520816622c21a9e04380d04b82d653f5139ec581aa4f7f29e096d46770bc76c4a63c225367e88a1dfa233ea791669a35101f5f9b972c7d1
+  languageName: node
+  linkType: hard
+
 "cosmiconfig@npm:^7.0.0":
   version: 7.1.0
   resolution: "cosmiconfig@npm:7.1.0"
@@ -8965,6 +8977,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"puppeteer-core@npm:19.4.1, puppeteer-core@npm:^19.4.1":
+  version: 19.4.1
+  resolution: "puppeteer-core@npm:19.4.1"
+  dependencies:
+    cross-fetch: 3.1.5
+    debug: 4.3.4
+    devtools-protocol: 0.0.1068969
+    extract-zip: 2.0.1
+    https-proxy-agent: 5.0.1
+    proxy-from-env: 1.1.0
+    rimraf: 3.0.2
+    tar-fs: 2.1.1
+    unbzip2-stream: 1.4.3
+    ws: 8.11.0
+  checksum: f4db1aa1d1e642356744bed2dc49ff7960a8b530d147ace1fe067937433ae40234ea973260b9b264d53a2f2297f53df796d008d4756f735b3f0a64a69724eaba
+  languageName: node
+  linkType: hard
+
 "puppeteer-core@npm:^13.7.0":
   version: 13.7.0
   resolution: "puppeteer-core@npm:13.7.0"
@@ -8985,21 +9015,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:^19.4.1":
+"puppeteer@npm:^19.4.1":
   version: 19.4.1
-  resolution: "puppeteer-core@npm:19.4.1"
+  resolution: "puppeteer@npm:19.4.1"
   dependencies:
-    cross-fetch: 3.1.5
-    debug: 4.3.4
-    devtools-protocol: 0.0.1068969
-    extract-zip: 2.0.1
+    cosmiconfig: 8.0.0
     https-proxy-agent: 5.0.1
+    progress: 2.0.3
     proxy-from-env: 1.1.0
-    rimraf: 3.0.2
-    tar-fs: 2.1.1
-    unbzip2-stream: 1.4.3
-    ws: 8.11.0
-  checksum: f4db1aa1d1e642356744bed2dc49ff7960a8b530d147ace1fe067937433ae40234ea973260b9b264d53a2f2297f53df796d008d4756f735b3f0a64a69724eaba
+    puppeteer-core: 19.4.1
+  checksum: 14b6bd8d5f73f389e5bf424df6a89c346b7a8a8d0326b6aa3670e447a98b638b9091f46b6980515d56152b916a4e7be49c21f25fe7bb5c66828e02466a891f57
   languageName: node
   linkType: hard
 
@@ -9495,6 +9520,7 @@ __metadata:
     nuxt-seo-kit: ^0.4.4
     nuxt-simple-robots: ^0.1.3
     nuxt-simple-sitemap: ^0.5.7
+    puppeteer: ^19.4.1
     sitemap: ^7.1.1
     tailwindcss-border-gradient-radius: ^3.0.1
     three: ^0.148.0

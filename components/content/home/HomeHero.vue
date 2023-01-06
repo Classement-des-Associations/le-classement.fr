@@ -2,18 +2,18 @@
 defineProps<{
   sectionClass?: string
   topButtonText?: string
-  topButtonLink?: string
+  topButtonHref?: string
   primaryButtonText?: string
-  primaryButtonLink?: string
+  primaryButtonHref?: string
   secondaryButtonText?: string
-  secondaryButtonLink?: string
+  secondaryButtonHref?: string
 }>()
 </script>
 
 <template>
   <BaseSection :class="sectionClass">
     <div class="flex flex-col items-start gap-6">
-      <BaseNuxtLink v-if="topButtonLink" :to="topButtonLink" class="bg-zinc-100 hover:bg-zinc-200" small>
+      <BaseNuxtLink v-if="topButtonHref" :to="topButtonHref" class="bg-zinc-100 hover:bg-zinc-200" small>
         {{ topButtonText }}
       </BaseNuxtLink>
       <h1 class="text-black text-7xl font-bold">
@@ -23,11 +23,10 @@ defineProps<{
         <ContentSlot :use="$slots.subtitle" unwrap="p" />
       </p>
       <div class="flex flex-row gap-6 items-center">
-        <BaseNuxtLink v-if="primaryButtonLink" :to="primaryButtonLink"
-          class="relative gradient-border-2 border-gradient-br-associations-white before:absolute before:transition before:duration-200 before:rounded-lg before:opacity-0 hover:before:opacity-75 before:-inset-0.5 before:bg-gradient-to-r before:from-primary-base before:to-primary-variation-1 before:blur-md before:z-[-1]">
+        <HomeLink v-if="primaryButtonHref" :to="primaryButtonHref">
           {{ primaryButtonText }}
-        </BaseNuxtLink>
-        <BaseNuxtLink v-if="secondaryButtonLink" :to="secondaryButtonLink">
+        </HomeLink>
+        <BaseNuxtLink v-if="secondaryButtonHref" :to="secondaryButtonHref">
           {{ secondaryButtonText }}
         </BaseNuxtLink>
       </div>
