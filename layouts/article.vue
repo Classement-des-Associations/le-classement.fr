@@ -23,23 +23,47 @@ const proseClass = function (type: Gradient = 'classement') {
       return ''
   }
 }
+
+const visiblesAnchors = ref<string[]>([])
+
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const target = entry.target as HTMLAnchorElement
+      const href = target.getAttribute('href') ?? ''
+      if (entry.isIntersecting && !visiblesAnchors.value.includes(href)) {
+        console.log('intersecting', href)
+        visiblesAnchors.value.push(href)
+      } else {
+        visiblesAnchors.value = visiblesAnchors.value.filter((h) => h !== href)
+      }
+    })
+  })
+
+  const anchors = document.querySelectorAll('h2 a')
+
+  anchors.forEach((a) => {
+    observer.observe(a)
+  })
+})
 </script>
 
 <template>
   <div class="bg-primary-variation-2">
     <div v-if="toc && toc.links"
-      class="group hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 max-w-xs p-4 shadow-lg border border-primary-base/60 rounded-lg bg-inherit overflow-hidden">
+      class="group hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-inherit overflow-hidden">
       <div class="sr-only">
         Sommaire
       </div>
-      <ul class="flex flex-col gap-2 text-sm">
+      <ul class="flex flex-col text-sm">
         <template v-for="link in toc.links" :key="link.text">
-          <li>
+          <li
+            :class="{ 'text-primary-base': visiblesAnchors.includes(`#${link.id}`), 'text-black/60 hover:text-black/90': !visiblesAnchors.includes(`#${link.id}`) }">
             <NuxtLink :to="`#${link.id}`"
-              class="lg:hidden lg:group-hover:block text-zinc-500 hover:text-zinc-800 overflow-hidden whitespace-nowrap text-ellipsis">
+              class="lg:hidden lg:group-hover:block overflow-hidden whitespace-nowrap text-ellipsis py-1">
               {{ link.text }}
             </NuxtLink>
-            <span class="hidden lg:block lg:group-hover:hidden">•</span>
+            <span class="hidden lg:block lg:group-hover:hidden font-extrabold py-1">•</span>
           </li>
         </template>
       </ul>
