@@ -6,15 +6,17 @@ description: Tous les liens importants du Classement des Associations.
 image: https://le-classement.fr/preview.png
 ---
 
-::links-list
+::dump-thinker-section
+#title
 Notre liste de liens
 
-#sections
-  ::links-list-section
+#lists
+  ::dump-thinker-list
+  #title
   Découvrir le Classement
 
   #items
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr
     icon: heroicons:home-solid
@@ -22,7 +24,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/faq
     icon: heroicons:question-mark-circle-solid
@@ -31,11 +33,20 @@ Notre liste de liens
     ::
   ::
 
-  ::links-list-section
+  ::dump-thinker-list
+  #title
+  Nos derniers articles
+  #items
+    ::dump-thinker-last-articles
+    ::
+  ::
+
+  ::dump-thinker-list
+  #title
   Les plaquettes
 
   #items
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/plaquettes/2023/le-classement_partenaires-courte.pdf
     icon: carbon:enterprise
@@ -43,7 +54,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/plaquettes/2023/le-classement_tour-asso.pdf
     icon: bx:trip
@@ -51,7 +62,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/plaquettes/2023/le-classement_discovery.pdf
     icon: material-symbols:rocket-launch
@@ -59,7 +70,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/plaquettes/2023/le-classement_plateforme-vote.pdf
     icon: material-symbols:how-to-vote
@@ -67,7 +78,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://le-classement.fr/plaquettes/2023/le-classement_ceremonie-finale.pdf
     icon: lucide:party-popper
@@ -76,11 +87,12 @@ Notre liste de liens
     ::
   ::
 
-  ::links-list-section
+  ::dump-thinker-list
+  #title
   Nos réseaux sociaux
 
   #items
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://www.instagram.com/classementdesassociations/
     icon: mdi:instagram
@@ -88,7 +100,7 @@ Notre liste de liens
     ---
     ::
 
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://www.linkedin.com/company/classement-des-associations/
     icon: mdi:linkedin
@@ -96,7 +108,7 @@ Notre liste de liens
     ---
     ::
     
-    ::links-list-item
+    ::dump-thinker-list-item
     ---
     to: https://twitter.com/classement_asso
     icon: mdi:twitter

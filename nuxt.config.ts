@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/fontaine",
     "@nuxt/content",
-    "@unlighthouse/nuxt",
     "nuxt-icon",
   ],
 
