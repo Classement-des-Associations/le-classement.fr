@@ -7,7 +7,7 @@ image: https://le-classement.fr/preview.png
 
 ::hero
 ---
-type: blog
+part: blog
 ---
 
 #title
