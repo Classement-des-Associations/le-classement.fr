@@ -94,4 +94,16 @@ décembre 2022)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78b
 
 C’était l’interview de le Sup’Bio Dance pour le Classement des Associations.
 
-Si vous voulez aussi vivre cette expérience, incrivez-vous à l’édition 2023 le 29 janvier prochain ! Suivez-nous sur nos réseaux pour ne rater aucune information.
+Retrouvez l'association Sup'Bio Dance sur internet :
+
+::socials
+---
+socials:
+  - to: https://www.instagram.com/supbiodance/
+    icon: instagram
+    name: Instagram de l'association Sup'Bio Dance
+
+---
+::
+
+Si vous voulez aussi **vivre cette aventure**, suivez nous pour ne rien manquer de la prochaine édition !
