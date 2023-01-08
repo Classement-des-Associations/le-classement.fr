@@ -40,7 +40,6 @@ onMounted(() => {
       const target = entry.target as HTMLAnchorElement
       const href = target.getAttribute('href') ?? ''
       if (entry.isIntersecting && !visiblesAnchors.value.includes(href)) {
-        console.log('intersecting', href)
         visiblesAnchors.value.push(href)
       } else {
         visiblesAnchors.value = visiblesAnchors.value.filter((h) => h !== href)
