@@ -1,6 +1,6 @@
 ---
-part: classement
-title: Hum'am - Retour des finalistes
+part: ceremonie-finale
+title: Retour des finalistes - Hum'am
 description: Découvrez le retour d'expérience d'Hum'am, l'association humanitaire des ingénieurs apprentis de l'Ecole Nationale Supérieure des Arts et Métiers. Hum'am est arrivée à la troisième place du podium pour l'édition 2022.
 image:
   src: /assets/blog/images/retour-des-finalistes-humam/cover.webp
