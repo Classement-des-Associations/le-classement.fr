@@ -18,6 +18,8 @@ En mai 2022, la ville de Toulouse a vu naître un événement inédit organisé 
 
 Ils soutiennent également humainement les Restos du Cœur en participant à leurs actions annuelles comme les collectes nationales ou le loto des Restos. Dans le même temps, ils en organisent leurs propres vagues de collectes sur le campus de l’INSA et en animant les distributions de repas aux bénéficiaires. L’édition précédente a permis de reverser **29 000 euros aux Restos du Cœur** et de récolter **2,1 tonnes de denrées non périssables**.
 
+![Photo de groupe du concert de l'an dernier (2022)](/assets/blog/images/retour-des-finalistes-les-enfoiros/banner.webp)
+
 ## Comment avez-vous connu le Classement des Associations ?
 
 > **Les Enfoiros de l’INSA participent depuis plusieurs années au Classement des Associations** et c’est donc grâce à nos prédécesseurs que nous avons connu le concours.
