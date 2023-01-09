@@ -1,7 +1,5 @@
 <script lang="ts" setup>
 const { data: articles } = useDumpThinkerArticles()
-
-console.log(articles)
 </script>
 
 <template>
