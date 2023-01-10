@@ -7,10 +7,10 @@ useSchemaOrg([
 <template>
   <section class="py-20 px-4 max-w-sm mx-auto">
     <h1 class="sr-only">
-      <ContentSlot :use="$slots.default"></ContentSlot>
+      <ContentSlot :use="$slots.title" unwrap="p"></ContentSlot>
     </h1>
     <div class="flex flex-col gap-8">
-      <ContentSlot :use="$slots.sections"></ContentSlot>
+      <ContentSlot :use="$slots.lists" unwrap="p"></ContentSlot>
     </div>
   </section>
 </template>

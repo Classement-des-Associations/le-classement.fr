@@ -1,5 +1,4 @@
 const plugin = require("tailwindcss/plugin");
-const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -28,12 +27,26 @@ module.exports = {
         "ultra-light-grey": "#f9f9f9",
         white: "#FFFFFF",
       },
-      backgroundImage: {
-        association: "linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)",
-        vote: "linear-gradient(206.57deg, #FF6944 53.61%, #F9B666 83.33%)",
-        classement: "linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)",
-        partenaire: "linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)",
-      },
+      backgroundImage: (theme) => ({
+        classement: `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        "tour-asso": `linear-gradient(135deg, ${theme(
+          "colors.primary-base"
+        )} 9.05%, ${theme("colors.accent-purple")} 100%)`,
+        concours: `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        discovery: `linear-gradient(206.57deg, ${theme(
+          "colors.primary-base"
+        )} 53.61%, ${theme("colors.primary-variation-1")} 83.33%)`,
+        "ceremonie-finale": `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        partenaires: `linear-gradient(153.43deg, ${theme(
+          "colors.accent-purple"
+        )} 0%, ${theme("colors.accent-blue")} 83.33%)`,
+      }),
       boxShadow: {
         default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
       },

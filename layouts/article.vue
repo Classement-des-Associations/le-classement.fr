@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Gradient } from '~~/types/gradient';
+import { Part } from '~~/types/part.js';
 
 const { page } = useContent()
 useSchemaOrg([
@@ -13,17 +13,19 @@ useSchemaOrg([
 ])
 
 const datetime = ref(new Date(page.value.datePublished || Date.now()))
-const gradient = useGradient(page.value.type)
+const colors = useColorsByPart(page.value.part)
 
-const proseClass = function (type: Gradient = 'classement') {
-  switch (type) {
-    case 'association':
+const proseClass = function (part: Part = 'classement') {
+  switch (part) {
+    case 'tour-asso':
       return 'prose-a:prose-p:bg-association prose-a:prose-p:decoration-accent-purple/40  hover:prose-a:prose-p:decoration-accent-purple'
-    case 'vote':
+    case 'discovery':
       return 'prose-a:prose-p:bg-vote prose-a:prose-p:decoration-primary-base/40 hover:prose-a:prose-p:decoration-primary-base'
+    case 'concours':
+    case 'ceremonie-finale':
     case 'classement':
-      return 'prose-a:prose-p:bg-classement prose-a:prose-p:decoration-primary-variation-1/40 hover:prose-a:prose-p:decoration-primary-variation-1'
-    case 'partenaire':
+      return 'prose-blockquote:border-primary-base prose-li:marker:text-primary-base prose-a:prose-p:bg-classement prose-a:prose-p:decoration-primary-variation-1/40 hover:prose-a:prose-p:decoration-primary-variation-1'
+    case 'partenaires':
       return 'prose-a:prose-p:bg-partenaire prose-a:prose-p:decoration-accent-blue/40 hover:prose-a:prose-p:decoration-accent-blue'
     default:
       return ''
@@ -33,9 +35,11 @@ const proseClass = function (type: Gradient = 'classement') {
 
 <template>
   <div class="bg-primary-variation-2">
+    <BlogMobileToc></BlogMobileToc>
     <article class="max-w-2xl mx-auto pt-16 sm:pt-32 px-4 flex flex-col">
       <div class="flex flex-col gap-4 items-start" :class="{ 'mb-6': page.image }">
-        <h1 class="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent" :class="gradient">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent"
+          :class="colors.backgroundGradient">
           {{ page.title }}
         </h1>
         <time class="text-sm text-black font-light order-first" :datetime="datetime.toISOString()">
