@@ -5,7 +5,7 @@ description: Découvrez le retour d'expérience d'Hum'am, l'association humanita
 categories:
   - retour d'expérience
   - cérémonie finale
-  - les Enfoiros
+  - Hum'am
 image:
   src: /assets/blog/images/retour-des-finalistes-humam/cover.webp
   alt: Association Hum'am sur scène après leur 3ième place au concours.
