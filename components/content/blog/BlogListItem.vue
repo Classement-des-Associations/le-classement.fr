@@ -2,7 +2,8 @@
 import { ParsedContent } from '@nuxt/content/dist/runtime/types';
 const { article } = defineProps<{ article: ParsedContent }>()
 
-const datetime = ref(new Date(article.datePublished || Date.now()))
+const datetime = useDateToISOString(article.datePublished)
+const formattedDate = useDateToLocaleDateString(article.datePublished)
 
 const colors = useColorsByPart(article.part)
 const normalizedPart = useNormalizedPart(article.part)
@@ -18,7 +19,7 @@ const normalizedPart = useNormalizedPart(article.part)
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{
-            normalizedPart
+          normalizedPart
         }}</span>
       </div>
       <div class="flex-grow flex flex-col gap-2">
@@ -27,8 +28,8 @@ const normalizedPart = useNormalizedPart(article.part)
           {{ article.description }}
         </p>
       </div>
-      <time class="text-sm text-black font-light" :datetime="datetime.toISOString()">
-        {{ datetime.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+      <time class="text-sm text-black font-light" :datetime="datetime">
+        {{ formattedDate }}
       </time>
     </NuxtLink>
   </article>
