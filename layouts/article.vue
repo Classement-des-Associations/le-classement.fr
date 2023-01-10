@@ -34,9 +34,10 @@ const proseClass = function (part: Part = 'classement') {
 </script>
 
 <template>
-  <div class="bg-primary-variation-2">
-    <BlogMobileToc></BlogMobileToc>
-    <article class="max-w-2xl mx-auto pt-16 sm:pt-32 px-4 flex flex-col">
+  <div class="bg-primary-variation-2 py-16 sm:py-32 ">
+    <BlogMobileToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20"></BlogMobileToc>
+
+    <article class="max-w-2xl mx-auto px-4 flex flex-col">
       <div class="flex flex-col gap-4 items-start" :class="{ 'mb-6': page.image }">
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent"
           :class="colors.backgroundGradient">
@@ -54,6 +55,7 @@ const proseClass = function (part: Part = 'classement') {
         <slot />
       </div>
     </article>
-    <BlogRelatedArticlesList />
+
+    <BlogRelatedArticlesSection class="mt-8 md:mt-16 lg:mt-32" />
   </div>
 </template>

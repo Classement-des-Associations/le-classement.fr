@@ -1,7 +1,11 @@
 ---
 part: ceremonie-finale
 title: Retour des finalistes - Les Enfoiros
-description: Découvrez le retour d’expérience des Enfoiros, un club de l’Amicale des élèves de l’INSA Toulouse. Il est arrivé à la deuxième place du podium pour l’édition 2022. 
+description: Découvrez le retour d’expérience des Enfoiros, un club de l’Amicale des élèves de l’INSA Toulouse. Il est arrivé à la deuxième place du podium pour l’édition 2022.
+categories:
+  - retour d'expérience
+  - cérémonie finale
+  - les Enfoiros
 image:
   src: /assets/blog/images/retour-des-finalistes-les-enfoiros/cover.webp
   alt: Association Les Enfoiros sur scène après leur 2nd place au concours.

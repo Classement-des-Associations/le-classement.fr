@@ -16,7 +16,9 @@ export const useRelatedArticles = () => {
   const { page } = useContent();
   const { _id, categories } = page.value;
 
-  console.log("useRelatedArticles", _id, categories);
+  if (!categories || categories.length === 0) {
+    throw new Error("No categories found");
+  }
 
   return useAsyncData("content:related-articles:" + _id, () =>
     queryContent("/blog/")
@@ -28,6 +30,7 @@ export const useRelatedArticles = () => {
           $containsAny: categories,
         },
       })
+      .sort({ datePublished: -1 })
       .limit(3)
       .find()
   );
