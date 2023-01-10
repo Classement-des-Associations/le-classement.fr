@@ -2,17 +2,20 @@
 import { Part } from '~~/types/part.js';
 
 const { page } = useContent()
+
 useSchemaOrg([
   defineArticle(
     {
       image: page.value.image ?? '',
-      datePublished: new Date(page.value.datePublished || Date.now()).toISOString(),
-      dateModified: new Date(page.value.dateModified || Date.now()).toISOString()
+      datePublished: useDateToISOString(page.value.datePublished),
+      dateModified: useDateToISOString(page.value.dateModified),
     }
   )
 ])
 
-const datetime = ref(new Date(page.value.datePublished || Date.now()))
+const datetime = useDateToISOString(page.value.datePublished)
+const formattedDate = useDateToLocaleDateString(page.value.datePublished)
+
 const colors = useColorsByPart(page.value.part)
 
 const proseClass = function (part: Part = 'classement') {
@@ -43,8 +46,8 @@ const proseClass = function (part: Part = 'classement') {
           :class="colors.backgroundGradient">
           {{ page.title }}
         </h1>
-        <time class="text-sm text-black font-light order-first" :datetime="datetime.toISOString()">
-          {{ datetime.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+        <time class="text-sm text-black font-light order-first" :datetime="datetime">
+          {{ formattedDate }}
         </time>
       </div>
       <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
