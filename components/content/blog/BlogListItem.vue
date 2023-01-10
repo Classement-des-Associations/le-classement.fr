@@ -2,21 +2,24 @@
 import { ParsedContent } from '@nuxt/content/dist/runtime/types';
 const { article } = defineProps<{ article: ParsedContent }>()
 
-const datetime = ref(new Date(article.datePublished || Date.now()))
-const gradient = useGradient(article.type)
+const datetime = useDateToISOString(article.datePublished)
+const formattedDate = useDateToLocaleDateString(article.datePublished)
+
+const colors = useColorsByPart(article.part)
+const normalizedPart = useNormalizedPart(article.part)
 </script>
 
 <template>
   <article class="relative bg-white group rounded-xl before:rounded-xl p-5 gradient-border"
-    :class="`gradient-border-${article.type}`">
+    :class="`gradient-border-${article.part}`">
     <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
-          v-if="article.image.src" :src="article.image.src" :alt="article.image.alt" loading="lazy">
+          v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy">
       </div>
       <div>
-        <span class="capitalize font-bold bg-clip-text text-transparent" :class="gradient">{{
-            article.type
+        <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{
+          normalizedPart
         }}</span>
       </div>
       <div class="flex-grow flex flex-col gap-2">
@@ -25,14 +28,18 @@ const gradient = useGradient(article.type)
           {{ article.description }}
         </p>
       </div>
-      <time class="text-sm text-black font-light" :datetime="datetime.toISOString()">
-        {{ datetime.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+      <time class="text-sm text-black font-light" :datetime="datetime">
+        {{ formattedDate }}
       </time>
     </NuxtLink>
   </article>
 </template>
 
 <style>
+.gradient-border-ceremonie-finale::before {
+  @apply bg-ceremonie-finale
+}
+
 .gradient-border-tour-asso::before {
   @apply bg-tour-asso
 }
