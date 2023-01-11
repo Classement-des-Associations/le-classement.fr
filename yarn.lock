@@ -4930,6 +4930,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^1.16.2":
+  version: 1.16.2
+  resolution: "jiti@npm:1.16.2"
+  bin:
+    jiti: bin/jiti.js
+  checksum: c0e83d1ac976c0157ac0fdd0f11aafad8d276d44ad672100d1a97b266e70ef2fa7606b6bd128d3cddd8f5f61a56390a6bd9442275e6afef7bd76d0a976ddf555
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -8129,6 +8138,7 @@ __metadata:
     "@vueuse/components": ^9.6.0
     "@vueuse/core": ^9.6.0
     "@vueuse/nuxt": ^9.6.0
+    jiti: ^1.16.2
     nuxt: 3.0.0
     nuxt-icon: ^0.1.8
     nuxt-schema-org: ^2.0.2

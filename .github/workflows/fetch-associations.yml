@@ -1,0 +1,60 @@
+name: Fetch Associations
+
+on:
+  workflows_dispatch:
+  schedule:
+    - cron: "0 21 * * 0"
+
+jobs:
+  setup:
+    name: Setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          cache: yarn
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Cache Node Modules
+        id: node-cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Install Dependencies
+        if: steps.node-cache.outputs.cache-hit != 'true'
+        run: yarn --immutable
+
+  fetch-and-pr:
+    name: Fetch and Pull Request
+    needs: setup
+    steps:
+      - name: Checkout
+        with:
+          fetch-depth: 0
+          cache: yarn
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Restore Node Modules
+        id: node-cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Fetch Associations
+        run: yarn fetch-associations
+
+      - name: Create Pull Request
+        use:
