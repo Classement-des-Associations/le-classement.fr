@@ -9,9 +9,17 @@ const socials = useSocials(`%s de l'association ${association.name}`, {
   instagram: association.instagram,
   website: association.website,
 })
+
+
 </script>
 
 <template>
+
+  <Head>
+    <Title>{{ association.name }}</Title>
+    <Meta name="description" :content="association.description" />
+    <Meta property="og:description" :content="association.description" />
+  </Head>
   <BaseSection class="my-20">
     <div class="flex flex-col items-start gap-3">
       <h1 class="text-5xl text-black font-bold">{{ association.name }}</h1>
