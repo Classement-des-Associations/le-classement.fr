@@ -1,13 +1,11 @@
 <script lang="ts" setup>
+import { Social } from '~~/types/socials';
+
 const { socials: defaultSocials } = useAppConfig()
 
 defineProps<{
   start?: boolean
-  socials?: {
-    to: string
-    name: string
-    icon: string
-  }[]
+  socials?: Social[]
 }>()
 </script>
 

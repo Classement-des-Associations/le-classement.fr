@@ -48,7 +48,7 @@ async function main() {
     const name = useExtractContent(properties["Nom"]);
     const description = useExtractContent(properties["Description"]);
     const category = useExtractContent(properties["Catégorie"]);
-    const linkedIn = useExtractContent(properties["LinkedIn"]);
+    const linkedin = useExtractContent(properties["LinkedIn"]);
     const instagram = useExtractContent(properties["Instagram"]);
     const website = useExtractContent(properties["Site web"]);
     const schoolsPagesId = useExtractContent(properties["Ecoles"]);
@@ -75,7 +75,7 @@ async function main() {
       description,
       category,
       schools,
-      linkedIn,
+      linkedin,
       instagram,
       website,
     });

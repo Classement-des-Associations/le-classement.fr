@@ -4,7 +4,7 @@ export type Association = {
   description: string;
   category: string;
   schools: string[];
-  linkedIn: string;
+  linkedin: string;
   instagram: string;
   website: string;
 };
