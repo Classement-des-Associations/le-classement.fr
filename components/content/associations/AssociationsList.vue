@@ -4,8 +4,8 @@ const { data: associations } = await useAssociations()
 
 <template>
   <ul v-if="associations">
-    <li v-for="association in associations.body" :key="association._id">
-      <NuxtLink :to="`/associations/${association._id}`">
+    <li v-for="association in associations.body" :key="association.id">
+      <NuxtLink :to="`/associations/${association.id}`">
         {{ association.name }}
       </NuxtLink>
     </li>

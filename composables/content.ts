@@ -43,7 +43,7 @@ export const useAssociations = () => {
   );
 };
 
-export const useAssociation = async (id: string | number) => {
+export const useAssociation = async (id: string) => {
   const { data: associations } = await useAssociations();
 
   if (!associations.value) {
@@ -51,7 +51,7 @@ export const useAssociation = async (id: string | number) => {
   }
 
   const association = associations.value.body.find(
-    (association) => association._id === id
+    (association) => association.id === id
   );
 
   if (!association) {

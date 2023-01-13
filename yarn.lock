@@ -8193,6 +8193,7 @@ __metadata:
     nuxt-simple-robots: ^0.1.3
     nuxt-simple-sitemap: ^0.5.7
     pathe: ^1.0.0
+    slugify: ^1.6.5
   languageName: unknown
   linkType: soft
 

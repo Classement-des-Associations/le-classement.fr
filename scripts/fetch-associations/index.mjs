@@ -7,6 +7,7 @@ import { resolve } from "pathe";
 import fs from "node:fs";
 import { useEnv } from "./_env.mjs";
 import { useExtractContent } from "./_extract.mjs";
+import { useSlugify } from "./_slugify.mjs";
 
 async function main() {
   consola.info("Starting script");
@@ -20,7 +21,7 @@ async function main() {
   consola.info("Fetching associations");
   const { results: associations } = await notion.databases.query({
     database_id: associationsDatabaseId,
-    page_size: 4,
+    page_size: 20,
     filter: {
       property: "Montrer",
       checkbox: {
@@ -40,11 +41,16 @@ async function main() {
     throw new Error("No associations found");
   }
 
+  const startTime = new Date();
   consola.info("Extracting data");
   const data = new Set();
   for await (const { properties } of associations) {
     const name = useExtractContent(properties["Nom"]);
+    const description = useExtractContent(properties["Description"]);
     const category = useExtractContent(properties["Catégorie"]);
+    const linkedIn = useExtractContent(properties["LinkedIn"]);
+    const instagram = useExtractContent(properties["Instagram"]);
+    const website = useExtractContent(properties["Site web"]);
     const schoolsPagesId = useExtractContent(properties["Ecoles"]);
 
     const schools = [];
@@ -64,12 +70,18 @@ async function main() {
     }
 
     data.add({
+      id: useSlugify(name),
       name,
+      description,
       category,
       schools,
+      linkedIn,
+      instagram,
+      website,
     });
   }
-  consola.success("Data extracted");
+  const diffTime = new Date(Date.now() - startTime.getTime());
+  consola.success(`Data extracted in ${diffTime.getSeconds()}s`);
 
   consola.info("Writing data");
   fs.writeFileSync(
