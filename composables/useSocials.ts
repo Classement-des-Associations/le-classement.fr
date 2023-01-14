@@ -23,7 +23,7 @@ export const useSocials = (
 
   if (linkedin) {
     socials.push({
-      name: nameTemplate.replace("%s", "site web"),
+      name: nameTemplate.replace("%s", "linkedin"),
       to: linkedin,
       icon: "linkedin",
     });
@@ -31,7 +31,7 @@ export const useSocials = (
 
   if (instagram) {
     socials.push({
-      name: nameTemplate.replace("%s", "site web"),
+      name: nameTemplate.replace("%s", "instagram"),
       to: instagram,
       icon: "instagram",
     });
