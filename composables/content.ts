@@ -1,4 +1,5 @@
 import { PressArticle } from "~~/types/press-article";
+import { Association } from "~~/types/association";
 
 export const usePressArticles = () => {
   return useAsyncData("content:press-articles", () =>
@@ -34,4 +35,28 @@ export const useRelatedArticles = () => {
       .limit(3)
       .find()
   );
+};
+
+export const useAssociations = () => {
+  return useAsyncData("content:associations", () =>
+    queryContent<{ body: Association[] }>("_associations").findOne()
+  );
+};
+
+export const useAssociation = async (id: string) => {
+  const { data: associations } = await useAssociations();
+
+  if (!associations.value) {
+    throw new Error("Associations not found");
+  }
+
+  const association = associations.value.body.find(
+    (association) => association.id === id
+  );
+
+  if (!association) {
+    throw new Error("Association not found");
+  }
+
+  return association;
 };
