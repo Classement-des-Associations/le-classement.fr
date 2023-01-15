@@ -76,7 +76,7 @@ const onIntersectionObserver = function (state) {
 
     <button @click="prev" :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
       :aria-disabled="atBeginning">
-      <AtomsIconsArrowLeft class="w-6 h-6 md:w-20 md:h-20" />
+      <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20" />
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
@@ -89,7 +89,7 @@ const onIntersectionObserver = function (state) {
 
     <button @click="next" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
       :aria-disabled="atEnd" class="md:ml-16">
-      <AtomsIconsArrowLeft class="w-6 h-6 md:w-20 md:h-20 transform rotate-180" />
+      <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20 transform rotate-180" />
       <span class="sr-only">Passer à l'item suivant</span>
     </button>
 

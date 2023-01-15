@@ -37,14 +37,13 @@ const proseClass = function (part: Part = 'classement') {
 </script>
 
 <template>
-  <div class="bg-primary-variation-2 py-16 sm:py-32 ">
+  <LayoutSection>
     <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20"></BlogToc>
 
     <article class="max-w-4xl mx-auto px-4 flex flex-col">
-      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight bg-clip-text text-transparent"
-        :class="colors.backgroundGradient">
+      <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
         {{ page.title }}
-      </h1>
+      </LayoutTitle>
       <figure class="mt-4 md:mt-8">
         <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
@@ -66,5 +65,5 @@ const proseClass = function (part: Part = 'classement') {
     </article>
 
     <BlogRelatedArticlesSection class="mt-8 md:mt-16 lg:mt-32" />
-  </div>
+  </LayoutSection>
 </template>

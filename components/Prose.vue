@@ -1,5 +1,5 @@
 <template>
-  <article class="mx-auto prose prose-zinc prose-headings:!no-underline">
-    <ContentSlot :use="$slots.default" />
-  </article>
+  <div class="prose prose-zinc prose-img:rounded-lg">
+    <slot />
+  </div>
 </template>
