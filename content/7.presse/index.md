@@ -36,16 +36,9 @@ sectionClass: 'pb-16 pt-8'
 #title
 Nos derniers communiqués de presse
 #content
-  ::press-list
+  ::press-releases-list
   ---
-  articles:
-    - title: Clap de fin pour l'édition 2022
-      image:
-        src: /assets/press/images/clap-de-fin-pour-ledition-2022.webp
-        alt: Photo de groupe lors de la cérémonie finale
-      link: /assets/press/releases/clap-de-fin-pour-ledition-2022.webp
-      press: Le Classement
-      date: 2022-12-14
+  limit: 3
   ---
   ::
 ::
@@ -127,17 +120,7 @@ Communiquées de presse
 #title
 Tous nos communiqués de presse
 #content
-  ::press-list
-  ---
-  articles:
-    - title: Clap de fin pour l'édition 2022
-      image:
-        src: /assets/press/images/clap-de-fin-pour-ledition-2022.webp
-        alt: Photo de groupe lors de la cérémonie finale
-      link: /assets/press/releases/clap-de-fin-pour-ledition-2022.webp
-      press: Le Classement
-      date: 2022-12-14
-  ---
+  ::press-releases-list
   ::
 ::
 
