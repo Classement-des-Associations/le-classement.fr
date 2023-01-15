@@ -6,6 +6,9 @@ image: https://le-classement.fr/preview.png
 ---
 
 ::hero
+---
+part: classement
+---
 #title
 Design kit
 
@@ -114,7 +117,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
   #color
   Primary base
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -125,7 +128,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
   #color
   Primary variation 1
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -136,7 +139,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
   #color
   Primary variation 2
   #buttonText
-  copy
+  copier
   ::
 ::
 
@@ -156,7 +159,7 @@ Accents
   #color
   Accent purple
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -167,7 +170,7 @@ Accents
   #color
   Accent blue
   #buttonText
-  copy
+  copier
   ::
 ::
 
@@ -186,7 +189,7 @@ Neutres
   #color
   Black
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -197,7 +200,7 @@ Neutres
   #color
   Light grey
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -208,7 +211,7 @@ Neutres
   #color
   Ultra light grey
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
@@ -219,7 +222,7 @@ Neutres
   #color
   White
   #buttonText
-  copy
+  copier
   ::
 ::
 
@@ -238,40 +241,40 @@ Gradients
   #color
   Classement
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-association'
+  colorClass: 'bg-tour-asso'
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
-  Association
+  Tour Asso
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-vote'
+  colorClass: 'bg-discovery'
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
-  Vote
+  Discovery
   #buttonText
-  copy
+  copier
   ::
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-partenaire'
+  colorClass: 'bg-partenaires'
   hexaColor: 'linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)'
   ---
   #color
   Partenaire
   #buttonText
-  copy
+  copier
   ::
 ::
 
