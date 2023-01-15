@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/fontaine",
     "@nuxt/content",
-    "@unlighthouse/nuxt",
     "nuxt-icon",
   ],
 
@@ -46,7 +45,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ["/", "/design-kit", "/le-pense-bete"],
+      routes: ["/", "/design-kit", "/le-pense-bete", "/associations"],
       crawlLinks: true,
     },
   },

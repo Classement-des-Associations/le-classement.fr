@@ -82,10 +82,14 @@ const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
       <template v-for="image in images" :key="image.alt">
         <li class="snap-start shrink-0 w-full flex flex-col gap-1" ref="slides"
           v-intersection-observer="[onIntersectionObserver, { root: slider }]">
-          <img :src="`${path}${image.src}`" :alt="image.alt" class="object-cover rounded-lg" loading="lazy">
-          <p class="italic text-center text-sm text-zinc-400">
-            {{ image.alt }}
-          </p>
+          <figure>
+            <img :src="`${path}${image.src}`" :alt="image.alt" class="object-cover rounded-lg" loading="lazy">
+            <figcaption class="mt-2">
+              <p class="italic text-center text-sm text-zinc-400">
+                {{ image.alt }}
+              </p>
+            </figcaption>
+          </figure>
         </li>
       </template>
     </ul>

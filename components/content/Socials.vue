@@ -1,8 +1,11 @@
 <script lang="ts" setup>
-const { socials } = useAppConfig()
+import { Social } from '~~/types/socials';
+
+const { socials: defaultSocials } = useAppConfig()
 
 defineProps<{
   start?: boolean
+  socials?: Social[]
 }>()
 </script>
 
@@ -12,7 +15,7 @@ defineProps<{
       <ContentSlot :use="$slots.srOnly" unwrap="p"></ContentSlot>
     </p>
     <ul class="flex flex-row gap-6" :class="{ 'justify-evenly': !start }">
-      <template v-for="social in socials" :key="social.to">
+      <template v-for="social in socials ?? defaultSocials" :key="social.to">
         <li
           class="text-black rounded-full p-3 hover:bg-black hover:text-white motion-safe:transition-all motion-safe:ease-in motion-safe:duration-200">
           <NuxtLink target="_blank" :to="social.to">

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { Gradient } from "~~/types/gradient";
+import { Part } from "~~/types/part.js";
 
-const { type } = defineProps<
-  { type: Gradient }
+const { part } = defineProps<
+  { part: Part }
 >()
 
-const gradient = useGradient(type)
+const colors = useColorsByPart(part)
 </script>
 
 <template>
@@ -14,7 +14,8 @@ const gradient = useGradient(type)
     <GraphicsRoundDots class="hidden blog:md:block blog:absolute blog:top-4 blog:-right-4"></GraphicsRoundDots>
 
     <div class="flex flex-col justify-center items-center gap-8 text-center">
-      <h1 class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text blog:text-black" :class="gradient">
+      <h1 class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text blog:text-black"
+        :class="colors.backgroundGradient">
         <ContentSlot :use="$slots.title" unwrap="p"></ContentSlot>
       </h1>
       <p v-if="$slots.subtitle" class="max-w-3xl text-lg font-medium">

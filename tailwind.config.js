@@ -27,21 +27,49 @@ module.exports = {
         "ultra-light-grey": "#f9f9f9",
         white: "#FFFFFF",
       },
-      backgroundImage: {
-        "tour-asso": "linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)",
-        discovery: "linear-gradient(206.57deg, #FF6944 53.61%, #F9B666 83.33%)",
-        classement: "linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)",
-        partenaires: "linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)",
-      },
+      backgroundImage: (theme) => ({
+        classement: `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        "tour-asso": `linear-gradient(135deg, ${theme(
+          "colors.primary-base"
+        )} 9.05%, ${theme("colors.accent-purple")} 100%)`,
+        concours: `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        discovery: `linear-gradient(206.57deg, ${theme(
+          "colors.primary-base"
+        )} 53.61%, ${theme("colors.primary-variation-1")} 83.33%)`,
+        "ceremonie-finale": `linear-gradient(153.98deg, ${theme(
+          "colors.primary-base"
+        )} 14.79%, ${theme("colors.primary-variation-1")} 100%)`,
+        partenaires: `linear-gradient(153.43deg, ${theme(
+          "colors.accent-purple"
+        )} 0%, ${theme("colors.accent-blue")} 83.33%)`,
+      }),
       boxShadow: {
         default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
       },
+      linearBorderGradients: ({ theme }) => ({
+        colors: {
+          associations: [
+            theme("colors.primary-base"),
+            theme("colors.primary-variation-1"),
+          ],
+          "associations-light": [
+            theme("colors.primary-base / 0.3"),
+            theme("colors.primary-variation-1 / 0.3"),
+          ],
+        },
+        background: theme("colors"),
+      }),
     },
   },
   corePlugins: {
     aspectRatio: true,
   },
   plugins: [
+    require("tailwindcss-border-gradient-radius"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
     plugin(function ({ addVariant }) {
