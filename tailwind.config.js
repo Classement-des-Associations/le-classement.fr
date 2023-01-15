@@ -50,12 +50,26 @@ module.exports = {
       boxShadow: {
         default: "0 4px 40px 0px rgba(161, 160, 160, 0.1)",
       },
+      linearBorderGradients: ({ theme }) => ({
+        colors: {
+          associations: [
+            theme("colors.primary-base"),
+            theme("colors.primary-variation-1"),
+          ],
+          "associations-light": [
+            theme("colors.primary-base / 0.3"),
+            theme("colors.primary-variation-1 / 0.3"),
+          ],
+        },
+        background: theme("colors"),
+      }),
     },
   },
   corePlugins: {
     aspectRatio: true,
   },
   plugins: [
+    require("tailwindcss-border-gradient-radius"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
     plugin(function ({ addVariant }) {
