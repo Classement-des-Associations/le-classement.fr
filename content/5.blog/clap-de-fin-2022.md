@@ -6,7 +6,7 @@ categories:
   - cérémonie finale
 image:
   src: https://le-classement.fr/images/blog/clap-de-fin-2022/cover.webp
-  alt: Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille
+  alt: Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille.
 datePublished: 2022-12-14
 dateModified: 2022-12-14
 layout: article
