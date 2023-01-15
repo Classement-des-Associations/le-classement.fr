@@ -7,7 +7,7 @@ image: https://le-classement.fr/preview.png
 
 ::hero
 ---
-type: blog
+part: blog
 ---
 
 #title
@@ -36,6 +36,10 @@ Entrevoir la vie associative avec nos histoires,<br /> des témoignages, des ass
   ::
 ::
 
-::blog-card-list{id="articles"}
+::blog-section{id="articles"}
+#title
 Les articles
+#content
+  ::blog-list
+  ::
 ::

@@ -15,23 +15,27 @@ export default defineAppConfig({
       "rendu-video": "fluent-emoji:video-camera",
       vote: "fluent-emoji:ballot-box-with-ballot",
       pitch: "fluent-emoji:microphone",
+      instagram: "mdi:instagram",
+      linkedin: "mdi:linkedin",
+      twitter: "mdi:twitter",
+      website: "mdi:web",
     },
   },
   socials: [
     {
       name: "Instagram",
       to: "https://www.instagram.com/leclassement/",
-      icon: "mdi:instagram",
+      icon: "instagram",
     },
     {
       name: "LinkedIn",
       to: "https://www.linkedin.com/company/le-classement/",
-      icon: "mdi:linkedin",
+      icon: "linkedin",
     },
     {
       name: "Twitter",
       to: "https://twitter.com/leclassement",
-      icon: "mdi:twitter",
+      icon: "twitter",
     },
   ],
 });

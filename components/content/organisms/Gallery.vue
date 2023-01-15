@@ -19,7 +19,7 @@ defineProps<{
           </div>
           <div
             class="opacity-0 group-hover:opacity-100 absolute inset-0 flex justify-center items-center motion-safe:transition-all motion-safe:duration-300">
-            <AtomsIconsInstagram class="text-white" />
+            <Icon name="instagram" class="w-10 h-10 text-white" />
           </div>
         </NuxtLink>
       </li>

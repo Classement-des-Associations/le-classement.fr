@@ -8,11 +8,11 @@ type BackgroundGradient = `bg-${Part}`;
 type LineColor = `bg-line-${Part}`;
 
 type Colors = {
-  textColor: TextColor;
-  backgroundColor: BackgroundColor;
-  lineColor: LineColor;
-  borderColor: BorderColor;
-  backgroundGradient: BackgroundGradient;
+  textColor: TextColor | null;
+  backgroundColor: BackgroundColor | null;
+  lineColor: LineColor | null;
+  borderColor: BorderColor | null;
+  backgroundGradient: BackgroundGradient | null;
 };
 
 export const useColorsByPart = (type: Part): Ref<Colors> => {
@@ -46,6 +46,13 @@ export const useColorsByPart = (type: Part): Ref<Colors> => {
       colors.textColor = "text-primary-variation-1";
       colors.backgroundColor = "bg-primary-variation-1";
       colors.borderColor = "border-primary-variation-1";
+      break;
+    case "blog":
+      colors.textColor = null;
+      colors.backgroundColor = null;
+      colors.lineColor = null;
+      colors.borderColor = null;
+      colors.backgroundGradient = null;
       break;
     default:
       colors.textColor = "text-primary-base";

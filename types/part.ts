@@ -1,7 +1,8 @@
 export type Part =
   | "classement"
-  | "partenaires"
   | "tour-asso"
-  | "concours"
   | "discovery"
-  | "ceremonie-finale";
+  | "concours"
+  | "ceremonie-finale"
+  | "partenaires"
+  | "blog";
