@@ -1,10 +1,26 @@
 import { PressArticle } from "~~/types/press-article";
 import { Association } from "~~/types/association";
 
-export const usePressArticles = () => {
-  return useAsyncData("content:press-articles", () =>
-    queryContent<{ body: PressArticle[] }>("_press-articles").findOne()
+export const usePressExternalArticles = () => {
+  return useAsyncData("content:press-external-articles", () =>
+    queryContent<{ body: PressArticle[] }>(
+      "/presse/_press-external-articles"
+    ).findOne()
   );
+};
+
+export const usePressReleases = (limit?: number) => {
+  const query = queryContent("/presse/")
+    .sort({ datePublished: -1 })
+    .where({ _extension: "md" })
+    .only(["title", "datePublished", "image", "_path"]);
+  if (limit) query.limit(limit);
+
+  const key = limit
+    ? `content:press-releases-${limit}`
+    : "content:press-releases";
+
+  return useAsyncData(key, () => query.find());
 };
 
 export const useDumpThinkerArticles = () => {
