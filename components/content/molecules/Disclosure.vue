@@ -9,7 +9,8 @@ const open = ref(false)
       <span>
         <ContentSlot :use="$slots.title" unwrap="p" />
       </span>
-      <AtomsIconsArrowBottom class="transition-transform duration-300" :class="open ? 'transform rotate-180' : ''" />
+      <Icon name="heroicons:chevron-down-20-solid" class="transition-transform duration-300"
+        :class="open ? 'transform rotate-180' : ''" />
     </button>
     <transition enter-active-class="transition duration-300 ease-out" enter-from-class="opacity-0"
       enter-to-class="opacity-100" leave-active-class="transition duration-300 ease-out" leave-from-class="opacity-100"
