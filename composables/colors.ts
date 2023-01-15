@@ -8,11 +8,11 @@ type BackgroundGradient = `bg-${Part}`;
 type LineColor = `bg-line-${Part}`;
 
 type Colors = {
-  textColor: TextColor;
-  backgroundColor: BackgroundColor;
-  lineColor: LineColor;
-  borderColor: BorderColor;
-  backgroundGradient: BackgroundGradient;
+  textColor: TextColor | null;
+  backgroundColor: BackgroundColor | null;
+  lineColor: LineColor | null;
+  borderColor: BorderColor | null;
+  backgroundGradient: BackgroundGradient | null;
 };
 
 export const useColorsByPart = (type: Part): Ref<Colors> => {
