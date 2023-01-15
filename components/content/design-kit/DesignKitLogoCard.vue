@@ -25,7 +25,7 @@ const infoClass = function (): string {
         <div class="absolute right-2 top-2 rounded-md text-xs bg-transparent border p-1" :class="infoClass()">
           <ContentSlot :use="$slots.info" unwrap="p"> </ContentSlot>
         </div>
-        <img :src="`/assets/design-kit/logo/${imageName}.svg`" :alt="imageName" class="h-10">
+        <img :src="`/assets/design-kit/logos/${imageName}.svg`" :alt="imageName" class="h-10">
       </div>
     </div>
     <div class="flex justify-between">
@@ -33,9 +33,9 @@ const infoClass = function (): string {
         <ContentSlot :use="$slots.name" unwrap="p"></ContentSlot>
       </p>
       <div>
-        <a :href="`/assets/design-kit/logo/${imageName}.svg`" aria-label="Télécharger le svg" download
+        <a :href="`/assets/design-kit/logos/${imageName}.svg`" aria-label="Télécharger le svg" download
           class="pr-2  text-zinc-400 first-letter:hover:text-zinc-500 hover:underline">svg</a>
-        <a :href="`/assets/design-kit/logo/${imageName}.png`" aria-label="Télécharger le png" download
+        <a :href="`/assets/design-kit/logos/${imageName}.png`" aria-label="Télécharger le png" download
           class="text-zinc-400 first-letter:hover:text-zinc-500 hover:underline">png</a>
       </div>
     </div>

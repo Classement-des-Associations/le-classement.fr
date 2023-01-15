@@ -26,7 +26,7 @@ const others = computed(() => props.winners.slice(3))
           </div>
           <div
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
-            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
+            <WinnerExternalSticker class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">2</span>
             <div class="hidden lg:block mt-6 lg:text-lg space-y-4">
               <h3 class="font-bold">
@@ -48,10 +48,10 @@ const others = computed(() => props.winners.slice(3))
           </div>
           <div
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
-            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
+            <WinnerExternalSticker class="absolute top-4 right-4" />
             <div class="relative text-5xl lg:text-[4rem] font-extrabold">1
-              <img loading="lazy" src="/medal.png" alt="Médaille en or"
-                class="absolute right-1/2 transform translate-x-[90%] top-1/2 lg:w-9 lg:h-9">
+              <Icon name="fluent-emoji:1st-place-medal"
+                class="absolute right-[51%] transform translate-x-[90%] -rotate-[26deg] top-[70%] w-7 h-7 lg:w-9 lg:h-9" />
             </div>
             <div class="hidden lg:block mt-6 lg:text-lg space-y-4">
               <h3 class="font-bold">
@@ -74,7 +74,7 @@ const others = computed(() => props.winners.slice(3))
           </div>
           <div
             class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full h-full bg-white rounded-t-[1.25rem] shadow-default relative">
-            <AtomsWinnersAppAnchorExternal class="absolute top-4 right-4" />
+            <WinnerExternalSticker class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">3</span>
             <div class="hidden lg:block mt-6 text-sm md:text-lg space-y-4">
               <h3 class="font-bold">
@@ -97,7 +97,7 @@ const others = computed(() => props.winners.slice(3))
               <span class="text-[#808080] text-sm lg:text-lg">{{ other.school }}</span>
             </div>
           </div>
-          <AtomsWinnersAppAnchorExternal class="mr-4" />
+          <WinnerExternalSticker class="mr-4" />
         </NuxtLink>
       </li>
       <li v-else class="w-full h-24">

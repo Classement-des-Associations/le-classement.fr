@@ -82,7 +82,7 @@ onMounted(() => {
 
     <button @click="prev" :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
       :aria-disabled="atBeginning">
-      <AtomsIconsChevronRight class="h-16 w-16 transform rotate-180" />
+      <Icon name="heroicons:chevron-left" class="h-12 w-12" />
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
@@ -98,7 +98,7 @@ onMounted(() => {
 
     <button @click="next" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
       :aria-disabled="atEnd" class="md:ml-16">
-      <AtomsIconsChevronRight class="h-16 w-16" />
+      <Icon name="heroicons:chevron-right-solid" class="h-12 w-12" />
       <span class="sr-only">Passer à l'item suivant</span>
     </button>
   </section>
