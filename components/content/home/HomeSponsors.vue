@@ -1,11 +1,13 @@
 <script lang="ts" setup>
 defineProps<{
-  sectionClass?: string
+  sectionClass?: string;
   sponsors: {
-    name: string
-    src: string
+    name: string;
+    src: string;
+    width: string | number;
+    height: string | number;
   }[]
-}>()
+}>();
 </script>
 
 <template>
@@ -17,7 +19,8 @@ defineProps<{
       <template v-for="sponsor in sponsors" :key="sponsor.name">
         <li class="h-11">
           <!-- Use x4 for images -->
-          <img :src="sponsor.src" :alt="`Logo du sponsor ${sponsor.name}`" class="h-full" />
+          <img :src="sponsor.src" :alt="`Logo du sponsor ${sponsor.name}`" class="h-full" :width="sponsor.width"
+            :height="sponsor.height" />
         </li>
       </template>
     </ul>

@@ -3,6 +3,8 @@ defineProps<{
   images: {
     src: string
     alt: string
+    width: string | number
+    height: string | number
   }[]
 }>()
 </script>
@@ -10,7 +12,7 @@ defineProps<{
 <template>
   <div class="max-w-md ml-12 flex flex-col gap-6">
     <template v-for="image in images" :key="image.src">
-      <img :src="image.src" :alt="image.alt" class="rounded-lg" />
+      <img :src="image.src" :alt="image.alt" class="rounded-lg" :width="image.width" :height="image.height" />
     </template>
   </div>
 </template>

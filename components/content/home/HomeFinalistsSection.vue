@@ -4,6 +4,8 @@ defineProps<{
   images: {
     src: string;
     alt: string;
+    width: string | number;
+    height: string | number;
   }[];
 }>();
 
@@ -18,7 +20,7 @@ const imageHeight = 'auto';
     <HomeSlider :images="images" :slides-per-view="slidesPerView" :slide-width="slideWidth" :image-width="imageWidth"
       :image-height="imageHeight">
       <template #default="{ image }">
-        <img class="rounded-[2rem]" :src="image.src" :alt="image.alt">
+        <img class="rounded-[2rem]" :src="image.src" :alt="image.alt" :width="image.width" :height="image.height">
       </template>
     </HomeSlider>
   </div>

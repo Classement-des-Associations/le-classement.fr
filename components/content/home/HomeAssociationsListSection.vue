@@ -32,7 +32,7 @@ const imageHeight = '200px'
     <HomeSlider v-if="data" v-for="(line, index) in data.lines" :key="index" :images="line" :reversed="index === 1"
       :slides-per-view="slidesPerView" :slide-width="slideWidth" :image-width="imageWidth" :image-height="imageHeight">
       <template #default="{ image }">
-        <img class="rounded-lg" :src="toImg(image.src)" :alt="image.alt">
+        <img class="rounded-lg" :src="toImg(image.src)" :alt="image.alt" :width="imageWidth" :height="imageHeight">
       </template>
     </HomeSlider>
   </div>

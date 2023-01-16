@@ -4,12 +4,15 @@ defineProps<{
   image: {
     src: string;
     alt: string;
+    width: string | number;
+    height: string | number;
   }
 }>();
 </script>
 
 <template>
   <BaseSection :class="sectionClass">
-    <img class="rounded-3xl" :src="image.src" :alt="image.alt" width="1280" height="700" loading="lazy">
+    <img class="rounded-3xl" :src="image.src" :alt="image.alt" :width="image.width" :height="image.height"
+      loading="lazy">
   </BaseSection>
 </template>

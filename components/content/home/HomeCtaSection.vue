@@ -41,7 +41,8 @@ const colors = useColorsByPart(part);
         </div>
 
         <div class="relative -left-4 mt-12 mb-32 flex flex-row gap-10 items-center">
-          <img :src="`/assets/home/images/decorations/${part}.png`" alt="Décoration" class="h-80" aria-hidden="true">
+          <img :src="`/assets/home/images/decorations/${part}.png`" alt="Décoration" class="h-80" aria-hidden="true"
+            width="171" height="1280">
           <div class="flex flex-col gap-4 items-start">
             <p class="border rounded-full px-2 py-0.5 text-sm font-normal"
               :class="[colors.textColor, colors.borderColor]">

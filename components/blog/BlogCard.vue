@@ -14,7 +14,8 @@ const normalizedPart = useNormalizedPart(article.part)
     <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
-          v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy">
+          v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy" width="3000"
+          height="1687">
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{

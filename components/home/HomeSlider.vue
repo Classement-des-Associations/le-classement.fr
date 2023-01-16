@@ -3,13 +3,15 @@ defineProps<{
   images: {
     src: string;
     alt: string;
+    width: string | number;
+    height: string | number;
   }[];
   slidesPerView: number;
   slideWidth: string;
   imageWidth: string;
   imageHeight: string;
   reversed?: boolean;
-}>()
+}>();
 </script>
 
 <template>

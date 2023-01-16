@@ -13,7 +13,7 @@ defineProps<{
 <template>
   <BaseSection :class="sectionClass">
     <div class="flex flex-row items-center gap-12">
-      <div class="flex flex-col items-start gap-6">
+      <div class="my-20 flex flex-col items-start gap-6">
         <BaseNuxtLink v-if="topButtonHref" :to="topButtonHref" class="bg-zinc-100 hover:bg-zinc-200" small>
           {{ topButtonText }}
         </BaseNuxtLink>
