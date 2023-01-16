@@ -1,0 +1,8 @@
+*.css
+*.png
+*.ico
+*.toml
+*.patch
+*.txt
+public/
+.github/workflows/

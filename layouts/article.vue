@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Part } from '~~/types/part.js';
+import type { Part } from '~~/types/part.js'
 
 const { page } = useContent()
 
@@ -9,8 +9,8 @@ useSchemaOrg([
       image: page.value.image ?? '',
       datePublished: useDateToISOString(page.value.datePublished),
       dateModified: useDateToISOString(page.value.dateModified),
-    }
-  )
+    },
+  ),
 ])
 
 const datetime = useDateToISOString(page.value.datePublished)
@@ -38,7 +38,7 @@ const proseClass = function (part: Part = 'classement') {
 
 <template>
   <LayoutSection>
-    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20"></BlogToc>
+    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20" />
 
     <article class="max-w-4xl mx-auto px-4 flex flex-col">
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
@@ -49,17 +49,19 @@ const proseClass = function (part: Part = 'classement') {
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
             {{ page.image.alt }}
-            <span> </span>
+            <span />
             <time :datetime="datetime">
               Publié le {{ formattedDate }}.
             </time>
           </p>
         </figcaption>
       </figure>
-      <div class="mt-2 md:mt-6 w-full mx-auto prose max-w-2xl prose-zinc prose-img:rounded-lg
+      <div
+        class="mt-2 md:mt-6 w-full mx-auto prose max-w-2xl prose-zinc prose-img:rounded-lg
         prose-a:prose-headings:no-underline prose-a:prose-headings:font-semibold
         prose-a:transition-all prose-a:ease-in  prose-a:prose-p:font-semibold prose-a:prose-p:bg-clip-text prose-a:prose-p:text-transparent
-        " :class="proseClass(page.type)">
+        " :class="proseClass(page.type)"
+      >
         <slot />
       </div>
     </article>

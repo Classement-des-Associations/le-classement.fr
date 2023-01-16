@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const props = defineProps<{
   winners: {
-    name: string,
-    school: string,
-    href: string,
+    name: string
+    school: string
+    href: string
   }[]
 }>()
 
@@ -49,7 +49,8 @@ const others = computed(() => props.winners.slice(3))
           <div
             class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
             <WinnerExternalSticker class="absolute top-4 right-4" />
-            <div class="relative text-5xl lg:text-[4rem] font-extrabold">1
+            <div class="relative text-5xl lg:text-[4rem] font-extrabold">
+              1
               <Icon name="fluent-emoji:1st-place-medal"
                 class="absolute right-[51%] transform translate-x-[90%] -rotate-[26deg] top-[70%] w-7 h-7 lg:w-9 lg:h-9" />
             </div>
@@ -87,13 +88,16 @@ const others = computed(() => props.winners.slice(3))
         </NuxtLink>
       </li>
     </ul>
-    <ul class="relative right-0 left-0 bg-white lg:top-[0rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
-      <li v-if="others.length > 0" v-for="(other, index) in others" class="py-7 uppercase group">
+    <ul v-if="others.length > 0"
+      class="relative right-0 left-0 bg-white lg:top-[0rem] md:rounded-b-[1.125rem] divide-y divide-[#808080]/10">
+      <li v-for="(other, index) in others" :key="other.href" class="py-7 uppercase group">
         <NuxtLink :to="other.href" target="_blank" class="flex flex-row justify-between items-center">
           <div class="ml-9 flex flex-row items-center ">
             <span class="text-[1.75rem]  lg:text-[2.625rem] font-extrabold w-12 flex-shrink-0">{{ index + 4 }}</span>
             <div class="md:ml-12 space-y-2">
-              <h3 class="text-sm lg:text-lg font-semibold lg:font-bold">{{ other.name }}</h3>
+              <h3 class="text-sm lg:text-lg font-semibold lg:font-bold">
+                {{ other.name }}
+              </h3>
               <span class="text-[#808080] text-sm lg:text-lg">{{ other.school }}</span>
             </div>
           </div>

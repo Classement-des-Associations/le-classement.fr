@@ -1,0 +1,12 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "vue/no-restricted-syntax": [
+      "error",
+      {
+        "selector": "VElement[name='a']",
+        "message": "Use NuxtLink instead."
+      }
+    ]
+  }
+}
