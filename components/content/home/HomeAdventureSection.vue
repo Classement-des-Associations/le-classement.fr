@@ -25,9 +25,9 @@ defineProps<{
         </h2>
 
         <div class="relative flex flex-row items-center gap-5">
-          <HomeLink v-if="primaryButtonHref" :to="primaryButtonHref">
+          <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref">
             {{ primaryButtonText }}
-          </HomeLink>
+          </ClassementLink>
           <NuxtLink :to="secondaryButtonHref">
             {{ secondaryButtonText }}
           </NuxtLink>

@@ -59,6 +59,25 @@ export const useRelatedArticles = () => {
   );
 };
 
+export const useArticlesByCategories = (
+  categories: string[],
+  limit: number
+) => {
+  return useAsyncData(
+    `content:articles-by-categories-${categories.join("-")}-${limit}`,
+    () =>
+      queryContent("/blog/")
+        .where({
+          categories: {
+            $containsAny: categories,
+          },
+        })
+        .limit(limit)
+        .sort({ datePublished: -1 })
+        .find()
+  );
+};
+
 export const useAssociations = () => {
   return useAsyncData("content:associations", () =>
     queryContent<{ body: Association[] }>("_associations").findOne()

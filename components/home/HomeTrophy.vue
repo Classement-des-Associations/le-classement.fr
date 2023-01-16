@@ -12,8 +12,6 @@ const ready = ref()
 const gemWrapper = ref(null)
 const gemAnim = ref(null)
 
-const colorMode = useColorMode()
-
 if (process.client) {
   async function loadGem() {
     const THREE = await import('three').then(m => m.default || m)
@@ -81,7 +79,7 @@ if (process.client) {
       gem = gltf.scene.children[0]
       gem.traverse((o) => {
         if (o.isMesh) { o.material = gemMaterial }
-        gem.scale.set(0.5, 0.5, 0.5)
+        gem.scale.set(0.6, 0.6, 0.6)
         gem.position.set(0, 0, 0)
         gem.rotation.z = -0.2
         scene.add(gem)
@@ -167,7 +165,3 @@ if (process.client) {
   }))
 }
 </script>
-
-<style>
-
-</style>
