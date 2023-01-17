@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <li>
-    <HomeItem :icon="icon" v-slot="{titleClass, descriptionClass}">
+    <HomeItem class="h-full" :icon="icon" v-slot="{titleClass, descriptionClass}">
       <h3 :class="titleClass">
         <ContentSlot :use="$slots.title" unwrap="p" />
       </h3>

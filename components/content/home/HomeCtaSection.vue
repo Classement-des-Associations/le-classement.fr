@@ -23,7 +23,7 @@ const colors = useColorsByPart(part);
       <div class="mt-10">
         <div class="ml-14 flex flex-col gap-5 items-start">
           <p class="max-w-[40rem] text-2xl font-medium">
-            <span :class="colors.textColor">
+            <span :class="colors.textColor" class="font-semibold">
               <ContentSlot :use="$slots.textColor" unwrap="p" />
             </span>
             <span>&nbsp;</span>
