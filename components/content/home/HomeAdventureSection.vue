@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <BaseSection :class="sectionClass" class="relative">
     <div
-      class="absolute -z-10 -left-60 -top-56 w-[26rem] h-[26rem] rounded-full blur-[5rem] opacity-40 bg-center-classement">
+      class="absolute -z-10 -left-60 -top-64 w-[26rem] h-[26rem] rounded-full blur-[5rem] opacity-40 bg-center-classement">
     </div>
 
     <div class="relative">
