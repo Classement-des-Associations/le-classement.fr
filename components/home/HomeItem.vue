@@ -7,14 +7,9 @@ defineProps<{
 <template>
   <div class="relative rounded-2xl p-9 gradient-border gradient-border-classement">
     <Icon v-if="icon" :name="icon" class="w-10 h-auto" />
+    
+    <slot titleClass="mt-7 text-black text-2xl font-semibold" descriptionClass="mt-4 text-black text-base"/>
 
-    <p class="mt-7 text-black text-2xl font-semibold">
-      <slot name="title" />
-    </p>
-
-    <p class="mt-4 text-black text-base">
-      <slot name="description" />
-    </p>
   </div>
 </template>
 
