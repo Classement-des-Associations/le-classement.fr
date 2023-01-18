@@ -3,8 +3,7 @@ export const useDate = (value: string) => {
 
   const isValueValid = checkValue.test(value)
 
-  if (!isValueValid)
-    throw new Error('Invalid date format')
+  if (!isValueValid) { throw new Error('Invalid date format') }
 
   return ref(new Date(value))
 }
@@ -20,8 +19,8 @@ export const useDateToLocaleDateString = (
   options: Intl.DateTimeFormatOptions = {
     year: 'numeric',
     month: 'long',
-    day: 'numeric',
-  },
+    day: 'numeric'
+  }
 ) => {
   const date = useDate(value)
 

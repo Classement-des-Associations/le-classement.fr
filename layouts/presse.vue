@@ -4,10 +4,10 @@ const { page } = useContent()
 useSchemaOrg([
   defineArticle({
     '@type': 'NewsArticle',
-    'image': page.value.image ?? '',
-    'datePublished': useDateToISOString(page.value.datePublished),
-    'dateModified': useDateToISOString(page.value.dateModified),
-  }),
+    image: page.value.image ?? '',
+    datePublished: useDateToISOString(page.value.datePublished),
+    dateModified: useDateToISOString(page.value.dateModified)
+  })
 ])
 
 const colors = useColorsByPart('classement')

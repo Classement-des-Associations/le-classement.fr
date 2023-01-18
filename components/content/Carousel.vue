@@ -44,25 +44,21 @@ const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
   if (el.isIntersecting) {
     el.target.setAttribute('tabindex', '0')
 
-    if (el.target === slides.value[0])
-      atBeginning.value = true
-    else if (el.target === slides.value[slides.value.length - 1])
-      atEnd.value = true
-  }
-  else {
+    if (el.target === slides.value[0]) { atBeginning.value = true } else if (el.target === slides.value[slides.value.length - 1]) { atEnd.value = true }
+  } else {
     el.target.setAttribute('tabindex', '-1')
 
-    if (el.target === slides.value[0])
-      atBeginning.value = false
-    else if (el.target === slides.value[slides.value.length - 1])
-      atEnd.value = false
+    if (el.target === slides.value[0]) { atBeginning.value = false } else if (el.target === slides.value[slides.value.length - 1]) { atEnd.value = false }
   }
 }
 </script>
 
 <template>
   <div
-    tabindex="0" :aria-labelledby="id" class="not-prose flex flex-row gap-2" @keydown.left="prev"
+    tabindex="0"
+    :aria-labelledby="id"
+    class="not-prose flex flex-row gap-2"
+    @keydown.left="prev"
     @keydown.right="next"
   >
     <span :id="id" class="sr-only">
@@ -70,7 +66,9 @@ const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
     </span>
 
     <button
-      :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning"
+      :tabindex="atBeginning ? -1 : 0"
+      :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
+      :aria-disabled="atBeginning"
       @click="prev"
     >
       <Icon name="heroicons:chevron-left" class="w-6 h-6 md:w-10 md:h-10" />
@@ -78,12 +76,14 @@ const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
     </button>
 
     <ul
-      ref="slider" tabindex="0"
+      ref="slider"
+      tabindex="0"
       class="w-full flex overflow-x-scroll snap-x snap-mandatory no-scrollbar list-none gap-4"
     >
       <template v-for="image in images" :key="image.alt">
         <li
-          ref="slides" v-intersection-observer="[onIntersectionObserver, { root: slider }]"
+          ref="slides"
+          v-intersection-observer="[onIntersectionObserver, { root: slider }]"
           class="snap-start shrink-0 w-full flex flex-col gap-1"
         >
           <figure>
@@ -99,7 +99,9 @@ const onIntersectionObserver = function (state: IntersectionObserverEntry[]) {
     </ul>
 
     <button
-      :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd"
+      :tabindex="atEnd ? -1 : 0"
+      :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
+      :aria-disabled="atEnd"
       @click="next"
     >
       <Icon name="heroicons:chevron-right" class="w-6 h-6 md:w-10 md:h-10" />

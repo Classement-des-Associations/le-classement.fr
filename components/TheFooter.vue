@@ -13,7 +13,8 @@ const { navigation } = useContent()
             <template v-for="social in socials" :key="social.to">
               <li>
                 <NuxtLink
-                  target="_blank" :to="social.to"
+                  target="_blank"
+                  :to="social.to"
                   class="w-12 h-12 text-white flex justify-center items-center rounded-full hover:bg-white hover:text-black motion-safe:transition-all duration-300"
                 >
                   <span class="sr-only">{{ social.name }}</span>
@@ -32,7 +33,8 @@ const { navigation } = useContent()
             <template v-for="item in navigation" :key="item._path">
               <li v-if="item.for === 'footer'">
                 <NuxtLink
-                  class="hover:underline hover:underline-offset-4" active-class="active-footer"
+                  class="hover:underline hover:underline-offset-4"
+                  active-class="active-footer"
                   :to="item._path"
                 >
                   {{ item.title }}

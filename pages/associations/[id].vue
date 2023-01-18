@@ -7,7 +7,7 @@ const association = await useAssociation(id)
 const socials = useSocials(`%s de l'association ${association.name}`, {
   linkedin: association.linkedin,
   instagram: association.instagram,
-  website: association.website,
+  website: association.website
 })
 </script>
 

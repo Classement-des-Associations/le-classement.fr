@@ -7,7 +7,7 @@ export const useSocials = (
     website?: string
     linkedin?: string
     instagram?: string
-  },
+  }
 ): Ref<Social[]> => {
   const { website, linkedin, instagram } = socialsLinks
 
@@ -17,7 +17,7 @@ export const useSocials = (
     socials.push({
       name: nameTemplate.replace('%s', 'site web'),
       to: website,
-      icon: 'website',
+      icon: 'website'
     })
   }
 
@@ -25,7 +25,7 @@ export const useSocials = (
     socials.push({
       name: nameTemplate.replace('%s', 'linkedin'),
       to: linkedin,
-      icon: 'linkedin',
+      icon: 'linkedin'
     })
   }
 
@@ -33,7 +33,7 @@ export const useSocials = (
     socials.push({
       name: nameTemplate.replace('%s', 'instagram'),
       to: instagram,
-      icon: 'instagram',
+      icon: 'instagram'
     })
   }
 

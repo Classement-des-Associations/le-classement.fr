@@ -1,8 +1,4 @@
-*.css
-*.png
-*.ico
-*.toml
-*.patch
-*.txt
-public/
-.github/workflows/
+dist
+node_modules
+.output
+.nuxt

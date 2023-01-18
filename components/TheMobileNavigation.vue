@@ -2,20 +2,20 @@
 import {
   Dialog,
   DialogPanel,
-  DialogTitle,
+  DialogTitle
 } from '@headlessui/vue'
 
 const isOpen = ref(false)
 
-function setIsOpen(value) {
+function setIsOpen (value) {
   isOpen.value = value
 }
 
-function openModal() {
+function openModal () {
   setIsOpen(true)
 }
 
-function closeModal() {
+function closeModal () {
   setIsOpen(false)
 }
 
@@ -44,7 +44,9 @@ const { navigation } = useContent()
             <template v-for="item in navigation" :key="item._path">
               <li v-if="item.for === 'header'">
                 <NuxtLink
-                  class="text-lg font-semibold" :to="item._path" active-class="underline underline-offset-4"
+                  class="text-lg font-semibold"
+                  :to="item._path"
+                  active-class="underline underline-offset-4"
                   @click="closeModal"
                 >
                   {{ item.title }}

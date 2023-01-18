@@ -21,7 +21,7 @@ export const useColorsByPart = (type: Part): Ref<Colors> => {
     backgroundColor: 'bg-primary-base',
     lineColor: `bg-line-${type}`,
     borderColor: 'border-primary-base',
-    backgroundGradient: `bg-${type}`,
+    backgroundGradient: `bg-${type}`
   }
 
   switch (type) {

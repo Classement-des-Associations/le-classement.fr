@@ -3,8 +3,7 @@ const router = useRouter()
 
 const isBlog = computed(() => router.currentRoute.value.path.includes('blog'))
 const htmlClass = computed(() => {
-  if (isBlog.value)
-    return 'blog'
+  if (isBlog.value) { return 'blog' }
 
   return ''
 })
@@ -15,7 +14,8 @@ const htmlClass = computed(() => {
     <Head>
       <SeoKit />
       <SchemaOrgOrganization
-        name="Le Classement des Associations" logo="/logo.png"
+        name="Le Classement des Associations"
+        logo="/logo.png"
         :same-as="['https://www.linkedin.com/company/classement-des-associations/', 'https://www.instagram.com/classementdesassociations/', 'https://twitter.com/Leclassement']"
       />
     </Head>

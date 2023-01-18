@@ -18,7 +18,8 @@ const { navigation } = useContent()
             <li v-if="item.for === 'header'">
               <NuxtLink
                 class="inline-block font-medium py-1 px-4 hover:text-primary-base transform transition ease-in"
-                active-class="active-header" :to="item._path"
+                active-class="active-header"
+                :to="item._path"
               >
                 {{ item.title }}
               </NuxtLink>

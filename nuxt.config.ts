@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontaine',
     '@nuxt/content',
-    'nuxt-icon',
+    'nuxt-icon'
   ],
 
   runtimeConfig: {
@@ -16,37 +16,37 @@ export default defineNuxtConfig({
       siteDescription:
         'L\'aventure humaine de référence qui rassemble, promeut et valorise la vie associative étudiante.',
       language: 'fr-FR',
-      titleSeparator: '·',
-    },
+      titleSeparator: '·'
+    }
   },
 
   content: {
     documentDriven: true,
     defaultLocale: 'fr',
     navigation: {
-      fields: ['for'],
-    },
+      fields: ['for']
+    }
   },
 
   app: {
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-        { rel: 'author', type: 'text/plain', href: '/humans.txt' },
+        { rel: 'author', type: 'text/plain', href: '/humans.txt' }
       ],
       meta: [
         {
           name: 'google-site-verification',
-          content: 'TdbVQQq00musVnOqyiFS2ulrIvi29dUNAhPXtGXWags',
-        },
-      ],
-    },
+          content: 'TdbVQQq00musVnOqyiFS2ulrIvi29dUNAhPXtGXWags'
+        }
+      ]
+    }
   },
 
   nitro: {
     prerender: {
       routes: ['/', '/design-kit', '/le-pense-bete', '/associations'],
-      crawlLinks: true,
-    },
-  },
+      crawlLinks: true
+    }
+  }
 })
