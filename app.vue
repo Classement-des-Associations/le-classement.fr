@@ -21,7 +21,7 @@ const htmlClass = computed(() => {
         :sameAs="['https://www.linkedin.com/company/classement-des-associations/', 'https://www.instagram.com/classementdesassociations/', 'https://twitter.com/Leclassement']" />
     </Head>
 
-    <Body class="bg-white blog:bg-primary-variation-2">
+    <Body class="bg-white blog:bg-primary-lighter">
       <TheHeader />
       <main>
         <NuxtPage />
@@ -31,4 +31,3 @@ const htmlClass = computed(() => {
 
   </Html>
 </template>
-

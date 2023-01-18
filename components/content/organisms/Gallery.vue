@@ -11,7 +11,7 @@ defineProps<{
     <ul class="mt-11 grid grid-cols-2 md:grid-cols-5">
       <li v-for="image in images" :key="image.src" class="relative group h-full w-full">
         <NuxtLink :to="hrefImages">
-          <div class="aspect-w-square aspect-h-square">
+          <div class="aspect-square">
             <img loading="lazy" :src="image.src" :alt="image.alt" class="object-cover w-full h-full">
           </div>
           <div

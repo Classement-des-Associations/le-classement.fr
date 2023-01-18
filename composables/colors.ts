@@ -1,3 +1,4 @@
+// @unocss-include
 import { Ref } from "vue";
 import { Part } from "~~/types/part";
 
@@ -31,6 +32,7 @@ export const useColorsByPart = (type: Part): Ref<Colors> => {
       colors.textColor = "text-primary-base";
       colors.backgroundColor = "bg-primary-base";
       colors.borderColor = "border-primary-base";
+      colors.backgroundGradient = 'bg-classement';
       break;
     case "partenaires":
       colors.textColor = "text-accent-blue";

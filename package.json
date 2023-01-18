@@ -30,5 +30,8 @@
     "pathe": "^1.0.0",
     "slugify": "^1.6.5",
     "tailwindcss-border-gradient-radius": "^3.0.1"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.48.4"
   }
 }
