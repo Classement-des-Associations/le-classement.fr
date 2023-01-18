@@ -25,7 +25,7 @@ const socials = useSocials(`%s de l'association ${association.name}`, {
       <h1 class="text-5xl text-black font-bold">{{ association.name }}</h1>
       <dl class="order-first">
         <dt class="sr-only">Catégorie de l'association</dt>
-        <dd class="rounded-md px-3 py-1 bg-primary-variation-1 text-base text-black">{{ association.category }}</dd>
+        <dd class="rounded-md px-3 py-1 bg-primary-light text-base text-black">{{ association.category }}</dd>
       </dl>
       <dl>
         <dt class="sr-only">{{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}

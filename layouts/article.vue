@@ -27,7 +27,7 @@ const proseClass = function (part: Part = 'classement') {
     case 'concours':
     case 'ceremonie-finale':
     case 'classement':
-      return 'prose-blockquote:border-primary-base prose-li:marker:text-primary-base prose-a:prose-p:bg-classement prose-a:prose-p:decoration-primary-variation-1/40 hover:prose-a:prose-p:decoration-primary-variation-1'
+      return 'prose-blockquote:border-primary-base prose-li:marker:text-primary-base prose-a:prose-p:bg-classemen prose-a:prose-p:decoration-primary-light/40 hover:prose-a:prose-p:decoration-primary-light'
     case 'partenaires':
       return 'prose-a:prose-p:bg-partenaire prose-a:prose-p:decoration-accent-blue/40 hover:prose-a:prose-p:decoration-accent-blue'
     default:
@@ -56,9 +56,7 @@ const proseClass = function (part: Part = 'classement') {
           </p>
         </figcaption>
       </figure>
-      <div class="mt-2 md:mt-6 w-full mx-auto prose max-w-2xl prose-zinc prose-img:rounded-lg
-        prose-a:prose-headings:no-underline prose-a:prose-headings:font-semibold
-        prose-a:transition-all prose-a:ease-in  prose-a:prose-p:font-semibold prose-a:prose-p:bg-clip-text prose-a:prose-p:text-transparent
+      <div class="mt-2 md:mt-6 w-full mx-auto max-w-2xl prose prose-black
         " :class="proseClass(page.type)">
         <slot />
       </div>

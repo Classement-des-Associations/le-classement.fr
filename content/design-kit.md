@@ -122,7 +122,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-primary-variation-1'
+  colorClass: 'bg-primary-light'
   hexaColor: '#F9B666'
   ---
   #color
@@ -133,7 +133,7 @@ Les couleurs du Classement ont été choisies pour marquer la diversité des ass
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-primary-variation-2'
+  colorClass: 'bg-primary-lighter'
   hexaColor: '#FFF6EA'
   ---
   #color
@@ -235,7 +235,7 @@ Gradients
 #designList
   ::design-kit-color-card
   ---
-  colorClass: 'bg-classement'
+  colorClass: 'bg-gradient-classement'
   hexaColor: 'linear-gradient(153.98deg, #FF6944 14.79%, #F9B666 100%)'
   ---
   #color
@@ -246,7 +246,7 @@ Gradients
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-tour-asso'
+  colorClass: 'bg-gradient-tour-asso'
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
@@ -257,7 +257,7 @@ Gradients
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-discovery'
+  colorClass: 'bg-gradient-discovery'
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
@@ -268,7 +268,7 @@ Gradients
 
   ::design-kit-color-card
   ---
-  colorClass: 'bg-partenaires'
+  colorClass: 'bg-gradient-partenaires'
   hexaColor: 'linear-gradient(153.43deg, #4B3069 0%, #0A6B72 83.33%)'
   ---
   #color

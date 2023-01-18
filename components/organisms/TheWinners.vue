@@ -25,7 +25,7 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[1].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
+            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] relative">
             <WinnerExternalSticker class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">2</span>
             <div class="hidden lg:block mt-6 lg:text-lg space-y-4">
@@ -47,7 +47,7 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[0].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] shadow-default relative">
+            class="mt-6 lg:mt-0 w-full h-full px-4 lg:px-[3.25rem] pt-11 bg-white rounded-t-[1.25rem] relative">
             <WinnerExternalSticker class="absolute top-4 right-4" />
             <div class="relative text-5xl lg:text-[4rem] font-extrabold">1
               <Icon name="fluent-emoji:1st-place-medal"
@@ -73,7 +73,7 @@ const others = computed(() => props.winners.slice(3))
             <div>{{ podium[2].school }}</div>
           </div>
           <div
-            class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full h-full bg-white rounded-t-[1.25rem] shadow-default relative">
+            class="mt-6 lg:mt-0 pb-3 px-4 lg:px-[3.25rem] pt-11 w-full h-full bg-white rounded-t-[1.25rem] relative">
             <WinnerExternalSticker class="absolute top-4 right-4" />
             <span class="text-5xl lg:text-[4rem] font-extrabold">3</span>
             <div class="hidden lg:block mt-6 text-sm md:text-lg space-y-4">

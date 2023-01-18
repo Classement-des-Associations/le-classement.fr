@@ -9,7 +9,7 @@ const colors = useColorsByPart(part)
 </script>
 
 <template>
-  <section class="py-20 md:py-44 relative overflow-hidden blog:bg-primary-variation-2">
+  <section class="py-20 md:py-44 relative overflow-hidden blog:bg-primary-lighter">
     <GraphicsTriangles class="hidden blog:md:block blog:absolute blog:-left-32 blog:bottom-20"></GraphicsTriangles>
     <GraphicsRoundDots class="hidden blog:md:block blog:absolute blog:top-4 blog:-right-4"></GraphicsRoundDots>
 

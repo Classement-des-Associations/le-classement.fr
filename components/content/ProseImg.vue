@@ -20,5 +20,5 @@ defineProps({
 </script>
 
 <template>
-  <img :src="src" :alt="alt" :width="width" :height="height" loading="lazy">
+  <img :src="src" :alt="alt" :width="width" :height="height" loading="lazy" class="rounded-4">
 </template>

@@ -26,7 +26,7 @@ onMounted(() => {
 
 <template>
   <div v-if="toc && toc.links"
-    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-inherit overflow-hidden">
+    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-inherit overflow-hidden bg-primary-lighter">
     <div class="sr-only">
       Sommaire
     </div>

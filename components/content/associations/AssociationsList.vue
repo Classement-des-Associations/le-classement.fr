@@ -22,7 +22,7 @@ const { data: associations } = await useAssociations()
         </h2>
         <dl class="order-first">
           <dt class="sr-only">Catégorie de l'association</dt>
-          <dd class="rounded-md px-3 py-1 bg-primary-variation-1 text-sm text-black">{{ association.category }}</dd>
+          <dd class="rounded-md px-3 py-1 bg-primary-light text-sm text-black">{{ association.category }}</dd>
         </dl>
         <dl>
           <dt class="sr-only">{{

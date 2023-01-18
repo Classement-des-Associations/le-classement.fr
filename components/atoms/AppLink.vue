@@ -13,14 +13,14 @@ const linkClassNames = function () {
     if (white) {
       classNames.push('bg-white text-black')
     } else {
-      classNames.push('bg-primary-base hover:bg-primary-variation-1 text-white')
+      classNames.push('bg-primary-base hover:bg-primary-light text-white')
     }
   } else {
     classNames.push('py-[0.625rem] px-[0.875rem] border-2')
     if (white) {
       classNames.push('border-white bg-transparent hover:bg-white text-white hover:text-black')
     } else {
-      classNames.push('border-primary-base hover:border-primary-variation-1 text-primary-base hover:text-primary-variation-1')
+      classNames.push('border-primary-base hover:border-primary-light text-primary-base hover:text-primary-light')
     }
   }
 

@@ -9,9 +9,9 @@ const normalizedPart = useNormalizedPart(article.part)
 </script>
 
 <template>
-  <article class="relative bg-white group rounded-xl before:rounded-xl p-5 gradient-border"
+  <article class="relative bg-white group rounded-xl before:rounded-xl gradient-border"
     :class="`gradient-border-${article.part}`">
-    <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4">
+    <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4 p-5">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy">
@@ -34,25 +34,25 @@ const normalizedPart = useNormalizedPart(article.part)
   </article>
 </template>
 
-<style>
+<style scoped>
 .gradient-border-ceremonie-finale::before {
-  @apply bg-ceremonie-finale
+  --at-apply: bg-gradient-ceremonie-finale
 }
 
 .gradient-border-tour-asso::before {
-  @apply bg-tour-asso
+  --at-apply: bg-gradient-tour-asso
 }
 
 .gradient-border-discovery::before {
-  @apply bg-discovery
+  --at-apply: bg-gradient-discovery
 }
 
 .gradient-border-classement::before {
-  @apply bg-classement
+  --at-apply: bg-gradient-classement
 }
 
 .gradient-border-partenaires::before {
-  @apply bg-partenaires
+  --at-apply: bg-gradient-partenaires
 }
 
 .gradient-border::before {

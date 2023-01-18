@@ -3,7 +3,7 @@
 
 <template>
   <BaseSection class="py-32 flex flex-col items-center">
-    <h1 class="text-center text-transparent bg-clip-text bg-classement font-bold text-5xl">Vous cherchez votre chemin ?
+    <h1 class="text-center text-transparent bg-clip-text bg-gradient-classement font-bold text-5xl">Vous cherchez votre chemin ?
     </h1>
     <p class="mt-16 text-center text-xl text-black">
       Nous n'avons pas trouvé cette page. <br />

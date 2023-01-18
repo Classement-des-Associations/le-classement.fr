@@ -9,7 +9,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  --at-apply: bg-white blog:bg-primary-variation-2;
+  --at-apply: bg-white blog:bg-primary-lighter;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -22,7 +22,7 @@ html {
 }
 
 .active-footer {
-  --at-apply: text-primary-variation-1 cursor-default;
+  --at-apply: text-primary-light cursor-default;
 }
 
 .no-scrollbar::-webkit-scrollbar {
