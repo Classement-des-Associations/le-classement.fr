@@ -6,8 +6,8 @@ useSchemaOrg([
     '@type': 'NewsArticle',
     image: page.value.image ?? '',
     datePublished: useDateToISOString(page.value.datePublished),
-    dateModified: useDateToISOString(page.value.dateModified),
-  }),
+    dateModified: useDateToISOString(page.value.dateModified)
+  })
 ])
 
 const colors = useColorsByPart('classement')
@@ -26,7 +26,8 @@ const colors = useColorsByPart('classement')
             Communiqué de presse
           </p>
         </div>
-        <h1 class="mt-8 bg-clip-text text-center text-transparent" :class="colors.backgroundGradient">{{ page.title }}
+        <h1 class="mt-8 bg-clip-text text-center text-transparent" :class="colors.backgroundGradient">
+          {{ page.title }}
         </h1>
         <slot />
         <div class="not-prose mt-12 flex justify-center">
