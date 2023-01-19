@@ -5,9 +5,11 @@ defineProps<{
 </script>
 
 <template>
-  <BaseNuxtLink :to="to"
-    class="relative bg-white border-2 border-transparent bg-border-gradient-associations before:content-empty before:absolute before:transition before:duration-200 before:rounded-lg before:opacity-0 hover:before:opacity-75 before:-inset-0.5 before:bg-gradient-to-r before:from-primary-base before:to-primary-light before:blur-md before:z-[-1]">
-    <slot> </slot>
+  <BaseNuxtLink
+    :to="to"
+    class="relative bg-white border-2 border-transparent bg-border-gradient-associations before:content-empty before:absolute before:transition before:duration-200 before:rounded-lg before:opacity-0 hover:before:opacity-75 before:-inset-0.5 before:bg-gradient-to-r before:from-primary-base before:to-primary-light before:blur-md before:z-[-1]"
+  >
+    <slot />
   </BaseNuxtLink>
 </template>
 

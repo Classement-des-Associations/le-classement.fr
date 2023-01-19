@@ -1,8 +1,8 @@
 <template>
   <h1 :id="id">
-    <a v-if="generate" :href="`#${id}`" class="decoration-unset">
+    <NuxtLink v-if="generate" :href="`#${id}`" class="decoration-unset">
       <slot />
-    </a>
+    </NuxtLink>
     <slot v-else />
   </h1>
 </template>

@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import type { Part } from '~~/types/part.js'
-
 const { page } = useContent()
 
 useSchemaOrg([

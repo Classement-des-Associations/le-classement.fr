@@ -26,7 +26,7 @@ const colors = useColorsByPart('classement')
             Communiqué de presse
           </p>
         </div>
-        <h1 class="mt-8 bg-clip-text text-center text-transparent" :class="colors.backgroundGradient">
+        <h1 class="mt-8 bg-clip-text font-bold text-center text-transparent" :class="colors.backgroundGradient">
           {{ page.title }}
         </h1>
         <slot />

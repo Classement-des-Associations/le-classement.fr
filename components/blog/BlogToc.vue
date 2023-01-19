@@ -8,10 +8,7 @@ onMounted(() => {
     entries.forEach((entry) => {
       const target = entry.target as HTMLAnchorElement
       const href = target.getAttribute('href') ?? ''
-      if (entry.isIntersecting && !visiblesAnchors.value.includes(href))
-        visiblesAnchors.value.push(href)
-      else
-        visiblesAnchors.value = visiblesAnchors.value.filter(h => h !== href)
+      if (entry.isIntersecting && !visiblesAnchors.value.includes(href)) { visiblesAnchors.value.push(href) } else { visiblesAnchors.value = visiblesAnchors.value.filter(h => h !== href) }
     })
   })
 
@@ -26,7 +23,7 @@ onMounted(() => {
 <template>
   <div
     v-if="toc && toc.links"
-    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-inherit overflow-hidden"
+    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-primary-lighter overflow-hidden"
   >
     <div class="sr-only">
       Sommaire
