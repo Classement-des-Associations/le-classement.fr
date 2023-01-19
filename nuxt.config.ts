@@ -1,17 +1,17 @@
 export default defineNuxtConfig({
   extends: ['nuxt-seo-kit'],
   modules: [
-    "@vueuse/nuxt",
+    '@vueuse/nuxt',
     '@unocss/nuxt',
     // "@nuxtjs/tailwindcss",
-    "@nuxtjs/fontaine",
-    "@nuxt/content",
-    "nuxt-icon",
+    '@nuxtjs/fontaine',
+    '@nuxt/content',
+    'nuxt-icon'
   ],
 
   css: [
     '@unocss/reset/tailwind.css',
-    '~/assets/css/main.css',
+    '~/assets/css/main.css'
   ],
 
   runtimeConfig: {
