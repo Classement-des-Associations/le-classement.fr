@@ -24,8 +24,7 @@ const linkClassNames = function () {
     }
   }
 
-  if (disabled)
-    classNames.push('cursor-not-allowed opacity-70')
+  if (disabled) { classNames.push('cursor-not-allowed opacity-70') }
 
   return classNames.join(' ')
 }
@@ -34,7 +33,8 @@ const linkClassNames = function () {
 <template>
   <NuxtLink
     class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]"
-    :class="linkClassNames()" :disabled="disabled"
+    :class="linkClassNames()"
+    :disabled="disabled"
   >
     <slot />
   </NuxtLink>

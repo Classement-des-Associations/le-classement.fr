@@ -12,13 +12,17 @@ const open = ref(false)
         <ContentSlot :use="$slots.title" unwrap="p" />
       </span>
       <Icon
-        name="heroicons:chevron-down-20-solid" class="transition-transform duration-300"
-        :class="open ? 'transform rotate-180' : ''"
+        name="heroicons:chevron-down-20-solid"
+        class="transition-transform duration-300"
+        :class="open ? 'transform rotate-180' : null"
       />
     </button>
     <transition
-      enter-active-class="transition duration-300 ease-out" enter-from-class="opacity-0"
-      enter-to-class="opacity-100" leave-active-class="transition duration-300 ease-out" leave-from-class="opacity-100"
+      enter-active-class="transition duration-300 ease-out"
+      enter-from-class="opacity-0"
+      enter-to-class="opacity-100"
+      leave-active-class="transition duration-300 ease-out"
+      leave-from-class="opacity-100"
       leave-to-class="opacity-0"
     >
       <div v-show="open" class="mt-4 text-sm leading-[1.125rem]">

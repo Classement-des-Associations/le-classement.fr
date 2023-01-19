@@ -10,10 +10,10 @@ const handleSubmit = (e: Event) => {
   fetch('/contactform', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(formData as any).toString(),
+    body: new URLSearchParams(formData as any).toString()
   })
     .then(res =>
-      message.value = res.ok ? 'Merci pour votre message !' : 'Une erreur est survenue !',
+      message.value = res.ok ? 'Merci pour votre message !' : 'Une erreur est survenue !'
     )
     .catch(() => message.value = 'Une erreur est survenue !')
 }
@@ -35,22 +35,38 @@ const handleSubmit = (e: Event) => {
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
         <label for="first_name" class="sr-only">Prénom</label>
         <input
-          id="first_name" type="text" name="first_name" required
-          class="md:mr-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Prénom"
+          id="first_name"
+          type="text"
+          name="first_name"
+          required
+          class="md:mr-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm"
+          placeholder="Prénom"
         >
         <label for="last_name" class="sr-only">Nom</label>
         <input
-          id="last_name" type="text" name="last_name" required
-          class="md:ml-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm" placeholder="Nom"
+          id="last_name"
+          type="text"
+          name="last_name"
+          required
+          class="md:ml-2 py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm"
+          placeholder="Nom"
         >
         <label for="email" class="sr-only">Adresse mail</label>
         <input
-          id="email" type="email" name="email" required
-          class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2" placeholder="Adresse mail"
+          id="email"
+          type="email"
+          name="email"
+          required
+          class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2"
+          placeholder="Adresse mail"
         >
         <label for="message" class="sr-only">Votre message</label>
         <textarea
-          id="message" name="message" cols="30" rows="5" required
+          id="message"
+          name="message"
+          cols="30"
+          rows="5"
+          required
           class="py-4 pl-4 placeholder:text-[#808080] placeholder:text-sm md:col-span-2"
           placeholder="Ton message"
         />

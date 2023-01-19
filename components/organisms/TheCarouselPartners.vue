@@ -49,31 +49,29 @@ const onIntersectionObserver = function (state) {
   if (el.isIntersecting) {
     el.target.setAttribute('tabindex', '0')
 
-    if (el.target === slides.value[0])
-      atBeginning.value = true
-    else if (el.target === slides.value[slides.value.length - 1])
-      atEnd.value = true
-  }
-  else {
+    if (el.target === slides.value[0]) { atBeginning.value = true } else if (el.target === slides.value[slides.value.length - 1]) { atEnd.value = true }
+  } else {
     el.target.setAttribute('tabindex', '-1')
 
-    if (el.target === slides.value[0])
-      atBeginning.value = false
-    else if (el.target === slides.value[slides.value.length - 1])
-      atEnd.value = false
+    if (el.target === slides.value[0]) { atBeginning.value = false } else if (el.target === slides.value[slides.value.length - 1]) { atEnd.value = false }
   }
 }
 </script>
 
 <template>
   <section
-    tabindex="0" aria-labelledby="carousel-label" class="flex flex-row" @keydown.left="prev"
+    tabindex="0"
+    aria-labelledby="carousel-label"
+    class="flex flex-row"
+    @keydown.left="prev"
     @keydown.right="next"
   >
     <span id="carousel-label" class="sr-only">Carousel de nos partenaires</span>
 
     <button
-      :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning"
+      :tabindex="atBeginning ? -1 : 0"
+      :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
+      :aria-disabled="atBeginning"
       @click="prev"
     >
       <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20" />
@@ -82,7 +80,10 @@ const onIntersectionObserver = function (state) {
 
     <ul ref="slider" tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar">
       <li
-        v-for="partner in partners" :key="partner.src" ref="slides" v-intersection-observer="[onIntersectionObserver, { root: slider }]"
+        v-for="partner in partners"
+        :key="partner.src"
+        ref="slides"
+        v-intersection-observer="[onIntersectionObserver, { root: slider }]"
         class="snap-start px-9"
       >
         <img loading="lazy" :src="partner.src" class="max-w-none w-40 h-40 object-cover" :alt="partner.alt">
@@ -90,8 +91,11 @@ const onIntersectionObserver = function (state) {
     </ul>
 
     <button
-      :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd"
-      class="md:ml-16" @click="next"
+      :tabindex="atEnd ? -1 : 0"
+      :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
+      :aria-disabled="atEnd"
+      class="md:ml-16"
+      @click="next"
     >
       <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20 transform rotate-180" />
       <span class="sr-only">Passer à l'item suivant</span>
