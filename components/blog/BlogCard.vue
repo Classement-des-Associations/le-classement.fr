@@ -12,7 +12,7 @@ const normalizedPart = useNormalizedPart(article.part)
   <article class="relative bg-white group rounded-xl before:rounded-xl gradient-border"
     :class="`gradient-border-${article.part}`">
     <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4 p-5">
-      <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
+      <div class="aspect-16/9 rounded-lg md:rounded overflow-hidden">
         <img class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           v-if="article.image" :src="article.image.src" :alt="article.image.alt" loading="lazy">
       </div>

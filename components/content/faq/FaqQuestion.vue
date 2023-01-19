@@ -16,3 +16,10 @@ const icon = computed(() => open.value ? 'heroicons:chevron-up-solid' : 'heroico
     </Prose>
   </li>
 </template>
+
+
+<style scoped>
+button {
+  font-family: Montserrat;
+}
+</style>

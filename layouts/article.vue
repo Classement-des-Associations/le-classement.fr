@@ -17,23 +17,6 @@ const datetime = useDateToISOString(page.value.datePublished)
 const formattedDate = useDateToLocaleDateString(page.value.datePublished)
 
 const colors = useColorsByPart(page.value.part)
-
-const proseClass = function (part: Part = 'classement') {
-  switch (part) {
-    case 'tour-asso':
-      return 'prose-a:prose-p:bg-association prose-a:prose-p:decoration-accent-purple/40  hover:prose-a:prose-p:decoration-accent-purple'
-    case 'discovery':
-      return 'prose-a:prose-p:bg-vote prose-a:prose-p:decoration-primary-base/40 hover:prose-a:prose-p:decoration-primary-base'
-    case 'concours':
-    case 'ceremonie-finale':
-    case 'classement':
-      return 'prose-blockquote:border-primary-base prose-li:marker:text-primary-base prose-a:prose-p:bg-classemen prose-a:prose-p:decoration-primary-light/40 hover:prose-a:prose-p:decoration-primary-light'
-    case 'partenaires':
-      return 'prose-a:prose-p:bg-partenaire prose-a:prose-p:decoration-accent-blue/40 hover:prose-a:prose-p:decoration-accent-blue'
-    default:
-      return ''
-  }
-}
 </script>
 
 <template>
@@ -56,8 +39,7 @@ const proseClass = function (part: Part = 'classement') {
           </p>
         </figcaption>
       </figure>
-      <div class="mt-2 md:mt-6 w-full mx-auto max-w-2xl prose prose-black
-        " :class="proseClass(page.type)">
+      <div class="mt-2 md:mt-6 w-full mx-auto max-w-2xl prose prose-black">
         <slot />
       </div>
     </article>
