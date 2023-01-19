@@ -3,7 +3,7 @@ import { vIntersectionObserver } from '@vueuse/components'
 
 defineProps<{
   partners: {
-    src: string,
+    src: string
     alt: string
   }[]
 }>()
@@ -18,7 +18,7 @@ const atEnd = ref(false)
 
 /**
  * Move slide using a strategy
- * 
+ *
  * @param strategy Function to tell how to move slide
  */
 const to = function (strategy) {
@@ -42,56 +42,59 @@ const prev = function () {
 }
 
 /**
- * Used to track slide 
+ * Used to track slide
  */
 const onIntersectionObserver = function (state) {
   const el = state[0]
   if (el.isIntersecting) {
     el.target.setAttribute('tabindex', '0')
 
-    if (el.target === slides.value[0]) {
+    if (el.target === slides.value[0])
       atBeginning.value = true
-    } else if (el.target === slides.value[slides.value.length - 1]) {
+    else if (el.target === slides.value[slides.value.length - 1])
       atEnd.value = true
-    }
   }
   else {
     el.target.setAttribute('tabindex', '-1')
 
-    if (el.target === slides.value[0]) {
+    if (el.target === slides.value[0])
       atBeginning.value = false
-    } else if (el.target === slides.value[slides.value.length - 1]) {
+    else if (el.target === slides.value[slides.value.length - 1])
       atEnd.value = false
-    }
   }
-
 }
 </script>
 
 <template>
-  <section tabindex="0" aria-labelledby="carousel-label" class="flex flex-row" @keydown.left="prev"
-    @keydown.right="next">
-
+  <section
+    tabindex="0" aria-labelledby="carousel-label" class="flex flex-row" @keydown.left="prev"
+    @keydown.right="next"
+  >
     <span id="carousel-label" class="sr-only">Carousel de nos partenaires</span>
 
-    <button @click="prev" :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
-      :aria-disabled="atBeginning">
+    <button
+      :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning"
+      @click="prev"
+    >
       <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20" />
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
-    <ul tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
-      <li class="snap-start px-9" v-for="partner in partners" :key="partner.src" ref="slides"
-        v-intersection-observer="[onIntersectionObserver, { root: slider }]">
+    <ul ref="slider" tabindex="0" class="md:ml-16 flex w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar">
+      <li
+        v-for="partner in partners" :key="partner.src" ref="slides" v-intersection-observer="[onIntersectionObserver, { root: slider }]"
+        class="snap-start px-9"
+      >
         <img loading="lazy" :src="partner.src" class="max-w-none w-40 h-40 object-cover" :alt="partner.alt">
       </li>
     </ul>
 
-    <button @click="next" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
-      :aria-disabled="atEnd" class="md:ml-16">
+    <button
+      :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd"
+      class="md:ml-16" @click="next"
+    >
       <Icon name="heroicons:arrow-left-20-solid" class="w-6 h-6 md:w-20 md:h-20 transform rotate-180" />
       <span class="sr-only">Passer à l'item suivant</span>
     </button>
-
   </section>
 </template>

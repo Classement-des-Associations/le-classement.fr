@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
@@ -113,7 +114,7 @@ module.exports = {
     require("tailwindcss-border-gradient-radius"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
-    plugin(function ({ addVariant }) {
+    plugin(({ addVariant }) => {
       addVariant("blog", ".blog &");
     }),
   ],

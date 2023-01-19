@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { PressArticle } from '~~/types/press-article';
+import type { PressArticle } from '~~/types/press-article'
 
 const { article } = defineProps<{
   article: PressArticle
@@ -12,20 +12,28 @@ const formattedDate = useDateToLocaleDateString(article.date)
 <template>
   <NuxtLink :href="article.link" class="group">
     <div class="overflow-hidden rounded-lg">
-      <img v-if="article.image" class="group-hover:scale-[101%] transition-transform duration-200"
-        :src="article.image.src" :alt="article.image.alt" loading="lazy" height="300" width="400">
+      <img
+        v-if="article.image" class="group-hover:scale-[101%] transition-transform duration-200"
+        :src="article.image.src" :alt="article.image.alt" loading="lazy" height="300" width="400"
+      >
     </div>
-    <div class="mt-2 flex flex-row text-sm text-black gap-2" :class="{
-      'justify-between': article.press, 'justify-end': !article.press
-    }">
+    <div
+      class="mt-2 flex flex-row text-sm text-black gap-2" :class="{
+        'justify-between': article.press, 'justify-end': !article.press,
+      }"
+    >
       <dl v-if="article.press">
-        <dt class="sr-only">Publié sur</dt>
+        <dt class="sr-only">
+          Publié sur
+        </dt>
         <dd>{{ article.press }}</dd>
       </dl>
       <time class="shrink-0" :datetime="datetime">{{
         formattedDate
       }}</time>
     </div>
-    <h3 class="mt-2 text-lg text-black font-bold">{{ article.title }}</h3>
+    <h3 class="mt-2 text-lg text-black font-bold">
+      {{ article.title }}
+    </h3>
   </NuxtLink>
 </template>

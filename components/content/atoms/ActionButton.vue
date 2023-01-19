@@ -12,6 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <AtomsAppLink target="_blank" :to="to" fill>{{ text }}
+  <AtomsAppLink target="_blank" :to="to" fill>
+    {{ text }}
   </AtomsAppLink>
 </template>

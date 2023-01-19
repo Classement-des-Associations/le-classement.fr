@@ -5,8 +5,9 @@
         <ContentSlot :use="$slots.default" unwrap="p" />
       </AtomsSectionTitle>
       <section
-        class="flex gap-6 w-full overflow-x-auto snap-x snap-mandatory scroll-p-4 scroll-m-4 px-4 xl:px-0 mt-5 md:mt-[2.875rem]">
-        <slot name="cards"></slot>
+        class="flex gap-6 w-full overflow-x-auto snap-x snap-mandatory scroll-p-4 scroll-m-4 px-4 xl:px-0 mt-5 md:mt-[2.875rem]"
+      >
+        <slot name="cards" />
       </section>
     </div>
   </section>
