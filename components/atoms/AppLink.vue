@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { filled, white, disabled } = defineProps<{
-  filled?: boolean,
-  white?: boolean,
+  filled?: boolean
+  white?: boolean
   disabled?: boolean
 }>()
 
@@ -24,17 +24,18 @@ const linkClassNames = function () {
     }
   }
 
-  if (disabled) {
+  if (disabled)
     classNames.push('cursor-not-allowed opacity-70')
-  }
 
   return classNames.join(' ')
 }
 </script>
 
 <template>
-  <NuxtLink class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]"
-    :class="linkClassNames()" :disabled="disabled">
-    <slot></slot>
+  <NuxtLink
+    class="flex flex-row items-center text-sm leading-4 tracking-wider font-semibold rounded-[0.875rem]"
+    :class="linkClassNames()" :disabled="disabled"
+  >
+    <slot />
   </NuxtLink>
 </template>

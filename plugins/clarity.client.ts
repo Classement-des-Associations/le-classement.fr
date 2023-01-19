@@ -2,6 +2,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   const { microsoftClarityID } = nuxtApp.$config.public
 
   if (!microsoftClarityID) {
+    // eslint-disable-next-line no-console
     console.warn('Microsoft Clarity ID is not defined in nuxt.config.js (public config)')
     return
   }

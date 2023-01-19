@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const { winners } = defineProps<{
   winners: {
-    year: number,
+    year: number
     winners: {
-      name: string,
-      school: string,
-      href: string,
+      name: string
+      school: string
+      href: string
     }[]
   }[]
 }>()
@@ -17,7 +17,6 @@ const currentYear = ref(sortedYears[0])
 const currentWinners = computed(() => {
   return winners.find(winner => winner.year === currentYear.value).winners
 })
-
 </script>
 
 <template>

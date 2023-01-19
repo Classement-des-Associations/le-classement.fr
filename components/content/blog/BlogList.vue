@@ -3,7 +3,7 @@ useSchemaOrg([
   defineWebPage({
     '@type': 'CollectionPage',
   }),
-]);
+])
 
 const { data: articles } = await useAsyncData('blog', () => queryContent('/blog/').sort({ datePublished: -1 }).find())
 </script>

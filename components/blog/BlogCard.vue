@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ParsedContent } from '@nuxt/content/dist/runtime/types';
+import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 const { article } = defineProps<{ article: ParsedContent }>()
 
 const datetime = ref(new Date(article.datePublished || Date.now()))
@@ -22,7 +22,9 @@ const normalizedPart = useNormalizedPart(article.part)
         }}</span>
       </div>
       <div class="flex-grow flex flex-col gap-2">
-        <h3 class="text-xl text-black font-bold">{{ article.title }}</h3>
+        <h3 class="text-xl text-black font-bold">
+          {{ article.title }}
+        </h3>
         <p class="text-base text-black">
           {{ article.description }}
         </p>

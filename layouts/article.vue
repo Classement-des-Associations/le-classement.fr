@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Part } from '~~/types/part.js';
+import type { Part } from '~~/types/part.js'
 
 const { page } = useContent()
 
@@ -8,7 +8,7 @@ useSchemaOrg([
     {
       image: page.value.image ?? '',
       datePublished: useDateToISOString(page.value.datePublished),
-      dateModified: useDateToISOString(page.value.dateModified),
+      dateModified: useDateToISOString(page.value.dateModified)
     }
   )
 ])
@@ -21,7 +21,7 @@ const colors = useColorsByPart(page.value.part)
 
 <template>
   <LayoutSection>
-    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20"></BlogToc>
+    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20" />
 
     <article class="max-w-4xl mx-auto px-4 flex flex-col">
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
@@ -32,7 +32,7 @@ const colors = useColorsByPart(page.value.part)
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
             {{ page.image.alt }}
-            <span> </span>
+            <span />
             <time :datetime="datetime">
               Publié le {{ formattedDate }}.
             </time>
