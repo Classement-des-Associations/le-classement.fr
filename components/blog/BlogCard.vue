@@ -1,11 +1,11 @@
 <script lang="ts" setup>
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
-const { article } = defineProps<{ article: ParsedContent }>()
+const props = defineProps<{ article: ParsedContent }>()
 
-const datetime = ref(new Date(article.datePublished || Date.now()))
+const datetime = ref(new Date(props.article.datePublished || Date.now()))
 
-const colors = useColorsByPart(article.part)
-const normalizedPart = useNormalizedPart(article.part)
+const colors = useColorsByPart(props.article.part)
+const normalizedPart = useNormalizedPart(props.article.part)
 </script>
 
 <template>
@@ -17,13 +17,23 @@ const normalizedPart = useNormalizedPart(article.part)
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img
           v-if="article.image"
-          class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200" :src="article.image.src" :alt="article.image.alt" loading="lazy"
+          class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
+          :src="article.image.src"
+          :alt="article.image.alt"
+          loading="lazy"
         >
       </div>
       <div>
-        <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{
-          normalizedPart
-        }}</span>
+        <dl>
+          <dt class="sr-only">
+            Partie du Classement
+          </dt>
+          <dd class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">
+            {{
+              normalizedPart
+            }}
+          </dd>
+        </dl>
       </div>
       <div class="flex-grow flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">
