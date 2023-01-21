@@ -85,7 +85,7 @@ module.exports = {
           "colors.primary-base"
         )} 75%, ${theme("colors.primary-base / 0%")} 100%)`,
 
-        "center-classement": `linear-gradient(135deg, ${theme(
+        "center-classement": `linear-gradient(-45deg, ${theme(
           "colors.primary-base"
         )} 50%, ${theme("colors.primary-variation-1")} 50%)`,
       }),

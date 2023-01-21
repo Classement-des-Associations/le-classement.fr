@@ -1,14 +1,14 @@
 <script lang="ts" setup>
-import { Part } from '~~/types/part';
+import { Part } from '~~/types/part'
 
 const { part } = defineProps<{
   sectionClass?: string;
   part: Part;
   actionText: string;
   actionHref: string;
-}>();
+}>()
 
-const colors = useColorsByPart(part);
+const colors = useColorsByPart(part)
 
 </script>
 
@@ -16,8 +16,7 @@ const colors = useColorsByPart(part);
   <BaseSection :class="sectionClass">
     <div class="flex flex-row">
       <div class="shrink-0 w-7 flex flex-row justify-center">
-        <div class="w-[3px] rounded-full" :class="colors.lineColor">
-        </div>
+        <div class="w-[3px] rounded-full" :class="colors.lineColor" />
       </div>
 
       <div class="mt-10">
@@ -34,18 +33,27 @@ const colors = useColorsByPart(part);
 
           <NuxtLink
             class="flex flex-row items-center gap-2 text-2xl text-black font-medium hover:underline hover:underline-offset-4"
-            :to="actionHref">
+            :to="actionHref"
+          >
             {{ actionText }}
             <Icon name="heroicons:chevron-right" class="w-6 h-6" />
           </NuxtLink>
         </div>
 
-        <div class="relative -left-4 mt-12 mb-32 flex flex-row gap-10 items-center">
-          <img :src="`/assets/home/images/decorations/${part}.png`" alt="Décoration" class="h-80 w-auto" aria-hidden="true"
-            width="171" height="1280">
+        <div v-if="$slots.didYouKnowValue" class="relative -left-4 mt-12 mb-32 flex flex-row gap-10 items-center">
+          <img
+            :src="`/assets/home/images/decorations/${part}.png`"
+            alt="Décoration"
+            class="h-80 w-auto"
+            aria-hidden="true"
+            width="171"
+            height="1280"
+          >
           <div class="flex flex-col gap-4 items-start">
-            <p class="border rounded-full px-2 py-0.5 text-sm font-normal"
-              :class="[colors.textColor, colors.borderColor]">
+            <p
+              class="border rounded-full px-2 py-0.5 text-sm font-normal"
+              :class="[colors.textColor, colors.borderColor]"
+            >
               Le
               saviez-vous ?
             </p>
@@ -65,7 +73,6 @@ const colors = useColorsByPart(part);
       <div class="mt-10">
         <ContentSlot :use="$slots.extra" unwrap="p" />
       </div>
-
     </div>
   </BaseSection>
 </template>

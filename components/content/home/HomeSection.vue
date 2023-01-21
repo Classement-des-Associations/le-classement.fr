@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Part } from '~~/types/part';
+import { Part } from '~~/types/part'
 
 const { part } = defineProps<{
   id: string
@@ -15,11 +15,10 @@ const colors = useColorsByPart(part)
 </script>
 
 <template>
-  <BaseSection :class="sectionClass" :id="id">
+  <BaseSection :id="id" :class="sectionClass">
     <div class="flex flex-col gap-4">
       <div class="w-7 flex flex-row justify-center">
-        <div v-if="topLineClass" class="w-[3px] h-40 rounded-full bg-gradient-to-t" :class="topLineClass">
-        </div>
+        <div v-if="topLineClass" class="w-[3px] h-40 rounded-full bg-gradient-to-t" :class="topLineClass" />
       </div>
 
       <div class="flex flex-row gap-6">
@@ -32,13 +31,15 @@ const colors = useColorsByPart(part)
 
       <div class="flex flex-row gap-6">
         <div class="shrink-0 w-7 flex flex-row justify-center">
-          <div v-if="bottomLineClass" class="w-[3px] h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass">
-          </div>
+          <div v-if="bottomLineClass" class="w-[3px] h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass" />
         </div>
 
         <p class="text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth }">
-          <span v-if="$slots.textGradient" class="inline text-transparent bg-clip-text"
-            :class="colors.backgroundGradient">
+          <span
+            v-if="$slots.textGradient"
+            class="inline text-transparent bg-clip-text"
+            :class="colors.backgroundGradient"
+          >
             <ContentSlot :use="$slots.textGradient" unwrap="p" />
           </span>
           <span>&#8203;&#32;&#8203;</span>
@@ -49,9 +50,12 @@ const colors = useColorsByPart(part)
       </div>
     </div>
 
-    <div v-if="$slots.extra" :class="{
-      'mt-20': !bottomLineClass, 'mt-4': bottomLineClass
-    }">
+    <div
+      v-if="$slots.extra"
+      :class="{
+        'mt-20': !bottomLineClass, 'mt-4': bottomLineClass
+      }"
+    >
       <ContentSlot :use="$slots.extra" />
     </div>
   </BaseSection>
