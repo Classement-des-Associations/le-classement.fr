@@ -5,7 +5,7 @@ description: Le 2 décembre 2022, au cœur de l’Opéra Bastille, a eu lieu la 
 categories:
   - cérémonie finale
 image:
-  src: https://le-classement.fr/images/blog/clap-de-fin-2022/cover.webp
+  src: https://le-classement.fr/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/cover.webp
   alt: Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille.
 datePublished: 2022-12-14
 dateModified: 2022-12-14
@@ -18,7 +18,7 @@ Depuis maintenant plusieurs mois, les associations sont challengées par le Clas
 
 C’est donc au cœur de l’[Opéra Bastille](https://www.operadeparis.fr/), dans son amphithéâtre, que la cérémonie finale de l’édition 2022 du Classement des Associations a eu lieu.
 
-![Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille](/images/blog/clap-de-fin-2022/salle.webp)
+![Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/salle.webp)
 
 L’objectif de l’après-midi était simple. Les 16 finalistes venus pitcher devaient convaincre, du mieux qu'ils le peuvent, le jury de professionnels pour gagner le plus de points et donc tenter de décrocher le titre de la meilleure association étudiante de France.
 
@@ -32,7 +32,7 @@ Ainsi, les unes après les autres et sous l’œil attentif du public et du jury
 ::carousel
 ---
 id: associations
-path: /images/blog/clap-de-fin-2022/associations/
+path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/associations/
 images:
   - src: 1-ovalies.webp
     alt: Photo du pitch de l'association Les Ovalies sur scène avec sa présentation dans le fond
@@ -73,17 +73,17 @@ Carousel d'images des associations passant sur scène
 
 Une fois l'ensemble des associations passées, il est l’heure pour le jury de délibérer. Vingt longues minutes, interminables pour les associations, avant qu’il ne rende son verdict.
 
-![Photo du jury en train de réfléchir](/images/blog/clap-de-fin-2022/jury.webp)
+![Photo du jury en train de réfléchir](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/jury.webp)
 
 Pendant ce temps, les partenaires du Classement des Associations ont pu se présenter sur notre scène, exposer leurs motivations ce qu’ils aiment tant dans la vie associative étudiante.
 
 Puis, après cette longue délibération, le jury est revenu sur scène pour transmettre l’ordre de ce top 16 aux présentateurs. Ainsi, après toutes ces épreuves, ces heures de travails pour les associations et de longues minutes, le temps était venu d'annoncer le classement.
 
-![Photo d'Estéban avant d'annoncer la grande association gagnante](/images/blog/clap-de-fin-2022/deux-derniers.webp)
+![Photo d'Estéban avant d'annoncer la grande association gagnante](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/deux-derniers.webp)
 
 Pour l'année 2022, c'est l'association Sup'Bio Dance qui remporte le titre de meilleure association étudiante dans un top 5 très serré avec les Enfoiros de l'INSA, Hum'Am, La Course Croisière EDHEC et Le Chti Grand Lille.
 
-![Photo de l'association Sup'Bio Dance sur scène](/images/blog/clap-de-fin-2022/gagnant.webp)
+![Photo de l'association Sup'Bio Dance sur scène](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/gagnant.webp)
 
 Quelques mots de Marion, présidente de l'association, et Yanne, futur président :
 
@@ -125,7 +125,7 @@ L’annonce de l’association victorieuse a laissé place au cocktail dînatoir
 ::carousel
 ---
 id: cocktail
-path: /images/blog/clap-de-fin-2022/cocktail/
+path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/cocktail/
 images:
   - src: 1.webp
     alt: Photo du cocktail dinatoire
@@ -144,9 +144,9 @@ Durant plus d’une heure, avec un cocktail d’exception et une flûte de champ
 
 Enfin, pour terminer en beauté cette édition 2022, célébrer la victoire de Sup’Bio Dance et surtout pour fêter la beauté de la vie associative étudiante, un gala a eu lieu sur La Péniche de Paris face à Notre Dame de Paris.
 
-![Photo du gala](/images/blog/clap-de-fin-2022/gala.webp)
+![Photo du gala](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/gala.webp)
 
-![Photo de la péniche](/images/blog/clap-de-fin-2022/peniche.webp)
+![Photo de la péniche](/assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/peniche.webp)
 
 ## À l’année prochaine
 
@@ -180,7 +180,7 @@ Et l'ensemble des associations qui ont participé à cette édition 2022 !
 ::carousel
 ---
 id: participants
-path: /images/blog/clap-de-fin-2022/participants/
+path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/participants/
 images:
   - src: 15.webp
     alt: Ensemble des membres de l'association Les Ovalies présent à la cérémonie finale
