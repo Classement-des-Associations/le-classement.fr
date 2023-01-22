@@ -7,8 +7,8 @@ categories:
   - tour asso
   - project
 image:
-  src:
-  alt:
+  src: /assets/blog/images/thottiam-le-projet-dhumam-pour-2023/cover.webp
+  alt: De gauche à droit, Diane Saignes, vice-présidente de l'association en 2022, Laurent Champaney, directeur général des Arts et Métiers, Hugo Fedherbe, président de l'association Hum'am en 2022, et Yanis Peigney, président de l'association Hum'am en 2023. 
 datePublished: 2023-01-23
 dateModified: 2023-01-23
 layout: article
@@ -45,8 +45,6 @@ Ces cinq axes ont pu être exploités dans ces différents pays :
 Pour sa soirée de projection et de passation, Hum'am a invité le Classement à venir découvrir son projet pour 2023.
 
 Avant de pouvoir le découvrir, [Laurent Champaney](https://www.linkedin.com/in/laurent-champaney-8a0a6022/), directeur général des Arts et Métiers, a pris la parole pour remercier l'association pour son travail et son implication dans la vie de l'école.
-
-![Laurent Champaney, directeur général des Arts et Métiers](/assets/blog/images/thottiam-le-projet-dhumam-pour-2023/laurent-champaney.webp)
 
 Puis, [Valentin Mison](https://www.linkedin.com/in/valentin-mison-7ba5229b/), co-fondateur de l'association et président en 2016, a pu revenir sur la naissance de l'association et les valeurs qu'elle porte !
 
