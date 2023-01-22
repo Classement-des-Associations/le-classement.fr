@@ -46,17 +46,17 @@ Pour sa soirée de projection et de passation, Hum'am a invité le Classement à
 
 Avant de pouvoir le découvrir, [Laurent Champaney](https://www.linkedin.com/in/laurent-champaney-8a0a6022/), directeur général des Arts et Métiers, a pris la parole pour remercier l'association pour son travail et son implication dans la vie de l'école.
 
-<!-- Inclure des photos d'Eva -->
+![Laurent Champaney, directeur général des Arts et Métiers](/assets/blog/images/thottiam-le-projet-dhumam-pour-2023/laurent-champaney.webp)
 
 Puis, [Valentin Mison](https://www.linkedin.com/in/valentin-mison-7ba5229b/), co-fondateur de l'association et président en 2016, a pu revenir sur la naissance de l'association et les valeurs qu'elle porte !
-
-<!-- Inclure des photos d'Eva -->
 
 Ce fut ensuite l'occasion pour le mandat 2022 de présenter son bilan sur le projet "**Fakh'Arts**" où l'association a pu participer activement à la rénovation d'une école à Fakhane, au Sénégal.
 
 ![Présentation de la rénovation de l'école à Fakhane](/assets/blog/images/thottiam-le-projet-dhumam-pour-2023/renovation-de-lecole.webp)
 
 [Hugo Fedherbe](https://www.linkedin.com/in/hugo-fedherbe/), président de l'association en 2022, a pu énoncer les derniers mots de son mandat pour remercier l'ensemble des membres de son équipe avant de laisser la place officiellement au mandat 2023 !
+
+![Hugo Fedherbe en train de présenter le bilan du mandat 2022](/assets/blog/images/thottiam-le-projet-dhumam-pour-2023/hugo-fedherbe.webp)
 
 ## Thotti'AM, le projet pour 2023
 
