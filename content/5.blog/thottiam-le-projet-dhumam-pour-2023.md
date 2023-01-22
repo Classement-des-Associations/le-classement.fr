@@ -8,7 +8,7 @@ categories:
   - project
 image:
   src: /assets/blog/images/thottiam-le-projet-dhumam-pour-2023/cover.webp
-  alt: De gauche à droit, Diane Saignes, vice-présidente de l'association en 2022, Laurent Champaney, directeur général des Arts et Métiers, Hugo Fedherbe, président de l'association Hum'am en 2022, et Yanis Peigney, président de l'association Hum'am en 2023. 
+  alt: De gauche à droite, Diane Saignes, vice-présidente de l'association en 2022, Hugo Fedherbe, président de l'association Hum'am en 2022, Laurent Champaney, directeur général des Arts et Métiers et Yanis Peigney, président de l'association Hum'am en 2023. 
 datePublished: 2023-01-23
 dateModified: 2023-01-23
 layout: article
