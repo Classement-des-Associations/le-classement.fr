@@ -70,7 +70,6 @@ export const useAssociation = (id: string) => {
 }
 
 export const useRelatedAssociations = (id: string, category = '') => {
-  console.log(id, category)
   return useAsyncData(`content:related-associations:${id}:${category}`, () =>
     queryContent<Association>('/associations/')
       .where({
