@@ -7,4 +7,5 @@ export interface Association {
   linkedin: string
   instagram: string
   website: string
+  years: string[]
 }

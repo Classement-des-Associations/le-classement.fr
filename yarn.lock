@@ -9695,6 +9695,7 @@ __metadata:
     slugify: ^1.6.5
     tailwindcss-border-gradient-radius: ^3.0.1
     typescript: ^4.9.4
+    unstorage: ^1.0.1
   languageName: unknown
   linkType: soft
 

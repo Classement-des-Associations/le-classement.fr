@@ -1,24 +1,26 @@
 <script lang="ts" setup>
 const route = useRoute()
 
-const id = route.params.id as string
-const association = await useAssociation(id)
+const id = ref(route.params.id as string)
+const { data: association } = await useAssociation(id.value)
 
-const socials = useSocials(`%s de l'association ${association.name}`, {
-  linkedin: association.linkedin,
-  instagram: association.instagram,
-  website: association.website
+const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}`, {
+  linkedin: association.value?.linkedin,
+  instagram: association.value?.instagram,
+  website: association.value?.website
 })
+
+const { data: relatedAssociations } = await useRelatedAssociations(id.value, association.value?.category)
 </script>
 
 <template>
-  <Head>
+  <Head v-if="association">
     <Title>{{ association.name }}</Title>
     <Meta name="description" :content="association.description" />
     <Meta property="og:description" :content="association.description" />
   </Head>
-  <BaseSection class="my-20">
-    <div class="flex flex-col items-start gap-3">
+  <BaseSection v-if="association" class="my-20">
+    <div class="flex flex-col items-start gap-6">
       <h1 class="text-5xl text-black font-bold">
         {{ association.name }}
       </h1>
@@ -30,18 +32,36 @@ const socials = useSocials(`%s de l'association ${association.name}`, {
           {{ association.category }}
         </dd>
       </dl>
-      <dl>
+      <dl v-if="association.schools">
         <dt class="sr-only">
           {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
         </dt>
         <dd class="text-2xl text-black font-medium">
-          {{ useSchoolsString(association.schools) }}
+          {{ useSentence(association.schools) }}
         </dd>
       </dl>
     </div>
     <p class="mt-8 text-xl">
       {{ association.description }}
     </p>
+    <p class="mt-4 text-xl">
+      L'association {{ association.name }} a participé au Classement des Associations en {{ useSentence(association.years) }}.
+    </p>
     <Socials :socials="socials" class="mt-8" />
+    <section v-if="relatedAssociations && relatedAssociations?.length > 0" class="mt-16">
+      <h2 class="text-xl">
+        Associations en lien
+      </h2>
+      <ul class="mt-4 grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <template v-for="relatedAssociation in relatedAssociations" :key="relatedAssociation.id">
+          <li>
+            <AssociationsCard :association="relatedAssociation" class="h-full transition ease-in duration-200 hover:shadow-lg" />
+          </li>
+        </template>
+      </ul>
+    </section>
+    <NuxtLink to="/associations" class="block mt-4 text-lg">
+      Retour aux associations
+    </NuxtLink>
   </BaseSection>
 </template>
