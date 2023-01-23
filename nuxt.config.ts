@@ -10,7 +10,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
       siteDescription:
