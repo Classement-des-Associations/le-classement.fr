@@ -40,7 +40,7 @@ const proseClass = function (part: Part = 'classement') {
   <LayoutSection>
     <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20" />
 
-    <article class="max-w-4xl mx-auto px-4 flex flex-col">
+    <article class="max-w-4xl mx-auto flex flex-col">
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
         {{ page.title }}
       </LayoutTitle>
