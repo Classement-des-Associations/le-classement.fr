@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-const { infoType } = defineProps<{
+const props = defineProps<{
   imageName: string
   cardClass: string
   infoType: 'primary' | 'secondary' | 'secondary-dark'
 }>()
 
 const infoClass = function (): string {
-  if (infoType === 'primary') { return 'border-primary-base text-black' } else if (infoType === 'secondary') { return 'border-black text-black' } else if (infoType === 'secondary-dark') { return 'border-zinc-300 text-zinc-300' }
+  if (props.infoType === 'primary') { return 'border-primary-base text-black' } else if (props.infoType === 'secondary') { return 'border-black text-black' } else if (props.infoType === 'secondary-dark') { return 'border-zinc-300 text-zinc-300' }
 
   return ''
 }

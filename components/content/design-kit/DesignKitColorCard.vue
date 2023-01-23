@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-const { hexaColor } = defineProps<{
+const props = defineProps<{
   colorClass: string
   hexaColor: string
 }>()
 
-const { copy, copied } = useClipboard({ source: hexaColor })
+const { copy, copied } = useClipboard({ source: props.hexaColor })
 </script>
 
 <template>
