@@ -34,7 +34,7 @@ const timing = computed(() => {
   if (xs.value) {
     return '60s'
   } else {
-    return '40s'
+    return '80s'
   }
 })
 </script>
