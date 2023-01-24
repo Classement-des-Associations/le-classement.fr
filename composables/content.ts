@@ -86,7 +86,6 @@ export const useAssociations = () => {
 }
 
 export const useAssociation = (id: string) => {
-  console.log('useAssociation', id)
   return useAsyncData(`content:association:${id}`, () =>
     queryContent<Association>(`/associations/_${id}`).where({
       _partial: true,
