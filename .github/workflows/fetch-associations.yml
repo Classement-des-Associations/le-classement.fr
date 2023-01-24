@@ -3,7 +3,7 @@ name: Fetch Associations
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 21 * * 0'
+    - cron: "0 21 * * 0"
 
 permissions:
   contents: write
@@ -23,18 +23,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: pnpm
 
       - name: Cache Node Modules
         id: node-cache
         uses: actions/cache@v3
         with:
           path: node_modules
-          key: node-modules-${{ hashFiles('yarn.lock') }}
+          key: node-modules-${{ hashFiles('pnpm-lock.yml') }}
 
       - name: Install Dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: yarn --immutable
+        run: pnpm i --frozen-lockfile
 
   fetch-and-pr:
     name: Fetch and Pull Request
@@ -56,7 +56,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: node_modules
-          key: node-modules-${{ hashFiles('yarn.lock') }}
+          key: node-modules-${{ hashFiles('pnpm-lock.yml') }}
 
       - name: Fetch Associations
         env:
@@ -68,8 +68,8 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           branch: feat-associations-automatic-update
-          commit-message: 'feat(associations): automatic update'
-          title: 'feat(associations): automatic update'
+          commit-message: "feat(associations): automatic update"
+          title: "feat(associations): automatic update"
           body: |
             Update `content/_associations.json` automatically.
 

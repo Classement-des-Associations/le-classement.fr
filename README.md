@@ -27,13 +27,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn
+  pnpm install
 ```
 
 Start the server
 
 ```bash
-  yarn dev
+  pnpm run dev
 ```
 
 
@@ -42,16 +42,15 @@ Start the server
 First, you need to build this project.
 
 ```bash
-  yarn build
+  pnpm run build
 ```
 
 Then, you can preview the result.
 
 ```bash
-  yarn preview
+  pnpm run preview
 ```
 
 ## Authors
 
 - [@barbapapazes](https://www.github.com/barbapapazes)
-
