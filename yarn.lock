@@ -9625,6 +9625,7 @@ __metadata:
     pathe: ^1.0.0
     slugify: ^1.6.5
     tailwindcss-border-gradient-radius: ^3.0.1
+    three: ^0.148.0
     typescript: ^4.9.4
     unstorage: ^1.0.1
   languageName: unknown
@@ -10438,6 +10439,13 @@ __metadata:
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.148.0":
+  version: 0.148.0
+  resolution: "three@npm:0.148.0"
+  checksum: 3f6359585c006c6f78b2fc1adeb90559d9b7cd6daf5cf916e81494ff228f4a9beffe37136bd8d5b0afbf377ac070b70624245bec2e9ee557035e2c485ce05197
   languageName: node
   linkType: hard
 
