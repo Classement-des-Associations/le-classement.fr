@@ -1,11 +1,11 @@
-import slugify from "slugify";
+import slugify from 'slugify'
 
 export const useSlugify = function (text) {
   return slugify(text, {
-    replacement: "-",
+    replacement: '-',
     lower: true,
     strict: true,
-    locale: "fr",
-    trim: true,
-  });
-};
+    locale: 'fr',
+    trim: true
+  })
+}

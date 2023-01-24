@@ -20,7 +20,9 @@ export default defineNuxtConfig({
   },
 
   content: {
-    documentDriven: true,
+    documentDriven: {
+      surround: false
+    },
     defaultLocale: 'fr',
     navigation: {
       fields: ['for']
