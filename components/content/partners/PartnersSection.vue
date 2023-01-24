@@ -11,7 +11,6 @@ const { data } = usePartners()
 const levels: Level[] = ['creator', 'platinum', 'gold', 'silver', 'bronze']
 const partners = ref<Record<Level, ParsedContent[]>>({} as Record<Level, ParsedContent[]>)
 
-
 partners.value = data.value?.reduce((acc, partner) => {
   if (!acc[partner.level as Level]) {
     acc[partner.level as Level] = []
