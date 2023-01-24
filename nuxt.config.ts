@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: ['nuxt-seo-kit'],
+  // extends: ['nuxt-seo-kit'],
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
