@@ -31,7 +31,7 @@ const colors = useColorsByPart(props.part)
 
       <div class="flex flex-row gap-6">
         <div class="shrink-0 w-5 sm:w-7 flex flex-row justify-center">
-          <div v-if="bottomLineClass" class="w-[3px] h-48 sm:h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass" />
+          <div v-if="bottomLineClass" class="w-[3px] h-48 sm:h-60 lg:h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass" />
         </div>
 
         <p class="text-2xl sm:text-3xl md:text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth }">

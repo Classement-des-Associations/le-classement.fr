@@ -13,6 +13,7 @@ const toImg = function (src: string) {
 
 const { smaller } = useBreakpoints(breakpointsTailwind)
 const xs = smaller('sm')
+const md = smaller('md')
 
 const slidesPerView = 9
 const slideWidth = computed(() => {
@@ -34,7 +35,7 @@ const timing = computed(() => {
   if (xs.value) {
     return '40s'
   } else {
-    return '40s'
+    return '80s'
   }
 })
 </script>
