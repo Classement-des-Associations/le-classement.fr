@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-const isBlog = useBlog()
+const { isBlog, blogClass } = useBlog()
 const htmlClass = computed(() => {
-  if (isBlog.value) { return 'blog' }
+  if (isBlog.value) { return blogClass }
 
   return ''
 })

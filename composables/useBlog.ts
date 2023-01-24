@@ -3,5 +3,5 @@ export const useBlog = () => {
 
   const isBlog = computed(() => router.currentRoute.value.path.includes('blog'))
 
-  return isBlog
+  return { isBlog, blogClass: 'blog' }
 }
