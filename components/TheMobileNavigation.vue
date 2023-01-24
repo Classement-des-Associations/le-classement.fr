@@ -2,20 +2,20 @@
 import {
   Dialog,
   DialogPanel,
-  DialogTitle,
+  DialogTitle
 } from '@headlessui/vue'
 
 const isOpen = ref(false)
 
-function setIsOpen(value) {
+function setIsOpen (value) {
   isOpen.value = value
 }
 
-function openModal() {
+function openModal () {
   setIsOpen(true)
 }
 
-function closeModal() {
+function closeModal () {
   setIsOpen(false)
 }
 
@@ -27,9 +27,11 @@ const { navigation } = useContent()
     <Icon name="heroicons:bars-3-20-solid" class="w-8 h-8" />
   </button>
   <ClientOnly>
-    <Dialog @close="setIsOpen" :open="isOpen">
+    <Dialog :open="isOpen" @close="setIsOpen">
       <DialogPanel class="absolute z-20 inset-0 bg-accent-purple text-white">
-        <DialogTitle class="sr-only">Navigation mobile</DialogTitle>
+        <DialogTitle class="sr-only">
+          Navigation mobile
+        </DialogTitle>
         <div class="flex flex-row justify-between px-4 pt-4">
           <LogosClassementShort class="h-[40px] w-[40px]" />
           <button @click="closeModal">
@@ -37,12 +39,17 @@ const { navigation } = useContent()
           </button>
         </div>
         <nav aria-labelledby="primary-nav-mobile" class="mt-14 ml-4">
-          <span class="sr-only" id="primary-nav-mobile">Navigation primaire mobile</span>
+          <span id="primary-nav-mobile" class="sr-only">Navigation primaire mobile</span>
           <ul class="space-y-10">
             <template v-for="item in navigation" :key="item._path">
               <li v-if="item.for === 'header'">
-                <NuxtLink @click="closeModal" class="text-lg font-semibold" :to="item._path"
-                  active-class="underline underline-offset-4">{{ item.title }}
+                <NuxtLink
+                  class="text-lg font-semibold"
+                  :to="item._path"
+                  active-class="underline underline-offset-4"
+                  @click="closeModal"
+                >
+                  {{ item.title }}
                 </NuxtLink>
               </li>
             </template>
@@ -52,4 +59,3 @@ const { navigation } = useContent()
     </Dialog>
   </ClientOnly>
 </template>
-

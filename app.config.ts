@@ -1,41 +1,41 @@
 export default defineAppConfig({
   showActionButton: false,
   actionButton: {
-    to: "",
-    text: "",
+    to: '',
+    text: ''
   },
   nuxtIcon: {
     aliases: {
-      classement: "fluent-emoji:sparkles",
-      "tour-asso": "fluent-emoji:telescope",
-      concours: "fluent-emoji:trophy",
-      discovery: "fluent-emoji:rocket",
-      "ceremonie-finale": "fluent-emoji:party-popper",
-      "rendu-ecrit": "fluent-emoji:framed-picture",
-      "rendu-video": "fluent-emoji:video-camera",
-      vote: "fluent-emoji:ballot-box-with-ballot",
-      pitch: "fluent-emoji:microphone",
-      instagram: "mdi:instagram",
-      linkedin: "mdi:linkedin",
-      twitter: "mdi:twitter",
-      website: "mdi:web",
-    },
+      classement: 'fluent-emoji:sparkles',
+      'tour-asso': 'fluent-emoji:telescope',
+      concours: 'fluent-emoji:trophy',
+      discovery: 'fluent-emoji:rocket',
+      'ceremonie-finale': 'fluent-emoji:party-popper',
+      'rendu-ecrit': 'fluent-emoji:framed-picture',
+      'rendu-video': 'fluent-emoji:video-camera',
+      vote: 'fluent-emoji:ballot-box-with-ballot',
+      pitch: 'fluent-emoji:microphone',
+      instagram: 'mdi:instagram',
+      linkedin: 'mdi:linkedin',
+      twitter: 'mdi:twitter',
+      website: 'mdi:web'
+    }
   },
   socials: [
     {
-      name: "Instagram",
-      to: "https://www.instagram.com/leclassement/",
-      icon: "instagram",
+      name: 'Instagram',
+      to: 'https://www.instagram.com/leclassement/',
+      icon: 'instagram'
     },
     {
-      name: "LinkedIn",
-      to: "https://www.linkedin.com/company/le-classement/",
-      icon: "linkedin",
+      name: 'LinkedIn',
+      to: 'https://www.linkedin.com/company/le-classement/',
+      icon: 'linkedin'
     },
     {
-      name: "Twitter",
-      to: "https://twitter.com/leclassement",
-      icon: "twitter",
-    },
-  ],
-});
+      name: 'Twitter',
+      to: 'https://twitter.com/leclassement',
+      icon: 'twitter'
+    }
+  ]
+})

@@ -7,6 +7,7 @@ image: https://le-classement.fr/preview.png
 
 ::hero
 ---
+withGraphics: true
 part: blog
 ---
 

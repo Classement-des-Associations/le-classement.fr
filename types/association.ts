@@ -1,10 +1,11 @@
-export type Association = {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  schools: string[];
-  linkedin: string;
-  instagram: string;
-  website: string;
-};
+export interface Association {
+  id: string
+  name: string
+  description: string
+  category: string
+  schools: string[]
+  linkedin: string
+  instagram: string
+  website: string
+  years: string[]
+}

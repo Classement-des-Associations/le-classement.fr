@@ -49,3 +49,13 @@
   font-display: swap;
   src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease-in;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
