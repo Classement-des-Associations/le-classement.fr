@@ -24,10 +24,10 @@ export const usePressReleases = (limit?: number) => {
 }
 
 export const useHomeAssociations = () => {
-  return useAsyncData("content:home-associations", () =>
-    queryContent("_home-associations").findOne()
-  );
-};
+  return useAsyncData('content:home-associations', () =>
+    queryContent('_home-associations').findOne()
+  )
+}
 
 export const useDumpThinkerArticles = () => {
   return useAsyncData('content:dump-thinker-articles', () =>
@@ -62,19 +62,19 @@ export const useArticlesByCategories = (
   limit: number
 ) => {
   return useAsyncData(
-    `content:articles-by-categories-${categories.join("-")}-${limit}`,
+    `content:articles-by-categories-${categories.join('-')}-${limit}`,
     () =>
-      queryContent("/blog/")
+      queryContent('/blog/')
         .where({
           categories: {
-            $containsAny: categories,
-          },
+            $containsAny: categories
+          }
         })
         .limit(limit)
         .sort({ datePublished: -1 })
         .find()
-  );
-};
+  )
+}
 
 export const useAssociations = () => {
   return useAsyncData('content:associations', () =>
@@ -86,6 +86,7 @@ export const useAssociations = () => {
 }
 
 export const useAssociation = (id: string) => {
+  console.log('useAssociation', id)
   return useAsyncData(`content:association:${id}`, () =>
     queryContent<Association>(`/associations/_${id}`).where({
       _partial: true,
