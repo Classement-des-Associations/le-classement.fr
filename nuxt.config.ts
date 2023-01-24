@@ -33,6 +33,10 @@ export default defineNuxtConfig({
     }
   },
 
+  ogImage: {
+    fonts: ['Montserrat:700']
+  },
+
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },

@@ -5,6 +5,7 @@ const htmlClass = computed(() => {
 
   return ''
 })
+
 </script>
 
 <template>
@@ -16,6 +17,7 @@ const htmlClass = computed(() => {
         logo="/logo.png"
         :same-as="['https://www.linkedin.com/company/classement-des-associations/', 'https://www.instagram.com/classementdesassociations/', 'https://twitter.com/Leclassement']"
       />
+      <OgImageStatic component="OgImage" />
     </Head>
 
     <Body class="bg-white blog:bg-primary-variation-2 transition-colors ease-in duration-300">
