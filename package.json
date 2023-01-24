@@ -34,6 +34,7 @@
     "unstorage": "^1.0.1"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "three": "^0.148.0"
   }
 }
