@@ -6,7 +6,7 @@ const { navigation } = useContent()
 <template>
   <BaseSection is="header" class="py-4 flex flex-row justify-between transition-colors ease-in">
     <div class="flex flex-row space-x-8 justify-center items-center">
-      <NuxtLink to="/" @click.right.prevent="navigateTo('design-kit')">
+      <NuxtLink to="/" @click.right.prevent="navigateTo('/design-kit')">
         <LogosClassementShort
           class="h-[40px] w-[40px] md:h-[50px] md:w-[50px] text-black hover:text-primary-base motion-safe:transition-all motion-safe:duration-300"
         />
