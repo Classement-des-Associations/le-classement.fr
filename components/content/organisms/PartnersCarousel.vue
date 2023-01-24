@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   partners: {
-    src: string,
+    src: string
     alt: string
   }[]
 }>()

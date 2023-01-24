@@ -4,12 +4,11 @@ import { vIntersectionObserver } from '@vueuse/components'
 const props = defineProps({
   years: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 })
 
 const emit = defineEmits(['year'])
-
 
 const slider = ref()
 const slides = ref([])
@@ -21,7 +20,7 @@ const atEnd = ref(false)
 
 /**
  * Move slide using a strategy
- * 
+ *
  * @param strategy Function to tell how to move slide
  */
 const to = function (strategy) {
@@ -53,18 +52,16 @@ const onIntersectYear = function (year) {
     if (el.isIntersecting) {
       emit('year', year)
 
-      if (el.target === slides.value[0]) {
+      if (el.target === slides.value[0])
         atBeginning.value = true
-      } else if (el.target === slides.value[slides.value.length - 1]) {
+      else if (el.target === slides.value[slides.value.length - 1])
         atEnd.value = true
-      }
     }
     else {
-      if (el.target === slides.value[0]) {
+      if (el.target === slides.value[0])
         atBeginning.value = false
-      } else if (el.target === slides.value[slides.value.length - 1]) {
+      else if (el.target === slides.value[slides.value.length - 1])
         atEnd.value = false
-      }
     }
   }
 }
@@ -76,29 +73,37 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="flex flex-row justify-between items-center" tabindex="0" @keydown.left="prev" @keydown.right="next"
-    aria-labelledby="carousel-label">
+  <section
+    class="flex flex-row justify-between items-center" tabindex="0" aria-labelledby="carousel-label" @keydown.left="prev"
+    @keydown.right="next"
+  >
     <span id="carousel-label" class="sr-only">Carousel des années du classement des associations</span>
 
-    <button @click="prev" :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }"
-      :aria-disabled="atBeginning">
-      <AtomsIconsChevronRight class="h-16 w-16 transform rotate-180" />
+    <button
+      :tabindex="atBeginning ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning"
+      @click="prev"
+    >
+      <Icon name="heroicons:chevron-left" class="h-12 w-12" />
       <span class="sr-only">Passer à l'item précédent</span>
     </button>
 
-    <ul tabindex="0" class="flex flex-row w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar" ref="slider">
-      <li v-for="year in props.years" :key="year" ref="slides"
+    <ul ref="slider" tabindex="0" class="flex flex-row w-full overflow-x-scroll snap-x snap-mandatory no-scrollbar">
+      <li
+        v-for="year in props.years" :key="year" ref="slides"
+        v-intersection-observer="[onIntersectYear(year), { root: slider }]"
         class="py-4 text-[4rem] lg:text-8xl font-extrabold w-full shrink-0 snap-start text-center"
-        v-intersection-observer="[onIntersectYear(year), { root: slider }]">
+      >
         <h2>
           {{ year }}
         </h2>
       </li>
     </ul>
 
-    <button @click="next" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }"
-      :aria-disabled="atEnd" class="md:ml-16">
-      <AtomsIconsChevronRight class="h-16 w-16" />
+    <button
+      :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd"
+      class="md:ml-16" @click="next"
+    >
+      <Icon name="heroicons:chevron-right-solid" class="h-12 w-12" />
       <span class="sr-only">Passer à l'item suivant</span>
     </button>
   </section>

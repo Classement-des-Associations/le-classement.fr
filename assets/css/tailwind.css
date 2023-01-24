@@ -9,41 +9,53 @@
   }
 }
 
-::-webkit-scrollbar {
-  width: 0.6em;
-  height: 0.6em;
-  background: transparent;
-}
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 0.6em;
+    height: 0.6em;
+    background: transparent;
+  }
 
-::-webkit-scrollbar-track {
-  @apply bg-white blog:bg-primary-variation-2;
-}
+  ::-webkit-scrollbar-track {
+    @apply bg-white blog:bg-primary-variation-2;
+  }
 
-::-webkit-scrollbar-thumb {
-  border-radius: 0.6em;
-  @apply bg-zinc-300 hover:bg-zinc-400 active:bg-zinc-500;
-}
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0.6em;
+    @apply bg-zinc-300 hover:bg-zinc-400 active:bg-zinc-500;
+  }
 
-.active-header {
-  @apply text-primary-base cursor-default;
-}
+  .active-header {
+    @apply text-primary-base cursor-default;
+  }
 
-.active-footer {
-  @apply text-primary-variation-1 cursor-default;
-}
+  .active-footer {
+    @apply text-primary-variation-1 cursor-default;
+  }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
 
 @font-face {
   font-family: "Montserrat";
   font-weight: 100 900;
   font-display: swap;
-  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease-in;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }

@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["Aneo", "BNEM"]
+  "cSpell.words": ["Aneo", "asso", "BNEM", "Enfoiros", "linkedin"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.enable": false,
+  "volar.completion.preferredTagNameCase": "pascal",
+  "volar.completion.preferredAttrNameCase": "kebab"
 }
