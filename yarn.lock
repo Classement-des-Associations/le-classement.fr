@@ -8004,7 +8004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-seo-kit@npm:^0.4.15":
+"nuxt-seo-kit@npm:^0.4.4":
   version: 0.4.15
   resolution: "nuxt-seo-kit@npm:0.4.15"
   dependencies:
@@ -9760,7 +9760,7 @@ __metadata:
     eslint: ^8.32.0
     nuxt: 3.0.0
     nuxt-icon: ^0.2.7
-    nuxt-seo-kit: ^0.4.15
+    nuxt-seo-kit: ^0.4.4
     pathe: ^1.1.0
     puppeteer: ^19.6.0
     sitemap: ^7.1.1

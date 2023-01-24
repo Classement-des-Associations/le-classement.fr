@@ -7,12 +7,18 @@ defineProps<{
     width: string | number;
     height: string | number;
   }
-}>();
+}>()
 </script>
 
 <template>
   <BaseSection :class="sectionClass">
-    <img class="rounded-3xl" :src="image.src" :alt="image.alt" :width="image.width" :height="image.height"
-      loading="lazy">
+    <img
+      class="rounded-2xl md:rounded-[2rem]"
+      :src="image.src"
+      :alt="image.alt"
+      :width="image.width"
+      :height="image.height"
+      loading="lazy"
+    >
   </BaseSection>
 </template>

@@ -8,7 +8,7 @@ defineProps<{
 <template>
   <li>
     <NuxtLink :to="to">
-      <HomeItem :icon="icon" v-slot="{titleClass, descriptionClass}">
+      <HomeItem v-slot="{titleClass, descriptionClass}" :icon="icon">
         <h3 :class="titleClass">
           <ContentSlot :use="$slots.title" unwrap="p" />
         </h3>

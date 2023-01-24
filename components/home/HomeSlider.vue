@@ -6,12 +6,13 @@ defineProps<{
     width: string | number;
     height: string | number;
   }[];
+  timing: string;
   slidesPerView: number;
   slideWidth: string;
   imageWidth: string;
   imageHeight: string;
   reversed?: boolean;
-}>();
+}>()
 </script>
 
 <template>
@@ -19,7 +20,7 @@ defineProps<{
     <div class="slide-track" :class="reversed ? 'animation-reverse' : 'animation'">
       <template v-for="item in [...images, ...images]" :key="item.src">
         <div class="slide shrink-0">
-          <slot :image="item"> </slot>
+          <slot :image="item" />
         </div>
       </template>
     </div>
@@ -40,13 +41,13 @@ defineProps<{
 }
 
 .animation {
-  -webkit-animation: scroll 80s linear infinite;
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll v-bind(timing) linear infinite;
+  animation: scroll v-bind(timing) linear infinite;
 }
 
 .animation-reverse {
-  -webkit-animation: scroll 80s linear infinite reverse;
-  animation: scroll 80s linear infinite reverse;
+  -webkit-animation: scroll v-bind(timing) linear infinite reverse;
+  animation: scroll v-bind(timing) linear infinite reverse;
 }
 
 .slider {
