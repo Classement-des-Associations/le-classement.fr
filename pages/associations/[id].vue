@@ -3,14 +3,13 @@ const route = useRoute()
 
 const id = ref(route.params.id as string)
 const { data: association } = await useAssociation(id.value)
+const { data: relatedAssociations } = await useRelatedAssociations(id.value, association.value?.category)
 
 const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}`, {
   linkedin: association.value?.linkedin,
   instagram: association.value?.instagram,
   website: association.value?.website
 })
-
-const { data: relatedAssociations } = await useRelatedAssociations(id.value, association.value?.category)
 
 useSeoMeta({
   title: association.value?.name,
