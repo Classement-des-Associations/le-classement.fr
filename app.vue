@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-const router = useRouter()
-
-const isBlog = computed(() => router.currentRoute.value.path.includes('blog'))
+const isBlog = useBlog()
 const htmlClass = computed(() => {
   if (isBlog.value) { return 'blog' }
 
@@ -20,7 +18,7 @@ const htmlClass = computed(() => {
       />
     </Head>
 
-    <Body class="bg-white blog:bg-primary-variation-2">
+    <Body class="bg-white blog:bg-primary-variation-2 transition-colors ease-in duration-300">
       <TheHeader />
       <main>
         <NuxtPage />

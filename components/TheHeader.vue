@@ -4,7 +4,7 @@ const { navigation } = useContent()
 </script>
 
 <template>
-  <BaseSection is="header" class="py-4 flex flex-row justify-between transition-colors ease-in">
+  <BaseSection is="header" class="py-4 flex flex-row justify-between">
     <div class="flex flex-row space-x-8 justify-center items-center">
       <NuxtLink to="/" @click.right.prevent="navigateTo('design-kit')">
         <LogosClassementShort
