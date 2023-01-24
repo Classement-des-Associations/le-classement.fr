@@ -28,9 +28,17 @@ const imageHeight = '200px'
 </script>
 
 <template>
-  <div aria-hidden="true" :class="sectionClass" class="relative overflow-hidden flex flex-col gap-5">
-    <HomeSlider v-if="data" v-for="(line, index) in data.lines" :key="index" :images="line" :reversed="index === 1"
-      :slides-per-view="slidesPerView" :slide-width="slideWidth" :image-width="imageWidth" :image-height="imageHeight">
+  <div v-if="data" aria-hidden="true" :class="sectionClass" class="relative overflow-hidden flex flex-col gap-5">
+    <HomeSlider
+      v-for="(line, index) in data.lines"
+      :key="index"
+      :images="line"
+      :reversed="index === 1"
+      :slides-per-view="slidesPerView"
+      :slide-width="slideWidth"
+      :image-width="imageWidth"
+      :image-height="imageHeight"
+    >
       <template #default="{ image }">
         <img class="rounded-lg" :src="toImg(image.src)" :alt="image.alt" :width="imageWidth" :height="imageHeight">
       </template>
