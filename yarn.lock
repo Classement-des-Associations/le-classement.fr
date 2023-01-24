@@ -594,7 +594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/vue@npm:^1.7.6":
+"@headlessui/vue@npm:^1.7.7":
   version: 1.7.7
   resolution: "@headlessui/vue@npm:1.7.7"
   peerDependencies:
@@ -1040,7 +1040,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/fontaine@npm:^0.2.3":
+"@nuxtjs/fontaine@npm:^0.2.4":
   version: 0.2.4
   resolution: "@nuxtjs/fontaine@npm:0.2.4"
   dependencies:
@@ -1053,7 +1053,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/tailwindcss@npm:^6.1.3":
+"@nuxtjs/tailwindcss@npm:^6.2.0":
   version: 6.2.0
   resolution: "@nuxtjs/tailwindcss@npm:6.2.0"
   dependencies:
@@ -1248,7 +1248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.8":
+"@tailwindcss/typography@npm:^0.5.9":
   version: 0.5.9
   resolution: "@tailwindcss/typography@npm:0.5.9"
   dependencies:
@@ -1783,7 +1783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/components@npm:^9.6.0":
+"@vueuse/components@npm:^9.11.1":
   version: 9.11.1
   resolution: "@vueuse/components@npm:9.11.1"
   dependencies:
@@ -1794,7 +1794,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:9.11.1, @vueuse/core@npm:^9.6.0":
+"@vueuse/core@npm:9.11.1, @vueuse/core@npm:^9.11.1":
   version: 9.11.1
   resolution: "@vueuse/core@npm:9.11.1"
   dependencies:
@@ -1827,7 +1827,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^9.6.0":
+"@vueuse/nuxt@npm:^9.11.1":
   version: 9.11.1
   resolution: "@vueuse/nuxt@npm:9.11.1"
   dependencies:
@@ -7874,7 +7874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-icon@npm:^0.2.0":
+"nuxt-icon@npm:^0.2.7":
   version: 0.2.7
   resolution: "nuxt-icon@npm:0.2.7"
   dependencies:
@@ -7927,7 +7927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-seo-kit@npm:^0.4.4":
+"nuxt-seo-kit@npm:^0.4.15":
   version: 0.4.15
   resolution: "nuxt-seo-kit@npm:0.4.15"
   dependencies:
@@ -7944,13 +7944,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-simple-robots@npm:^0.1.8":
-  version: 0.1.9
-  resolution: "nuxt-simple-robots@npm:0.1.9"
+"nuxt-simple-robots@npm:^0.1.10, nuxt-simple-robots@npm:^0.1.8":
+  version: 0.1.10
+  resolution: "nuxt-simple-robots@npm:0.1.10"
   dependencies:
     "@nuxt/kit": 3.0.0
     pathe: ^1.1.0
-  checksum: cfbfe4ee4f0b1e3faac7c082f7a355f7d52e5892ca64cb5c11fcbfd86c22ff16340c4fa1a4b5ba427d8377d27fddd8fa50773b4cb451ae859112ed0e53b044e5
+  checksum: d29205cebb7ab65df5791e686a28d1efc52dd7f580c9d71b88dc7a868e37e82c200588a5542f62ff17bbefcf6669b9e35be767b8001e32cab541824af0f70142
   languageName: node
   linkType: hard
 
@@ -9605,24 +9605,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@headlessui/vue": ^1.7.6
+    "@headlessui/vue": ^1.7.7
     "@notionhq/client": ^2.2.3
     "@nuxt/content": ^2.3.0
     "@nuxtjs/eslint-config-typescript": ^12.0.0
-    "@nuxtjs/fontaine": ^0.2.3
-    "@nuxtjs/tailwindcss": ^6.1.3
+    "@nuxtjs/fontaine": ^0.2.4
+    "@nuxtjs/tailwindcss": ^6.2.0
     "@tailwindcss/aspect-ratio": ^0.4.2
-    "@tailwindcss/typography": ^0.5.8
-    "@vueuse/components": ^9.6.0
-    "@vueuse/core": ^9.6.0
-    "@vueuse/nuxt": ^9.6.0
+    "@tailwindcss/typography": ^0.5.9
+    "@vueuse/components": ^9.11.1
+    "@vueuse/core": ^9.11.1
+    "@vueuse/nuxt": ^9.11.1
     consola: ^2.15.3
     dotenv: ^16.0.3
     eslint: ^8.32.0
     nuxt: 3.0.0
-    nuxt-icon: ^0.2.0
-    nuxt-seo-kit: ^0.4.4
-    pathe: ^1.0.0
+    nuxt-icon: ^0.2.7
+    nuxt-seo-kit: ^0.4.15
+    nuxt-simple-robots: ^0.1.10
+    pathe: ^1.1.0
     slugify: ^1.6.5
     tailwindcss-border-gradient-radius: ^3.0.1
     three: ^0.148.0
