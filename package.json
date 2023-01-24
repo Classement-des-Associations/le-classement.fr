@@ -25,7 +25,7 @@
     "eslint": "^8.32.0",
     "nuxt": "3.0.0",
     "nuxt-icon": "^0.2.7",
-    "nuxt-seo-kit": "^0.4.15",
+    "nuxt-seo-kit": "^0.4.4",
     "pathe": "^1.1.0",
     "puppeteer": "^19.6.0",
     "slugify": "^1.6.5",
