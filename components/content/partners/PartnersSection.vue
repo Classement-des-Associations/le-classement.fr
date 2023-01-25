@@ -6,7 +6,7 @@ defineProps<{
   sectionClass?: string
 }>()
 
-const { data } = usePartners()
+const { data } = await usePartners()
 
 const levels: Level[] = ['creator', 'platinum', 'gold', 'silver', 'bronze']
 const partners = ref<Record<Level, ParsedContent[]>>({} as Record<Level, ParsedContent[]>)
