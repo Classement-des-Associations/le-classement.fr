@@ -43,52 +43,6 @@ Notre liste de liens
 
   ::dump-thinker-list
   #title
-  Les plaquettes
-
-  #items
-    ::dump-thinker-list-item
-    ---
-    to: https://le-classement.fr/plaquettes/2023/le-classement_partenaires-courte.pdf
-    icon: carbon:enterprise
-    text: Partenaires
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    to: https://le-classement.fr/plaquettes/2023/le-classement_tour-asso.pdf
-    icon: bx:trip
-    text: Tour Asso
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    to: https://le-classement.fr/plaquettes/2023/le-classement_discovery.pdf
-    icon: material-symbols:rocket-launch
-    text: Classement Discovery
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    to: https://le-classement.fr/plaquettes/2023/le-classement_plateforme-vote.pdf
-    icon: material-symbols:how-to-vote
-    text: Plateforme de vote
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    to: https://le-classement.fr/plaquettes/2023/le-classement_ceremonie-finale.pdf
-    icon: lucide:party-popper
-    text: Cérémonie finale
-    ---
-    ::
-  ::
-
-  ::dump-thinker-list
-  #title
   Nos réseaux sociaux
 
   #items

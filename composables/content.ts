@@ -1,13 +1,88 @@
-import { PressArticle } from "~~/types/press-article";
+import type { PressArticle } from '~~/types/press-article'
+import type { Association } from '~~/types/association'
 
-export const usePressArticles = () => {
-  return useAsyncData("content:press-articles", () =>
-    queryContent<{ body: PressArticle[] }>("_press-articles").findOne()
-  );
-};
+export const usePressExternalArticles = () => {
+  return useAsyncData('content:press-external-articles', () =>
+    queryContent<{ body: PressArticle[] }>(
+      '/presse/_press-external-articles'
+    ).findOne()
+  )
+}
+
+export const usePressReleases = (limit?: number) => {
+  const query = queryContent('/presse/')
+    .sort({ datePublished: -1 })
+    .where({ _extension: 'md' })
+    .only(['title', 'datePublished', 'image', '_path'])
+  if (limit) { query.limit(limit) }
+
+  const key = limit
+    ? `content:press-releases-${limit}`
+    : 'content:press-releases'
+
+  return useAsyncData(key, () => query.find())
+}
 
 export const useDumpThinkerArticles = () => {
-  return useAsyncData("content:dump-thinker-articles", () =>
-    queryContent("/blog/").sort({ datePublished: -1 }).limit(3).find()
-  );
-};
+  return useAsyncData('content:dump-thinker-articles', () =>
+    queryContent('/blog/').sort({ datePublished: -1 }).limit(3).find()
+  )
+}
+
+export const useRelatedArticles = () => {
+  const { page } = useContent()
+  const { _id, categories } = page.value
+
+  if (!categories || categories.length === 0) { throw new Error('No categories found') }
+
+  return useAsyncData(`content:related-articles:${_id}`, () =>
+    queryContent('/blog/')
+      .where({
+        _id: {
+          $ne: _id
+        },
+        categories: {
+          $containsAny: categories
+        }
+      })
+      .sort({ datePublished: -1 })
+      .limit(3)
+      .find()
+  )
+}
+
+export const useAssociations = () => {
+  return useAsyncData('content:associations', () =>
+    queryContent<Association>('/associations/').where({
+      _partial: true,
+      _extension: 'json'
+    }).find()
+  )
+}
+
+export const useAssociation = (id: string) => {
+  return useAsyncData(`content:association:${id}`, () =>
+    queryContent<Association>(`/associations/_${id}`).where({
+      _partial: true,
+      _extension: 'json'
+    }).findOne()
+  )
+}
+
+export const useRelatedAssociations = (id: string, category = '') => {
+  return useAsyncData(`content:related-associations:${id}:${category}`, () =>
+    queryContent<Association>('/associations/')
+      .where({
+        id: {
+          $ne: id
+        },
+        category: {
+          $eq: category
+        },
+        _partial: true,
+        _extension: 'json'
+      })
+      .sort({ name: 1 })
+      .find()
+  )
+}

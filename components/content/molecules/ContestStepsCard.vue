@@ -1,6 +1,8 @@
 <template>
-  <article class="snap-start shrink-0 xl:shrink w-[14rem] px-6 pt-10 pb-12 bg-white rounded-[1.25rem]
-    shadow-default flex flex-col justify-end">
+  <article
+    class="snap-start shrink-0 xl:shrink w-[14rem] px-6 pt-10 pb-12 bg-white rounded-[1.25rem]
+    shadow-default flex flex-col justify-end"
+  >
     <span class="text-primary-variation-1 text-[1.75rem] font-bold">
       <ContentSlot :use="$slots.number" unwrap="p" />
     </span>
