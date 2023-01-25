@@ -59,13 +59,3 @@
 .v-leave-to {
   opacity: 0;
 }
-
-.toc-enter-active,
-.toc-leave-active {
-  transition: opacity 4s ease-in;
-}
-
-.toc-enter-from,
-.toc-leave-to {
-  opacity: 0;
-}
