@@ -8,7 +8,6 @@ const props = defineProps<{
 const visiblesAnchors = ref<string[]>([])
 
 watch(() => props.anchors, (anchors) => {
-  console.log(anchors.length)
   if (anchors.length > 0) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -19,7 +18,6 @@ watch(() => props.anchors, (anchors) => {
     })
 
     anchors.forEach((a) => {
-      console.log(a)
       observer.observe(a)
     })
   }
