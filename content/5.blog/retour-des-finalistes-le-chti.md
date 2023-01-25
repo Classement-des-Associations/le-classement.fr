@@ -67,13 +67,6 @@ socials:
   - to: https://www.instagram.com/lechtigrandlille/
     icon: instagram
     name: Instagram de l'association Le Chti
-
----
----
-socials:
-  - to: https://www.instagram.com/lechtigrandlille/
-    icon: instagram
-    name: Instagram de l'association Le Chti
   - to: https://www.linkedin.com/company/le-chti-grand-lille/
     icon: linkedin
     name: LinkedIn de l'association Le Chti
@@ -82,6 +75,6 @@ socials:
     name: Site web de l'association Le Chti
 ---
 ::
-```
+
 
 Si vous voulez aussi **vivre cette aventure**, suivez nous pour ne rien manquer de la prochaine édition !
