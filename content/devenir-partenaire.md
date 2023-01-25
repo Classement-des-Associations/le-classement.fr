@@ -43,23 +43,3 @@ Pour l'édition 2022, nous avons à cœur de faire du Classement des association
 
 Pour cela nous créons une interaction privilégiée et une mise en lumière adaptée aux objectifs de chacun de nos partenaires officiels. Vous aurez en outre la possibilité d'accompagner les étudiants dans le développement de leurs projets, d'être jury lors des pitchs, et de remettre les trophées aux gagnants lors de la cérémonie de remise des prix.
 ::
-
-::partners-grid
----
-partners:
-  - name: Le Monde des Grandes Ecoles et Universités
-    src: /images/partners/le-monde-des-grandes-ecoles-et-universites.webp
-    href: https://www.mondedesgrandesecoles.fr/
-    alt: Logo du Monde des Grandes Ecoles et Universités
-  - name: La Poste Groupe
-    src: /images/partners/la-poste-groupe.webp
-    href: https://www.lapostegroupe.com/
-    alt: Logo de La Poste Groupe
-  - name: Vibly
-    src: /images/partners/vibly.webp
-    href: https://vibly.fr/
-    alt: Logo de Vibly
----
-
-Nos partenaires
-::
