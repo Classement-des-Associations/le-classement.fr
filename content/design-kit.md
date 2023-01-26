@@ -2,7 +2,7 @@
 navigation: false
 title: Design Kit
 description: Tous les éléments graphiques du Classement des Associations.
-image: https://le-classement.fr/preview.png
+image: https://le-classement.fr/socials/design-kit.jpg
 ---
 
 ::hero

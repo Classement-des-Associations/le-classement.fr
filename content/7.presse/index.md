@@ -4,7 +4,7 @@ navigation:
   title: Presse
 title: Presse
 description: Retrouvez toutes les informations presses du Classement des Associations
-image: https://le-classement.fr/preview.png
+image: https://le-classement.fr/socials/presse.jpg
 ---
 
 ::hero
@@ -70,8 +70,6 @@ Pour rendre le Classement des Associations divertissant, riche et humain, diffé
 - La **Cérémonie finale**, la dernière étape, ouverte à tous, où les 8 finalistes qui devront réaliser un pitch devant un jury de professionnels. Ensuite, un cocktail dînatoire a lieu pour célébrer la participation des associations.
 
 Le Classement des Associations est une vraie aventure qui permet de découvrir de nouvelles associations, entreprises et monter en compétence. Un **vrai plus pour les membres des associations** et pour faire rayonner davantage son association dans la sphère étudiante !
-
-Pour en savoir plus, consulter nos plaquettes : [https://le-classement.fr/le-pense-bete](https://le-classement.fr/le-pense-bete).
 ::
 
 ::press-section
