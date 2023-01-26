@@ -6,7 +6,8 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - Sup'Bio Dance
-image:
+image: https://le-classement.fr/socials/retour-des-finalistes-supbio-dance.jpg
+cover:
   src: /assets/blog/images/retour-des-finalistes-supbio-dance/cover.webp
   alt: Association Sup'Bio Dance sur scène après leur 1ère place au concours.
 datePublished: 2023-01-16

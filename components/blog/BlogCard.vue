@@ -9,21 +9,13 @@ const normalizedPart = useNormalizedPart(props.article.part)
 </script>
 
 <template>
-  <article
-    class="relative bg-white group rounded-xl before:rounded-xl gradient-border"
-    :class="`gradient-border-${article.part}`"
-  >
+  <article class="relative bg-white group rounded-xl before:rounded-xl gradient-border"
+    :class="`gradient-border-${article.part}`">
     <NuxtLink :to="article._path" class="p-5 relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
-        <img
-          v-if="article.image"
+        <img v-if="article.cover"
           class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
-          :src="article.image.src"
-          :alt="article.image.alt"
-          width="3000"
-          height="1687"
-          loading="lazy"
-        >
+          :src="article.image.src" :alt="article.image.alt" width="3000" height="1687" loading="lazy">
       </div>
       <div>
         <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{

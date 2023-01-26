@@ -111,3 +111,9 @@ export const useRelatedAssociations = (id: string, category = '') => {
       .find()
   )
 }
+
+export const usePartners = () => {
+  return useAsyncData('content:partners', () =>
+    queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
+}

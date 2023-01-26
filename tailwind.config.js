@@ -98,6 +98,10 @@ module.exports = {
             theme('colors.primary-base'),
             theme('colors.primary-variation-1')
           ],
+          partenaires: [
+            theme('colors.accent-purple'),
+            theme('colors.accent-blue')
+          ],
           'associations-light': [
             theme('colors.primary-base / 0.3'),
             theme('colors.primary-variation-1 / 0.3')
