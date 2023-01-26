@@ -6,9 +6,10 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - Le Chti
-image:
-  src:
-  alt:
+image: https://le-classement.fr/socials/retour-des-finalistes-le-chti.jpg
+cover:
+  src: /assets/blog/images/retour-des-finalistes-le-chti/cover.webp
+  alt: L'association Le Chti sur scène lors de la cérémonie finale.
 datePublished: 2023-01-25
 dateModified: 2023-01-25
 layout: article
@@ -45,6 +46,8 @@ Les guides sont dévoilés pour la première fois en mars lors de notre grande d
 > Très belle expérience. Le pitch nous a beaucoup appris sur la manière de **gérer notre stress** et la façon de s’adresser à un public. Par ailleurs, nous avons aussi pu **échanger** avec les autres city-guides ce qui a été très enrichissant **sur notre manière de travailler et de se financer**.
 > 
 
+![L'association Le Chti lors de son interview par 4tier](/assets/blog/images/retour-des-finalistes-le-chti/banner.webp)
+
 ## Avez-vous une anecdote liée au Classement ?
 
 > Ce qui s'est passé à la péniche restera à la péniche.
@@ -56,6 +59,7 @@ Les guides sont dévoilés pour la première fois en mars lors de notre grande d
 > 
 
 ## Conclusion
+
 C’était l’interview du Chti pour le Classement des Associations.
 
 
