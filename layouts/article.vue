@@ -52,7 +52,7 @@ onMounted(() => {
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
         {{ page.title }}
       </LayoutTitle>
-      <figure class="mt-4 md:mt-8">
+      <figure class="mt-2 sm:mt-4 md:mt-8">
         <img v-if="page.cover" :src="page.cover.src" :alt="page.cover.alt" class="rounded-2xl" loading="lazy">
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
