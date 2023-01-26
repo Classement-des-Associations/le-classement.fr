@@ -1,7 +1,7 @@
 ---
 title: Devenir partenaire
 description: Parce qu'un Classement des Associations sans partenaire n'est pas le même ! Alors rejoignez-nous dans l'aventure !
-image: https://le-classement.fr/preview.png
+image: https://le-classement.fr/socials/devenir-partenaire.jpg
 ---
 
 ::hero
