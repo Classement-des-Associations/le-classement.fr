@@ -21,6 +21,7 @@ export default defineNuxtConfig({
 
   content: {
     documentDriven: {
+      host: 'https://le-classement.fr',
       surround: false
     },
     defaultLocale: 'fr',

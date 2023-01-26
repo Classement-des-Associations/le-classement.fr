@@ -6,7 +6,6 @@ const { page } = useContent()
 useSchemaOrg([
   defineArticle(
     {
-      image: page.value.image ?? '',
       datePublished: useDateToISOString(page.value.datePublished),
       dateModified: useDateToISOString(page.value.dateModified)
     }
@@ -54,10 +53,10 @@ onMounted(() => {
         {{ page.title }}
       </LayoutTitle>
       <figure class="mt-4 md:mt-8">
-        <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
+        <img v-if="page.cover" :src="page.cover.src" :alt="page.cover.alt" class="rounded-2xl" loading="lazy">
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
-            {{ page.image.alt }}
+            {{ page.cover.alt }}
             <span />
             <time :datetime="datetime">
               Publié le {{ formattedDate }}.
