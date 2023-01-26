@@ -24,7 +24,7 @@ defineProps<{
           <ContentSlot :use="$slots.subtitle" unwrap="p" />
         </p>
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref">
+          <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref" part="classement">
             {{ primaryButtonText }}
           </ClassementLink>
           <BaseNuxtLink v-if="secondaryButtonHref" :to="secondaryButtonHref">

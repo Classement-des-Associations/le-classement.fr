@@ -30,7 +30,7 @@ defineProps<{
       </div>
 
       <div class="flex-grow mt-6 xl:mt-0 xl:mb-4 relative flex flex-row items-center xl:justify-end gap-5">
-        <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref">
+        <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref" part="classement">
           {{ primaryButtonText }}
         </ClassementLink>
         <NuxtLink :to="secondaryButtonHref">
