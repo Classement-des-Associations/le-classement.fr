@@ -6,6 +6,7 @@ export default defineAppConfig({
   },
   nuxtIcon: {
     aliases: {
+      battle: 'fluent-emoji:crossed-swords',
       classement: 'fluent-emoji:sparkles',
       'tour-asso': 'fluent-emoji:telescope',
       concours: 'fluent-emoji:trophy',

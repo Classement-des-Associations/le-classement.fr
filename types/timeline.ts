@@ -1,13 +1,14 @@
 export type TimelineNormalItem = {
   type: 'normal';
-  startAt: string;
+  startAt?: string;
+  endAt?: string;
   title: string;
 };
 
 export type TimelineLargeItem = {
   type: 'large';
-  startAt: string;
-  endAt: string;
+  startAt?: string;
+  endAt?: string;
   icon: string;
   title: string;
   description: string;

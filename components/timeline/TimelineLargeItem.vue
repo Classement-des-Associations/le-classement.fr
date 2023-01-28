@@ -17,21 +17,21 @@ defineProps<{item: TimelineLargeItem}>()
         </h3>
       </div>
       <dl class="order-first flex flex-row text-sm font-light">
-        <dt class="sr-only">
+        <dt v-if="item.startAt" class="sr-only">
           À partir du
         </dt>
-        <dd>
+        <dd v-if="item.startAt">
           <time :datetime="item.startAt">
             {{ useDateToLocaleDateString(item.startAt).value }}
           </time>
         </dd>
-        <span class="mx-1">
+        <span v-if="item.startAt && item.endAt" class="mx-1">
           -
         </span>
-        <dt class="sr-only">
+        <dt v-if="item.endAt" class="sr-only">
           Jusqu'au
         </dt>
-        <dd>
+        <dd v-if="item.endAt">
           <time :datetime="item.endAt">
             {{ useDateToLocaleDateString(item.endAt).value }}
           </time>

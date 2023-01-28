@@ -2,16 +2,82 @@
   "body": [
     {
       "type": "normal",
-      "startAt": "2023-01-29",
+      "startAt": "2023-02-01",
+      "endAt": "2023-02-11",
+      "title": "Inscriptions à la Battle du Classement"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-13",
+      "endAt": "2023-02-27",
+      "title": "Battle du Classement",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
+      "icon": "battle"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-02-28",
       "title": "Lancement de l'édition 2023"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-28",
+      "endAt": "2023-11-10",
+      "title": "Concours",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
+      "icon": "concours"
     },
     {
       "type": "large",
       "startAt": "2023-02-01",
       "endAt": "2023-07-15",
       "title": "Tour Asso",
-      "description": "Durant 6 mois, nous irons voir les associations directement chez elles et ainsi faire connaître le classement des associations et nos partenaires à un maximum de personnes.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
       "icon": "tour-asso"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-01",
+      "endAt": "2023-07-15",
+      "title": "Classement Discovery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
+      "icon": "discovery"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-06-30",
+      "title": "Fin des inscriptions"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-07-30",
+      "title": "Dépôt des rendus écrits du Concours"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-08-27",
+      "endAt": "2023-10-01",
+      "title": "Vote",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
+      "icon": "vote"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-10-07",
+      "title": "Dépôt des rendus vidéos du Concours"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-10-14",
+      "title": "Annonce des finalistes"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-11-10",
+      "endAt": null,
+      "title": "Cérémonie finale",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Nunc non blandit massa enim. Maecenas pharetra convallis posuere morbi leo urna. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas.",
+      "icon": "ceremonie-finale"
     }
   ]
 }

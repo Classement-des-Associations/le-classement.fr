@@ -12,7 +12,7 @@ const { data: timeline } = await useTimeline()
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
     <div class="relative max-w-prose mx-auto">
-      <div class="-z-10 absolute left-[1.75rem] transform translate-x-1/2 -top-2 -bottom-2 w-[2px] rounded-full bg-gradient-to-b from-primary-base to-primary-variation-1" />
+      <div class="-z-10 absolute left-[1.75rem] transform translate-x-1/2 -top-3 -bottom-3 w-[2px] rounded-full bg-gradient-to-b from-primary-base to-primary-variation-1" />
       <ol class="flex flex-col gap-6">
         <template v-for="item in timeline.body" :key="item.title">
           <li>
