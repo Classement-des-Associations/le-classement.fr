@@ -1,0 +1,17 @@
+{
+  "body": [
+    {
+      "type": "normal",
+      "startAt": "2023-01-29",
+      "title": "Lancement de l'édition 2023"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-01",
+      "endAt": "2023-07-15",
+      "title": "Tour Asso",
+      "description": "Durant 6 mois, nous irons voir les associations directement chez elles et ainsi faire connaître le classement des associations et nos partenaires à un maximum de personnes.",
+      "icon": "tour-asso"
+    }
+  ]
+}
