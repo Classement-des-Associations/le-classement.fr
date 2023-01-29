@@ -6,11 +6,12 @@ categories:
   - Hum'am
   - tour asso
   - project
-image:
+image: https://le-classement.fr/socials/thottiam-le-projet-dhumam-pour-2023.jpg
+cover:
   src: /assets/blog/images/thottiam-le-projet-dhumam-pour-2023/cover.webp
   alt: De gauche à droite, Diane Saignes, vice-présidente de l'association en 2022, Hugo Fedherbe, président de l'association Hum'am en 2022, Laurent Champaney, directeur général des Arts et Métiers et Yanis Peigney, président de l'association Hum'am en 2023. 
-datePublished: 2023-01-23
-dateModified: 2023-01-23
+datePublished: 2023-01-29
+dateModified: 2023-01-29
 layout: article
 ---
 
@@ -74,6 +75,8 @@ Merci Hum'am pour cette invitation et d'avoir permis au Classement des Associati
 
 Le Tour Asso, c'est 6 mois durant lesquels le Classement part à la rencontre des associations étudiantes pour découvrir et partager leurs projets !
 
-::tour-asso-link
-Inviter le Classement
+::tour-asso-registration-link
+---
+buttonText: Inviter le Classement
+---
 ::
