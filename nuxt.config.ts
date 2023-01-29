@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     },
     defaultLocale: 'fr',
     navigation: {
-      fields: ['for']
+      fields: ['for', 'dropdown']
     }
   },
 
