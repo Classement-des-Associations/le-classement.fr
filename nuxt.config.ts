@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/design-kit', '/le-pense-bete', '/associations'],
+      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/classement/concours'],
       crawlLinks: true
     }
   }

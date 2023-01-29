@@ -3,6 +3,8 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 const { showActionButton, actionButton } = useAppConfig()
 const { navigation } = useContent()
+
+const nuxtLinkClass = 'py-4 px-5 flex flex-row gap-2 items-center hover:text-primary-base transition ease-in'
 </script>
 
 <template>
@@ -15,58 +17,58 @@ const { navigation } = useContent()
       </NuxtLink>
       <nav aria-labelledby="primary-nav" class="hidden md:block text-sm leading-[1.125rem]">
         <span id="primary-nav" class="sr-only">Navigation primaire</span>
-        <ul class="flex flex-row justify-center space-x-2 font-medium ">
+        <ul class="flex flex-row justify-center font-medium">
           <template v-for="item in navigation" :key="item._path">
-            <li>
-              <template v-if="item.dropdown">
-                <ClientOnly>
-                  <Menu v-slot="{ close }" as="div" class="relative">
-                    <MenuButton class="py-1 px-4 flex flex-row gap-2 items-center hover:text-primary-base transition ease-in">
-                      <span>
-                        {{ item.title }}
-                      </span>
-                      <Icon name="heroicons:chevron-down" class="inline-block w-4 h-4" />
-                    </MenuButton>
+            <template v-if="item.dropdown">
+              <li>
+                <Menu v-slot="{ close }" as="div" class="relative">
+                  <MenuButton :class="nuxtLinkClass">
+                    <span>
+                      {{ item.title }}
+                    </span>
+                    <Icon name="heroicons:chevron-down" class="inline-block w-4 h-4" />
+                  </MenuButton>
 
-                    <transition
-                      enter-active-class="transition duration-100 ease-out"
-                      enter-from-class="transform scale-95 opacity-0"
-                      enter-to-class="transform scale-100 opacity-100"
-                      leave-active-class="transition duration-75 ease-in"
-                      leave-from-class="transform scale-100 opacity-100"
-                      leave-to-class="transform scale-95 opacity-0"
+                  <transition
+                    enter-active-class="transition duration-100 ease-out"
+                    enter-from-class="transform scale-95 opacity-0"
+                    enter-to-class="transform scale-100 opacity-100"
+                    leave-active-class="transition duration-75 ease-in"
+                    leave-from-class="transform scale-100 opacity-100"
+                    leave-to-class="transform scale-95 opacity-0"
+                  >
+                    <MenuItems
+                      as="ul"
+                      class="z-20 absolute left-4 top-12 p-1 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                     >
-                      <MenuItems
-                        as="ul"
-                        class="absolute left-4 mt-2 p-1 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-                      >
-                        <template v-for="child in item.children" :key="child._path">
-                          <MenuItem as="li">
-                            <NuxtLink
-                              class="inline-block py-1 px-4 whitespace-nowrap hover:text-primary-base transition ease-in"
-                              active-class="active-header"
-                              :to="child._path"
-                              @click="close()"
-                            >
-                              {{ child.title }}
-                            </NuxtLink>
-                          </MenuItem>
-                        </template>
-                      </MenuItems>
-                    </transition>
-                  </Menu>
-                </ClientOnly>
-              </template>
-              <template v-else-if="item.for === 'header'">
+                      <template v-for="child in item.children" :key="child._path">
+                        <MenuItem as="li">
+                          <NuxtLink
+                            class="inline-block py-2 px-4 whitespace-nowrap hover:text-primary-base transition ease-in"
+                            active-class="active-header"
+                            :to="child._path"
+                            @click="close()"
+                          >
+                            {{ child.title }}
+                          </NuxtLink>
+                        </MenuItem>
+                      </template>
+                    </MenuItems>
+                  </transition>
+                </Menu>
+              </li>
+            </template>
+            <template v-else-if="item.for === 'header'">
+              <li>
                 <NuxtLink
-                  class="inline-block py-1 px-4 hover:text-primary-base transition ease-in"
+                  :class="nuxtLinkClass"
                   active-class="active-header"
                   :to="item._path"
                 >
                   {{ item.title }}
                 </NuxtLink>
-              </template>
-            </li>
+              </li>
+            </template>
           </template>
         </ul>
       </nav>

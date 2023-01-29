@@ -11,9 +11,7 @@
       Heureusement le Classement se trouve sur la page d'accueil.
     </p>
     <div class="mt-8 flex flex-row justify-center">
-      <ClassementLink to="/" part="classement">
-        Accueil du Classement
-      </ClassementLink>
+      <ClassementLink button-link="/" button-text="Accueil du Classement" part="classement" />
     </div>
   </BaseSection>
 </template>

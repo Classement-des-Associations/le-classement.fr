@@ -1,0 +1,36 @@
+{
+  "body": [
+    {
+      "title": "Le Rendu Écrit",
+      "to": "/classement/concours#le-rendu-écrit",
+      "description": "Exposer son association, ses actions, ses objectifs, son organisation et ses ambitions sont les consignes du rendu écrit qui leur permettent de se présenter.",
+      "startAt": null,
+      "endAt": null,
+      "icon": "rendu-ecrit"
+    },
+    {
+      "title": "Le Rendu Vidéo",
+      "to": "/classement/concours#le-rendu-vidéo",
+      "description": "Savoir présenter son association et convaincre le nouvel arrivant à rejoindre son association, c'est tout l'enjeu et l'objectif de ce rendu vidéo.",
+      "startAt": null,
+      "endAt": null,
+      "icon": "rendu-video"
+    },
+    {
+      "title": "Le Vote",
+      "to": "/classement/concours#le-vote",
+      "description": "Mobiliser son entourage, son réseau et son école, c'est l'objectif du vote qui animera le mois de septembre et permettra de d'évaluer l'influence de son association.",
+      "startAt": null,
+      "endAt": null,
+      "icon": "vote"
+    },
+    {
+      "title": "Le Pitch",
+      "to": "/classement/concours#le-pitch",
+      "description": "180 secondes, et pas une de plus, c'est le temps dont dispose les associations pour convaincre le jury afin de gagner les derniers points qui feront la différence.",
+      "startAt": null,
+      "endAt": null,
+      "icon": "pitch"
+    }
+  ]
+}
