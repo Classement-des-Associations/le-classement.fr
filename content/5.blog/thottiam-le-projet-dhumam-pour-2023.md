@@ -36,8 +36,8 @@ Ces cinq axes ont pu être exploités dans ces différents pays :
 - Madagascar, en 2018 avec le projet "**Madagarsc'Arts**" ;
 - Le Cameroun, en 2019 avec le projet "**CA&Meroun**" ;
 - Le Sénégal, en 2020 avec le projet "**Mel'AM Ati Ourong**" ;
-- Le Sénégal, en 2022 avec le projet "**Fakh'Arts**" ;
 - La Tunisie, en 2021 avec le projet "**J'endoub'Arts**".
+- Le Sénégal, en 2022 avec le projet "**Fakh'Arts**" ;
 
 ![L'association Hum'am avec son projet "Fakh'Arts"](/assets/blog/images/thottiam-le-projet-dhumam-pour-2023/l-association.webp)
 
