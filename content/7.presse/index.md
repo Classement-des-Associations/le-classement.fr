@@ -4,7 +4,7 @@ navigation:
   title: Presse
 title: Presse
 description: Retrouvez toutes les informations presses du Classement des Associations
-image: https://le-classement.fr/socials/presse.jpg
+image: /socials/presse.jpg
 ---
 
 ::hero

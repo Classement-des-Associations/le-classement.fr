@@ -2,7 +2,7 @@
 for: header
 title: Le Blog
 description: Entrevoir la vie associative avec nos histoires, des témoignages, des associations et nos partenaires !
-image: https://le-classement.fr/socials/blog.jpg
+image: /socials/blog.jpg
 ---
 
 ::hero

@@ -1,4 +1,9 @@
 export default defineAppConfig({
+  classement: {
+    tourAsso: {
+      registrationLink: 'https://forms.office.com/e/BWbu3wdhVb'
+    }
+  },
   showActionButton: false,
   actionButton: {
     to: '',
