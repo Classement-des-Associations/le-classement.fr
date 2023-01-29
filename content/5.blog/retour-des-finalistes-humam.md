@@ -6,7 +6,7 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - Hum'am
-image: https://le-classement.fr/socials/retour-des-finalistes-humam.jpg
+image: /socials/retour-des-finalistes-humam.jpg
 cover:
   src: /assets/blog/images/retour-des-finalistes-humam/cover.webp
   alt: Association Hum'am sur scène après leur 3ième place au concours.
