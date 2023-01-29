@@ -10,7 +10,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      microsoftClarityID: process.env.MICROSOFT_CLARITY_ID,
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
       siteDescription:
@@ -21,7 +20,10 @@ export default defineNuxtConfig({
   },
 
   content: {
-    documentDriven: true,
+    documentDriven: {
+      host: 'https://le-classement.fr',
+      surround: false
+    },
     defaultLocale: 'fr',
     navigation: {
       fields: ['for']
@@ -29,6 +31,8 @@ export default defineNuxtConfig({
   },
 
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },

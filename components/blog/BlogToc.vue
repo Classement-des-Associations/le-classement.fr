@@ -1,32 +1,34 @@
 <script lang="ts" setup>
 const { toc } = useContent()
 
+const props = defineProps<{
+  anchors: HTMLAnchorElement[]
+}>()
+
 const visiblesAnchors = ref<string[]>([])
 
-onMounted(() => {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      const target = entry.target as HTMLAnchorElement
-      const href = target.getAttribute('href') ?? ''
-      if (entry.isIntersecting && !visiblesAnchors.value.includes(href))
-        visiblesAnchors.value.push(href)
-      else
-        visiblesAnchors.value = visiblesAnchors.value.filter(h => h !== href)
+watch(() => props.anchors, (anchors) => {
+  if (anchors.length > 0) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const target = entry.target as HTMLAnchorElement
+        const href = target.getAttribute('href') ?? ''
+        if (entry.isIntersecting && !visiblesAnchors.value.includes(href)) { visiblesAnchors.value.push(href) } else { visiblesAnchors.value = visiblesAnchors.value.filter(h => h !== href) }
+      })
     })
-  })
 
-  const anchors = document.querySelectorAll('h2 a')
-
-  anchors.forEach((a) => {
-    observer.observe(a)
-  })
+    anchors.forEach((a) => {
+      observer.observe(a)
+    })
+  }
 })
+
 </script>
 
 <template>
   <div
     v-if="toc && toc.links"
-    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-inherit overflow-hidden"
+    class="group max-w-xs p-4 shadow-lg border border-black/10 rounded-lg bg-primary-variation-2 overflow-hidden"
   >
     <div class="sr-only">
       Sommaire

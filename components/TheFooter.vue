@@ -8,7 +8,9 @@ const { navigation } = useContent()
     <BaseSection is="footer" class="py-11 flex flex-col gap-14">
       <div class="flex flex-col gap-11 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
         <div class="contents lg:flex lg:flex-row lg:items-center">
-          <LogosClassementFull class="mx-auto text-white" @click.right.prevent="navigateTo('design-kit')" />
+          <NuxtLink to="/">
+            <LogosClassementFull class="mx-auto text-white" @click.right.prevent="navigateTo('/design-kit')" />
+          </NuxtLink>
           <ul class="lg:ml-16 flex flex-row justify-center space-x-[1.375rem] lg:space-x-12">
             <template v-for="social in socials" :key="social.to">
               <li>
@@ -49,8 +51,8 @@ const { navigation } = useContent()
         <div class="h-[1px] w-full max-w-[256px] rounded-full bg-white" />
         <p class="flex flex-col md:flex-row items-center gap-2 md:gap-0 text-white text-sm font-light">
           <span>Le
-            Classement des Associations - 2022</span><span class="hidden md:inline">&nbsp;-&nbsp;</span><span>
-            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Par Aneo</NuxtLink>
+            Classement des Associations - 2023</span><span class="hidden md:inline">&nbsp;-&nbsp;</span><span>
+            <NuxtLink to="https://aneo.eu" rel="noopener" target="_blank">Une Création Aneo</NuxtLink>
           </span>
         </p>
       </div>

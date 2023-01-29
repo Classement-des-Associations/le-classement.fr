@@ -6,7 +6,6 @@ const { page } = useContent()
 useSchemaOrg([
   defineArticle(
     {
-      image: page.value.image ?? '',
       datePublished: useDateToISOString(page.value.datePublished),
       dateModified: useDateToISOString(page.value.dateModified)
     }
@@ -34,21 +33,30 @@ const proseClass = function (part: Part = 'classement') {
       return ''
   }
 }
+
+const anchors = ref<HTMLAnchorElement[]>([])
+
+onMounted(() => {
+  // Because of this page transition, we need to wait for the DOM to be updated
+  setTimeout(() => {
+    anchors.value = Array.from(document.querySelectorAll('.prose a'))
+  }, 300)
+})
 </script>
 
 <template>
   <LayoutSection>
-    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20" />
+    <BlogToc class="hidden lg:block fixed right-8 top-1/2 transform -translate-y-1/2 z-20" :anchors="anchors" />
 
-    <article class="max-w-4xl mx-auto px-4 flex flex-col">
+    <article class="max-w-4xl mx-auto flex flex-col">
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
         {{ page.title }}
       </LayoutTitle>
-      <figure class="mt-4 md:mt-8">
-        <img v-if="page.image" :src="page.image.src" :alt="page.image.alt" class="rounded-2xl" loading="lazy">
+      <figure class="mt-2 sm:mt-4 md:mt-8">
+        <img v-if="page.cover" :src="page.cover.src" :alt="page.cover.alt" class="rounded-2xl" loading="lazy">
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
-            {{ page.image.alt }}
+            {{ page.cover.alt }}
             <span />
             <time :datetime="datetime">
               Publié le {{ formattedDate }}.

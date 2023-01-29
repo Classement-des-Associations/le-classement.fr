@@ -4,7 +4,8 @@ title: Clap de fin pour l’édition 2022 du Classement des Associations
 description: Le 2 décembre 2022, au cœur de l’Opéra Bastille, a eu lieu la cérémonie finale du Classement des Associations. Elle a permis aux 16 finalistes de réaliser leur pitch et d’élire Sup’Bio Dance, association du groupe Ionis (EPITA, Epitech et Sup’Biotech), meilleure association étudiante de France.
 categories:
   - cérémonie finale
-image:
+image: https://le-classement.fr/socials/clap-de-fin-2022.jpg
+cover:
   src: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/cover.webp
   alt: Photo de groupe des associations au sein de l'amphithéâtre de l'Opéra Bastille.
 datePublished: 2022-12-14
@@ -116,7 +117,7 @@ C'est donc après l'ensemble de ces épreuves que nous vous dévoilons le top 16
 | 15 | **Les Ovalies** | UniLaSalle |
 | 16 | **La Nuit de l’Institut** | UniLaSalle |
 
-Vous pouvez aussi retrouver le [palmarès des années précédentes](https://le-classement.fr/le-palmares).
+Vous pouvez aussi retrouver le [palmarès des années précédentes](/le-palmares).
 
 ## Le cocktail dinatoire
 

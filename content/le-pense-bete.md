@@ -1,9 +1,8 @@
 ---
-sitemap:
 navigation: false
 title: Le Pense Bête
 description: Tous les liens importants du Classement des Associations.
-image: https://le-classement.fr/preview.png
+image: https://le-classement.fr/socials/le-pense-bete.jpg
 ---
 
 ::dump-thinker-section
@@ -18,7 +17,7 @@ Notre liste de liens
   #items
     ::dump-thinker-list-item
     ---
-    to: https://le-classement.fr
+    to: /
     icon: heroicons:home-solid
     text: Classement
     ---
@@ -26,7 +25,7 @@ Notre liste de liens
 
     ::dump-thinker-list-item
     ---
-    to: https://le-classement.fr/faq
+    to: /faq
     icon: heroicons:question-mark-circle-solid
     text: Questions / Réponses
     ---

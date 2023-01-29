@@ -10,16 +10,16 @@ const normalizedPart = useNormalizedPart(props.article.part)
 
 <template>
   <article
-    class="relative bg-white group rounded-xl before:rounded-xl p-5 gradient-border"
+    class="relative bg-white group rounded-xl before:rounded-xl gradient-border"
     :class="`gradient-border-${article.part}`"
   >
-    <NuxtLink :to="article._path" class="relative z-10 h-full flex flex-col gap-4">
+    <NuxtLink :to="article._path" class="p-5 relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
         <img
-          v-if="article.image"
+          v-if="article.cover"
           class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
-          :src="article.image.src"
-          :alt="article.image.alt"
+          :src="article.cover.src"
+          :alt="article.cover.alt"
           loading="lazy"
         >
       </div>

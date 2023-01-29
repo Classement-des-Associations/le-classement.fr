@@ -53,20 +53,42 @@ export const useRelatedArticles = () => {
 
 export const useAssociations = () => {
   return useAsyncData('content:associations', () =>
-    queryContent<{ body: Association[] }>('_associations').findOne()
+    queryContent<Association>('/associations/').where({
+      _partial: true,
+      _extension: 'json'
+    }).find()
   )
 }
 
-export const useAssociation = async (id: string) => {
-  const { data: associations } = await useAssociations()
-
-  if (!associations.value) { throw new Error('Associations not found') }
-
-  const association = associations.value.body.find(
-    association => association.id === id
+export const useAssociation = (id: string) => {
+  return useAsyncData(`content:association:${id}`, () =>
+    queryContent<Association>(`/associations/_${id}`).where({
+      _partial: true,
+      _extension: 'json'
+    }).findOne()
   )
+}
 
-  if (!association) { throw new Error('Association not found') }
+export const useRelatedAssociations = (id: string, category = '') => {
+  return useAsyncData(`content:related-associations:${id}:${category}`, () =>
+    queryContent<Association>('/associations/')
+      .where({
+        id: {
+          $ne: id
+        },
+        category: {
+          $eq: category
+        },
+        _partial: true,
+        _extension: 'json'
+      })
+      .sort({ name: 1 })
+      .find()
+  )
+}
 
-  return association
+export const usePartners = () => {
+  return useAsyncData('content:partners', () =>
+    queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
 }

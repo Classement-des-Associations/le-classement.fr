@@ -11,7 +11,7 @@
       Heureusement le Classement se trouve sur la page d'accueil.
     </p>
     <div class="mt-8 flex flex-row justify-center">
-      <ClassementLink to="/">
+      <ClassementLink to="/" part="classement">
         Accueil du Classement
       </ClassementLink>
     </div>
