@@ -24,9 +24,16 @@ const normalizedPart = useNormalizedPart(props.article.part)
         >
       </div>
       <div>
-        <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{
-          normalizedPart
-        }}</span>
+        <dl>
+          <dt class="sr-only">
+            Partie du Classement
+          </dt>
+          <dd class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">
+            {{
+              normalizedPart
+            }}
+          </dd>
+        </dl>
       </div>
       <div class="flex-grow flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">
