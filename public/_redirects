@@ -7,7 +7,9 @@
 /2012 /
 /palmares /le-palmares
 /winners /le-palmares
+/le-classement/palmares /le-palmares
 /contest /le-concours
+/contact /nous-contacter
 /understand /le-concours
 /about-us /a-propos
 /become-partner /devenir-partenaire
@@ -15,5 +17,9 @@
 /reglement /le-reglement
 /terms /cgu
 /press-kit /presse
+/annuaire/* /
+/2014/* /
+/bureau-des-sports-2/
+
 
 /clap-de-fin-2022 /clap-de-fin-pour-ledition-2022-du-classement-des-associations
