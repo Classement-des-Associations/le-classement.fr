@@ -1,0 +1,23 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "",
+        "image": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      "player2": {
+        "name": "",
+        "image": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    }
+  ]
+}

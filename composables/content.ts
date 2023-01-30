@@ -1,5 +1,6 @@
 import type { PressArticle } from '~~/types/press-article'
 import type { Association } from '~~/types/association'
+import { Duel } from '~~/types/duel'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -90,5 +91,11 @@ export const useRelatedAssociations = (id: string, category = '') => {
 export const usePartners = () => {
   return useAsyncData('content:partners', () =>
     queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
+}
+
+export const useDuels = (id: string) => {
+  return useAsyncData(`content:duels:${id}`, () =>
+    queryContent<{ body: Duel[] }>(`/classement/_${id}`).findOne()
   )
 }
