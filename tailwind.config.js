@@ -65,6 +65,10 @@ module.exports = {
           'associations-light': [
             theme('colors.primary-base / 0.3'),
             theme('colors.primary-variation-1 / 0.3')
+          ],
+          'tour-asso': [
+            theme('colors.primary-base'),
+            theme('colors.accent-purple')
           ]
         },
         background: theme('colors')
