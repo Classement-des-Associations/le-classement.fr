@@ -1,5 +1,6 @@
 import type { PressArticle } from '~~/types/press-article'
 import type { Association } from '~~/types/association'
+import { TimelineItem } from '~~/types/timeline'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -90,5 +91,11 @@ export const useRelatedAssociations = (id: string, category = '') => {
 export const usePartners = () => {
   return useAsyncData('content:partners', () =>
     queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
+}
+
+export const useTimeline = () => {
+  return useAsyncData('content:timeline', () =>
+    queryContent<{ body: TimelineItem[] }>('/calendrier/data').where({ _extension: 'json' }).findOne()
   )
 }
