@@ -1,6 +1,7 @@
 import type { PressArticle } from '~~/types/press-article'
 import type { Association } from '~~/types/association'
 import { ConcoursExercice } from '~~/types/concours-exercice'
+import { TimelineItem } from '~~/types/timeline'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -102,5 +103,11 @@ export const useConcoursExercices = () => {
       _partial: true,
       _extension: 'json'
     }).findOne()
+  )
+}
+
+export const useTimeline = () => {
+  return useAsyncData('content:timeline', () =>
+    queryContent<{ body: TimelineItem[] }>('/calendrier/data').where({ _extension: 'json' }).findOne()
   )
 }

@@ -1,0 +1,83 @@
+{
+  "body": [
+    {
+      "type": "normal",
+      "startAt": "2023-02-01",
+      "endAt": "2023-02-11",
+      "title": "Inscription à la Battle du Classement"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-13",
+      "endAt": "2023-02-27",
+      "title": "Battle du Classement",
+      "description": "L'évènement numérique étudiant où les associations vont s'affronter sur Instagram à coup de likes ! La Battle du Classement est un tournoi où les associations vont devoir avoir le plus de votes à chacun de leurs duels pour passer au duel suivant ! Chaque duel dure 24h. Au départ, 128 associations à la fin, il n'en restera qu'une ! À la clé, un prix de 2 000 € pour l'association gagnante !",
+      "icon": "battle"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-02-28",
+      "title": "Lancement de l'édition 2023"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-28",
+      "endAt": "2023-11-10",
+      "title": "Concours",
+      "description": "L'évènement central du Classement des Associations ! Son objectif premier est d'élire la meilleure association étudiante de l'année. Il permet aussi d'élire les meilleures associations par catégorie. Durant l'année, les associations participantes vont être amenées à passer différentes épreuves ! Une occasion unique pour les associations et ceux qui les composent de se faire connaître et de se faire remarquer !",
+      "icon": "concours"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-01",
+      "endAt": "2023-07-15",
+      "title": "Tour Asso",
+      "description": "6 mois durant lesquelles le Classement va partir à la rencontre des associations étudiantes ! L'objectif est de faire connaître et mettre en avant les associations étudiantes, leurs actions et leurs projets !",
+      "icon": "tour-asso"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-02-01",
+      "endAt": "2023-07-15",
+      "title": "Classement Discovery",
+      "description": "Temps organisés par le Classement des Associations mais centrés sur les étudiants, ils ont pour objectif de permettre aux associations d'apprendre et de rencontrer des professionnels, d'autres associations et d'autres étudiants ! Organisés avec des partenaires, ces moments sont aussi l'occasion pour les étudiants de découvrir les locaux d'entreprise !",
+      "icon": "discovery"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-06-30",
+      "title": "Fin des inscriptions"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-07-30",
+      "title": "Dépôt des rendus écrits du Concours"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-08-27",
+      "endAt": "2023-10-01",
+      "title": "Vote",
+      "description": "1 mois pour de démarquer des autres associations et montrer la force de son réseaux et de sa communauté ! Sur une plateforme dédiée, les étudiants, les partenaires, les anciens élèves et qui le souhaite pourront voter pour leur association préférée ! L'objectif est de gagner un maximum de points pour le Concours.",
+      "icon": "vote"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-10-07",
+      "title": "Dépôt des rendus vidéos du Concours"
+    },
+    {
+      "type": "normal",
+      "startAt": "2023-10-14",
+      "title": "Annonce des finalistes"
+    },
+    {
+      "type": "large",
+      "startAt": "2023-11-10",
+      "endAt": null,
+      "title": "Cérémonie finale",
+      "description": "Le moment tant attendu ! L'occasion pour les associations, les écoles et les partenaires de se rencontrer, de se retrouver au sein d'un grand amphithéâtre ! La Cérémonie finale clôt l'année du Classement des Associations, permet la réalisation des pitchs et dévoile les résultats du Concours ! Qui sera l'association étudiante de l'année 2023 ?",
+      "icon": "ceremonie-finale"
+    }
+  ]
+}
