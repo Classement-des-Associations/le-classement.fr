@@ -17,7 +17,7 @@ defineProps<{
 
 <style scoped>
 .gradient-border-classement::before {
-  @apply bg-classement;
+  background-image: theme('backgroundImage.classement');
 }
 
 .gradient-border::before {
@@ -40,7 +40,7 @@ defineProps<{
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  @apply rounded-2xl;
+  border-radius: theme("borderRadius.2xl");
 }
 
 .gradient-border:hover::before {
