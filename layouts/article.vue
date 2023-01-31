@@ -20,7 +20,7 @@ const colors = useColorsByPart(page.value.part)
 const proseClass = function (part: Part = 'classement') {
   switch (part) {
     case 'tour-asso':
-      return 'prose-a:prose-p:bg-association prose-a:prose-p:decoration-accent-purple/40  hover:prose-a:prose-p:decoration-accent-purple'
+      return 'prose-a:prose-p:bg-tour-asso prose-a:prose-p:decoration-accent-purple/40  hover:prose-a:prose-p:decoration-accent-purple'
     case 'discovery':
       return 'prose-a:prose-p:bg-vote prose-a:prose-p:decoration-primary-base/40 hover:prose-a:prose-p:decoration-primary-base'
     case 'concours':
@@ -69,7 +69,7 @@ onMounted(() => {
         prose-a:prose-headings:no-underline prose-a:prose-headings:font-semibold
         prose-a:transition-all prose-a:ease-in  prose-a:prose-p:font-semibold prose-a:prose-p:bg-clip-text prose-a:prose-p:text-transparent
         "
-        :class="proseClass(page.type)"
+        :class="proseClass(page.part)"
       >
         <slot />
       </div>

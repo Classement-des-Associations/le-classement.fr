@@ -39,7 +39,7 @@ const nuxtLinkClass = 'py-4 px-5 flex flex-row gap-2 items-center hover:text-pri
                   >
                     <MenuItems
                       as="ul"
-                      class="z-20 absolute left-4 top-12 p-1 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                      class="z-20 absolute left-4 top-12 p-1 origin-top-right rounded-md bg-inherit shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                     >
                       <template v-for="child in item.children" :key="child._path">
                         <MenuItem as="li">

@@ -13,6 +13,8 @@ const useClass = function (part: Part) {
       return 'before:from-primary-base before:to-primary-variation-1 border-gradient-br-associations-white'
     case 'partenaires':
       return 'before:from-accent-purple before:to-accent-blue border-gradient-br-partenaires-white'
+    case 'tour-asso':
+      return 'before:from-primary-base before:to-accent-purple border-gradient-br-tour-asso-white'
     default:
       return ''
   }
