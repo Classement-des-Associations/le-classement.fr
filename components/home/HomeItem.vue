@@ -1,17 +1,22 @@
 <script lang="ts" setup>
 defineProps<{
+  tag?: string
   icon?: string
 }>()
 </script>
 
 <template>
   <div class="relative rounded-2xl p-7 md:p-9 gradient-border gradient-border-classement">
-    <Icon v-if="icon" :name="icon" class="w-8 sm:w-10 h-auto" />
+    <div class="flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-7">
+      <Icon v-if="icon" :name="icon" class="w-8 sm:w-10 h-auto" />
+      <component :is="tag ? tag : 'h2'" class="text-black text-xl sm:text-2xl font-semibold">
+        <slot name="title" />
+      </component>
+    </div>
 
-    <slot
-      title-class="mt-4 sm:mt-7 text-black text-xl sm:text-2xl font-semibold"
-      description-class="mt-4 text-black text-base"
-    />
+    <p class="mt-4 text-black text-base">
+      <slot name="description" />
+    </p>
   </div>
 </template>
 

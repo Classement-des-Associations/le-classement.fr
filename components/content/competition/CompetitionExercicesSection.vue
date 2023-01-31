@@ -7,6 +7,6 @@ defineProps<{
 
 <template>
   <BaseSection :class="sectionClass">
-    <ConcoursExercices />
+    <CompetitionExercices />
   </BaseSection>
 </template>

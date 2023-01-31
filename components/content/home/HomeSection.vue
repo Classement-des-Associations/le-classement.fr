@@ -42,7 +42,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
         <div v-if="topLineClass" class="w-[3px] h-40 rounded-full bg-gradient-to-t" :class="topLineClass" />
       </div>
 
-      <div class="flex flex-row gap-6">
+      <div class="flex flex-row gap-4 md:gap-6 items-center">
         <Icon :name="icon" class="shrink-0 w-5 sm:w-7 h-full" />
 
         <h2 class="text-lg sm:text-2xl text-black font-medium">
@@ -50,12 +50,12 @@ onBeforeUnmount(() => observer.value?.disconnect())
         </h2>
       </div>
 
-      <div class="flex flex-row gap-6 ">
+      <div class="flex flex-row gap-4 md:gap-6">
         <div class="shrink-0 w-5 sm:w-7 flex flex-row justify-center">
           <div v-if="bottomLineClass" class="w-[3px] rounded-full bg-gradient-to-b" :class="bottomLineClass" />
         </div>
 
-        <p class="text-2xl sm:text-3xl md:text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth, 'mb-12 md:mb-28': bottomLineClass }">
+        <p class="text-3xl md:text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth, 'mb-12 md:mb-28': bottomLineClass }">
           <span
             v-if="$slots.textGradient"
             class="inline text-transparent bg-clip-text"

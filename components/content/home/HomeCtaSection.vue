@@ -38,7 +38,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
       </div>
 
       <div class="mt-10">
-        <div class="ml-6 sm:ml-14 flex flex-col gap-5 items-start">
+        <div class="ml-6 sm:ml-14 flex flex-col gap-3 md:gap-5 items-start">
           <p class="max-w-[40rem] text-lg sm:text-2xl font-medium">
             <span :class="colors.textColor" class="font-semibold">
               <ContentSlot :use="$slots.textColor" unwrap="p" />
