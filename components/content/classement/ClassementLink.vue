@@ -2,7 +2,8 @@
 import { Part } from '~~/types/part'
 
 defineProps<{
-  to: string
+  buttonLink: string
+  buttonText: string
   part: Part
 }>()
 
@@ -20,10 +21,9 @@ const useClass = function (part: Part) {
 
 <template>
   <BaseNuxtLink
-    :to="to"
+    :button-link="buttonLink"
+    :button-text="buttonText"
     class="relative gradient-border-2 before:absolute before:transition before:duration-200 before:rounded-lg before:opacity-0 hover:before:opacity-75 before:-inset-0.5 before:bg-gradient-to-r  before:blur-md before:z-[-1]"
     :class="useClass(part)"
-  >
-    <slot />
-  </BaseNuxtLink>
+  />
 </template>
