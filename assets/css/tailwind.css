@@ -5,7 +5,7 @@
 @layer base {
   html {
     font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
-    @apply text-black;
+    color: theme('colors.black');
   }
 }
 
@@ -17,20 +17,32 @@
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-white blog:bg-primary-variation-2;
+    backgound-color: theme('colors.white');
+  }
+
+  .blog ::webkit-scrollbar-track {
+    backgound-color: theme('colors.primary-variation-1');
   }
 
   ::-webkit-scrollbar-thumb {
-    border-radius: 0.6em;
-    @apply bg-zinc-300 hover:bg-zinc-400 active:bg-zinc-500;
+    border-radius: theme('borderRadius.lg');
+    background-color: theme('colors.zinc.300');
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: theme('colors.zinc.400');
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background-color: theme('colors.zinc.500');
   }
 
   .active-header {
-    @apply text-primary-base cursor-default;
+    color: theme('colors.primary-base');
   }
 
   .active-footer {
-    @apply text-primary-variation-1 cursor-default;
+    color: theme('colors.primary-variation-1');
   }
 
   .no-scrollbar::-webkit-scrollbar {
