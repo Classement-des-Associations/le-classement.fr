@@ -1,5 +1,7 @@
 import type { PressArticle } from '~~/types/press-article'
 import type { Association } from '~~/types/association'
+import { ConcoursExercice } from '~~/types/concours-exercice'
+import { TimelineItem } from '~~/types/timeline'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -115,5 +117,22 @@ export const useRelatedAssociations = (id: string, category = '') => {
 export const usePartners = () => {
   return useAsyncData('content:partners', () =>
     queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
+}
+
+export const useConcoursExercices = () => {
+  return useAsyncData('content:concours-exercices', () =>
+    queryContent<{ body: ConcoursExercice[] }>(
+      '/classement/_concours-exercices'
+    ).where({
+      _partial: true,
+      _extension: 'json'
+    }).findOne()
+  )
+}
+
+export const useTimeline = () => {
+  return useAsyncData('content:timeline', () =>
+    queryContent<{ body: TimelineItem[] }>('/calendrier/data').where({ _extension: 'json' }).findOne()
   )
 }

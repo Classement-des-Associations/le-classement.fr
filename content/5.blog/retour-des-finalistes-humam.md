@@ -6,7 +6,7 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - Hum'am
-image: https://le-classement.fr/socials/retour-des-finalistes-humam.jpg
+image: /socials/retour-des-finalistes-humam.jpg
 cover:
   src: /assets/blog/images/retour-des-finalistes-humam/cover.webp
   alt: Association Hum'am sur scène après leur 3ième place au concours.
@@ -85,7 +85,7 @@ A ce jour l'association Hum'am, c'est **350 000€ de budget** depuis sa créati
 
 ## La cérémonie finale et le pitch, une bonne expérience ?
 
-> Faire participer [à la cérémonie finale](./clap-de-fin-2022.md) chaque association est vraiment bénéfique à chacune d'entre elles. En outre, **même les associations qui ne sont pas finalistes sont gagnantes**. Pouvoir rencontrer d'autres associations dans le même domaine ou simplement les écouter permet de s'enrichir à partir de l'expérience de chacun.
+> Faire participer [à la cérémonie finale](./clap-de-fin-pour-ledition-2022-du-classement-des-associations.md) chaque association est vraiment bénéfique à chacune d'entre elles. En outre, **même les associations qui ne sont pas finalistes sont gagnantes**. Pouvoir rencontrer d'autres associations dans le même domaine ou simplement les écouter permet de s'enrichir à partir de l'expérience de chacun.
 > 
 
 > De plus c'est un bon moyen d'être évalué, voir comment on défend un projet et une équipe sur un travail d'expression orale, ce qui est complémentaire à un rapport écrit.

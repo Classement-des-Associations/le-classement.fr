@@ -1,4 +1,9 @@
 export default defineAppConfig({
+  classement: {
+    tourAsso: {
+      registrationLink: 'https://forms.office.com/e/BWbu3wdhVb'
+    }
+  },
   showActionButton: false,
   actionButton: {
     to: '',
@@ -6,6 +11,7 @@ export default defineAppConfig({
   },
   nuxtIcon: {
     aliases: {
+      battle: 'fluent-emoji:crossed-swords',
       classement: 'fluent-emoji:sparkles',
       'tour-asso': 'fluent-emoji:telescope',
       concours: 'fluent-emoji:trophy',

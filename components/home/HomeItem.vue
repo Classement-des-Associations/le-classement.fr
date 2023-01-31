@@ -8,7 +8,10 @@ defineProps<{
   <div class="relative rounded-2xl p-7 md:p-9 gradient-border gradient-border-classement">
     <Icon v-if="icon" :name="icon" class="w-8 sm:w-10 h-auto" />
 
-    <slot title-class="mt-4 sm:mt-7 text-black text-xl sm:text-2xl font-semibold" description-class="mt-4 text-black text-base" />
+    <slot
+      title-class="mt-4 sm:mt-7 text-black text-xl sm:text-2xl font-semibold"
+      description-class="mt-4 text-black text-base"
+    />
   </div>
 </template>
 
@@ -37,7 +40,6 @@ defineProps<{
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-
   @apply rounded-2xl;
 }
 

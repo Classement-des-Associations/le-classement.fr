@@ -6,7 +6,7 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - les Enfoiros
-image: https://le-classement.fr/socials/retour-des-finalistes-les-enfoiros.jpg
+image: /socials/retour-des-finalistes-les-enfoiros.jpg
 cover:
   src: /assets/blog/images/retour-des-finalistes-les-enfoiros/cover.webp
   alt: Association Les Enfoiros sur scène après leur 2nd place au concours.

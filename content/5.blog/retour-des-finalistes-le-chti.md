@@ -6,7 +6,7 @@ categories:
   - retour d'expérience
   - cérémonie finale
   - Le Chti
-image: https://le-classement.fr/socials/retour-des-finalistes-le-chti.jpg
+image: /socials/retour-des-finalistes-le-chti.jpg
 cover:
   src: /assets/blog/images/retour-des-finalistes-le-chti/cover.webp
   alt: L'association Le Chti sur scène lors de la cérémonie finale.

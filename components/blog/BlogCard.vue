@@ -26,9 +26,16 @@ const normalizedPart = useNormalizedPart(props.article.part)
         >
       </div>
       <div>
-        <span class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">{{
-          normalizedPart
-        }}</span>
+        <dl>
+          <dt class="sr-only">
+            Partie du Classement
+          </dt>
+          <dd class="capitalize font-bold bg-clip-text text-transparent" :class="colors.backgroundGradient">
+            {{
+              normalizedPart
+            }}
+          </dd>
+        </dl>
       </div>
       <div class="flex-grow flex flex-col gap-2">
         <h3 class="text-xl text-black font-bold">
@@ -73,7 +80,7 @@ const normalizedPart = useNormalizedPart(props.article.part)
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 1px;
+  padding: 2px;
   width: 100%;
   opacity: 0.3;
   transition: opacity 0.2s ease-in-out;
