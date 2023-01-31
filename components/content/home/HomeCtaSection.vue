@@ -10,11 +10,29 @@ const props = defineProps<{
 
 const colors = useColorsByPart(props.part)
 
+const observer = ref<IntersectionObserver>()
+const root = ref<Element | null>(null)
+const slideIn = ref(false)
+
+const observerCallback = (entries: IntersectionObserverEntry[]) =>
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      slideIn.value = true
+    }
+  })
+
+onBeforeMount(() => {
+  observer.value = new IntersectionObserver(observerCallback)
+})
+
+onMounted(() => root.value && observer.value?.observe(root.value))
+
+onBeforeUnmount(() => observer.value?.disconnect())
 </script>
 
 <template>
-  <BaseSection :class="sectionClass" class="flex flex-col md:flex-row">
-    <div class="flex flex-row">
+  <BaseSection :class="[!slideIn ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0', sectionClass]" class="relative transition duration-700 flex flex-col md:flex-row">
+    <div ref="root" class="flex flex-row">
       <div class="shrink-0 w-5 sm:w-7 flex flex-row justify-center">
         <div class="w-[3px] rounded-full" :class="colors.lineColor" />
       </div>

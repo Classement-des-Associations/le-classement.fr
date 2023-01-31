@@ -11,7 +11,7 @@ defineProps<{
 </script>
 
 <template>
-  <BaseSection :class="sectionClass">
+  <BaseSection :class="sectionClass" class="relative z-10">
     <img
       class="rounded-2xl md:rounded-[2rem]"
       :src="image.src"
