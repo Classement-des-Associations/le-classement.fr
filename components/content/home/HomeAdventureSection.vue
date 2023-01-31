@@ -2,9 +2,9 @@
 defineProps<{
   sectionClass?: string;
   primaryButtonText?: string;
-  primaryButtonHref?: string;
+  primaryButtonLink?: string;
   secondaryButtonText?: string;
-  secondaryButtonHref?: string;
+  secondaryButtonLink?: string;
 }>()
 </script>
 
@@ -30,10 +30,8 @@ defineProps<{
       </div>
 
       <div class="flex-grow mt-6 xl:mt-0 xl:mb-4 relative flex flex-row items-center xl:justify-end gap-5">
-        <ClassementLink v-if="primaryButtonHref" :to="primaryButtonHref" part="classement">
-          {{ primaryButtonText }}
-        </ClassementLink>
-        <NuxtLink :to="secondaryButtonHref">
+        <ClassementLink v-if="primaryButtonLink && primaryButtonText" :button-link="primaryButtonLink" :button-text="primaryButtonText" part="classement" />
+        <NuxtLink :to="secondaryButtonLink">
           {{ secondaryButtonText }}
         </NuxtLink>
       </div>

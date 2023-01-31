@@ -71,7 +71,7 @@ const colors = useColorsByPart(props.part)
       </div>
     </div>
 
-    <div v-if="$slots.extra" class="mt-4 sm:mt-10">
+    <div v-if="$slots.extra">
       <ContentSlot :use="$slots.extra" unwrap="p" />
     </div>
   </BaseSection>

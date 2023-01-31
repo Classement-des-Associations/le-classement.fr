@@ -3,6 +3,7 @@ const props = defineProps<{
   buttonLink: string
   buttonText: string
   icon?: string
+  rightIcon?: string
   small?: boolean
   type?: 'primary'
 }>()
@@ -30,5 +31,6 @@ const className = computed(() => {
     <span class="overflow-hidden whitespace-nowrap overflow-ellipsis">
       {{ buttonText }}
     </span>
+    <Icon v-if="rightIcon" :name="rightIcon" class="shrink-0 w-4 h-4 ml-2" />
   </NuxtLink>
 </template>

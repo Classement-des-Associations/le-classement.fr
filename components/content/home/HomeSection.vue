@@ -29,12 +29,12 @@ const colors = useColorsByPart(props.part)
         </h2>
       </div>
 
-      <div class="flex flex-row gap-6">
+      <div class="flex flex-row gap-6 ">
         <div class="shrink-0 w-5 sm:w-7 flex flex-row justify-center">
-          <div v-if="bottomLineClass" class="w-[3px] h-48 sm:h-60 lg:h-80 rounded-full bg-gradient-to-b" :class="bottomLineClass" />
+          <div v-if="bottomLineClass" class="w-[3px] rounded-full bg-gradient-to-b" :class="bottomLineClass" />
         </div>
 
-        <p class="text-2xl sm:text-3xl md:text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth }">
+        <p class="mb-12 md:mb-28 text-2xl sm:text-3xl md:text-5xl leading-tight font-semibold" :class="{ 'max-w-[60rem]': maxTextWidth }">
           <span
             v-if="$slots.textGradient"
             class="inline text-transparent bg-clip-text"
