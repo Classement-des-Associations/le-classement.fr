@@ -20,6 +20,8 @@ const normalizedPart = useNormalizedPart(props.article.part)
           class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           :src="article.cover.src"
           :alt="article.cover.alt"
+          width="3000"
+          height="1687"
           loading="lazy"
         >
       </div>
@@ -52,23 +54,23 @@ const normalizedPart = useNormalizedPart(props.article.part)
 
 <style>
 .gradient-border-ceremonie-finale::before {
-  @apply bg-ceremonie-finale
+  background-image: theme("backgroundImage.ceremonie-finale");
 }
 
 .gradient-border-tour-asso::before {
-  @apply bg-tour-asso
+  background-image: theme("backgroundImage.tour-asso");
 }
 
 .gradient-border-discovery::before {
-  @apply bg-discovery
+  background-image: theme("backgroundImage.discovery");
 }
 
 .gradient-border-classement::before {
-  @apply bg-classement
+  background-image: theme("backgroundImage.classement");
 }
 
 .gradient-border-partenaires::before {
-  @apply bg-partenaires
+  background-image: theme("backgroundImage.partenaires");
 }
 
 .gradient-border::before {
@@ -78,7 +80,7 @@ const normalizedPart = useNormalizedPart(props.article.part)
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 1px;
+  padding: 2px;
   width: 100%;
   opacity: 0.3;
   transition: opacity 0.2s ease-in-out;

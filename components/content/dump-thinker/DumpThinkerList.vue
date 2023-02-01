@@ -1,5 +1,11 @@
+<script setup lang="ts">
+defineProps<{
+  id: string;
+}>()
+</script>
+
 <template>
-  <div>
+  <div :id="id">
     <h2 class="text-2xl text-black font-bold">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>

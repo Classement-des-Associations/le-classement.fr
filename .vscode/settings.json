@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["Aneo", "asso", "BNEM", "Enfoiros", "linkedin"],
+  "cSpell.words": [
+    "Aneo",
+    "asso",
+    "BNEM",
+    "Enfoiros",
+    "linkedin",
+    "nuxt"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },

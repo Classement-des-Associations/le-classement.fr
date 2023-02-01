@@ -1,8 +1,8 @@
 ---
 navigation: false
 title: Le Pense Bête
-description: Tous les liens importants du Classement des Associations.
 image: /socials/le-pense-bete.jpg
+description: buttonLinkus les liens importants du Classement des Associations.
 ---
 
 ::dump-thinker-section
@@ -12,22 +12,44 @@ Notre liste de liens
 #lists
   ::dump-thinker-list
   #title
-  Découvrir le Classement
+  La Battle du Classement
 
   #items
     ::dump-thinker-list-item
     ---
-    to: /
-    icon: heroicons:home-solid
-    text: Classement
+    icon: battle
+    buttonLink: /inscription-battle
+    buttonText: S'inscrire
     ---
     ::
 
     ::dump-thinker-list-item
     ---
-    to: /faq
     icon: heroicons:question-mark-circle-solid
-    text: Questions / Réponses
+    buttonLink: /classement/battle
+    buttonText: En savoir plus
+    ---
+    ::
+  ::
+
+  ::dump-thinker-list
+  #title
+  Découvrir le Classement
+
+  #items
+    ::dump-thinker-list-item
+    ---
+    icon: heroicons:home-solid
+    buttonLink: /
+    buttonText: Classement
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: heroicons:question-mark-circle-solid
+    buttonLink: /faq
+    buttonText: Questions / Réponses
     ---
     ::
   ::
@@ -41,31 +63,34 @@ Notre liste de liens
   ::
 
   ::dump-thinker-list
+  ---
+  id: nos-reseaux-sociaux
+  ---
   #title
   Nos réseaux sociaux
 
   #items
     ::dump-thinker-list-item
     ---
-    to: https://www.instagram.com/classementdesassociations/
     icon: mdi:instagram
-    text: Instagram
+    buttonLink: https://www.instagram.com/classementdesassociations/
+    buttonText: Instagram
     ---
     ::
 
     ::dump-thinker-list-item
     ---
-    to: https://www.linkedin.com/company/classement-des-associations/
     icon: mdi:linkedin
-    text: LinkedIn
+    buttonLink: https://www.linkedin.com/company/classement-des-associations/
+    buttonText: LinkedIn
     ---
     ::
     
     ::dump-thinker-list-item
     ---
-    to: https://twitter.com/classement_asso
     icon: mdi:twitter
-    text: Twitter
+    buttonLink: https://twitter.com/classement_asso
+    buttonText: Twitter
     ---
     ::
   ::

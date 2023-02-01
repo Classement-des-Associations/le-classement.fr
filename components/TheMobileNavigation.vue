@@ -40,11 +40,22 @@ const { navigation } = useContent()
         </div>
         <nav aria-labelledby="primary-nav-mobile" class="mt-14 ml-4">
           <span id="primary-nav-mobile" class="sr-only">Navigation primaire mobile</span>
-          <ul class="space-y-10">
+          <ul class="space-y-10 text-lg font-semibold">
             <template v-for="item in navigation" :key="item._path">
+              <li v-if="item.dropdown">
+                <NuxtLink :to="item._path" @click="closeModal">
+                  {{ item.title }}
+                </NuxtLink>
+                <ul class="ml-4 mt-4 font-normal">
+                  <li v-for="child in item.children" :key="child._path">
+                    <NuxtLink :to="child._path" active-class="underline underline-offset-4" @click="closeModal">
+                      {{ child.title }}
+                    </NuxtLink>
+                  </li>
+                </ul>
+              </li>
               <li v-if="item.for === 'header'">
                 <NuxtLink
-                  class="text-lg font-semibold"
                   :to="item._path"
                   active-class="underline underline-offset-4"
                   @click="closeModal"

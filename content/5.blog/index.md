@@ -29,7 +29,7 @@ Entrevoir la vie associative avec nos histoires,<br /> des témoignages, des ass
 
     ::hero-button
     ---
-    href: /le-concours
+    href: /classement/concours
     filled: false
     ---
     Le concours

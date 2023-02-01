@@ -7,9 +7,5 @@ const classement = useAppConfig().classement
 </script>
 
 <template>
-  <div class="not-prose flex flex-row justify-center">
-    <BaseNuxtLink type="primary" :to="classement.tourAsso.registrationLink" target="_blank">
-      {{ buttonText }}
-    </BaseNuxtLink>
-  </div>
+  <CenteredLink :button-link="classement.tourAsso.registrationLink" :button-text="buttonText" part="tour-asso" />
 </template>

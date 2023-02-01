@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     },
     defaultLocale: 'fr',
     navigation: {
-      fields: ['for']
+      fields: ['for', 'dropdown']
     }
   },
 
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/design-kit', '/le-pense-bete', '/associations'],
+      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/classement/concours'],
       crawlLinks: true
     }
   }
