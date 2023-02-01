@@ -9,7 +9,8 @@ const { navigation } = useContent()
       <div class="flex flex-col gap-11 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
         <div class="contents lg:flex lg:flex-row lg:items-center">
           <NuxtLink to="/">
-            <LogosClassementFull class="mx-auto text-white" @click.right.prevent="navigateTo('/design-kit')" />
+            <span class="sr-only">Accueil</span>
+            <LogosClassementFull aria-hidden="true" class="mx-auto text-white" @click.right.prevent="navigateTo('/design-kit')" />
           </NuxtLink>
           <ul class="lg:ml-16 flex flex-row justify-center space-x-[1.375rem] lg:space-x-12">
             <template v-for="social in socials" :key="social.to">
