@@ -19,7 +19,8 @@ defineProps<{
           <NuxtImg
             :src="sponsor.src"
             :alt="`Logo du sponsor ${sponsor.name}`"
-            height="44"
+            sizes="xs:200px"
+            class="h-full"
           />
         </li>
       </template>

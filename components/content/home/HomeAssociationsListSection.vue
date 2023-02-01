@@ -58,6 +58,8 @@ const timing = computed(() => {
           class="rounded-lg"
           :src="toImg(image.src)"
           :alt="image.alt"
+          :width="imageWidth"
+          :height="imageHeight"
           sizes="sm:100px md:200px"
         />
       </template>
