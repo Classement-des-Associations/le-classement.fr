@@ -49,8 +49,14 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/classement/concours'],
+      routes: ['/', '/design-kit', '/le-pense-bete', '/associations'],
       crawlLinks: true
     }
+  },
+
+  routeRules: {
+    '/inscription-battle': { index: false },
+    '/inscription-concours': { index: false },
+    '/inscription-tour-asso': { index: false }
   }
 })

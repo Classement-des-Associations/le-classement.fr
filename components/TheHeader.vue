@@ -45,11 +45,12 @@ const nuxtLinkClass = 'py-4 px-5 flex flex-row gap-2 items-center hover:text-pri
                       <template v-for="child in item.children" :key="child._path">
                         <MenuItem as="li">
                           <NuxtLink
-                            class="inline-block py-2 px-4 whitespace-nowrap hover:text-primary-base transition ease-in"
+                            class="flex flex-row items-center py-2 px-4 whitespace-nowrap hover:text-primary-base transition ease-in"
                             active-class="active-header"
                             :to="child._path"
                             @click="close()"
                           >
+                            <Icon :name="child.icon" class="inline-block w-4 h-4 mr-2" />
                             {{ child.title }}
                           </NuxtLink>
                         </MenuItem>
