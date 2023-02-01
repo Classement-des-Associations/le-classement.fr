@@ -6,7 +6,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="relative rounded-2xl p-7 md:p-9 gradient-border gradient-border-classement">
+  <div class="relative h-full rounded-2xl p-7 md:p-9 gradient-border gradient-border-classement">
     <div class="flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-7">
       <Icon v-if="icon" :name="icon" class="w-8 sm:w-10 h-auto" />
       <component :is="tag ? tag : 'h2'" class="text-black text-xl sm:text-2xl font-semibold">
