@@ -1,5 +1,6 @@
 import type { PressArticle } from '~~/types/press-article'
 import type { Association } from '~~/types/association'
+import { Duel } from '~~/types/duel'
 import { ConcoursExercice } from '~~/types/concours-exercice'
 import { TimelineItem } from '~~/types/timeline'
 
@@ -117,6 +118,12 @@ export const useRelatedAssociations = (id: string, category = '') => {
 export const usePartners = () => {
   return useAsyncData('content:partners', () =>
     queryContent('/partenaires/').sort({ title: 1 }).find()
+  )
+}
+
+export const useDuels = (id: string) => {
+  return useAsyncData(`content:duels:${id}`, () =>
+    queryContent<{ body: Duel[] }>(`/classement/_${id}`).findOne()
   )
 }
 
