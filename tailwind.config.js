@@ -57,7 +57,7 @@ module.exports = {
         )} 14.79%, ${theme('colors.primary-variation-1')} 100%)`,
         partenaires: `linear-gradient(153.43deg, ${theme(
           'colors.accent-purple'
-        )} 0%, $ ${theme('colors.accent.blue')} 83.33%)`,
+        )} 0%, ${theme('colors.accent-blue')} 83.33%)`,
 
         'line-classement': `linear-gradient(180deg, ${theme(
           'colors.primary-base / 0%'

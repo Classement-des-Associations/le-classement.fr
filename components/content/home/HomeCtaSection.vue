@@ -4,8 +4,8 @@ import { Part } from '~~/types/part'
 const props = defineProps<{
   sectionClass?: string;
   part: Part;
-  actionText: string;
-  actionHref: string;
+  actionText?: string;
+  actionHref?: string;
 }>()
 
 const colors = useColorsByPart(props.part)
@@ -50,6 +50,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
           </p>
 
           <NuxtLink
+            v-if="actionHref"
             class="flex flex-row items-center gap-2 text-lg sm:text-2xl text-black font-medium hover:underline hover:underline-offset-4"
             :to="actionHref"
           >
