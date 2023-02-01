@@ -54,23 +54,23 @@ const normalizedPart = useNormalizedPart(props.article.part)
 
 <style>
 .gradient-border-ceremonie-finale::before {
-  @apply bg-ceremonie-finale
+  background-image: theme("backgroundImage.ceremonie-finale");
 }
 
 .gradient-border-tour-asso::before {
-  @apply bg-tour-asso
+  background-image: theme("backgroundImage.tour-asso");
 }
 
 .gradient-border-discovery::before {
-  @apply bg-discovery
+  background-image: theme("backgroundImage.discovery");
 }
 
 .gradient-border-classement::before {
-  @apply bg-classement
+  background-image: theme("backgroundImage.classement");
 }
 
 .gradient-border-partenaires::before {
-  @apply bg-partenaires
+  background-image: theme("backgroundImage.partenaires");
 }
 
 .gradient-border::before {
