@@ -4,8 +4,6 @@ defineProps<{
   sponsors: {
     name: string;
     src: string;
-    width: string | number;
-    height: string | number;
   }[]
 }>()
 </script>
@@ -18,13 +16,11 @@ defineProps<{
     <ul class="mt-5">
       <template v-for="sponsor in sponsors" :key="sponsor.name">
         <li class="h-8 sm:h-11">
-          <img
+          <NuxtImg
             :src="sponsor.src"
             :alt="`Logo du sponsor ${sponsor.name}`"
-            class="h-full"
-            :width="sponsor.width"
-            :height="sponsor.height"
-          >
+            height="44"
+          />
         </li>
       </template>
     </ul>

@@ -15,15 +15,14 @@ const normalizedPart = useNormalizedPart(props.article.part)
   >
     <NuxtLink :to="article._path" class="p-5 relative z-10 h-full flex flex-col gap-4">
       <div class="aspect-w-16 aspect-h-9 rounded-lg md:rounded overflow-hidden">
-        <img
+        <NuxtImg
           v-if="article.cover"
           class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           :src="article.cover.src"
           :alt="article.cover.alt"
-          width="3000"
-          height="1687"
+          sizes="md:800px lg:600px"
           loading="lazy"
-        >
+        />
       </div>
       <div>
         <dl>

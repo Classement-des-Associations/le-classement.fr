@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   extends: ['nuxt-seo-kit'],
   modules: [
+    '@nuxt/image-edge',
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontaine',

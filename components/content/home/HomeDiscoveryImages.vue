@@ -12,14 +12,13 @@ defineProps<{
 <template>
   <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
     <template v-for="image in images" :key="image.src">
-      <img
-        :width="image.width"
-        :height="image.height"
+      <NuxtImg
+        sizes="md:800px lg:600px"
         :src="image.src"
         :alt="image.alt"
         class="rounded-[1.25rem]"
         loading="lazy"
-      >
+      />
     </template>
   </div>
 </template>

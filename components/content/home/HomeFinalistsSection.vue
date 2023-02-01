@@ -50,7 +50,7 @@ const timing = computed(() => {
       :timing="timing"
     >
       <template #default="{ image }">
-        <img class="rounded-2xl md:rounded-[2rem]" :src="image.src" :alt="image.alt" :width="image.width" :height="image.height">
+        <NuxtImg class="rounded-2xl md:rounded-[2rem]" :src="image.src" :alt="image.alt" sizes="sm:520 md:860px" />
       </template>
     </HomeSlider>
   </div>

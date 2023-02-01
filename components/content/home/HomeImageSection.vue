@@ -12,13 +12,12 @@ defineProps<{
 
 <template>
   <BaseSection :class="sectionClass" class="relative z-10">
-    <img
+    <NuxtImg
       class="rounded-2xl md:rounded-[2rem]"
       :src="image.src"
       :alt="image.alt"
-      :width="image.width"
-      :height="image.height"
+      sizes="xs:500px sm:800px md:900px lg:1200px xl:1600px"
       loading="lazy"
-    >
+    />
   </BaseSection>
 </template>
