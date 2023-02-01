@@ -12,6 +12,28 @@ Notre liste de liens
 #lists
   ::dump-thinker-list
   #title
+  La Battle du Classement
+
+  #items
+    ::dump-thinker-list-item
+    ---
+    icon: battle
+    buttonLink: /inscription-battle
+    buttonText: S'inscrire
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: heroicons:question-mark-circle-solid
+    buttonLink: /classement/battle
+    buttonText: En savoir plus
+    ---
+    ::
+  ::
+
+  ::dump-thinker-list
+  #title
   Découvrir le Classement
 
   #items
@@ -41,6 +63,9 @@ Notre liste de liens
   ::
 
   ::dump-thinker-list
+  ---
+  id: nos-reseaux-sociaux
+  ---
   #title
   Nos réseaux sociaux
 

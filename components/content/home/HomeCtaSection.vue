@@ -50,6 +50,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
           </p>
 
           <NuxtLink
+            v-if="actionHref"
             class="flex flex-row items-center gap-2 text-lg sm:text-2xl text-black font-medium hover:underline hover:underline-offset-4"
             :to="actionHref"
           >
