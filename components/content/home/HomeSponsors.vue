@@ -12,7 +12,7 @@ defineProps<{
 
 <template>
   <BaseSection :class="sectionClass">
-    <h2 class="text-sm sm:text-base text-zinc-400 tracking-tight font-medium">
+    <h2 class="text-sm sm:text-base text-zinc-500 tracking-tight font-medium">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
     <ul class="mt-5">
