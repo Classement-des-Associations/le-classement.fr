@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
-const { showActionButton, actionButton } = useAppConfig()
 const { navigation } = useContent()
 
 const nuxtLinkClass = 'py-4 px-5 flex flex-row gap-2 items-center hover:text-primary-base transition ease-in'
@@ -74,9 +73,6 @@ const nuxtLinkClass = 'py-4 px-5 flex flex-row gap-2 items-center hover:text-pri
           </template>
         </ul>
       </nav>
-    </div>
-    <div class="hidden md:flex md:flex-row md:justify-center md:items-center">
-      <ActionButton v-if="showActionButton" :to="actionButton.to" :text="actionButton.text" />
     </div>
     <div class="md:hidden flex flex-row items-center">
       <TheMobileNavigation />

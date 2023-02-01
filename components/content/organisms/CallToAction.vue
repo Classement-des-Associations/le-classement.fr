@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { left, accent } = defineProps<{
+const props = defineProps<{
   left?: boolean
   accent?: 'blue' | 'purple'
   action?: {
@@ -12,8 +12,8 @@ const { left, accent } = defineProps<{
   }
 }>()
 
-const isPurple = accent === 'purple'
-const isBlue = accent === 'blue'
+const isPurple = props.accent === 'purple'
+const isBlue = props.accent === 'blue'
 </script>
 
 <template>
@@ -26,9 +26,9 @@ const isBlue = accent === 'blue'
       :class="{ 'xl:ml-20 2xl:ml-[7.5rem]': !left, 'xl:mr-20  2xl:mr-[7.5rem]': left }"
     >
       <div class="w-full space-y-8">
-        <AtomsSectionTitle>
+        <h2 class="text-2xl md:text-[1.75rem] font-bold">
           <ContentSlot :use="$slots.default" unwrap="p" />
-        </AtomsSectionTitle>
+        </h2>
         <div class="flex flex-col space-y-4 text-sm leading-[1.25rem]">
           <slot name="text" />
         </div>
@@ -38,7 +38,9 @@ const isBlue = accent === 'blue'
       </AtomsAppLink>
     </div>
     <img
-      :src="image.src" :alt="image.alt" loading="lazy"
+      :src="image.src"
+      :alt="image.alt"
+      loading="lazy"
       class="row-start-1 lg:row-auto w-full max-h-96 lg:max-h-max xl:w-[46rem] 2xl:w-[50rem] 4xl:w-[56rem] h-[38rem] object-cover"
       :class="{ 'xl:col-start-2 xl:row-start-1': left }"
     >

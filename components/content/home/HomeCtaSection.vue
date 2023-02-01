@@ -4,8 +4,8 @@ import { Part } from '~~/types/part'
 const props = defineProps<{
   sectionClass?: string;
   part: Part;
-  actionText: string;
-  actionHref: string;
+  actionText?: string;
+  actionHref?: string;
 }>()
 
 const colors = useColorsByPart(props.part)

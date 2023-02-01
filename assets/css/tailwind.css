@@ -18,11 +18,11 @@
   }
 
   ::-webkit-scrollbar-track {
-    backgound-color: theme('colors.white');
+    background-color: theme('colors.white');
   }
 
   .blog ::webkit-scrollbar-track {
-    backgound-color: theme('colors.primary-variation-1');
+    background-color: theme('colors.primary-variation-1');
   }
 
   ::-webkit-scrollbar-thumb {
