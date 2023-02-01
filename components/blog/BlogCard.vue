@@ -20,6 +20,8 @@ const normalizedPart = useNormalizedPart(props.article.part)
           class="h-full w-full object-cover group-hover:scale-[101%] transition-transform duration-200"
           :src="article.cover.src"
           :alt="article.cover.alt"
+          width="3000"
+          height="1687"
           loading="lazy"
         >
       </div>

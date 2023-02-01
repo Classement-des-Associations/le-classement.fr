@@ -25,6 +25,12 @@ export const usePressReleases = (limit?: number) => {
   return useAsyncData(key, () => query.find())
 }
 
+export const useHomeAssociations = () => {
+  return useAsyncData('content:home-associations', () =>
+    queryContent('_home-associations').findOne()
+  )
+}
+
 export const useDumpThinkerArticles = () => {
   return useAsyncData('content:dump-thinker-articles', () =>
     queryContent('/blog/').sort({ datePublished: -1 }).limit(3).find()
@@ -50,6 +56,25 @@ export const useRelatedArticles = () => {
       .sort({ datePublished: -1 })
       .limit(3)
       .find()
+  )
+}
+
+export const useArticlesByCategories = (
+  categories: string[],
+  limit: number
+) => {
+  return useAsyncData(
+    `content:articles-by-categories-${categories.join('-')}-${limit}`,
+    () =>
+      queryContent('/blog/')
+        .where({
+          categories: {
+            $containsAny: categories
+          }
+        })
+        .limit(limit)
+        .sort({ datePublished: -1 })
+        .find()
   )
 }
 

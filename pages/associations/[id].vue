@@ -3,6 +3,7 @@ const route = useRoute()
 
 const id = ref(route.params.id as string)
 const { data: association } = await useAssociation(id.value)
+const { data: relatedAssociations } = await useRelatedAssociations(id.value, association.value?.category)
 
 const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}`, {
   linkedin: association.value?.linkedin,
@@ -10,15 +11,13 @@ const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}
   website: association.value?.website
 })
 
-const { data: relatedAssociations } = await useRelatedAssociations(id.value, association.value?.category)
+useSeoMeta({
+  title: association.value?.name,
+  description: association.value?.description
+})
 </script>
 
 <template>
-  <Head v-if="association">
-    <Title>{{ association.name }}</Title>
-    <Meta name="description" :content="association.description" />
-    <Meta property="og:description" :content="association.description" />
-  </Head>
   <BaseSection v-if="association" class="my-20">
     <div class="flex flex-col items-start gap-6">
       <h1 class="text-5xl text-black font-bold">
