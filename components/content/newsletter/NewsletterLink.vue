@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const newsletterLink = useAppConfig().classement.newsletter.subscribeLink
+const newsletterLink = useRuntimeConfig().public.classement.newsletter.subscribeLink
 </script>
 
 <template>

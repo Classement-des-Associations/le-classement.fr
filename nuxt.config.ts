@@ -15,7 +15,21 @@ export default defineNuxtConfig({
       siteDescription:
         'L\'aventure humaine de référence qui rassemble, promeut et valorise la vie associative étudiante.',
       language: 'fr-FR',
-      titleSeparator: '·'
+      titleSeparator: '·',
+      classement: {
+        tourAsso: {
+          registrationLink: process.env.TOUR_ASSO_REGISTRATION_LINK
+        },
+        concours: {
+          registrationLink: process.env.CONCOURS_REGISTRATION_LINK
+        },
+        newsletter: {
+          subscribeLink: process.env.NEWSLETTER_SUBSCRIBE_LINK
+        },
+        battle: {
+          registrationLink: process.env.BATTLE_REGISTRATION_LINK
+        }
+      }
     }
   },
 
@@ -55,9 +69,6 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/inscription-battle': { index: false },
-    '/inscription-concours': { index: false },
-    '/inscription-tour-asso': { index: false },
     '/newsletter/merci': { index: false }
   }
 })

@@ -1,11 +1,13 @@
 <script lang="ts" setup>
-defineProps<{
+const props = defineProps<{
   buttonText: string
   buttonLink: string
   icon?: string
 }>()
+
+const link = useClassementLink(props.buttonLink)
 </script>
 
 <template>
-  <BaseNuxtLink :button-link="buttonLink" :button-text="buttonText" :icon="icon" type="primary" />
+  <BaseNuxtLink :button-link="link" :button-text="buttonText" :icon="icon" type="primary" />
 </template>

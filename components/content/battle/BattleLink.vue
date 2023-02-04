@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const battleLink = useAppConfig().classement.battle.registrationLink
+const battleLink = useRuntimeConfig().public.classement.battle.registrationLink
 </script>
 
 <template>
