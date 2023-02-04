@@ -54,7 +54,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
       <div class="flex-grow mt-6 xl:mt-0 xl:mb-4 relative flex flex-row items-center xl:justify-end gap-5">
         <ClassementLink v-if="primaryLink && primaryButtonText" :button-link="primaryLink" :button-text="primaryButtonText" part="classement" />
         <NuxtLink :to="secondaryLink">
-          {{ secondaryLink }}
+          {{ secondaryButtonText }}
         </NuxtLink>
       </div>
     </div>

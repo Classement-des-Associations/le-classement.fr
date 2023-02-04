@@ -3,7 +3,7 @@ export const useClassementLink = (link?: string) => {
     return ''
   }
 
-  if (link.startsWith('/') || link.startsWith('#')) {
+  if (link.startsWith('/') || link.startsWith('#') || link.startsWith('http')) {
     return link
   }
 
