@@ -4,10 +4,10 @@ export default defineAppConfig({
       registrationLink: 'https://forms.office.com/e/BWbu3wdhVb'
     },
     newsletter: {
-      subscribeLink: process.env.NEWSLETTER_SUBSCRIBE_LINK || ''
+      subscribeLink: 'https://25070129.hs-sites-eu1.com/fr/newsletter-du-classement-des-associations'
     },
     battle: {
-      registrationLink: process.env.BATTLE_REGISTRATION_LINK || ''
+      registrationLink: 'https://my.weezevent.com/la-battle-du-classement'
     }
   },
   nuxtIcon: {
