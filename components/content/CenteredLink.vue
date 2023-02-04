@@ -10,6 +10,8 @@ defineProps<{
 
 <template>
   <div class="not-prose flex flex-row justify-center">
-    <ClassementLink :button-text="buttonText" :button-link="buttonLink" :part="part" />
+    <slot>
+      <ClassementLink :button-text="buttonText" :button-link="buttonLink" :part="part" />
+    </slot>
   </div>
 </template>
