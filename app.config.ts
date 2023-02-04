@@ -5,6 +5,9 @@ export default defineAppConfig({
     },
     newsletter: {
       subscribeLink: process.env.NEWSLETTER_SUBSCRIBE_LINK || ''
+    },
+    battle: {
+      registrationLink: process.env.BATTLE_REGISTRATION_LINK || ''
     }
   },
   nuxtIcon: {
