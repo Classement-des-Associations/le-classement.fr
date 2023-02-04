@@ -8,7 +8,7 @@ export const useClassementLink = (link?: string) => {
   }
 
   switch (link) {
-    case 'tou-asso':
+    case 'tour-asso':
       return useRuntimeConfig().public.classement.tourAsso.registrationLink
     case 'newsletter':
       return useRuntimeConfig().public.classement.newsletter.subscribeLink
@@ -17,6 +17,6 @@ export const useClassementLink = (link?: string) => {
     case 'concours':
       return useRuntimeConfig().public.classement.concours.registrationLink
     default:
-      return link
+      throw new Error(`Unknown classement link: ${link}`)
   }
 }
