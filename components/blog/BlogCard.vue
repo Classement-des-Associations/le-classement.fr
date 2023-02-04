@@ -52,7 +52,7 @@ const normalizedPart = useNormalizedPart(props.article.part)
   </article>
 </template>
 
-<style>
+<style scoped>
 .gradient-border-ceremonie-finale::before {
   background-image: theme("backgroundImage.ceremonie-finale");
 }

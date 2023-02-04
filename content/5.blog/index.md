@@ -38,9 +38,19 @@ Entrevoir la vie associative avec nos histoires,<br /> des témoignages, des ass
 ::
 
 ::blog-section{id="articles"}
+---
+sectionClass: mt-16
+---
 #title
 Les articles
 #content
   ::blog-list
   ::
+::
+
+::newsletter-section
+---
+sectionClass: my-32
+visible: true
+---
 ::
