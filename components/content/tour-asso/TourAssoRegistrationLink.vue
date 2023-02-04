@@ -3,9 +3,9 @@ defineProps<{
   buttonText: string
 }>()
 
-const classement = useAppConfig().classement
+const tourAssoLink = useRuntimeConfig().public.classement.tourAsso.registrationLink
 </script>
 
 <template>
-  <CenteredLink :button-link="classement.tourAsso.registrationLink" :button-text="buttonText" part="tour-asso" />
+  <CenteredLink :button-link="tourAssoLink" :button-text="buttonText" part="tour-asso" />
 </template>
