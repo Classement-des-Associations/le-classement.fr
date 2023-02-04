@@ -26,7 +26,7 @@ onBeforeUnmount(() => observer.value?.disconnect())
 </script>
 
 <template>
-  <BaseSection :class="[!slideIn ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0', sectionClass]">
+  <BaseSection class="relative transition duration-700" :class="[!slideIn ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0', sectionClass]">
     <div ref="root">
       <Newsletter />
     </div>

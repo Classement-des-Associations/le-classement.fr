@@ -8,7 +8,7 @@ sectionClass: my-16
 ---
 # Inscription confirmée
 
-Merci pour votre inscription à la newsletter du concours.
+Merci pour votre inscription à la newsletter du Classement des Associations.
 
 Vous allez recevoir **votre premier email** dans quelques instants. La newsletter est envoyé toutes les 2 semaines.
 
