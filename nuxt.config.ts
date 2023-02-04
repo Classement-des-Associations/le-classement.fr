@@ -57,6 +57,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/inscription-battle': { index: false },
     '/inscription-concours': { index: false },
-    '/inscription-tour-asso': { index: false }
+    '/inscription-tour-asso': { index: false },
+    '/newsletter/merci': { index: false }
   }
 })

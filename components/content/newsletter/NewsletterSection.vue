@@ -6,7 +6,7 @@ const props = defineProps<{
 
 const observer = ref<IntersectionObserver>()
 const root = ref<Element | null>(null)
-const slideIn = ref(props.visible)
+const slideIn = ref(props.visible || false)
 
 const observerCallback = (entries: IntersectionObserverEntry[]) =>
   entries.forEach((entry) => {
@@ -26,7 +26,9 @@ onBeforeUnmount(() => observer.value?.disconnect())
 </script>
 
 <template>
-  <BaseSection ref="root" :class="[!slideIn ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0', sectionClass]">
-    <Newsletter />
+  <BaseSection :class="[!slideIn ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0', sectionClass]">
+    <div ref="root">
+      <Newsletter />
+    </div>
   </BaseSection>
 </template>
