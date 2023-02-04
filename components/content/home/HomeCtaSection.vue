@@ -8,6 +8,7 @@ const props = defineProps<{
   actionHref?: string;
 }>()
 
+const link = useClassementLink(props.actionHref)
 const colors = useColorsByPart(props.part)
 
 const observer = ref<IntersectionObserver>()
@@ -50,9 +51,9 @@ onBeforeUnmount(() => observer.value?.disconnect())
           </p>
 
           <NuxtLink
-            v-if="actionHref"
+            v-if="link"
             class="flex flex-row items-center gap-2 text-lg sm:text-2xl text-black font-medium hover:underline hover:underline-offset-4"
-            :to="actionHref"
+            :to="link"
           >
             {{ actionText }}
             <Icon name="heroicons:chevron-right" class="w-4 sm:w-6 h-4 sm:h-6" />

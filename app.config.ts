@@ -1,15 +1,5 @@
 export default defineAppConfig({
-  classement: {
-    tourAsso: {
-      registrationLink: 'https://forms.office.com/e/BWbu3wdhVb'
-    },
-    newsletter: {
-      subscribeLink: 'https://25070129.hs-sites-eu1.com/fr/newsletter-du-classement-des-associations'
-    },
-    battle: {
-      registrationLink: 'https://my.weezevent.com/la-battle-du-classement'
-    }
-  },
+  classement: {},
   nuxtIcon: {
     aliases: {
       battle: 'fluent-emoji:crossed-swords',

@@ -1,11 +1,14 @@
 <script lang="ts" setup>
-defineProps<{
+const props = defineProps<{
   sectionClass?: string;
   primaryButtonText?: string;
   primaryButtonLink?: string;
   secondaryButtonText?: string;
   secondaryButtonLink?: string;
 }>()
+
+const primaryLink = useClassementLink(props.primaryButtonLink)
+const secondaryLink = useClassementLink(props.secondaryButtonLink)
 
 const observer = ref<IntersectionObserver>()
 const root = ref<Element | null>(null)
@@ -49,8 +52,8 @@ onBeforeUnmount(() => observer.value?.disconnect())
       </div>
 
       <div class="flex-grow mt-6 xl:mt-0 xl:mb-4 relative flex flex-row items-center xl:justify-end gap-5">
-        <ClassementLink v-if="primaryButtonLink && primaryButtonText" :button-link="primaryButtonLink" :button-text="primaryButtonText" part="classement" />
-        <NuxtLink :to="secondaryButtonLink">
+        <ClassementLink v-if="primaryLink && primaryButtonText" :button-link="primaryLink" :button-text="primaryButtonText" part="classement" />
+        <NuxtLink :to="secondaryLink">
           {{ secondaryButtonText }}
         </NuxtLink>
       </div>

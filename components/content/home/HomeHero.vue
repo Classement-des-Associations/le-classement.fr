@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   sectionClass?: string
   topButtonText?: string
   topButtonLink?: string
@@ -8,6 +8,9 @@ defineProps<{
   secondaryButtonText?: string
   secondaryButtonLink?: string
 }>()
+
+const primaryLink = useClassementLink(props.primaryButtonLink)
+const secondaryLink = useClassementLink(props.secondaryButtonLink)
 </script>
 
 <template>
@@ -22,8 +25,8 @@ defineProps<{
           <ContentSlot :use="$slots.subtitle" unwrap="p" />
         </p>
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <ClassementLink v-if="primaryButtonLink && primaryButtonText" :button-link="primaryButtonLink" :button-text="primaryButtonText" part="classement" />
-          <BaseNuxtLink v-if="secondaryButtonLink && secondaryButtonText" :button-link="secondaryButtonLink" :button-text="secondaryButtonText" right-icon="heroicons:chevron-right" />
+          <ClassementLink v-if="primaryLink && primaryButtonText" :button-link="primaryLink" :button-text="primaryButtonText" part="classement" />
+          <BaseNuxtLink v-if="secondaryLink && secondaryButtonText" :button-link="secondaryLink" :button-text="secondaryButtonText" right-icon="heroicons:chevron-right" />
         </div>
       </div>
       <HomeTrophy v-if="false" />
