@@ -4,21 +4,7 @@ const { navigation } = useContent()
 </script>
 
 <template>
-  <BaseSection>
-    <div class="gradient-border-2 border-gradient-br-associations-light-white rounded-lg flex flex-row gap-20 items-center px-10 py-14">
-      <div class="flex flex-col gap-2">
-        <h2 class="text-3xl font-bold">
-          S'abonner au Classement
-        </h2>
-        <p class="text-xl text-zinc-600">
-          Une newsletter pour tous ceux qui veulent prolonger l'aventure du Classement avec des exclusivités et des actualités sur la vie associative étudiante.
-        </p>
-      </div>
-
-      <ClassementNewsletterLink />
-    </div>
-  </BaseSection>
-  <div class="mt-20 bg-black">
+  <div class="bg-black">
     <BaseSection is="footer" class="py-11 flex flex-col gap-14">
       <div class="flex flex-col gap-11 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
         <div class="contents lg:flex lg:flex-row lg:items-center">

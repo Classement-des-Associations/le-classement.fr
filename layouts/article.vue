@@ -76,5 +76,7 @@ onMounted(() => {
     </article>
 
     <BlogRelatedArticlesSection class="mt-8 md:mt-16 lg:mt-32" />
+
+    <Newsletter class="mt-16" />
   </LayoutSection>
 </template>
