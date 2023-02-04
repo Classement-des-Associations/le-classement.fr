@@ -17,14 +17,6 @@ Notre liste de liens
   #items
     ::dump-thinker-list-item
     ---
-    icon: battle
-    buttonLink: /inscription-battle
-    buttonText: S'inscrire
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
     icon: heroicons:question-mark-circle-solid
     buttonLink: /classement/battle
     buttonText: En savoir plus
