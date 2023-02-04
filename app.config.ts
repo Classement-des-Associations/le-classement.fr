@@ -2,6 +2,9 @@ export default defineAppConfig({
   classement: {
     tourAsso: {
       registrationLink: 'https://forms.office.com/e/BWbu3wdhVb'
+    },
+    newsletter: {
+      subscribeLink: process.env.NEWSLETTER_SUBSCRIBE_LINK || ''
     }
   },
   nuxtIcon: {
