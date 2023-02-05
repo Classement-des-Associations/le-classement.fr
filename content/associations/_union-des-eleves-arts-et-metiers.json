@@ -1,0 +1,15 @@
+{
+  "id": "union-des-eleves-arts-et-metiers",
+  "name": "Union des Élèves - Arts et Métiers",
+  "description": "L’Union des Elèves – Arts et Métiers est l’une des plus importantes associations étudiantes de France. Elle regroupe 3 500 étudiants et organise plus de 600 événements par an mettant en avant le savoir-faire des Gadzarts à réaliser de grands projets comme Skioz’Arts, le Forum Arts et Métiers et bien plus encore.",
+  "category": "BDE",
+  "schools": [
+    "Arts et Métiers ParisTech"
+  ],
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/union_des_eleves_artsetmetiers/?hl=fr",
+  "website": null,
+  "years": [
+    "2022"
+  ]
+}

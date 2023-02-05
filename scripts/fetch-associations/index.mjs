@@ -1,6 +1,5 @@
 import fs from 'node:fs'
 import * as dotenv from 'dotenv'
-
 import { Client } from '@notionhq/client'
 import consola from 'consola'
 import { resolve } from 'pathe'
@@ -20,22 +19,36 @@ async function main () {
   const notion = new Client({ auth: notionKey })
 
   consola.info('Fetching associations')
-  const { results: associations } = await notion.databases.query({
-    database_id: associationsDatabaseId,
-    page_size: 20,
-    filter: {
-      property: 'Montrer',
-      checkbox: {
-        equals: true
-      }
-    },
-    sorts: [
-      {
-        property: 'Nom',
-        direction: 'ascending'
-      }
-    ]
-  })
+  const associations = []
+  const pageSize = 20
+  let startCursor
+  while (true) {
+    const { results, has_more: hasMore, next_cursor: nextCursor } = await notion.databases.query({
+      database_id: associationsDatabaseId,
+      page_size: pageSize,
+      start_cursor: startCursor,
+      filter: {
+        property: 'Montrer',
+        checkbox: {
+          equals: true
+        }
+      },
+      sorts: [
+        {
+          property: 'Nom',
+          direction: 'ascending'
+        }
+      ]
+    })
+    associations.push(...results)
+
+    if (hasMore) {
+      startCursor = nextCursor
+    }
+    if (!hasMore) {
+      break
+    }
+  }
   consola.success('Associations fetched')
 
   if (!associations) {
