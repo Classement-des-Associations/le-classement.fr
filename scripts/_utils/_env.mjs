@@ -1,3 +1,6 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
+
 export const useEnv = function () {
   const notionKey = process.env.NOTION_KEY
   if (!notionKey) {
@@ -9,8 +12,14 @@ export const useEnv = function () {
     throw new Error('No association database ID found')
   }
 
+  const schoolsDatabaseId = process.env.NOTION_SCHOOLS_DATABASE_ID
+  if (!schoolsDatabaseId) {
+    throw new Error('No school database ID found')
+  }
+
   return {
     notionKey,
-    associationsDatabaseId
+    associationsDatabaseId,
+    schoolsDatabaseId
   }
 }

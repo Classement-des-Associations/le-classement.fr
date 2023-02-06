@@ -4,7 +4,10 @@
   "description": "Notre objectif ? Développer des véhicules hydrogène répondant aux enjeux environnementaux afin de contribuer à l'évolution vers un monde plus vert !",
   "category": "Technique",
   "schools": [
-    "ESTACA"
+    {
+      "id": "estaca",
+      "name": "ESTACA"
+    }
   ],
   "linkedin": null,
   "instagram": "https://www.instagram.com/idrogen_estaca/?theme=dark",

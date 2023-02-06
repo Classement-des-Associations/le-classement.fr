@@ -1,0 +1,16 @@
+{
+  "id": "grenoble-ecole-de-maganement",
+  "name": "Grenoble Ecole de Maganement",
+  "associations": [
+    {
+      "id": "altigliss",
+      "name": "Altigliss",
+      "category": "Sportive"
+    },
+    {
+      "id": "savoir-oser-la-solidarite",
+      "name": "Savoir Oser la Solidarité",
+      "category": "Humanitaire"
+    }
+  ]
+}

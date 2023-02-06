@@ -4,7 +4,10 @@
   "description": "La CoMu est une association étudiante de comédie musicale se produisant chaque année au théâtre Déjazet, l’un des plus vieux théâtres de Paris. La troupe est répartie en 4 pôles qui participent à toutes les dimensions de ce projet ambitieux : écriture, mise en scène, arrangement des chansons, chorégraphies, décors, costumes.…",
   "category": "Culturelle",
   "schools": [
-    "ESCP"
+    {
+      "id": "escp",
+      "name": "ESCP"
+    }
   ],
   "linkedin": null,
   "instagram": "https://www.instagram.com/comu.gram/",

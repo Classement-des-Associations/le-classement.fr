@@ -4,7 +4,10 @@
   "description": "La Nuit de l’Institut est organisée par 82 étudiants qui travaillent ensemble pour organiser la plus grande soirée à but solidaire des Hauts de France. Pendant près de 6h, venez découvrir son guest star internationale et voyagez au sein de 14 salles décorées et animées. C’est aussi plus de 5 000 euros reversés à une association.",
   "category": "Gala",
   "schools": [
-    "UniLaSalle"
+    {
+      "id": "unilasalle",
+      "name": "UniLaSalle"
+    }
   ],
   "linkedin": "https://www.linkedin.com/company/nuit-de-l-institut-unilasalle/",
   "instagram": "https://www.instagram.com/nuit_de_linstitut_unilasalle/",

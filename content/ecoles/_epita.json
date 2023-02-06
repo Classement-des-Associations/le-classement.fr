@@ -1,0 +1,11 @@
+{
+  "id": "epita",
+  "name": "Epita",
+  "associations": [
+    {
+      "id": "supbio-dance",
+      "name": "Sup’Bio Dance",
+      "category": "Sportive"
+    }
+  ]
+}

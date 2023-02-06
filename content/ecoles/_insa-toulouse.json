@@ -1,0 +1,11 @@
+{
+  "id": "insa-toulouse",
+  "name": "INSA Toulouse",
+  "associations": [
+    {
+      "id": "les-enfoiros",
+      "name": "Les Enfoiros",
+      "category": "Sociale"
+    }
+  ]
+}

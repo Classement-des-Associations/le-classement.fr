@@ -4,7 +4,10 @@
   "description": "Musical ESSEC crée et produit un spectacle 100% original (musique, danse, chant ...). L'ensemble des bénéfices est reversé à l'institut de recherche sur les maladies génétiques Imagine. Musical donne également des cours de comédie musicale dans une association de quartier cergyçoise afin de rendre la culture accessible à tous.",
   "category": "Art",
   "schools": [
-    "ESSEC"
+    {
+      "id": "essec",
+      "name": "ESSEC"
+    }
   ],
   "linkedin": null,
   "instagram": "https://www.instagram.com/musical.essec/",

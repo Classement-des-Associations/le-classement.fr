@@ -1,57 +1,35 @@
 import fs from 'node:fs'
-import * as dotenv from 'dotenv'
-import { Client } from '@notionhq/client'
 import consola from 'consola'
 import { resolve } from 'pathe'
-import { useEnv } from './_env.mjs'
-import { useExtractContent } from './_extract.mjs'
-import { useSlugify } from './_slugify.mjs'
-import { storage } from './_storage.mjs'
-dotenv.config()
+import { createNotionClient } from '../_utils/_createNotionClient.mjs'
+import { fetchDatabase } from '../_utils/_fetch.mjs'
+import { useEnv } from '../_utils/_env.mjs'
+import { useSlugify } from '../_utils/_slugify.mjs'
+import { useExtractContent } from '../_utils/_extract.mjs'
+import { useStorage } from '../_utils/_storage.mjs'
 
 async function main () {
-  consola.start('Starting script')
+  consola.start('Script')
 
-  consola.info('Loading env')
-  const { notionKey, associationsDatabaseId } = useEnv()
-
-  consola.info('Connecting to Notion')
-  const notion = new Client({ auth: notionKey })
+  const { associationsDatabaseId } = useEnv()
+  const client = createNotionClient()
+  const storage = useStorage()
 
   consola.info('Fetching associations')
-  const associations = []
-  const pageSize = 20
-  let startCursor
-  while (true) {
-    const { results, has_more: hasMore, next_cursor: nextCursor } = await notion.databases.query({
-      database_id: associationsDatabaseId,
-      page_size: pageSize,
-      start_cursor: startCursor,
-      filter: {
-        property: 'Montrer',
-        checkbox: {
-          equals: true
-        }
-      },
-      sorts: [
-        {
-          property: 'Nom',
-          direction: 'ascending'
-        }
-      ]
-    })
-    associations.push(...results)
-
-    if (hasMore) {
-      startCursor = nextCursor
+  const associations = await fetchDatabase(client, associationsDatabaseId, {
+    property: 'Montrer',
+    checkbox: {
+      equals: true
     }
-    if (!hasMore) {
-      break
+  }, [
+    {
+      property: 'Nom',
+      direction: 'ascending'
     }
-  }
+  ])
   consola.success('Associations fetched')
 
-  if (!associations) {
+  if (!associations.length) {
     throw new Error('No associations found')
   }
 
@@ -74,12 +52,15 @@ async function main () {
         consola.trace(`Get school ${pageId} from cache`)
         const properties = await storage.getItem(pageId)
         const schoolName = useExtractContent(properties.Nom)
-        schools.push(schoolName)
+        schools.push({
+          id: useSlugify(schoolName),
+          name: schoolName
+        })
         continue
       }
 
       consola.trace(`Get school ${pageId} from Notion`)
-      const { properties } = await notion.pages.retrieve({
+      const { properties } = await client.pages.retrieve({
         page_id: pageId,
         sorts: [
           {
@@ -91,7 +72,10 @@ async function main () {
       await storage.setItem(pageId, properties)
 
       const schoolName = useExtractContent(properties.Nom)
-      schools.push(schoolName)
+      schools.push({
+        id: useSlugify(schoolName),
+        name: schoolName
+      })
     }
 
     const years = []
@@ -106,7 +90,7 @@ async function main () {
       }
 
       consola.trace(`Get participation ${pageId} from Notion`)
-      const { properties } = await notion.pages.retrieve({
+      const { properties } = await client.pages.retrieve({
         page_id: pageId,
         sorts: [
           {

@@ -1,0 +1,16 @@
+{
+  "id": "centralesupelec",
+  "name": "CentraleSupélec",
+  "associations": [
+    {
+      "id": "bureau-des-sports-centralesupelec",
+      "name": "Bureau des sports CentraleSupélec",
+      "category": "Sportive"
+    },
+    {
+      "id": "humacs",
+      "name": "HumaCS",
+      "category": "Sociale"
+    }
+  ]
+}

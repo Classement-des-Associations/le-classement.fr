@@ -4,7 +4,10 @@
   "description": "4L Trophy Coordination est une association de Rennes School of Business. Fondée en 1997, elle est la SEULE et UNIQUE association de France qui co-organise avec Désertours le raid 4L Trophy.",
   "category": "Sportive",
   "schools": [
-    "Rennes School of Business"
+    {
+      "id": "rennes-school-of-business",
+      "name": "Rennes School of Business"
+    }
   ],
   "linkedin": null,
   "instagram": "https://instagram.com/4ltrophy_coordination",

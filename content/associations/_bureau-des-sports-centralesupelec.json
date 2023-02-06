@@ -4,7 +4,10 @@
   "description": "Le Bureau des Sports de CentraleSupélec est une association gérée par des membres passionnés par le sport. Le mot d'ordre de l’association est de régaler nos participants aussi bien sur notre campus que sur nos évènements extérieurs. Alors si tu veux voir cette sérieuse bande de sportifs au top du classement, vote pour nous !",
   "category": "Sportive",
   "schools": [
-    "CentraleSupélec"
+    {
+      "id": "centralesupelec",
+      "name": "CentraleSupélec"
+    }
   ],
   "linkedin": null,
   "instagram": "https://www.instagram.com/bds_centralesupelec/",

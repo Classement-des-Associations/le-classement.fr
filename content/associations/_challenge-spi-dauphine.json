@@ -4,7 +4,10 @@
   "description": "Nous organisons une régate de voile étudiante dans le sud de la France chaque année, elle réunit des entreprises notamment des start ups avec des étudiants de multiples établissements européens. Par la voile, nous cherchons à faire profiter plusieurs centaines de jeunes, tout en promouvant nos enjeux environnementaux et sociaux.",
   "category": "Sportive",
   "schools": [
-    "Université Paris Dauphine"
+    {
+      "id": "universite-paris-dauphine",
+      "name": "Université Paris Dauphine"
+    }
   ],
   "linkedin": null,
   "instagram": null,

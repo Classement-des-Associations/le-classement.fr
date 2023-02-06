@@ -1,0 +1,11 @@
+{
+  "id": "agroparistech",
+  "name": "AgroParisTech",
+  "associations": [
+    {
+      "id": "agrovelocity",
+      "name": "AgroVéloCity",
+      "category": "Environnementale"
+    }
+  ]
+}

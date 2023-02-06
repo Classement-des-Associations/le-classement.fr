@@ -1,0 +1,11 @@
+{
+  "id": "edhec",
+  "name": "EDHEC",
+  "associations": [
+    {
+      "id": "course-croisiere-edhec",
+      "name": "Course Croisière EDHEC",
+      "category": "Sportive"
+    }
+  ]
+}
