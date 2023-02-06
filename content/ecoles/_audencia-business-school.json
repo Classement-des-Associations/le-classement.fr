@@ -1,0 +1,11 @@
+{
+  "id": "audencia-business-school",
+  "name": "Audencia Business School",
+  "associations": [
+    {
+      "id": "audencia-junior-conseil",
+      "name": "Audencia Junior Conseil",
+      "category": "Professionnalisante"
+    }
+  ]
+}

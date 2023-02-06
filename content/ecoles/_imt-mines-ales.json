@@ -1,0 +1,11 @@
+{
+  "id": "imt-mines-ales",
+  "name": "IMT Mines Alès",
+  "associations": [
+    {
+      "id": "cercle-des-eleves-des-mines-dales",
+      "name": "Cercle des élèves des Mines d'Alès",
+      "category": "BDE"
+    }
+  ]
+}

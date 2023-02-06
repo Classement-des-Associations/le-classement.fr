@@ -1,0 +1,11 @@
+{
+  "id": "insa-strasbourg",
+  "name": "INSA Strasbourg",
+  "associations": [
+    {
+      "id": "club-dj-insa-strasbourg",
+      "name": "Club DJ INSA Strasbourg",
+      "category": "Art"
+    }
+  ]
+}

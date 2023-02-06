@@ -1,0 +1,11 @@
+{
+  "id": "escp",
+  "name": "ESCP",
+  "associations": [
+    {
+      "id": "la-comu",
+      "name": "La CoMu",
+      "category": "Culturelle"
+    }
+  ]
+}

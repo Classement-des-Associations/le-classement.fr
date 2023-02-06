@@ -4,7 +4,10 @@
   "description": "C’est depuis 27 ans que chaque année, Olaf le Viking affronte vents et marrées dans le centre-ville de Rouen dans l’optique de transmettre ses 15 000 guides des bonnes adresses rouennaises. Après son terrible succès en 2019, il est revenu en 2022, encore plus fort qu’avant pour guider et rafraîchir de Cornue tous les Rouennais.",
   "category": "City-guide",
   "schools": [
-    "Neoma Business School"
+    {
+      "id": "neoma-business-school",
+      "name": "Neoma Business School"
+    }
   ],
   "linkedin": "https://www.linkedin.com/company/leviking/",
   "instagram": "https://www.instagram.com/levikingrouen/",

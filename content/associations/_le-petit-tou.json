@@ -4,7 +4,10 @@
   "description": "Le Petit Tou est l’association qui réalise le guide des bons plans Toulousains comme les restaurants, bars, commerçants... Ce guide gratuit est destiné à tous : étudiants, parents et citadins. L’objectif est clair : proposer un guide qui met en avant les indépendants et le terroir Toulousain sous toutes ses formes !",
   "category": "City-guide",
   "schools": [
-    "TBS Education"
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
   ],
   "linkedin": "https://www.linkedin.com/company/le-petit-tou/",
   "instagram": "https://www.instagram.com/lepetittou/",

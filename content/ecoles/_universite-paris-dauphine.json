@@ -1,0 +1,11 @@
+{
+  "id": "universite-paris-dauphine",
+  "name": "Université Paris Dauphine",
+  "associations": [
+    {
+      "id": "challenge-spi-dauphine",
+      "name": "Challenge Spi Dauphine",
+      "category": "Sportive"
+    }
+  ]
+}

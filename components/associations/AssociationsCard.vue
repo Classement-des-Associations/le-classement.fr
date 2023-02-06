@@ -22,14 +22,14 @@ defineProps<{
         {{ association.category }}
       </dd>
     </dl>
-    <dl v-if="association.schools">
+    <dl v-if="association.schools" class="z-10">
       <dt class="sr-only">
         {{
           association.schools.length > 1 ? "Écoles de l'association" : "École de l'association"
         }}
       </dt>
       <dd class="text-lg text-black">
-        {{ useSentence(association.schools) }}
+        <Sentence route="/ecoles" :data="association.schools" />
       </dd>
     </dl>
   </article>

@@ -4,7 +4,10 @@
   "description": "Découvrez Le Chti, le city guide n°1 de la région lilloise : restaurants, bars, activités sportives et culturelles, shopping et beauté…",
   "category": "City-guide",
   "schools": [
-    "EDHEC"
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
   ],
   "linkedin": "https://www.linkedin.com/company/le-chti-grand-lille/",
   "instagram": "https://www.instagram.com/lechtigrandlille/",

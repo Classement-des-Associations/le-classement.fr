@@ -1,0 +1,11 @@
+{
+  "id": "icn-business-school",
+  "name": "ICN Business School",
+  "associations": [
+    {
+      "id": "solidaraid",
+      "name": "Solida’raid",
+      "category": "Humanitaire"
+    }
+  ]
+}

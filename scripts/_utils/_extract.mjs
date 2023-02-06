@@ -10,5 +10,7 @@ export const useExtractContent = function (property) {
       return property.url
     case 'relation':
       return property.relation?.map(relation => relation.id)
+    case 'checkbox':
+      return property.checkbox
   }
 }

@@ -3,7 +3,10 @@ export interface Association {
   name: string
   description: string
   category: string
-  schools: string[]
+  schools: {
+    id: string
+    name: string
+  }[]
   linkedin: string
   instagram: string
   website: string

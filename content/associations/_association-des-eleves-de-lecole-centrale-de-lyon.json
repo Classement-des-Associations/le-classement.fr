@@ -1,0 +1,18 @@
+{
+  "id": "association-des-eleves-de-lecole-centrale-de-lyon",
+  "name": "Association des élèves de l’école Centrale de Lyon",
+  "description": "Créée en 1949 par des étudiants motivés et soucieux de s’engager pour l'École, l’AEECL regroupe des sections, gros clubs et clubs aux missions diverses et variées : événements et vie festive (WEI, Gala, BDA, Bar, dBs), les services de la vie quotidienne (SDeC, PH, PAO, Fouquette) ainsi que l’engagement dans les grandes transitions (Planet&Co, Le Mouvement).",
+  "category": "BDE",
+  "schools": [
+    {
+      "id": "ecole-centrale-de-lyon",
+      "name": "École Centrale de Lyon"
+    }
+  ],
+  "linkedin": "https://www.linkedin.com/company/aeecl",
+  "instagram": "https://www.instagram.com/bdecentralelyon/",
+  "website": null,
+  "years": [
+    "2022"
+  ]
+}

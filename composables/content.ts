@@ -3,6 +3,7 @@ import type { Association } from '~~/types/association'
 import { Duel } from '~~/types/duel'
 import { ConcoursExercice } from '~~/types/concours-exercice'
 import { TimelineItem } from '~~/types/timeline'
+import { School } from '~~/types/school'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -110,8 +111,27 @@ export const useRelatedAssociations = (id: string, category = '') => {
         _partial: true,
         _extension: 'json'
       })
+      .limit(3)
       .sort({ name: 1 })
       .find()
+  )
+}
+
+export const useSchools = () => {
+  return useAsyncData('content:schools', () =>
+    queryContent<School>('/ecoles/').where({
+      _partial: true,
+      _extension: 'json'
+    }).find()
+  )
+}
+
+export const useSchool = (id: string) => {
+  return useAsyncData(`content:school:${id}`, () =>
+    queryContent<School>(`/ecoles/_${id}`).where({
+      _partial: true,
+      _extension: 'json'
+    }).findOne()
   )
 }
 

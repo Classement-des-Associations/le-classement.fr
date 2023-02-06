@@ -4,7 +4,10 @@
   "description": "Les Ovalies UniLaSalle, c’est 3 jours de tournois universitaires de rugby à 7 et à 15, de rugby fauteuil et de pom-pom, ponctués par des soirées et des animations. Association étudiante à but solidaire, elle reverse l’entièreté des bénéfices à des associations caritatives. L’association est bercée par 3 valeurs : l’Amitié, la Générosité et la Sportivité.",
   "category": "Sportive",
   "schools": [
-    "UniLaSalle"
+    {
+      "id": "unilasalle",
+      "name": "UniLaSalle"
+    }
   ],
   "linkedin": "https://www.linkedin.com/in/ovalies-unilasalle/",
   "instagram": "https://www.instagram.com/ovaliesunilasalle/",

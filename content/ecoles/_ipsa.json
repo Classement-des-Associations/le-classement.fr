@@ -1,0 +1,11 @@
+{
+  "id": "ipsa",
+  "name": "IPSA",
+  "associations": [
+    {
+      "id": "innovative-propulsion-laboratory",
+      "name": "Innovative Propulsion Laboratory",
+      "category": "Technique"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "club-dj-insa-strasbourg",
+  "name": "Club DJ INSA Strasbourg",
+  "description": "Initiation et découverte du mix DJ et de la MAO/production musicale, \nFormations/workshops animés par des DJs professionnel.le.s (système de parrainage de l'assos par un/une DJ pro - DJ Spawn 2021/2022)\nOrganisation de soirées avec prestation des membres et DJs pros (parrain), \nPrestations des membres dans des évènements privés (galas, mariages, anniversaires, INSA...)",
+  "category": "Art",
+  "schools": [
+    {
+      "id": "insa-strasbourg",
+      "name": "INSA Strasbourg"
+    }
+  ],
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/club_dj_insastrasbourg/?hl=fr",
+  "website": "https://www.clubdj-insastrasbourg.fr/",
+  "years": [
+    "2022"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "solidaraid",
+  "name": "Solida’raid",
+  "description": "Solida'raid est une association humanitaire étudiante intervenant sur le continent africain depuis plus de 20 ans. Chaque mission est pensée autour des valeurs du partage, de la solidarité et de l’éthique, par un mandat déterminé à monter un projet qui viendra en aide aux populations les plus défavorisées du continent.",
+  "category": "Humanitaire",
+  "schools": [
+    {
+      "id": "icn-business-school",
+      "name": "ICN Business School"
+    }
+  ],
+  "linkedin": "https://www.linkedin.com/company/solidaraid/",
+  "instagram": "https://www.instagram.com/solidaraid/",
+  "website": null,
+  "years": [
+    "2022"
+  ]
+}
