@@ -43,7 +43,7 @@ async function main () {
     const instagram = useExtractContent(properties.Instagram)
     const website = useExtractContent(properties['Site web'])
     const schoolsPagesId = useExtractContent(properties.Ecoles)
-    const participationsPagesId = useExtractContent(properties.Participations)
+    const participationsPagesId = useExtractContent(properties['Participations Concours'])
 
     const schools = []
     for await (const pageId of schoolsPagesId) {
