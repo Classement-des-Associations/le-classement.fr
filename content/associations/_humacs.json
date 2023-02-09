@@ -2,17 +2,24 @@
   "id": "humacs",
   "name": "HumaCS",
   "description": "HumaCS fait de la solidarité internationale dans 5 pays : Cambodge, Népal, Burkina Faso, Madagascar et Perou. Les projets ont majoritairement pour objectif l’accès à l’éducation pour tous et certains ont également des objectifs de protection de l’environnement.",
-  "category": "Sociale",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": "https://www.linkedin.com/company/humacs/",
+  "instagram": null,
+  "website": "https://huma.cs-campus.fr/",
   "schools": [
     {
       "id": "centralesupelec",
       "name": "CentraleSupélec"
     }
   ],
-  "linkedin": "https://www.linkedin.com/company/humacs/",
-  "instagram": null,
-  "website": null,
-  "years": [
-    "2022"
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

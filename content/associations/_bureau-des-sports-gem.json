@@ -1,0 +1,14 @@
+{
+  "id": "bureau-des-sports-gem",
+  "name": "Bureau des Sports GEM",
+  "category": {
+    "id": "sportive",
+    "name": "Sportive",
+    "color": "brown"
+  },
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/bdsgem/",
+  "website": "https://bdsgemfr.wordpress.com",
+  "schools": [],
+  "participations": []
+}

@@ -5,7 +5,11 @@
     {
       "id": "challenge-spi-dauphine",
       "name": "Challenge Spi Dauphine",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
     }
   ]
 }

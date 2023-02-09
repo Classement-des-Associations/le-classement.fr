@@ -1,0 +1,19 @@
+{
+  "id": "federation-des-etudiants-de-lieseg",
+  "name": "Fédération des Étudiants de l’IESEG",
+  "category": {
+    "id": "bde",
+    "name": "BDE",
+    "color": "red"
+  },
+  "linkedin": null,
+  "instagram": "www.instagram/fede_ieseg.com",
+  "website": null,
+  "schools": [
+    {
+      "id": "ieseg",
+      "name": "IESEG"
+    }
+  ],
+  "participations": []
+}

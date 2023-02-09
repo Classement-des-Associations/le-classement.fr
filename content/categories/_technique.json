@@ -1,0 +1,47 @@
+{
+  "id": "technique",
+  "name": "Technique",
+  "color": "default",
+  "associations": [
+    {
+      "id": "helloworldedhec",
+      "name": "Helloworld!EDHEC",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "idrogen",
+      "name": "iDrogen",
+      "schools": [
+        {
+          "id": "estaca",
+          "name": "ESTACA"
+        }
+      ]
+    },
+    {
+      "id": "innovative-propulsion-laboratory",
+      "name": "Innovative Propulsion Laboratory",
+      "schools": [
+        {
+          "id": "ipsa",
+          "name": "IPSA"
+        }
+      ]
+    },
+    {
+      "id": "pv3e",
+      "name": "PV3e",
+      "schools": [
+        {
+          "id": "estaca",
+          "name": "ESTACA"
+        }
+      ]
+    }
+  ]
+}

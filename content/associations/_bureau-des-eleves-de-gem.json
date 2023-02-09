@@ -1,0 +1,25 @@
+{
+  "id": "bureau-des-eleves-de-gem",
+  "name": "Bureau des élèves de GEM",
+  "description": "L’association a pour but de faciliter l'intégration des nouveaux étudiants, et d'encourager la vie associative sur le campus. Le bureau des élèves organise beaucoup d'évènements à la rentrée afin de les aider à s'intégrer et leur faire découvrir les différentes associations, ainsi qu'un festival de musique se déroulant fin septembre (Gem days festival).",
+  "category": {
+    "id": "bde",
+    "name": "BDE",
+    "color": "red"
+  },
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-maganement",
+      "name": "Grenoble Ecole de Maganement"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}

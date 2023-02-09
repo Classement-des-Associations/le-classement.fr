@@ -5,7 +5,38 @@
     {
       "id": "unis-terre",
       "name": "Unis-Terre",
-      "category": "Environnementale"
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "accede-provence-entrepreneurs",
+      "name": "ACCEDE Provence Entrepreneurs",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "dynamhit",
+      "name": "Dynam'hit",
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      }
+    },
+    {
+      "id": "phoenix-egalite-des-chances",
+      "name": "Phoenix Égalité des chances",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

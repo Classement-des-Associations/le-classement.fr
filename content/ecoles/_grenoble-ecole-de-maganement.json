@@ -3,14 +3,49 @@
   "name": "Grenoble Ecole de Maganement",
   "associations": [
     {
+      "id": "le-dahu",
+      "name": "Le Dahu",
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      }
+    },
+    {
       "id": "altigliss",
       "name": "Altigliss",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
     },
     {
       "id": "savoir-oser-la-solidarite",
       "name": "Savoir Oser la Solidarité",
-      "category": "Humanitaire"
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "amd-job-service",
+      "name": "AMD Job Service",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "aloha",
+      "name": "Aloha",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

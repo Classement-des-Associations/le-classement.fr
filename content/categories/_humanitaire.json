@@ -1,0 +1,87 @@
+{
+  "id": "humanitaire",
+  "name": "Humanitaire",
+  "color": "blue",
+  "associations": [
+    {
+      "id": "esc-sans-frontieres",
+      "name": "ESC Sans Frontières",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "humam",
+      "name": "Hum'am",
+      "schools": [
+        {
+          "id": "arts-et-metiers-paristech",
+          "name": "Arts et Métiers ParisTech"
+        }
+      ]
+    },
+    {
+      "id": "savoir-oser-la-solidarite",
+      "name": "Savoir Oser la Solidarité",
+      "schools": [
+        {
+          "id": "grenoble-ecole-de-maganement",
+          "name": "Grenoble Ecole de Maganement"
+        }
+      ]
+    },
+    {
+      "id": "schola-africa",
+      "name": "Schola Africa",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "solidaraid",
+      "name": "Solida'raid",
+      "schools": [
+        {
+          "id": "icn-business-school",
+          "name": "ICN Business School"
+        }
+      ]
+    },
+    {
+      "id": "solidaraid",
+      "name": "Solida’raid",
+      "schools": [
+        {
+          "id": "icn-business-school",
+          "name": "ICN Business School"
+        }
+      ]
+    },
+    {
+      "id": "transaharienne",
+      "name": "Transaharienne",
+      "schools": [
+        {
+          "id": "isep",
+          "name": "ISEP"
+        }
+      ]
+    },
+    {
+      "id": "tuong-lai-essec",
+      "name": "Tuong Laï Essec",
+      "schools": [
+        {
+          "id": "essec",
+          "name": "ESSEC"
+        }
+      ]
+    }
+  ]
+}

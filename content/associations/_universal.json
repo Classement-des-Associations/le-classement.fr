@@ -1,0 +1,19 @@
+{
+  "id": "universal",
+  "name": "UN'iversal",
+  "category": {
+    "id": "geopolitique",
+    "name": "Géopolitique",
+    "color": "red"
+  },
+  "linkedin": "https://www.linkedin.com/company/universalneomabsreims/",
+  "instagram": "https://www.instagram.com/universal_neoma/",
+  "website": "www.universal-neoma.com",
+  "schools": [
+    {
+      "id": "neoma-business-school",
+      "name": "Neoma Business School"
+    }
+  ],
+  "participations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "isara-lyon",
+  "name": "Isara Lyon",
+  "associations": [
+    {
+      "id": "altair",
+      "name": "Altaïr",
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      }
+    }
+  ]
+}

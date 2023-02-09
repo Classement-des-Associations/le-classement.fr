@@ -1,0 +1,15 @@
+{
+  "id": "sigma-clermont-ferrand",
+  "name": "Sigma Clermont-Ferrand",
+  "associations": [
+    {
+      "id": "bureau-des-arts-de-sigma-clermont-ferrand",
+      "name": "Bureau des Arts de Sigma Clermont-Ferrand",
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      }
+    }
+  ]
+}

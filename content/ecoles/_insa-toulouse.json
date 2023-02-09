@@ -5,7 +5,11 @@
     {
       "id": "les-enfoiros",
       "name": "Les Enfoiros",
-      "category": "Sociale"
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

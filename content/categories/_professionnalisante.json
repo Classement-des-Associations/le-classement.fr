@@ -1,0 +1,107 @@
+{
+  "id": "professionnalisante",
+  "name": "Professionnalisante",
+  "color": "gray",
+  "associations": [
+    {
+      "id": "accede-provence-entrepreneurs",
+      "name": "ACCEDE Provence Entrepreneurs",
+      "schools": [
+        {
+          "id": "kedge-bs",
+          "name": "Kedge BS"
+        }
+      ]
+    },
+    {
+      "id": "amd-job-service",
+      "name": "AMD Job Service",
+      "schools": [
+        {
+          "id": "grenoble-ecole-de-maganement",
+          "name": "Grenoble Ecole de Maganement"
+        }
+      ]
+    },
+    {
+      "id": "audencia-junior-conseil",
+      "name": "Audencia Junior Conseil",
+      "schools": [
+        {
+          "id": "audencia-business-school",
+          "name": "Audencia Business School"
+        }
+      ]
+    },
+    {
+      "id": "develop",
+      "name": "Develop",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "declic-entreprendre",
+      "name": "Déclic Entreprendre",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "declic-entreprendre",
+      "name": "Déclic Entreprendre",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "forum-estp",
+      "name": "Forum ESTP",
+      "schools": [
+        {
+          "id": "estp",
+          "name": "ESTP"
+        }
+      ]
+    },
+    {
+      "id": "junior-estaca",
+      "name": "Junior ESTACA",
+      "schools": [
+        {
+          "id": "estaca",
+          "name": "ESTACA"
+        }
+      ]
+    },
+    {
+      "id": "optimize",
+      "name": "Optimize",
+      "schools": [
+        {
+          "id": "tbs-education",
+          "name": "TBS Education"
+        }
+      ]
+    },
+    {
+      "id": "sports-business-consulting",
+      "name": "Sports Business Consulting",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    }
+  ]
+}

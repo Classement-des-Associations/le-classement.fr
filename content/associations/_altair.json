@@ -1,0 +1,25 @@
+{
+  "id": "altair",
+  "name": "Altaïr",
+  "description": "Altaïr comme l'étoile ? Exactement, mais Altaïr n’est pas une association d'astronomie. Cependant, ils essaient tout de même de guider les âmes perdues vers des thématiques écologiques et sociales contemporaines. Alors venez découvrir ce qu’ils font…",
+  "category": {
+    "id": "environnementale",
+    "name": "Environnementale",
+    "color": "yellow"
+  },
+  "linkedin": "https://www.linkedin.com/company/alta%C3%AFr-isara/",
+  "instagram": "https://www.instagram.com/altair_isara/",
+  "website": "https://altair-lyon.wixsite.com/altair",
+  "schools": [
+    {
+      "id": "isara-lyon",
+      "name": "Isara Lyon"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}

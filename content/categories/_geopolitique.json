@@ -1,0 +1,27 @@
+{
+  "id": "geopolitique",
+  "name": "Géopolitique",
+  "color": "red",
+  "associations": [
+    {
+      "id": "diplomates",
+      "name": "Diplo’Mates",
+      "schools": [
+        {
+          "id": "emlyon",
+          "name": "emlyon"
+        }
+      ]
+    },
+    {
+      "id": "universal",
+      "name": "UN'iversal",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    }
+  ]
+}

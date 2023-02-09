@@ -1,0 +1,24 @@
+{
+  "id": "burgundy-business-school",
+  "name": "Burgundy Business School",
+  "associations": [
+    {
+      "id": "bureau-des-jeux-de-bsb",
+      "name": "Bureau des Jeux de BSB",
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      }
+    },
+    {
+      "id": "madnesc-bsb",
+      "name": "Madn'esc BSB",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
+    }
+  ]
+}

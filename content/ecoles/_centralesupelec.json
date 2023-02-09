@@ -5,12 +5,20 @@
     {
       "id": "bureau-des-sports-centralesupelec",
       "name": "Bureau des sports CentraleSupélec",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
     },
     {
       "id": "humacs",
       "name": "HumaCS",
-      "category": "Sociale"
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

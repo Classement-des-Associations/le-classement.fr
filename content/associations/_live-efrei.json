@@ -1,0 +1,19 @@
+{
+  "id": "live-efrei",
+  "name": "Live Efrei",
+  "category": {
+    "id": "art",
+    "name": "Art",
+    "color": "green"
+  },
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/live.efrei/",
+  "website": "https://live-efrei.fr/",
+  "schools": [
+    {
+      "id": "efrei",
+      "name": "EFREI"
+    }
+  ],
+  "participations": []
+}

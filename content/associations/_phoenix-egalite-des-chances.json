@@ -1,0 +1,19 @@
+{
+  "id": "phoenix-egalite-des-chances",
+  "name": "Phoenix Égalité des chances",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": "https://www.linkedin.com/company/phoenix-egalite-des-chances/",
+  "instagram": "https://www.instagram.com/phoenixedc/",
+  "website": "https://www.phoenix-egalite-des-chances.com/",
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": []
+}

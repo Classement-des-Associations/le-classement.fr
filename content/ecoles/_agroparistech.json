@@ -5,7 +5,11 @@
     {
       "id": "agrovelocity",
       "name": "AgroVéloCity",
-      "category": "Environnementale"
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      }
     }
   ]
 }

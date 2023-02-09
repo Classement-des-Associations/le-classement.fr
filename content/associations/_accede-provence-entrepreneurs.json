@@ -1,0 +1,24 @@
+{
+  "id": "accede-provence-entrepreneurs",
+  "name": "ACCEDE Provence Entrepreneurs",
+  "category": {
+    "id": "professionnalisante",
+    "name": "Professionnalisante",
+    "color": "gray"
+  },
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/accede_provence_entrepreneurs/",
+  "website": null,
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}

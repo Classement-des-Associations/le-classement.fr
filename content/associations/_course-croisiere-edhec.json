@@ -2,17 +2,24 @@
   "id": "course-croisiere-edhec",
   "name": "Course Croisière EDHEC",
   "description": "La Course Croisière EDHEC organise le premier événement sportif étudiant de France qui a lieu chaque année autour du mois d'avril. Cette compétition, de voile principalement, permet aux étudiants de se dépasser tout en profitant de nos 2 Villages, jour comme nuit.",
-  "category": "Sportive",
+  "category": {
+    "id": "sportive",
+    "name": "Sportive",
+    "color": "brown"
+  },
+  "linkedin": "https://fr.linkedin.com/company/ccedhec",
+  "instagram": "https://www.instagram.com/ccedhec/",
+  "website": "https://cce.fr/",
   "schools": [
     {
       "id": "edhec",
       "name": "EDHEC"
     }
   ],
-  "linkedin": "https://fr.linkedin.com/company/ccedhec",
-  "instagram": "https://www.instagram.com/ccedhec/",
-  "website": "https://cce.fr/",
-  "years": [
-    "2022"
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

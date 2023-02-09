@@ -2,17 +2,24 @@
   "id": "tutorat-associatif-toulousain",
   "name": "Tutorat Associatif Toulousain",
   "description": "Le Tutorat Associatif Toulousain est une association qui accompagne les étudiants en PASS et L.AS et oeuvre pour l’égalité des chances dans un milieu où de plus en plus de prépas onéreuses se développent.",
-  "category": "Sociale",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": null,
+  "instagram": null,
+  "website": "https://tutoweb.org/",
   "schools": [
     {
       "id": "universite-paul-sabatier",
       "name": "Université Paul Sabatier"
     }
   ],
-  "linkedin": null,
-  "instagram": null,
-  "website": "https://tutoweb.org/",
-  "years": [
-    "2022"
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

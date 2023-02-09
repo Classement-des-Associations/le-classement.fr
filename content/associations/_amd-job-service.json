@@ -1,0 +1,25 @@
+{
+  "id": "amd-job-service",
+  "name": "AMD Job Service",
+  "description": "AMD Job Servie est la Job Service de l'école. Ils proposent aux étudiants de l'école des missions rémunérées. Ils organisent aussi des événements avec leurs partenaires, tels que des conférences et des collectes de nourriture avec les restos du cœur.",
+  "category": {
+    "id": "professionnalisante",
+    "name": "Professionnalisante",
+    "color": "gray"
+  },
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-maganement",
+      "name": "Grenoble Ecole de Maganement"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}

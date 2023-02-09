@@ -5,7 +5,11 @@
     {
       "id": "tutorat-associatif-toulousain",
       "name": "Tutorat Associatif Toulousain",
-      "category": "Sociale"
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

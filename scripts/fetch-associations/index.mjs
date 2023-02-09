@@ -1,12 +1,12 @@
 import fs from 'node:fs'
 import consola from 'consola'
 import { resolve } from 'pathe'
-import { createNotionClient } from '../_utils/_createNotionClient.mjs'
-import { fetchDatabase } from '../_utils/_fetch.mjs'
-import { useEnv } from '../_utils/_env.mjs'
-import { useSlugify } from '../_utils/_slugify.mjs'
-import { useExtractContent } from '../_utils/_extract.mjs'
-import { useStorage } from '../_utils/_storage.mjs'
+import { createNotionClient } from '../_utils/createNotionClient.mjs'
+import { fetchDatabase } from '../_utils/fetch.mjs'
+import { useEnv } from '../_utils/env.mjs'
+import { useSlugify } from '../_utils/slugify.mjs'
+import { useExtractContent } from '../_utils/extract.mjs'
+import { useStorage } from '../_utils/storage.mjs'
 
 async function main () {
   consola.start('Script')
@@ -27,6 +27,7 @@ async function main () {
       direction: 'ascending'
     }
   ])
+  await storage.setItem('associations', associations)
   consola.success('Associations fetched')
 
   if (!associations.length) {

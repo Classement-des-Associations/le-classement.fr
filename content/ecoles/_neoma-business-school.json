@@ -5,12 +5,56 @@
     {
       "id": "declic-entreprendre",
       "name": "Déclic Entreprendre",
-      "category": "Professionnalisante"
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
     },
     {
       "id": "le-viking",
       "name": "Le Viking",
-      "category": "City-guide"
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      }
+    },
+    {
+      "id": "esc-sans-frontieres",
+      "name": "ESC Sans Frontières",
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "universal",
+      "name": "UN'iversal",
+      "category": {
+        "id": "geopolitique",
+        "name": "Géopolitique",
+        "color": "red"
+      }
+    },
+    {
+      "id": "preparemois",
+      "name": "Prépa'Rémois",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "declic-entreprendre",
+      "name": "Déclic Entreprendre",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
     }
   ]
 }

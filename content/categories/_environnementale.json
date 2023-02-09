@@ -1,0 +1,67 @@
+{
+  "id": "environnementale",
+  "name": "Environnementale",
+  "color": "yellow",
+  "associations": [
+    {
+      "id": "agrovelocity",
+      "name": "AgroVéloCity",
+      "schools": [
+        {
+          "id": "agroparistech",
+          "name": "AgroParisTech"
+        }
+      ]
+    },
+    {
+      "id": "altair",
+      "name": "Altaïr",
+      "schools": [
+        {
+          "id": "isara-lyon",
+          "name": "Isara Lyon"
+        }
+      ]
+    },
+    {
+      "id": "espr",
+      "name": "Esp'r",
+      "schools": [
+        {
+          "id": "hec",
+          "name": "HEC"
+        }
+      ]
+    },
+    {
+      "id": "noise-emlyon",
+      "name": "NOISE emlyon",
+      "schools": [
+        {
+          "id": "emlyon",
+          "name": "emlyon"
+        }
+      ]
+    },
+    {
+      "id": "star-trekkescp",
+      "name": "Star Trekk'ESCP",
+      "schools": [
+        {
+          "id": "escp",
+          "name": "ESCP"
+        }
+      ]
+    },
+    {
+      "id": "unis-terre",
+      "name": "Unis-Terre",
+      "schools": [
+        {
+          "id": "kedge-bs",
+          "name": "Kedge BS"
+        }
+      ]
+    }
+  ]
+}

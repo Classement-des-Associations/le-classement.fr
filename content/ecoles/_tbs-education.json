@@ -5,12 +5,29 @@
     {
       "id": "le-petit-tou",
       "name": "Le Petit Tou",
-      "category": "City-guide"
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      }
     },
     {
       "id": "optimize",
       "name": "Optimize",
-      "category": "Professionnalisante"
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "bureau-de-lhumanitaire-de-tbs-education",
+      "name": "Bureau de l’Humanitaire de TBS Education",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

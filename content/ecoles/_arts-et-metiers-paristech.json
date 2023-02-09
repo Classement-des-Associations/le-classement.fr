@@ -5,12 +5,20 @@
     {
       "id": "humam",
       "name": "Hum'am",
-      "category": "Humanitaire"
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      }
     },
     {
       "id": "union-des-eleves-arts-et-metiers",
       "name": "Union des Élèves - Arts et Métiers",
-      "category": "BDE"
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      }
     }
   ]
 }

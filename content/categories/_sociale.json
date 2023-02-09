@@ -1,0 +1,137 @@
+{
+  "id": "sociale",
+  "name": "Sociale",
+  "color": "pink",
+  "associations": [
+    {
+      "id": "aloha",
+      "name": "Aloha",
+      "schools": [
+        {
+          "id": "grenoble-ecole-de-maganement",
+          "name": "Grenoble Ecole de Maganement"
+        }
+      ]
+    },
+    {
+      "id": "atchances",
+      "name": "ATCHANCES",
+      "schools": [
+        {
+          "id": "icn-business-school",
+          "name": "ICN Business School"
+        }
+      ]
+    },
+    {
+      "id": "bdls-humensea",
+      "name": "BDLS - HUM’ENsea",
+      "schools": [
+        {
+          "id": "ensea",
+          "name": "ENSEA"
+        }
+      ]
+    },
+    {
+      "id": "bureau-de-lhumanitaire-de-tbs-education",
+      "name": "Bureau de l’Humanitaire de TBS Education",
+      "schools": [
+        {
+          "id": "tbs-education",
+          "name": "TBS Education"
+        }
+      ]
+    },
+    {
+      "id": "cheer-up-edhec",
+      "name": "Cheer Up! EDHEC",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "humacs",
+      "name": "HumaCS",
+      "schools": [
+        {
+          "id": "centralesupelec",
+          "name": "CentraleSupélec"
+        }
+      ]
+    },
+    {
+      "id": "humani-world",
+      "name": "Humani World",
+      "schools": [
+        {
+          "id": "polytech-orleans",
+          "name": "Polytech Orléans"
+        }
+      ]
+    },
+    {
+      "id": "les-enfoiros",
+      "name": "Les Enfoiros",
+      "schools": [
+        {
+          "id": "insa-toulouse",
+          "name": "INSA Toulouse"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-egalite-des-chances",
+      "name": "Phoenix Égalité des chances",
+      "schools": [
+        {
+          "id": "kedge-bs",
+          "name": "Kedge BS"
+        }
+      ]
+    },
+    {
+      "id": "preparemois",
+      "name": "Prépa'Rémois",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "tutorat-associatif-toulousain",
+      "name": "Tutorat Associatif Toulousain",
+      "schools": [
+        {
+          "id": "universite-paul-sabatier",
+          "name": "Université Paul Sabatier"
+        }
+      ]
+    },
+    {
+      "id": "vive-les-vacances",
+      "name": "Vive les Vacances",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "vive-les-vacances",
+      "name": "Vive les Vacances !",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    }
+  ]
+}

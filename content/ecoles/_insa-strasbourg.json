@@ -5,7 +5,11 @@
     {
       "id": "club-dj-insa-strasbourg",
       "name": "Club DJ INSA Strasbourg",
-      "category": "Art"
+      "category": {
+        "id": "art",
+        "name": "Art",
+        "color": "green"
+      }
     }
   ]
 }

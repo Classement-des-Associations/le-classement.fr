@@ -5,7 +5,20 @@
     {
       "id": "la-comu",
       "name": "La CoMu",
-      "category": "Culturelle"
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      }
+    },
+    {
+      "id": "star-trekkescp",
+      "name": "Star Trekk'ESCP",
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      }
     }
   ]
 }

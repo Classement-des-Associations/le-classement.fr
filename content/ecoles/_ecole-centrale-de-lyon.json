@@ -5,7 +5,11 @@
     {
       "id": "association-des-eleves-de-lecole-centrale-de-lyon",
       "name": "Association des élèves de l’école Centrale de Lyon",
-      "category": "BDE"
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      }
     }
   ]
 }

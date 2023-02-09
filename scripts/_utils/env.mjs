@@ -17,9 +17,15 @@ export const useEnv = function () {
     throw new Error('No school database ID found')
   }
 
+  const participationsDatabaseId = process.env.NOTION_PARTICIPATIONS_DATABASE_ID
+  if (!participationsDatabaseId) {
+    throw new Error('No participation database ID found')
+  }
+
   return {
     notionKey,
     associationsDatabaseId,
-    schoolsDatabaseId
+    schoolsDatabaseId,
+    participationsDatabaseId
   }
 }

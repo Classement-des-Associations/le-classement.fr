@@ -5,7 +5,11 @@
     {
       "id": "forum-estp",
       "name": "Forum ESTP",
-      "category": "Professionnalisante"
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
     }
   ]
 }

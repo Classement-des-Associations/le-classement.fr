@@ -1,0 +1,25 @@
+{
+  "id": "bureau-des-arts-de-sigma-clermont-ferrand",
+  "name": "Bureau des Arts de Sigma Clermont-Ferrand",
+  "description": "11 Membres motivés à faire découvrir aux étudiants le monde de l'art : spectacles au théâtre, voyage culturel, ou encore événements au sein du campus, tout y passe ! Le partage est au cœur de l’association et qui souhaite impacter un maximum de personne, pourquoi pas vous ?",
+  "category": {
+    "id": "culturelle",
+    "name": "Culturelle",
+    "color": "orange"
+  },
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "Sigma Clermont-Ferrand"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}

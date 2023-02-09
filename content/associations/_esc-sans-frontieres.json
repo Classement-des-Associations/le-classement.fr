@@ -1,0 +1,19 @@
+{
+  "id": "esc-sans-frontieres",
+  "name": "ESC Sans Frontières",
+  "category": {
+    "id": "humanitaire",
+    "name": "Humanitaire",
+    "color": "blue"
+  },
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/esc_sansfrontieres/",
+  "website": "https://esc-sans-frontieres.wixsite.com/website",
+  "schools": [
+    {
+      "id": "neoma-business-school",
+      "name": "Neoma Business School"
+    }
+  ],
+  "participations": []
+}

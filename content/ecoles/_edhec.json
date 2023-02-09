@@ -3,9 +3,31 @@
   "name": "EDHEC",
   "associations": [
     {
+      "id": "cheer-up-edhec",
+      "name": "Cheer Up! EDHEC",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
+    },
+    {
       "id": "course-croisiere-edhec",
       "name": "Course Croisière EDHEC",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
+    },
+    {
+      "id": "develop",
+      "name": "Develop",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
     }
   ]
 }

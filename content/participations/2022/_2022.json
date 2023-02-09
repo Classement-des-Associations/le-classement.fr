@@ -1,0 +1,389 @@
+{
+  "id": "2022",
+  "name": "2022",
+  "associations": [
+    {
+      "id": "supbio-dance",
+      "name": "Sup’Bio Dance",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      },
+      "schools": [
+        {
+          "id": "epita",
+          "name": "Epita"
+        },
+        {
+          "id": "epitech",
+          "name": "Epitech"
+        },
+        {
+          "id": "supbiotech",
+          "name": "Sup'biotech"
+        }
+      ]
+    },
+    {
+      "id": "les-enfoiros",
+      "name": "Les Enfoiros",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      },
+      "schools": [
+        {
+          "id": "insa-toulouse",
+          "name": "INSA Toulouse"
+        }
+      ]
+    },
+    {
+      "id": "humam",
+      "name": "Hum'am",
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      },
+      "schools": [
+        {
+          "id": "arts-et-metiers-paristech",
+          "name": "Arts et Métiers ParisTech"
+        }
+      ]
+    },
+    {
+      "id": "course-croisiere-edhec",
+      "name": "Course Croisière EDHEC",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      },
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "le-chti-grand-lille",
+      "name": "Le Chti Grand Lille",
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      },
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "le-viking",
+      "name": "Le Viking",
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      },
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "le-petit-tou",
+      "name": "Le Petit Tou",
+      "category": {
+        "id": "city-guide",
+        "name": "City-guide",
+        "color": "purple"
+      },
+      "schools": [
+        {
+          "id": "tbs-education",
+          "name": "TBS Education"
+        }
+      ]
+    },
+    {
+      "id": "agrovelocity",
+      "name": "AgroVéloCity",
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      },
+      "schools": [
+        {
+          "id": "agroparistech",
+          "name": "AgroParisTech"
+        }
+      ]
+    },
+    {
+      "id": "declic-entreprendre",
+      "name": "Déclic Entreprendre",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      },
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    },
+    {
+      "id": "audencia-junior-conseil",
+      "name": "Audencia Junior Conseil",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      },
+      "schools": [
+        {
+          "id": "audencia-business-school",
+          "name": "Audencia Business School"
+        }
+      ]
+    },
+    {
+      "id": "espr",
+      "name": "Esp'r",
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      },
+      "schools": [
+        {
+          "id": "hec",
+          "name": "HEC"
+        }
+      ]
+    },
+    {
+      "id": "tutorat-associatif-toulousain",
+      "name": "Tutorat Associatif Toulousain",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      },
+      "schools": [
+        {
+          "id": "universite-paul-sabatier",
+          "name": "Université Paul Sabatier"
+        }
+      ]
+    },
+    {
+      "id": "cercle-des-eleves-des-mines-dales",
+      "name": "Cercle des élèves des Mines d'Alès",
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      },
+      "schools": [
+        {
+          "id": "imt-mines-ales",
+          "name": "IMT Mines Alès"
+        }
+      ]
+    },
+    {
+      "id": "ovalies",
+      "name": "Ovalies",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      },
+      "schools": [
+        {
+          "id": "unilasalle",
+          "name": "UniLaSalle"
+        }
+      ]
+    },
+    {
+      "id": "nuit-de-linstitut",
+      "name": "Nuit de l'Institut",
+      "category": {
+        "id": "gala",
+        "name": "Gala",
+        "color": "blue"
+      },
+      "schools": [
+        {
+          "id": "unilasalle",
+          "name": "UniLaSalle"
+        }
+      ]
+    },
+    {
+      "id": "unis-terre",
+      "name": "Unis-Terre",
+      "category": {
+        "id": "environnementale",
+        "name": "Environnementale",
+        "color": "yellow"
+      },
+      "schools": [
+        {
+          "id": "kedge-bs",
+          "name": "Kedge BS"
+        }
+      ]
+    },
+    {
+      "id": "association-des-eleves-de-lecole-centrale-de-lyon",
+      "name": "Association des élèves de l’école Centrale de Lyon",
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      },
+      "schools": [
+        {
+          "id": "ecole-centrale-de-lyon",
+          "name": "École Centrale de Lyon"
+        }
+      ]
+    },
+    {
+      "id": "4l-trophy-coordination",
+      "name": "4L Trophy Coordination",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      },
+      "schools": [
+        {
+          "id": "rennes-school-of-business",
+          "name": "Rennes School of Business"
+        }
+      ]
+    },
+    {
+      "id": "union-des-eleves-arts-et-metiers",
+      "name": "Union des Élèves - Arts et Métiers",
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      },
+      "schools": [
+        {
+          "id": "arts-et-metiers-paristech",
+          "name": "Arts et Métiers ParisTech"
+        }
+      ]
+    },
+    {
+      "id": "club-dj-insa-strasbourg",
+      "name": "Club DJ INSA Strasbourg",
+      "category": {
+        "id": "art",
+        "name": "Art",
+        "color": "green"
+      },
+      "schools": [
+        {
+          "id": "insa-strasbourg",
+          "name": "INSA Strasbourg"
+        }
+      ]
+    },
+    {
+      "id": "forum-estp",
+      "name": "Forum ESTP",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      },
+      "schools": [
+        {
+          "id": "estp",
+          "name": "ESTP"
+        }
+      ]
+    },
+    {
+      "id": "la-comu",
+      "name": "La CoMu",
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      },
+      "schools": [
+        {
+          "id": "escp",
+          "name": "ESCP"
+        }
+      ]
+    },
+    {
+      "id": "prix-de-court",
+      "name": "Prix de Court",
+      "category": {
+        "id": "culturelle",
+        "name": "Culturelle",
+        "color": "orange"
+      },
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "schola-africa",
+      "name": "Schola Africa",
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      },
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "innovative-propulsion-laboratory",
+      "name": "Innovative Propulsion Laboratory",
+      "category": {
+        "id": "technique",
+        "name": "Technique",
+        "color": "default"
+      },
+      "schools": [
+        {
+          "id": "ipsa",
+          "name": "IPSA"
+        }
+      ]
+    }
+  ]
+}

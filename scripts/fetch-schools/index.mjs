@@ -1,12 +1,12 @@
 import fs from 'node:fs'
 import consola from 'consola'
 import { resolve } from 'pathe'
-import { useStorage } from '../_utils/_storage.mjs'
-import { useEnv } from '../_utils/_env.mjs'
-import { fetchDatabase } from '../_utils/_fetch.mjs'
-import { createNotionClient } from '../_utils/_createNotionClient.mjs'
-import { useExtractContent } from '../_utils/_extract.mjs'
-import { useSlugify } from '../_utils/_slugify.mjs'
+import { useStorage } from '../_utils/storage.mjs'
+import { useEnv } from '../_utils/env.mjs'
+import { fetchDatabase } from '../_utils/fetch.mjs'
+import { createNotionClient } from '../_utils/createNotionClient.mjs'
+import { useExtractContent } from '../_utils/extract.mjs'
+import { useSlugify } from '../_utils/slugify.mjs'
 
 async function main () {
   consola.start('Script')

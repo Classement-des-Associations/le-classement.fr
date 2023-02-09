@@ -5,7 +5,11 @@
     {
       "id": "4l-trophy-coordination",
       "name": "4L Trophy Coordination",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
     }
   ]
 }

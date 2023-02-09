@@ -1,0 +1,15 @@
+{
+  "id": "ieseg",
+  "name": "IESEG",
+  "associations": [
+    {
+      "id": "federation-des-etudiants-de-lieseg",
+      "name": "Fédération des Étudiants de l’IESEG",
+      "category": {
+        "id": "bde",
+        "name": "BDE",
+        "color": "red"
+      }
+    }
+  ]
+}

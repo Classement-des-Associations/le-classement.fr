@@ -5,7 +5,11 @@
     {
       "id": "supbio-dance",
       "name": "Sup’Bio Dance",
-      "category": "Sportive"
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
     }
   ]
 }

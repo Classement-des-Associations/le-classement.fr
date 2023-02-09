@@ -2,17 +2,24 @@
   "id": "savoir-oser-la-solidarite",
   "name": "Savoir Oser la Solidarité",
   "description": "Savoir Oser la Solidarité est l’association solidaire et humanitaire de Grenoble Ecole de Management qui mobilise chaque année près de 150 étudiants répartis dans 11 projets. Nous agissons dans 7 pays pour faciliter l’accès des populations défavorisées à l’éducation, à la culture et aux loisirs. Initialement portés sur l’enfance, nous nous battons aussi pour sensibiliser les populations au thématiques actuelles cruciales et aux causes importantes. A nos yeux, toutes les actions, même la plus petite, comptent et nous sommes fiers de porter ce message. N’hésitez pas à visiter notre site, nos réseaux sociaux et à nous contacter pour en savoir plus ! Bring time, bring happiness 💚",
-  "category": "Humanitaire",
+  "category": {
+    "id": "humanitaire",
+    "name": "Humanitaire",
+    "color": "blue"
+  },
+  "linkedin": "https://www.linkedin.com/company/savoiroserlasolidarit%C3%A9/",
+  "instagram": "https://www.instagram.com/savoir.oser.la.solidarite/",
+  "website": "https://savoiroserlasolidarite.org/",
   "schools": [
     {
       "id": "grenoble-ecole-de-maganement",
       "name": "Grenoble Ecole de Maganement"
     }
   ],
-  "linkedin": "https://www.linkedin.com/company/savoiroserlasolidarit%C3%A9/",
-  "instagram": "https://www.instagram.com/savoir.oser.la.solidarite/",
-  "website": "https://savoiroserlasolidarite.org/",
-  "years": [
-    "2022"
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

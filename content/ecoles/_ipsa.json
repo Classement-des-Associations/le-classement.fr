@@ -5,7 +5,11 @@
     {
       "id": "innovative-propulsion-laboratory",
       "name": "Innovative Propulsion Laboratory",
-      "category": "Technique"
+      "category": {
+        "id": "technique",
+        "name": "Technique",
+        "color": "default"
+      }
     }
   ]
 }

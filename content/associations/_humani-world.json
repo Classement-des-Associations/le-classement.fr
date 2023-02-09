@@ -2,17 +2,24 @@
   "id": "humani-world",
   "name": "Humani World",
   "description": "L'association humanitaire et environnementale de l'école. Elle est organisée en quatre pôles principaux : actions international - prévention - environment - évènementiels ( but : lever de fonds ).",
-  "category": "Sociale",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": "https://www.linkedin.com/company/humaniworld/",
+  "instagram": "https://www.instagram.com/humaniworld2022/?hl=fr",
+  "website": null,
   "schools": [
     {
       "id": "polytech-orleans",
       "name": "Polytech Orléans"
     }
   ],
-  "linkedin": "https://www.linkedin.com/company/humaniworld/",
-  "instagram": "https://www.instagram.com/humaniworld2022/?hl=fr",
-  "website": null,
-  "years": [
-    "2022"
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

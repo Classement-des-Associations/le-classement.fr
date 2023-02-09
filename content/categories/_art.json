@@ -1,0 +1,57 @@
+{
+  "id": "art",
+  "name": "Art",
+  "color": "green",
+  "associations": [
+    {
+      "id": "bureau-des-arts-audencia",
+      "name": "Bureau des Arts - Audencia",
+      "schools": [
+        {
+          "id": "audencia-business-school",
+          "name": "Audencia Business School"
+        }
+      ]
+    },
+    {
+      "id": "club-dj-insa-strasbourg",
+      "name": "Club DJ INSA Strasbourg",
+      "schools": [
+        {
+          "id": "insa-strasbourg",
+          "name": "INSA Strasbourg"
+        }
+      ]
+    },
+    {
+      "id": "live-efrei",
+      "name": "Live Efrei",
+      "schools": [
+        {
+          "id": "efrei",
+          "name": "EFREI"
+        }
+      ]
+    },
+    {
+      "id": "musical",
+      "name": "Musical",
+      "schools": [
+        {
+          "id": "essec",
+          "name": "ESSEC"
+        }
+      ]
+    },
+    {
+      "id": "vertiges-mode",
+      "name": "Vertiges Mode",
+      "schools": [
+        {
+          "id": "icn-business-school",
+          "name": "ICN Business School"
+        }
+      ]
+    }
+  ]
+}

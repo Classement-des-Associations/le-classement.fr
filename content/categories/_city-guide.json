@@ -1,0 +1,47 @@
+{
+  "id": "city-guide",
+  "name": "City-guide",
+  "color": "purple",
+  "associations": [
+    {
+      "id": "le-chti-grand-lille",
+      "name": "Le Chti Grand Lille",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    },
+    {
+      "id": "le-dahu",
+      "name": "Le Dahu",
+      "schools": [
+        {
+          "id": "grenoble-ecole-de-maganement",
+          "name": "Grenoble Ecole de Maganement"
+        }
+      ]
+    },
+    {
+      "id": "le-petit-tou",
+      "name": "Le Petit Tou",
+      "schools": [
+        {
+          "id": "tbs-education",
+          "name": "TBS Education"
+        }
+      ]
+    },
+    {
+      "id": "le-viking",
+      "name": "Le Viking",
+      "schools": [
+        {
+          "id": "neoma-business-school",
+          "name": "Neoma Business School"
+        }
+      ]
+    }
+  ]
+}

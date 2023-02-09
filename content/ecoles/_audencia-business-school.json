@@ -5,7 +5,20 @@
     {
       "id": "audencia-junior-conseil",
       "name": "Audencia Junior Conseil",
-      "category": "Professionnalisante"
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "bureau-des-arts-audencia",
+      "name": "Bureau des Arts - Audencia",
+      "category": {
+        "id": "art",
+        "name": "Art",
+        "color": "green"
+      }
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "cheer-up-edhec",
+  "name": "Cheer Up! EDHEC",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/cheerupedhec/",
+  "website": null,
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": []
+}

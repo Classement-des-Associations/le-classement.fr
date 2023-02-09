@@ -1,0 +1,20 @@
+{
+  "id": "madnesc-bsb",
+  "name": "Madn'esc BSB",
+  "description": "Madn’esc est l’association des passionnés de sports extrêmes et de sensations fortes de BSB. Elle propose des événements différents pour faire vibrer les campus. Le pôle Ski organise la participation de BSB à l’Altigliss (compétition européenne de ski inter-écoles) et le Semiski (une semaine de ski entre étudiants de BSB). Le pôle Solidaire s’occupe du Saut du Coeur (saut à l’élastique au profit d’une association caritative). Le pôle Weeky s’adresse aux fans de canyoning. Le pôle Sensass organise quant à lui des petits événements qui rythment la vie étudiante tout au long de l’année.",
+  "category": {
+    "id": "sportive",
+    "name": "Sportive",
+    "color": "brown"
+  },
+  "linkedin": "https://fr.linkedin.com/in/madn-esc-bsb-15852ab7",
+  "instagram": "https://www.instagram.com/madnesc_2021/",
+  "website": null,
+  "schools": [
+    {
+      "id": "burgundy-business-school",
+      "name": "Burgundy Business School"
+    }
+  ],
+  "participations": []
+}

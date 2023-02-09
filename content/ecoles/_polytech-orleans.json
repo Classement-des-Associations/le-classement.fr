@@ -5,7 +5,11 @@
     {
       "id": "humani-world",
       "name": "Humani World",
-      "category": "Sociale"
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
     }
   ]
 }

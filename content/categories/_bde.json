@@ -1,0 +1,57 @@
+{
+  "id": "bde",
+  "name": "BDE",
+  "color": "red",
+  "associations": [
+    {
+      "id": "association-des-eleves-de-lecole-centrale-de-lyon",
+      "name": "Association des élèves de l’école Centrale de Lyon",
+      "schools": [
+        {
+          "id": "ecole-centrale-de-lyon",
+          "name": "École Centrale de Lyon"
+        }
+      ]
+    },
+    {
+      "id": "bureau-des-eleves-de-gem",
+      "name": "Bureau des élèves de GEM",
+      "schools": [
+        {
+          "id": "grenoble-ecole-de-maganement",
+          "name": "Grenoble Ecole de Maganement"
+        }
+      ]
+    },
+    {
+      "id": "cercle-des-eleves-des-mines-dales",
+      "name": "Cercle des élèves des Mines d'Alès",
+      "schools": [
+        {
+          "id": "imt-mines-ales",
+          "name": "IMT Mines Alès"
+        }
+      ]
+    },
+    {
+      "id": "federation-des-etudiants-de-lieseg",
+      "name": "Fédération des Étudiants de l’IESEG",
+      "schools": [
+        {
+          "id": "ieseg",
+          "name": "IESEG"
+        }
+      ]
+    },
+    {
+      "id": "union-des-eleves-arts-et-metiers",
+      "name": "Union des Élèves - Arts et Métiers",
+      "schools": [
+        {
+          "id": "arts-et-metiers-paristech",
+          "name": "Arts et Métiers ParisTech"
+        }
+      ]
+    }
+  ]
+}

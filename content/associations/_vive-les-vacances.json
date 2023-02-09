@@ -1,18 +1,19 @@
 {
   "id": "vive-les-vacances",
-  "name": "Vive les Vacances",
-  "description": "Aujourd’hui en France, 1 enfant sur 3 ne peut pas partir en vacances. Ce triste constat motive, depuis 1993, les 36 étudiants bénévoles de ",
-  "category": "Sociale",
+  "name": "Vive les Vacances !",
+  "category": {
+    "id": "sociale",
+    "name": "Sociale",
+    "color": "pink"
+  },
+  "linkedin": "https://www.linkedin.com/company/association-vive-les-vacances-/",
+  "instagram": "https://www.instagram.com/vivelesvacances_association/?hl=fr",
+  "website": "https://www.vive-les-vacances.org/",
   "schools": [
     {
       "id": "edhec",
       "name": "EDHEC"
     }
   ],
-  "linkedin": null,
-  "instagram": "https://www.instagram.com/vivelesvacances_association/?hl=fr",
-  "website": "https://www.vive-les-vacances.org/",
-  "years": [
-    "2022"
-  ]
+  "participations": []
 }

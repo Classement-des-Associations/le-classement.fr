@@ -1,0 +1,77 @@
+{
+  "id": "culturelle",
+  "name": "Culturelle",
+  "color": "orange",
+  "associations": [
+    {
+      "id": "bdtech",
+      "name": "BDTech",
+      "schools": [
+        {
+          "id": "epf-ecole-dingenieurs-generalistes",
+          "name": "epf - ecole d'ingénieurs généralistes"
+        }
+      ]
+    },
+    {
+      "id": "bureau-des-arts-de-sigma-clermont-ferrand",
+      "name": "Bureau des Arts de Sigma Clermont-Ferrand",
+      "schools": [
+        {
+          "id": "sigma-clermont-ferrand",
+          "name": "Sigma Clermont-Ferrand"
+        }
+      ]
+    },
+    {
+      "id": "bureau-des-internationaux-bdi-em-lyon",
+      "name": "Bureau des Internationaux (BDI) - em lyon",
+      "schools": [
+        {
+          "id": "emlyon",
+          "name": "emlyon"
+        }
+      ]
+    },
+    {
+      "id": "bureau-des-jeux-de-bsb",
+      "name": "Bureau des Jeux de BSB",
+      "schools": [
+        {
+          "id": "burgundy-business-school",
+          "name": "Burgundy Business School"
+        }
+      ]
+    },
+    {
+      "id": "dynamhit",
+      "name": "Dynam'hit",
+      "schools": [
+        {
+          "id": "kedge-bs",
+          "name": "Kedge BS"
+        }
+      ]
+    },
+    {
+      "id": "la-comu",
+      "name": "La CoMu",
+      "schools": [
+        {
+          "id": "escp",
+          "name": "ESCP"
+        }
+      ]
+    },
+    {
+      "id": "prix-de-court",
+      "name": "Prix de Court",
+      "schools": [
+        {
+          "id": "edhec",
+          "name": "EDHEC"
+        }
+      ]
+    }
+  ]
+}

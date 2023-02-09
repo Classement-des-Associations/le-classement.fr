@@ -1,0 +1,19 @@
+{
+  "id": "dynamhit",
+  "name": "Dynam'hit",
+  "category": {
+    "id": "culturelle",
+    "name": "Culturelle",
+    "color": "orange"
+  },
+  "linkedin": "https://www.linkedin.com/company/dynam'hit-webradio/",
+  "instagram": "https://www.instagram.com/dynam.hit/",
+  "website": "http://dynamhit.org/",
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": []
+}

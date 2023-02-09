@@ -5,7 +5,7 @@ export const useExtractContent = function (property) {
     case 'rich_text':
       return property.rich_text[0]?.plain_text
     case 'select':
-      return property.select?.name
+      return { name: property.select?.name, color: property.select?.color }
     case 'url':
       return property.url
     case 'relation':
