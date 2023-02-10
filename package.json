@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "fetch-notion": "node ./scripts/fetch-notion.ts"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.8",
@@ -30,8 +31,7 @@
     "pathe": "^1.1.0",
     "slugify": "^1.6.5",
     "tailwindcss-border-gradient-radius": "^3.0.1",
-    "typescript": "^4.9.4",
-    "unstorage": "^1.0.1"
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "three": "^0.149.0"

@@ -1,3 +1,9 @@
+/**
+ * Extracts the content of a Notion property
+ *
+ * @param {Object} property
+ * @returns {string|Object}
+ */
 export const useExtractContent = function (property) {
   switch (property.type) {
     case 'title':

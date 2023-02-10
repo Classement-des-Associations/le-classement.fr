@@ -1,49 +1,44 @@
-import fs from 'node:fs'
 import consola from 'consola'
 import { resolve } from 'pathe'
-import { createNotionClient } from './_utils/createNotionClient.mjs'
-import { useEnv } from './_utils/env.mjs'
-import { useStorage } from './_utils/storage.mjs'
-import { fetchDatabase } from './_utils/fetch.mjs'
-import { useExtractContent } from './_utils/extract.mjs'
-import { useSlugify } from './_utils/slugify.mjs'
+import { useEnv } from './utils/env.mjs'
+import { useExtractContent } from './utils/extract.mjs'
+import { clearDir, writeFile } from './utils/fs.mjs'
+import { createNotionClient } from './utils/notion.mjs'
+import { queryDatabase } from './utils/query.mjs'
+import { useSlugify } from './utils/slugify.mjs'
 
 async function main () {
   consola.start('Script', 'Fetch Notion')
 
-  consola.info('Cleaning data')
-  const options = { recursive: true, force: true }
-  fs.rmSync(resolve('content/participations'), options)
-  fs.rmSync(resolve('content/categories'), options)
-  fs.rmSync(resolve('content/ecoles'), options)
-  fs.rmSync(resolve('content/associations'), options)
+  consola.info('Cleaning directories')
 
-  consola.info('Creating directories')
-  fs.mkdirSync(resolve('content/participations/2022'), { recursive: true })
-  fs.mkdirSync(resolve('content/categories'), { recursive: true })
-  fs.mkdirSync(resolve('content/ecoles'), { recursive: true })
-  fs.mkdirSync(resolve('content/associations'), { recursive: true })
+  const paths = [
+    resolve('content/participations/2022'),
+    resolve('content/categories'),
+    resolve('content/ecoles'),
+    resolve('content/associations')
+  ]
+  await Promise.all([
+    paths.map(path => clearDir(path))
+  ])
 
   const { participationsDatabaseId, schoolsDatabaseId, associationsDatabaseId, notionKey } = useEnv()
   const client = createNotionClient(notionKey)
-  const storage = useStorage()
 
   // Fetch associations
-  const startTimeFetchAssociations = new Date()
+  const startTimeFetchAssociations = Date.now()
   const associations = await fetchAssociationsDatabase(client, associationsDatabaseId)
-  consola.info(`Associations fetched in ${new Date() - startTimeFetchAssociations}ms`)
-  await storage.setItem('associations', associations)
+  consola.info(`Associations fetched in ${Date.now() - startTimeFetchAssociations}ms`)
 
   // Fetch schools
-  const startTimeFetchSchools = new Date()
+  const startTimeFetchSchools = Date.now()
   const schools = await fetchSchoolsDatabase(client, schoolsDatabaseId)
-  await storage.setItem('schools', schools)
-  consola.info(`Schools fetched in ${new Date() - startTimeFetchSchools}ms`)
+  consola.info(`Schools fetched in ${Date.now() - startTimeFetchSchools}ms`)
 
-  const startTimeFetchParticipations = new Date()
+  // Fetch participations
+  const startTimeFetchParticipations = Date.now()
   const participations = await fetchParticipationsDatabase(client, participationsDatabaseId)
-  await storage.setItem('participations', participations)
-  consola.info(`Participations fetched in ${new Date() - startTimeFetchParticipations}ms`)
+  consola.info(`Participations fetched in ${Date.now() - startTimeFetchParticipations}ms`)
 
   // Extract participations
   for (const { properties } of participations) {
@@ -88,7 +83,7 @@ async function main () {
       })
     }
 
-    writeFile(name, 'participations/2022', {
+    await writeFile(name, 'participations/2022', {
       id: useSlugify(name),
       name,
       associations: relatedAssociations
@@ -132,7 +127,7 @@ async function main () {
   }
 
   for (const [category, data] of categories) {
-    writeFile(category, 'categories', {
+    await writeFile(category, 'categories', {
       id: useSlugify(category),
       name: category,
       color: data.color,
@@ -164,7 +159,7 @@ async function main () {
       })
     }
 
-    writeFile(name, 'ecoles', {
+    await writeFile(name, 'ecoles', {
       id: useSlugify(name),
       name,
       associations: relatedAssociations
@@ -213,7 +208,7 @@ async function main () {
       })
     }
 
-    writeFile(name, 'associations', {
+    await writeFile(name, 'associations', {
       id: useSlugify(name),
       name,
       description,
@@ -231,7 +226,7 @@ async function main () {
 }
 
 async function fetchAssociationsDatabase (client, databaseId) {
-  const associations = await fetchDatabase(client, databaseId, {
+  const associations = await queryDatabase(client, databaseId, {
     property: 'Montrer',
     checkbox: {
       equals: true
@@ -251,7 +246,7 @@ async function fetchAssociationsDatabase (client, databaseId) {
 }
 
 async function fetchSchoolsDatabase (client, databaseId) {
-  const schools = await fetchDatabase(client, databaseId, {
+  const schools = await queryDatabase(client, databaseId, {
     property: 'Le Classement',
     rollup: {
       number: {
@@ -273,24 +268,13 @@ async function fetchSchoolsDatabase (client, databaseId) {
 }
 
 async function fetchParticipationsDatabase (client, databaseId) {
-  const participations = await fetchDatabase(client, databaseId)
+  const participations = await queryDatabase(client, databaseId)
 
   if (!participations.length) {
     throw new Error('No participations found')
   }
 
   return participations
-}
-
-function writeFile (name, folder, data) {
-  const filename = useFilename(name)
-  const filepath = resolve('content', folder, filename)
-
-  fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf-8')
-}
-
-function useFilename (name) {
-  return `_${useSlugify(name)}.json`
 }
 
 main().then(() => {

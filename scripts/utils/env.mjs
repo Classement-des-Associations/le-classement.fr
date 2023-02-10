@@ -1,6 +1,17 @@
 import * as dotenv from 'dotenv'
 dotenv.config()
 
+/**
+ * Use environment variables
+ *
+ * @typedef {Object} Env
+ * @property {string} notionKey
+ * @property {string} associationsDatabaseId
+ * @property {string} schoolsDatabaseId
+ * @property {string} participationsDatabaseId
+ * @returns {Env}
+ * @throws {Error}
+ */
 export const useEnv = function () {
   const notionKey = process.env.NOTION_KEY
   if (!notionKey) {

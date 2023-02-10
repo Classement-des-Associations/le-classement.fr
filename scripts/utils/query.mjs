@@ -1,4 +1,14 @@
-export const fetchDatabase = async (client, databaseId, filter, sorts) => {
+/**
+ * Query a Notion database
+ *
+ * @param {Client} client
+ * @param {string} databaseId
+ * @param {Object} filter
+ * @param {Object} sorts
+ * @returns {Promise<Array>}
+ * @throws {Error}
+ */
+export const queryDatabase = async (client, databaseId, filter, sorts) => {
   const data = []
   const pageSize = 20
   let startCursor
