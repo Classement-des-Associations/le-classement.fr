@@ -9,7 +9,7 @@ const { data: duels } = await useDuels(props.duels)
 
 <template>
   <BaseSection :class="sectionClass">
-    <Prose v-if="duels" class="mx-auto">
+    <Prose v-if="duels" class="mx-auto max-w-none prose-td:align-middle">
       <h2>
         <ContentSlot :use="$slots.title" unwrap="p" />
       </h2>
@@ -25,15 +25,20 @@ const { data: duels } = await useDuels(props.duels)
         <tbody>
           <tr v-for="duel in duels.body" :key="duel.id">
             <td>
-              {{ duel.id }}
-            </td>
-            <td class="flex flex-row items-center gap-2">
-              <div class="not-prose">
-                <img :src="duel.player1.image.src" :alt="duel.player1.image.alt" class="rounded-full h-5 w-5 object-cover">
-              </div>
-              <span>
-                {{ duel.player1.name }}
+              <span class="flex flex-row items-center">
+                {{ duel.id }}
               </span>
+            </td>
+            <!-- Add bold to winner -->
+            <td>
+              <div class="flex flex-row items-center gap-2">
+                <div class="not-prose">
+                  <img :src="duel.player1.image.src" :alt="duel.player1.image.alt" class="h-6 w-auto object-cover">
+                </div>
+                <span>
+                  {{ duel.player1.name }}
+                </span>
+              </div>
             </td>
             <td>
               <dl class="flex flex-row gap-1 items-center">
@@ -48,12 +53,14 @@ const { data: duels } = await useDuels(props.duels)
                 <dd>{{ duel.likesPlayer2 }}</dd>
               </dl>
             </td>
-            <td class="flex flex-row items-center gap-2">
-              <span>
-                {{ duel.player2.name }}
-              </span>
-              <div class="not-prose">
-                <img :src="duel.player1.image.src" :alt="duel.player1.image.alt" class="rounded-full h-5 w-5 object-cover">
+            <td>
+              <div class="flex flex-row items-center gap-2">
+                <span>
+                  {{ duel.player2.name }}
+                </span>
+                <div class="not-prose">
+                  <img :src="duel.player2.image.src" :alt="duel.player2.image.alt" class="h-6 w-auto object-cover">
+                </div>
               </div>
             </td>
           </tr>

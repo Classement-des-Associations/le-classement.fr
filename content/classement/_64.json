@@ -1,0 +1,593 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "La CoMu",
+        "image": {
+          "src": "/assets/classement/battle/associations/la-comu.png",
+          "alt": "Logo de l'association La CoMu"
+        }
+      },
+      "player2": {
+        "name": "Optimize",
+        "image": {
+          "src": "/assets/classement/battle/associations/optimize.png",
+          "alt": "Logo de l'association Optimize"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "2",
+      "player1": {
+        "name": "AT'CHANCES",
+        "image": {
+          "src": "/assets/classement/battle/associations/atchances.png",
+          "alt": "Logo de l'association AT'CHANCES"
+        }
+      },
+      "player2": {
+        "name": "Déclic Entreprendre",
+        "image": {
+          "src": "/assets/classement/battle/associations/declic-entreprendre.png",
+          "alt": "Logo de l'association Déclic Entreprendre"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "3",
+      "player1": {
+        "name": "Fédération des Étudiants de l'IESEG",
+        "image": {
+          "src": "/assets/classement/battle/associations/federation-des-etudiants-de-lieseg.png",
+          "alt": "Logo de la Fédération des Étudiants de l'IESEG"
+        }
+      },
+      "player2": {
+        "name": "Association Sportive Centrale Marseille",
+        "image": {
+          "src": "/assets/classement/battle/associations/association-sportive-centrale-marseille.png",
+          "alt": "Logo de l'association Sportive Centrale Marseille"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "4",
+      "player1": {
+        "name": "Bureau de l'Humanitaire de TBS",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-de-lhumanitaire-de-tbs.png",
+          "alt": "Logo du Bureau de l'Humanitaire de TBS"
+        }
+      },
+      "player2": {
+        "name": "Cheer Up! EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/cheer-up-edhec.png",
+          "alt": "Logo de l'association Cheer Up! EDHEC"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "5",
+      "player1": {
+        "name": "Toulouse Motors Club",
+        "image": {
+          "src": "/assets/classement/battle/associations/toulouse-motors-club.png",
+          "alt": "Logo de l'association Toulouse Motors Club"
+        }
+      },
+      "player2": {
+        "name": "Altigliss",
+        "image": {
+          "src": "/assets/classement/battle/associations/altigliss.png",
+          "alt": "Logo de l'association Altigliss"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "6",
+      "player1": {
+        "name": "Bureau des Internationaux (BDI) - em lyon",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-internationaux-bdi-em-lyon.png",
+          "alt": "Logo du Bureau des Internationaux (BDI) - em lyon"
+        }
+      },
+      "player2": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "7",
+      "player1": {
+        "name": "Vive les Vacances !",
+        "image": {
+          "src": "/assets/classement/battle/associations/vive-les-vacances.png",
+          "alt": "Logo de l'association Vive les Vacances !"
+        }
+      },
+      "player2": {
+        "name": "Le Petit Tou",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-petit-tou.png",
+          "alt": "Logo de l'association Le Petit Tou"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "8",
+      "player1": {
+        "name": "Nuit de l'Institut",
+        "image": {
+          "src": "/assets/classement/battle/associations/nuit-de-linstitut.png",
+          "alt": "Logo de l'association Nuit de l'Institut"
+        }
+      },
+      "player2": {
+        "name": "Dynam'hit",
+        "image": {
+          "src": "/assets/classement/battle/associations/dynamhit.png",
+          "alt": "Logo de l'association Dynam'hit"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "9",
+      "player1": {
+        "name": "Savoir Oser la Solidarité",
+        "image": {
+          "src": "/assets/classement/battle/associations/savoir-oser-la-solidarite.png",
+          "alt": "Logo de l'association Savoir Oser la Solidarité"
+        }
+      },
+      "player2": {
+        "name": "Sup'Bio Dance",
+        "image": {
+          "src": "/assets/classement/battle/associations/supbio-dance.png",
+          "alt": "Logo de l'association Sup'Bio Dance"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "10",
+      "player1": {
+        "name": "Prix de Court",
+        "image": {
+          "src": "/assets/classement/battle/associations/prix-de-court.png",
+          "alt": "Logo de l'association Prix de Court"
+        }
+      },
+      "player2": {
+        "name": "NOISE emlyon",
+        "image": {
+          "src": "/assets/classement/battle/associations/noise-emlyon.png",
+          "alt": "Logo de l'association NOISE emlyon"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "11",
+      "player1": {
+        "name": "Solida'raid",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidaraid.png",
+          "alt": "Logo de l'association Solida'raid"
+        }
+      },
+      "player2": {
+        "name": "PV3e",
+        "image": {
+          "src": "/assets/classement/battle/associations/pv3e.png",
+          "alt": "Logo de l'association PV3e"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "12",
+      "player1": {
+        "name": "Live Efrei",
+        "image": {
+          "src": "/assets/classement/battle/associations/live-efrei.png",
+          "alt": "Logo de l'association Live Efrei"
+        }
+      },
+      "player2": {
+        "name": "UN'iversal",
+        "image": {
+          "src": "/assets/classement/battle/associations/universal.png",
+          "alt": "Logo de l'association UN'iversal"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "13",
+      "player1": {
+        "name": "Association des élèves de l'école Centrale de Lyon",
+        "image": {
+          "src": "/assets/classement/battle/associations/association-des-eleves-de-lecole-centrale-de-lyon.png",
+          "alt": "Logo de l'association Association des élèves de l'école Centrale de Lyon"
+        }
+      },
+      "player2": {
+        "name": "Phoenix Égalité des chances",
+        "image": {
+          "src": "/assets/classement/battle/associations/phoenix-egalite-des-chances.png",
+          "alt": "Logo de l'association Phoenix Égalité des chances"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "14",
+      "player1": {
+        "name": "Madn'esc BSB",
+        "image": {
+          "src": "/assets/classement/battle/associations/madnesc-bsb.png",
+          "alt": "Logo de l'association Madn'esc BSB"
+        }
+      },
+      "player2": {
+        "name": "Total Edhec Entreprendre",
+        "image": {
+          "src": "/assets/classement/battle/associations/total-edhec-entreprendre.png",
+          "alt": "Logo de l'association Total Edhec Entreprendre"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "15",
+      "player1": {
+        "name": "Les Enfoiros",
+        "image": {
+          "src": "/assets/classement/battle/associations/les-enfoiros.png",
+          "alt": "Logo de l'association Les Enfoiros"
+        }
+      },
+      "player2": {
+        "name": "EDHEC Consulting Club",
+        "image": {
+          "src": "/assets/classement/battle/associations/edhec-consulting-club.png",
+          "alt": "Logo de l'association EDHEC Consulting Club"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "16",
+      "player1": {
+        "name": "Prépa'Rémois",
+        "image": {
+          "src": "/assets/classement/battle/associations/prepa-remois.png",
+          "alt": "Logo de l'association Prépa'Rémois"
+        }
+      },
+      "player2": {
+        "name": "Develop",
+        "image": {
+          "src": "/assets/classement/battle/associations/develop.png",
+          "alt": "Logo de l'association Develop"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "17",
+      "player1": {
+        "name": "Ter'N'Co",
+        "image": {
+          "src": "/assets/classement/battle/associations/ter-n-co.png",
+          "alt": "Logo de l'association Ter'N'Co"
+        }
+      },
+      "player2": {
+        "name": "Raid EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/raid-edhec.png",
+          "alt": "Logo de l'association Raid EDHEC"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "18",
+      "player1": {
+        "name": "They Act for Women",
+        "image": {
+          "src": "/assets/classement/battle/associations/they-act-for-women.png",
+          "alt": "Logo de l'association They Act for Women"
+        }
+      },
+      "player2": {
+        "name": "Le Chti",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-chti.png",
+          "alt": "Logo de l'association Le Chti"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "19",
+      "player1": {
+        "name": "Le Petit Paumé",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-petit-paume.png",
+          "alt": "Logo de l'association Le Petit Paumé"
+        }
+      },
+      "player2": {
+        "name": "Sports Business Consulting",
+        "image": {
+          "src": "/assets/classement/battle/associations/sports-business-consulting.png",
+          "alt": "Logo de l'association Sports Business Consulting"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "20",
+      "player1": {
+        "name": "iDrogen",
+        "image": {
+          "src": "/assets/classement/battle/associations/idrogen.png",
+          "alt": "Logo de l'association iDrogen"
+        }
+      },
+      "player2": {
+        "name": "Solidari'Terre",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidariterre.png",
+          "alt": "Logo de l'association Solidari'Terre"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "21",
+      "player1": {
+        "name": "ESC Sans Frontières",
+        "image": {
+          "src": "/assets/classement/battle/associations/esc-sans-frontieres.png",
+          "alt": "Logo de l'association ESC Sans Frontières"
+        }
+      },
+      "player2": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "22",
+      "player1": {
+        "name": "HumaCS",
+        "image": {
+          "src": "/assets/classement/battle/associations/humacs.png",
+          "alt": "Logo de l'association HumaCS"
+        }
+      },
+      "player2": {
+        "name": "Star Trekk'ESCP",
+        "image": {
+          "src": "/assets/classement/battle/associations/star-trekk-escp.png",
+          "alt": "Logo de l'association Star Trekk'ESCP"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "23",
+      "player1": {
+        "name": "Solida'raid",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidaraid.png",
+          "alt": "Logo de l'association Solida'raid"
+        }
+      },
+      "player2": {
+        "name": "PV3e",
+        "image": {
+          "src": "/assets/classement/battle/associations/pv3e.png",
+          "alt": "Logo de l'association PV3e"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "24",
+      "player1": {
+        "name": "Audencia Junior Conseil",
+        "image": {
+          "src": "/assets/classement/battle/associations/audencia-junior-conseil.png",
+          "alt": "Logo de l'association Audencia Junior Conseil"
+        }
+      },
+      "player2": {
+        "name": "Rallye Aerien Etudiant",
+        "image": {
+          "src": "/assets/classement/battle/associations/rallye-aerien-etudiant.png",
+          "alt": "Logo de l'association Rallye Aerien Etudiant"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "25",
+      "player1": {
+        "name": "Bureau des Sports GEM",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-sports-gem.png",
+          "alt": "Logo de l'association Bureau des Sports GEM"
+        }
+      },
+      "player2": {
+        "name": "BDLS - HUM'ENsea",
+        "image": {
+          "src": "/assets/classement/battle/associations/bdls-humensea.png",
+          "alt": "Logo de l'association BDLS - HUM'ENsea"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "26",
+      "player1": {
+        "name": "Le Viking",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-viking.png",
+          "alt": "Logo de l'association Le Viking"
+        }
+      },
+      "player2": {
+        "name": "Helloworld!EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/helloworld-edhec.png",
+          "alt": "Logo de l'association Helloworld!EDHEC"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "27",
+      "player1": {
+        "name": "Ski Club EM Lyon",
+        "image": {
+          "src": "/assets/classement/battle/associations/ski-club-em-lyon.png",
+          "alt": "Logo de l'association Ski Club EM Lyon"
+        }
+      },
+      "player2": {
+        "name": "Aloha",
+        "image": {
+          "src": "/assets/classement/battle/associations/aloha.png",
+          "alt": "Logo de l'association Aloha"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "28",
+      "player1": {
+        "name": "I.C.O (Ici Commence L'océan)",
+        "image": {
+          "src": "/assets/classement/battle/associations/ico-ici-commence-locean.png",
+          "alt": "Logo de l'association I.C.O (Ici Commence L'océan)"
+        }
+      },
+      "player2": {
+        "name": "Bureau des Arts - Audencia",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-arts-audencia.png",
+          "alt": "Logo de l'association Bureau des Arts - Audencia"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "29",
+      "player1": {
+        "name": "ACCEDE Provence Entrepreneurs",
+        "image": {
+          "src": "/assets/classement/battle/associations/accede-provence-entrepreneurs.png",
+          "alt": "Logo de l'association ACCEDE Provence Entrepreneurs"
+        }
+      },
+      "player2": {
+        "name": "Tuong Laï Essec",
+        "image": {
+          "src": "/assets/classement/battle/associations/tuong-lai-essec.png",
+          "alt": "Logo de l'association Tuong Laï Essec"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "30",
+      "player1": {
+        "name": "Vertiges Mode",
+        "image": {
+          "src": "/assets/classement/battle/associations/vertiges-mode.png",
+          "alt": "Logo de l'association Vertiges Mode"
+        }
+      },
+      "player2": {
+        "name": "Transaharienne",
+        "image": {
+          "src": "/assets/classement/battle/associations/transaharienne.png",
+          "alt": "Logo de l'association Transaharienne"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "31",
+      "player1": {
+        "name": "Solidarité Internationale d'Étudiants de Clermont-Ferrand",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidarite-internationale-detudiants-de-clermont-ferrand.png",
+          "alt": "Logo de l'association Solidarité Internationale d'Étudiants de Clermont-Ferrand"
+        }
+      },
+      "player2": {
+        "name": "Union des Élèves - Arts et Métiers",
+        "image": {
+          "src": "/assets/classement/battle/associations/union-des-eleves-arts-et-metiers.png",
+          "alt": "Logo de l'association Union des Élèves - Arts et Métiers"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    }
+  ]
+}
