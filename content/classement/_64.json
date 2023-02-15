@@ -193,17 +193,17 @@
     {
       "id": "11",
       "player1": {
-        "name": "Solida'raid",
+        "name": "Hum'am",
         "image": {
-          "src": "/assets/classement/battle/associations/solidaraid.png",
-          "alt": "Logo de l'association Solida'raid"
+          "src": "/assets/classement/battle/associations/humam.png",
+          "alt": "Logo de l'association Hum'am"
         }
       },
       "player2": {
-        "name": "PV3e",
+        "name": "Diplo'mates",
         "image": {
-          "src": "/assets/classement/battle/associations/pv3e.png",
-          "alt": "Logo de l'association PV3e"
+          "src": "/assets/classement/battle/associations/diplomates.png",
+          "alt": "Logo de l'association Diplo'mates"
         }
       },
       "likesPlayer1": 0,
