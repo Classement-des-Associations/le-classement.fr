@@ -588,6 +588,25 @@
       },
       "likesPlayer1": 0,
       "likesPlayer2": 0
+    },
+    {
+      "id": "32",
+      "player1": {
+        "name": "Ovalies UniLaSalle",
+        "image": {
+          "src": "/assets/classement/battle/associations/ovalies-unilasalle.png",
+          "alt": "Logo de l'association les Ovalies UniLaSalle"
+        }
+      },
+      "player2": {
+        "name": "Citécom",
+        "image": {
+          "src": "/assets/classement/battle/associations/citecom.png",
+          "alt": "Logo de l'association Union des Citécom"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
     }
   ]
 }
