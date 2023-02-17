@@ -193,10 +193,10 @@
     {
       "id": "11",
       "player1": {
-        "name": "Aloha",
+        "name": "Bureau des Sports GEM",
         "image": {
-          "src": "/assets/classement/battle/associations/aloha.png",
-          "alt": "Logo de l'association Aloha"
+          "src": "/assets/classement/battle/associations/bureau-des-sports-gem.png",
+          "alt": "Logo de l'association Bureau des Sports GEM"
         }
       },
       "player2": {
