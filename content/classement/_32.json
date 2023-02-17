@@ -1,0 +1,308 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "Fédération des Étudiants de l'IESEG",
+        "image": {
+          "src": "/assets/classement/battle/associations/federation-des-etudiants-de-lieseg.png",
+          "alt": "Logo de la Fédération des Étudiants de l'IESEG"
+        }
+      },
+      "player2": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "2",
+      "player1": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "player2": {
+        "name": "Aloha",
+        "image": {
+          "src": "/assets/classement/battle/associations/aloha.png",
+          "alt": "Logo de l'association Aloha"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "3",
+      "player1": {
+        "name": "Tuong Laï Essec",
+        "image": {
+          "src": "/assets/classement/battle/associations/tuong-lai-essec.png",
+          "alt": "Logo de l'association Tuong Laï Essec"
+        }
+      },
+      "player2": {
+        "name": "Raid EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/raid-edhec.png",
+          "alt": "Logo de l'association Raid EDHEC"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "4",
+      "player1": {
+        "name": "Déclic Entreprendre",
+        "image": {
+          "src": "/assets/classement/battle/associations/declic-entreprendre.png",
+          "alt": "Logo de l'association Déclic Entreprendre"
+        }
+      },
+      "player2": {
+        "name": "Savoir Oser la Solidarité",
+        "image": {
+          "src": "/assets/classement/battle/associations/savoir-oser-la-solidarite.png",
+          "alt": "Logo de l'association Savoir Oser la Solidarité"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "5",
+      "player1": {
+        "name": "Cheer Up! EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/cheer-up-edhec.png",
+          "alt": "Logo de l'association Cheer Up! EDHEC"
+        }
+      },
+      "player2": {
+        "name": "Total Edhec Entreprendre",
+        "image": {
+          "src": "/assets/classement/battle/associations/total-edhec-entreprendre.png",
+          "alt": "Logo de l'association Total Edhec Entreprendre"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "6",
+      "player1": {
+        "name": "Le Viking",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-viking.png",
+          "alt": "Logo de l'association Le Viking"
+        }
+      },
+      "player2": {
+        "name": "Develop",
+        "image": {
+          "src": "/assets/classement/battle/associations/develop.png",
+          "alt": "Logo de l'association Develop"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "7",
+      "player1": {
+        "name": "Vive les Vacances !",
+        "image": {
+          "src": "/assets/classement/battle/associations/vive-les-vacances.png",
+          "alt": "Logo de l'association Vive les Vacances !"
+        }
+      },
+      "player2": {
+        "name": "Solidari'Terre",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidariterre.png",
+          "alt": "Logo de l'association Solidari'Terre"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "8",
+      "player1": {
+        "name": "Les Enfoiros",
+        "image": {
+          "src": "/assets/classement/battle/associations/les-enfoiros.png",
+          "alt": "Logo de l'association Les Enfoiros"
+        }
+      },
+      "player2": {
+        "name": "UN'iversal",
+        "image": {
+          "src": "/assets/classement/battle/associations/universal.png",
+          "alt": "Logo de l'association UN'iversal"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "9",
+      "player1": {
+        "name": "Encore en jeu",
+        "image": {
+          "src": "",
+          "alt": "Non défini"
+        }
+      },
+      "player2": {
+        "name": "Audencia Junior Conseil",
+        "image": {
+          "src": "/assets/classement/battle/associations/audencia-junior-conseil.png",
+          "alt": "Logo de l'association Audencia Junior Conseil"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "10",
+      "player1": {
+        "name": "Le Chti",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-chti.png",
+          "alt": "Logo de l'association Le Chti"
+        }
+      },
+      "player2": {
+        "name": "Hum'am",
+        "image": {
+          "src": "/assets/classement/battle/associations/humam.png",
+          "alt": "Logo de l'association Hum'am"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "11",
+      "player1": {
+        "name": "Aloha",
+        "image": {
+          "src": "/assets/classement/battle/associations/aloha.png",
+          "alt": "Logo de l'association Aloha"
+        }
+      },
+      "player2": {
+        "name": "Le Petit Paumé",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-petit-paume.png",
+          "alt": "Logo de l'association Le Petit Paumé"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "12",
+      "player1": {
+        "name": "Phoenix Égalité des chances",
+        "image": {
+          "src": "/assets/classement/battle/associations/phoenix-egalite-des-chances.png",
+          "alt": "Logo de l'association Phoenix Égalité des chances"
+        }
+      },
+      "player2": {
+        "name": "Nuit de l'Institut",
+        "image": {
+          "src": "/assets/classement/battle/associations/nuit-de-linstitut.png",
+          "alt": "Logo de l'association Nuit de l'Institut"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "13",
+      "player1": {
+        "name": "Solidarité Internationale d'Étudiants de Clermont-Ferrand",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidarite-internationale-detudiants-de-clermont-ferrand.png",
+          "alt": "Logo de l'association Solidarité Internationale d'Étudiants de Clermont-Ferrand"
+        }
+      },
+      "player2": {
+        "name": "Star Trekk'ESCP",
+        "image": {
+          "src": "/assets/classement/battle/associations/star-trekk-escp.png",
+          "alt": "Logo de l'association Star Trekk'ESCP"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "14",
+      "player1": {
+        "name": "Transaharienne",
+        "image": {
+          "src": "/assets/classement/battle/associations/transaharienne.png",
+          "alt": "Logo de l'association Transaharienne"
+        }
+      },
+      "player2": {
+        "name": "Prix de Court",
+        "image": {
+          "src": "/assets/classement/battle/associations/prix-de-court.png",
+          "alt": "Logo de l'association Prix de Court"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "15",
+      "player1": {
+        "name": "Ovalies UniLaSalle",
+        "image": {
+          "src": "/assets/classement/battle/associations/ovalies-unilasalle.png",
+          "alt": "Logo de l'association les Ovalies UniLaSalle"
+        }
+      },
+      "player2": {
+        "name": "I.C.O (Ici Commence L'océan)",
+        "image": {
+          "src": "/assets/classement/battle/associations/ico-ici-commence-locean.png",
+          "alt": "Logo de l'association I.C.O (Ici Commence L'océan)"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    },
+    {
+      "id": "16",
+      "player1": {
+        "name": "Optimize",
+        "image": {
+          "src": "/assets/classement/battle/associations/optimize.png",
+          "alt": "Logo de l'association Optimize"
+        }
+      },
+      "player2": {
+        "name": "PV3e",
+        "image": {
+          "src": "/assets/classement/battle/associations/pv3e.png",
+          "alt": "Logo de l'association PV3e"
+        }
+      },
+      "likesPlayer1": 0,
+      "likesPlayer2": 0
+    }
+  ]
+}

@@ -36,7 +36,7 @@ const isWinner = (duel: any, player: 'player1' | 'player2') => {
               </div>
             </th>
             <th class="flex flex-row justify-center">
-              Résultat <span class="hidden md:block"> (votes - %) </span>
+              Résultat <span class="hidden md:block">&nbsp;(votes - %) </span>
             </th>
             <th>Association 2</th>
           </tr>
@@ -58,14 +58,14 @@ const isWinner = (duel: any, player: 'player1' | 'player2') => {
                 <dt class="sr-only">
                   Nombre de votes pour l'association {{ duel.player1.name }}
                 </dt>
-                <dd class="tabular-nums" :class="{'font-bold': isWinner(duel, 'player1')}">
+                <dd class="tabular-nums text-center" :class="{'font-bold': isWinner(duel, 'player1')}">
                   {{ duel.likesPlayer1 }} <span class="hidden md:block">({{ calculatePercentage(duel.likesPlayer1, (duel.likesPlayer1 + duel.likesPlayer2)) }}%) </span>
                 </dd>
                 <Icon name="fluent-emoji:high-voltage" class="h-5 w-5" />
                 <dt class="sr-only">
                   Nombre de votes pour l'association {{ duel.player2.name }}
                 </dt>
-                <dd class="tabular-nums" :class="{'font-bold': isWinner(duel, 'player2')}">
+                <dd class="tabular-nums text-center" :class="{'font-bold': isWinner(duel, 'player2')}">
                   {{ duel.likesPlayer2 }} <span class="hidden md:block">({{ calculatePercentage(duel.likesPlayer2, (duel.likesPlayer1 + duel.likesPlayer2)) }}%)
                   </span>
                 </dd>
