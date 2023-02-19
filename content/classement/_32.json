@@ -155,10 +155,10 @@
     {
       "id": "9",
       "player1": {
-        "name": "Encore en jeu",
+        "name": "Altigliss",
         "image": {
-          "src": "",
-          "alt": "Non défini"
+          "src": "/assets/classement/battle/associations/altigliss.png",
+          "alt": "Logo de l'association Altigliss"
         }
       },
       "player2": {
