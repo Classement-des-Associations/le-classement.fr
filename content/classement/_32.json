@@ -16,8 +16,8 @@
           "alt": "Logo de l'association L'équipage solidaire"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 141,
+      "likesPlayer2": 380
     },
     {
       "id": "2",
@@ -35,8 +35,8 @@
           "alt": "Logo de l'association Aloha"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 788,
+      "likesPlayer2": 571
     },
     {
       "id": "3",
@@ -54,8 +54,8 @@
           "alt": "Logo de l'association Raid EDHEC"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 748,
+      "likesPlayer2": 636
     },
     {
       "id": "4",
@@ -73,8 +73,8 @@
           "alt": "Logo de l'association Savoir Oser la Solidarité"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 245,
+      "likesPlayer2": 779
     },
     {
       "id": "5",
@@ -92,8 +92,8 @@
           "alt": "Logo de l'association Total Edhec Entreprendre"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 717,
+      "likesPlayer2": 286
     },
     {
       "id": "6",
@@ -111,8 +111,8 @@
           "alt": "Logo de l'association Develop"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 328,
+      "likesPlayer2": 507
     },
     {
       "id": "7",
@@ -130,8 +130,8 @@
           "alt": "Logo de l'association Solidari'Terre"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 495,
+      "likesPlayer2": 551
     },
     {
       "id": "8",
@@ -149,16 +149,16 @@
           "alt": "Logo de l'association UN'iversal"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 385,
+      "likesPlayer2": 241
     },
     {
       "id": "9",
       "player1": {
-        "name": "Encore en jeu",
+        "name": "Altigliss",
         "image": {
-          "src": "",
-          "alt": "Non défini"
+          "src": "/assets/classement/battle/associations/altigliss.png",
+          "alt": "Logo de l'association Altigliss"
         }
       },
       "player2": {
@@ -168,8 +168,8 @@
           "alt": "Logo de l'association Audencia Junior Conseil"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 873,
+      "likesPlayer2": 666
     },
     {
       "id": "10",
@@ -187,8 +187,8 @@
           "alt": "Logo de l'association Hum'am"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 841,
+      "likesPlayer2": 853
     },
     {
       "id": "11",
@@ -206,8 +206,8 @@
           "alt": "Logo de l'association Le Petit Paumé"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 1125,
+      "likesPlayer2": 1087
     },
     {
       "id": "12",
@@ -225,8 +225,8 @@
           "alt": "Logo de l'association Nuit de l'Institut"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 560,
+      "likesPlayer2": 347
     },
     {
       "id": "13",
@@ -244,8 +244,8 @@
           "alt": "Logo de l'association Star Trekk'ESCP"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 596,
+      "likesPlayer2": 510
     },
     {
       "id": "14",
@@ -263,8 +263,8 @@
           "alt": "Logo de l'association Prix de Court"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 1113,
+      "likesPlayer2": 1096
     },
     {
       "id": "15",
@@ -282,8 +282,8 @@
           "alt": "Logo de l'association I.C.O (Ici Commence L'océan)"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 357,
+      "likesPlayer2": 750
     },
     {
       "id": "16",
@@ -301,8 +301,8 @@
           "alt": "Logo de l'association PV3e"
         }
       },
-      "likesPlayer1": 0,
-      "likesPlayer2": 0
+      "likesPlayer1": 300,
+      "likesPlayer2": 520
     }
   ]
 }
