@@ -21,7 +21,7 @@ Ouvert à toutes les associations, la Battle du Classement n’avait que 64 plac
 
 La première semaine de bataille a permis à 2 rounds de se réaliser passant le nombre de concurrent de 64 à 16.
 
-Seulement 16 associations sont encore en lice. De l’association humanitaire aidant à la construction d’une école, au city-guide proposant les meilleurs bons plans de leur ville, de l’association culturelle proposant des défilés de mode à l’association technique, il y a un fossé. Cependant elles ont toutes leur chance, et c’est une possibilité pour elles de partager leur projet et de montrer la diversité du tissu associatif étudiant
+Seulement 16 associations sont encore en lice. De l’association humanitaire aidant à la construction d’une école, au city-guide proposant les meilleurs bons plans de leur ville, de l’association culturelle proposant des défilés de mode à l’association technique, il y a un fossé. Cependant elles ont toutes leur chance, et c’est une possibilité pour elles de partager leur projet et de montrer la diversité du tissu associatif étudiant.
 
 Vu pas moins de 300 000 fois, avec 5 000 vues sur chaque story et des battles très serrées, c’est ce que la Battle du Classement a réalisé en seulement une semaine. Pour les associations étudiantes, c’est un challenge, et une véritable opportunité pour celles qui souhaitent gagner en visibilité.
 
