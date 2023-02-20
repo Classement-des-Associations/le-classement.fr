@@ -31,9 +31,7 @@ const colors = useColorsByPart('classement')
         </h1>
         <slot />
         <div class="not-prose mt-12 flex justify-center">
-          <BaseNuxtLink type="primary" :to="page.release.to" target="_blank" class="text-sm">
-            Télécharger le communiqué en PDF
-          </BaseNuxtLink>
+          <BaseNuxtLink button-text="Télécharger le communiqué en PDF" type="primary" :button-link="page.release.to" target="_blank" class="text-sm" />
         </div>
       </Prose>
     </article>
