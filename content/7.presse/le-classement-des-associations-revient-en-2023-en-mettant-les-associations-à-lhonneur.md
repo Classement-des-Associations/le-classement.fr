@@ -19,6 +19,8 @@ Depuis maintenant une semaine, 64 associations étudiantes se battent en duel su
 
 Ouvert à toutes les associations, la Battle du Classement n’avait que 64 places d’ouvertes. Il a donc fallu que les associations soient rapides pour s’inscrire.
 
+![Ensemble des logos des associations participantes à la Battle du Classement](/assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.webp)
+
 La première semaine de bataille a permis à 2 rounds de se réaliser passant le nombre de concurrent de 64 à 16.
 
 Seulement 16 associations sont encore en lice. De l’association humanitaire aidant à la construction d’une école, au city-guide proposant les meilleurs bons plans de leur ville, de l’association culturelle proposant des défilés de mode à l’association technique, il y a un fossé. Cependant elles ont toutes leur chance, et c’est une possibilité pour elles de partager leur projet et de montrer la diversité du tissu associatif étudiant.
@@ -28,8 +30,6 @@ Vu pas moins de 300 000 fois, avec 5 000 vues sur chaque story et des battles tr
 Cette semaine aura lieu la finale qui permettra de déterminer qui sera la grande association gagnante de cette Battle ! Tout le monde est invité à suivre ce tournoi.
 
 Pour soutenir son association favorite, suivez-nous sur Instagram. Et de nouvelles surprises arrivent très vite pour continuer à valoriser ce riche et beau tissu associatif.
-
-![Ensemble des logos des associations participantes à la Battle du Classement](/assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.webp)
 
 ---
 
