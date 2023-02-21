@@ -2,59 +2,155 @@
   "body": [
     {
       "id": "1",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Altigliss",
+        "image": {
+          "src": "/assets/classement/battle/associations/altigliss.png",
+          "alt": "Logo de l'association Altigliss"
+        }
+      },
+      "player2": {
+        "name": "Phoenix Égalité des chances",
+        "image": {
+          "src": "/assets/classement/battle/associations/phoenix-egalite-des-chances.png",
+          "alt": "Logo de l'association Phoenix Égalité des chances"
+        }
+      },
+      "likesPlayer1": 1796,
+      "likesPlayer2": 1908
     },
     {
       "id": "2",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "I.C.O (Ici Commence L'océan)",
+        "image": {
+          "src": "/assets/classement/battle/associations/ico-ici-commence-locean.png",
+          "alt": "Logo de l'association I.C.O (Ici Commence L'océan)"
+        }
+      },
+      "player2": {
+        "name": "Cheer Up! EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/cheer-up-edhec.png",
+          "alt": "Logo de l'association Cheer Up! EDHEC"
+        }
+      },
+      "likesPlayer1": 1480,
+      "likesPlayer2": 1585
     },
     {
       "id": "3",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "player2": {
+        "name": "Solidari'Terre",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidariterre.png",
+          "alt": "Logo de l'association Solidari'Terre"
+        }
+      },
+      "likesPlayer1": 2012,
+      "likesPlayer2": 1871
     },
     {
       "id": "4",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Les Enfoiros",
+        "image": {
+          "src": "/assets/classement/battle/associations/les-enfoiros.png",
+          "alt": "Logo de l'association Les Enfoiros"
+        }
+      },
+      "player2": {
+        "name": "PV3e",
+        "image": {
+          "src": "/assets/classement/battle/associations/pv3e.png",
+          "alt": "Logo de l'association PV3e"
+        }
+      },
+      "likesPlayer1": 1578,
+      "likesPlayer2": 1604
     },
     {
       "id": "5",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Bureau des Sports GEM",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-sports-gem.png",
+          "alt": "Logo de l'association Bureau des Sports GEM"
+        }
+      },
+      "player2": {
+        "name": "Develop",
+        "image": {
+          "src": "/assets/classement/battle/associations/develop.png",
+          "alt": "Logo de l'association Develop"
+        }
+      },
+      "likesPlayer1": 1717,
+      "likesPlayer2": 1529
     },
     {
       "id": "6",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Solidarité Internationale d'Étudiants de Clermont-Ferrand",
+        "image": {
+          "src": "/assets/classement/battle/associations/solidarite-internationale-detudiants-de-clermont-ferrand.png",
+          "alt": "Logo de l'association Solidarité Internationale d'Étudiants de Clermont-Ferrand"
+        }
+      },
+      "player2": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "likesPlayer1": 1599,
+      "likesPlayer2": 1689
     },
     {
       "id": "7",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Tuong Laï Essec",
+        "image": {
+          "src": "/assets/classement/battle/associations/tuong-lai-essec.png",
+          "alt": "Logo de l'association Tuong Laï Essec"
+        }
+      },
+      "player2": {
+        "name": "Savoir Oser la Solidarité",
+        "image": {
+          "src": "/assets/classement/battle/associations/savoir-oser-la-solidarite.png",
+          "alt": "Logo de l'association Savoir Oser la Solidarité"
+        }
+      },
+      "likesPlayer1": 2237,
+      "likesPlayer2": 2242
     },
     {
       "id": "8",
-      "player1": {},
-      "player2": {},
-      "likesPlayer1": "0",
-      "likesPlayer2": "0"
+      "player1": {
+        "name": "Transaharienne",
+        "image": {
+          "src": "/assets/classement/battle/associations/transaharienne.png",
+          "alt": "Logo de l'association Transaharienne"
+        }
+      },
+      "player2": {
+        "name": "Hum'am",
+        "image": {
+          "src": "/assets/classement/battle/associations/humam.png",
+          "alt": "Logo de l'association Hum'am"
+        }
+      },
+      "likesPlayer1": 1905,
+      "likesPlayer2": 1864
     }
   ]
 }
