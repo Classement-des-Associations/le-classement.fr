@@ -1,0 +1,80 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "player2": {
+        "name": "Savoir Oser la Solidarité",
+        "image": {
+          "src": "/assets/classement/battle/associations/savoir-oser-la-solidarite.png",
+          "alt": "Logo de l'association Savoir Oser la Solidarité"
+        }
+      },
+      "likesPlayer1": 2153,
+      "likesPlayer2": 2103
+    },
+    {
+      "id": "2",
+      "player1": {
+        "name": "Phoenix Égalité des chances",
+        "image": {
+          "src": "/assets/classement/battle/associations/phoenix-egalite-des-chances.png",
+          "alt": "Logo de l'association Phoenix Égalité des chances"
+        }
+      },
+      "player2": {
+        "name": "Transaharienne",
+        "image": {
+          "src": "/assets/classement/battle/associations/transaharienne.png",
+          "alt": "Logo de l'association Transaharienne"
+        }
+      },
+      "likesPlayer1": 2300,
+      "likesPlayer2": 2336
+    },
+    {
+      "id": "3",
+      "player1": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "player2": {
+        "name": "Cheer Up! EDHEC",
+        "image": {
+          "src": "/assets/classement/battle/associations/cheer-up-edhec.png",
+          "alt": "Logo de l'association Cheer Up! EDHEC"
+        }
+      },
+      "likesPlayer1": 2039,
+      "likesPlayer2": 1976
+    },
+    {
+      "id": "4",
+      "player1": {
+        "name": "PV3e",
+        "image": {
+          "src": "/assets/classement/battle/associations/pv3e.png",
+          "alt": "Logo de l'association PV3e"
+        }
+      },
+      "player2": {
+        "name": "Bureau des Sports GEM",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-sports-gem.png",
+          "alt": "Logo de l'association Bureau des Sports GEM"
+        }
+      },
+      "likesPlayer1": 1309,
+      "likesPlayer2": 1552
+    }
+  ]
+}
