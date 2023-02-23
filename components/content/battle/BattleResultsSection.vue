@@ -26,8 +26,8 @@ const isWinner = (duel: any, player: 'player1' | 'player2') => {
 
 <template>
   <BaseSection :class="sectionClass">
-    <Prose v-if="duels" class="mx-auto max-w-none prose-td:align-middle md:prose-th:text-lg md:prose-th:py-4 md:prose-th:px-8 md:prose-td:py-4 md:prose-td:px-8">
-      <table class="w-auto mx-auto">
+    <Prose v-if="duels" class="mx-auto max-w-none flex flex-col items-center prose-td:align-middle md:prose-th:text-lg md:prose-th:py-4 md:prose-th:px-8 md:prose-td:py-4 md:prose-td:px-8">
+      <table class="w-fit">
         <thead>
           <tr>
             <th>
