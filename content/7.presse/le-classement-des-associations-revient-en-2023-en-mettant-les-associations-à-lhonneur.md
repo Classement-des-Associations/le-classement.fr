@@ -5,7 +5,7 @@ image:
   src: /assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.webp
   alt: Participants à la Battle du Classement
 release:
-  to: /assets/press/releases/2022-20-02-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
+  to: /assets/press/releases/2023-20-02-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
 datePublished: 2023-02-20
 dateModified: 2022-02-20
 layout: presse
@@ -13,7 +13,7 @@ layout: presse
 
 **Un nouveau concept déjà apprécié des associations pour l’édition 2023**
 
-**Paris, 20 février 2023** – Le Classement des Associations revient en force avec la Battle du Classement, un tournoi sur Instagram. Une story, 2 associations, l’une d’entre elle est éliminée au bout de 24h de bataille acharnée. A la clé, 2000€ pour l’une des 64 associations étudiantes participantes. Les 2 premiers rounds viennent de se terminer. Cette semaine, la grande association gagnante sera révélée après les derniers duels.
+**Paris, 20.02.2023** – Le Classement des Associations revient en force avec la Battle du Classement, un tournoi sur Instagram. Une story, 2 associations, l’une d’entre elle est éliminée au bout de 24h de bataille acharnée. A la clé, 2000€ pour l’une des 64 associations étudiantes participantes. Les 2 premiers rounds viennent de se terminer. Cette semaine, la grande association gagnante sera révélée après les derniers duels.
 
 Depuis maintenant une semaine, 64 associations étudiantes se battent en duel sur Instagram, en story, pour remporter 2000€. L’objectif est simple pour elles, mobiliser un maximum leur communauté pour remporter ce prix. 
 
