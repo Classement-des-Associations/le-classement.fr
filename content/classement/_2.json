@@ -1,0 +1,23 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "player2": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "likesPlayer1": 5593,
+      "likesPlayer2": 5716
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "body": [
+    {
+      "id": "1",
+      "player1": {
+        "name": "L'équipage solidaire",
+        "image": {
+          "src": "/assets/classement/battle/associations/lequipage-solidaire.png",
+          "alt": "Logo de l'association L'équipage solidaire"
+        }
+      },
+      "player2": {
+        "name": "Bureau des Sports GEM",
+        "image": {
+          "src": "/assets/classement/battle/associations/bureau-des-sports-gem.png",
+          "alt": "Logo de l'association Bureau des Sports GEM"
+        }
+      },
+      "likesPlayer1": 2473,
+      "likesPlayer2": 2405
+    },
+    {
+      "id": "2",
+      "player1": {
+        "name": "Le Dahu",
+        "image": {
+          "src": "/assets/classement/battle/associations/le-dahu.png",
+          "alt": "Logo de l'association Le Dahu"
+        }
+      },
+      "player2": {
+        "name": "Transaharienne",
+        "image": {
+          "src": "/assets/classement/battle/associations/transaharienne.png",
+          "alt": "Logo de l'association Transaharienne"
+        }
+      },
+      "likesPlayer1": 3566,
+      "likesPlayer2": 3531
+    }
+  ]
+}
