@@ -12,22 +12,14 @@ Notre liste de liens
 #lists
   ::dump-thinker-list
   #title
-  La Battle du Classement
+  Événements
 
   #items
     ::dump-thinker-list-item
     ---
-    icon: battle
-    buttonLink: battle
-    buttonText: S'inscrire
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    icon: heroicons:question-mark-circle-solid
-    buttonLink: /classement/battle
-    buttonText: En savoir plus
+    icon: fluent-emoji:bottle-with-popping-cork
+    buttonLink: afterwork
+    buttonText: Afterwork Battle
     ---
     ::
   ::
@@ -42,6 +34,22 @@ Notre liste de liens
     icon: heroicons:home-solid
     buttonLink: /
     buttonText: Classement
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: battle
+    buttonLink: /classement/battle
+    buttonText: Battle du Classement
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: concours
+    buttonLink: /classement/concours
+    buttonText: Concours du Classement
     ---
     ::
 
