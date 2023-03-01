@@ -17,7 +17,7 @@ export const useClassementLink = (link?: string) => {
     case 'concours':
       return useRuntimeConfig().public.classement.concours.registrationLink
     case 'afterwork':
-      return useRuntimeConfig().public.classement.afterwork.registrationLink
+      return useRuntimeConfig().public.afterworkBattle
     default:
       throw new Error(`Unknown classement link: ${link}`)
   }
