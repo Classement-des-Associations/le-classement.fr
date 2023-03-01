@@ -1,8 +1,8 @@
 ---
-for: footer
+for: header
 navigation:
-  title: Presse
-title: Presse
+  title: La Presse
+title: La Presse
 description: Retrouvez toutes les informations presses du Classement des Associations
 image: /socials/presse.jpg
 ---

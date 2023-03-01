@@ -11,6 +11,7 @@ const props = defineProps<{
 
 const primaryLink = useClassementLink(props.primaryButtonLink)
 const secondaryLink = useClassementLink(props.secondaryButtonLink)
+const topButtonLink = useClassementLink(props.topButtonLink)
 </script>
 
 <template>
