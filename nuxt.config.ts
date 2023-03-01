@@ -28,6 +28,9 @@ export default defineNuxtConfig({
         },
         battle: {
           registrationLink: process.env.BATTLE_REGISTRATION_LINK
+        },
+        afterwork: {
+          registrationLink: 'https://example.com'
         }
       }
     }
