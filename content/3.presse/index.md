@@ -79,7 +79,8 @@ sectionClass: 'pb-16'
 #titleExtra
 Aneo, créateur du concours
 #typography
-Aneo  est  une  agence  de  conseil  fondée  en  2002,  accompagnant  les  entreprises dans    leurs    transformations    organisationnelles    et    digitales.    Leur    but    est d'accompagner   les   entreprises   dans   leurs   stratégies,   aux   travers   de   leur organisation au sens large et des impacts induits par le contexte et les évolutions technologiques.
+Aneo est une agence de conseil fondée en 2002, accompagnant les entreprises dans leurs transformations organisationnelles et digitales. Leur but est d'accompagner les entreprises dans leurs stratégies, aux travers de leur organisation au sens large et des impacts induits par le contexte et les évolutions technologiques.
+Elle croit en la puissance de l’engagement associatif à former les managers de demain et à l’innovation qu’ils peuvent porter. C’est pour cela qu’Aneo porte le Classement des Associations afin de mettre en avant ces compétences et qualités qu’apporte l’engagement associatif.
 ::
 
 ::press-section

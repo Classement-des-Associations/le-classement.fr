@@ -16,12 +16,12 @@
     },
     {
       "type": "normal",
-      "startAt": "2023-02-28",
+      "startAt": "2023-03-21",
       "title": "Lancement de l'édition 2023"
     },
     {
       "type": "large",
-      "startAt": "2023-02-28",
+      "startAt": "2023-03-21",
       "endAt": "2023-11-10",
       "title": "Concours",
       "description": "L'évènement central du Classement des Associations ! Son objectif premier est d'élire la meilleure association étudiante de l'année. Il permet aussi d'élire les meilleures associations par catégorie. Durant l'année, les associations participantes vont être amenées à passer différentes épreuves ! Une occasion unique pour les associations et ceux qui les composent de se faire connaître et de se faire remarquer !",
@@ -38,7 +38,7 @@
     {
       "type": "large",
       "startAt": "2023-02-01",
-      "endAt": "2023-07-15",
+      "endAt": "2023-10-31",
       "title": "Classement Discovery",
       "description": "Temps organisés par le Classement des Associations mais centrés sur les étudiants, ils ont pour objectif de permettre aux associations d'apprendre et de rencontrer des professionnels, d'autres associations et d'autres étudiants ! Organisés avec des partenaires, ces moments sont aussi l'occasion pour les étudiants de découvrir les locaux d'entreprise !",
       "icon": "discovery"
@@ -68,12 +68,12 @@
     },
     {
       "type": "normal",
-      "startAt": "2023-10-14",
+      "startAt": "2023-10-15",
       "title": "Annonce des finalistes"
     },
     {
       "type": "large",
-      "startAt": "2023-11-10",
+      "startAt": "2023-11-24",
       "endAt": null,
       "title": "Cérémonie finale",
       "description": "Le moment tant attendu ! L'occasion pour les associations, les écoles et les partenaires de se rencontrer, de se retrouver au sein d'un grand amphithéâtre ! La Cérémonie finale clôt l'année du Classement des Associations, permet la réalisation des pitchs et dévoile les résultats du Concours ! Qui sera l'association étudiante de l'année 2023 ?",
