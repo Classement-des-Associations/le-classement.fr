@@ -16,7 +16,7 @@ specifiers:
   dotenv: ^16.0.3
   eslint: ^8.33.0
   nuxt: 3.1.2
-  nuxt-icon: ^0.2.10
+  nuxt-icon: ^0.3.0
   nuxt-seo-kit: ^1.1.4
   pathe: ^1.1.0
   slugify: ^1.6.5
@@ -44,7 +44,7 @@ devDependencies:
   dotenv: 16.0.3
   eslint: 8.34.0
   nuxt: 3.1.2_7kw3g6rralp5ps6mg3uyzz6azm
-  nuxt-icon: 0.2.11
+  nuxt-icon: 0.3.2
   nuxt-seo-kit: 1.2.3
   pathe: 1.1.0
   slugify: 1.6.5
@@ -6513,8 +6513,8 @@ packages:
       - supports-color
     dev: true
 
-  /nuxt-icon/0.2.11:
-    resolution: {integrity: sha512-mHFgTMrf+CzG7l6cdVQ7vF2XaXz8fs53QC6bk+zVZEHBCCwFtRoG0H+62y+y0iAo2+cD4VYmvsAiRMKIlIGxVA==}
+  /nuxt-icon/0.3.2:
+    resolution: {integrity: sha512-066pfova2nE9GZDvHE9oMkqJCwsnJvOZKU2FOSzRpjfXupH3UPtP9Zw8+C2wvZ82Nel6fuRoIUNQh5Sx8ZeQrQ==}
     dependencies:
       '@iconify/vue': 4.1.0
       '@nuxt/kit': 3.2.2
