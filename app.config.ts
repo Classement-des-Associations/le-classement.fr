@@ -28,11 +28,11 @@ export default defineAppConfig({
       name: 'LinkedIn',
       to: 'https://www.linkedin.com/company/le-classement/',
       icon: 'linkedin'
-    },
-    {
-      name: 'Twitter',
-      to: 'https://twitter.com/leclassement',
-      icon: 'twitter'
     }
+    // {
+    //   name: 'Twitter',
+    //   to: 'https://twitter.com/leclassement',
+    //   icon: 'twitter'
+    // }
   ]
 })
