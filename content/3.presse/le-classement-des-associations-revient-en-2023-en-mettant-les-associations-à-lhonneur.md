@@ -2,10 +2,11 @@
 title: Le Classement des Associations revient en 2023 en mettant les associations à l’honneur
 description: Le Classement des Associations revient en force avec la Battle du Classement, un tournoi sur Instagram. Une story, 2 associations, l’une d’entre elle est éliminée au bout de 24h de bataille acharnée. A la clé, 2000€ pour l’une des 64 associations étudiantes participantes. Les 2 premiers rounds viennent de se terminer. Cette semaine, la grande association gagnante sera révélée après les derniers duels.
 image:
-  src: /assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.webp
-  alt: Participants à la Battle du Classement
+  src: /assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur/cover.webp
+  alt: Logos des 64 associations participant à la Battle du Classement
 release:
   to: /assets/press/releases/2023-20-02-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
+press: le-classement.fr
 datePublished: 2023-02-20
 dateModified: 2022-02-20
 layout: press
@@ -19,7 +20,7 @@ Depuis maintenant une semaine, 64 associations étudiantes se battent en duel su
 
 Ouvert à toutes les associations, la Battle du Classement n’avait que 64 places d’ouvertes. Il a donc fallu que les associations soient rapides pour s’inscrire.
 
-![Ensemble des logos des associations participantes à la Battle du Classement](/assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.webp)
+![Ensemble des logos des associations participantes à la Battle du Classement](/assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur/battle-64-associations.webp)
 
 La première semaine de bataille a permis à 2 rounds de se réaliser passant le nombre de concurrent de 64 à 16.
 

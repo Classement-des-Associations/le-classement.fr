@@ -18,14 +18,12 @@ Presse
 Retrouvez toutes les informations presses du Classement des Associations
 
 #actions
-  ::hero-buttons
-    ::hero-button
-    ---
-    href: /nous-contacter
-    filled: false
-    ---
-    Nous contacter
-    ::
+  ::classement-link
+  ---
+  part: classement
+  button-link: /nous-contacter
+  button-text: Nous contacter
+  ---
   ::
 ::
 
@@ -70,6 +68,27 @@ Pour rendre le Classement des Associations divertissant, riche et humain, diffé
 - La **Cérémonie finale**, la dernière étape, ouverte à tous, où les 8 finalistes qui devront réaliser un pitch devant un jury de professionnels. Ensuite, un cocktail dînatoire a lieu pour célébrer la participation des associations.
 
 Le Classement des Associations est une vraie aventure qui permet de découvrir de nouvelles associations, entreprises et monter en compétence. Un **vrai plus pour les membres des associations** et pour faire rayonner davantage son association dans la sphère étudiante !
+::
+
+::press-section
+---
+sectionClass: 'pb-16'
+---
+#category
+Le Calendrier
+#title
+Les dates clés
+#content
+  ::centered-content
+  #content
+    ::classement-link
+    ---
+    part: classement
+    button-link: /calendrier
+    button-text: Découvrir le calendrier
+    ---
+    ::
+  ::
 ::
 
 ::press-section

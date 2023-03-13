@@ -15,7 +15,7 @@ export const usePressReleases = (limit?: number) => {
   const query = queryContent('/presse/')
     .sort({ datePublished: -1 })
     .where({ _extension: 'md' })
-    .only(['title', 'datePublished', 'image', '_path'])
+    .only(['title', 'datePublished', 'image', '_path', 'press'])
   if (limit) { query.limit(limit) }
 
   const key = limit
@@ -34,6 +34,12 @@ export const useHomeAssociations = () => {
 export const useDumpThinkerArticles = () => {
   return useAsyncData('content:dump-thinker-articles', () =>
     queryContent('/blog/').sort({ datePublished: -1 }).limit(3).find()
+  )
+}
+
+export const useDumpThinkerReleases = () => {
+  return useAsyncData('content:dump-thinker-releases', () =>
+    queryContent('/presse/').where({ _extension: 'md' }).sort({ datePublished: -1 }).limit(3).find()
   )
 }
 

@@ -9,8 +9,8 @@ defineProps<{
 <template>
   <BaseGrid>
     <template v-for="article in articles" :key="article.id">
-      <li>
-        <BlogCard :article="article" />
+      <li class="h-full">
+        <BlogCard :article="article" class="h-full" />
       </li>
     </template>
   </BaseGrid>
