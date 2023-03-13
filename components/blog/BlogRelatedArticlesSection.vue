@@ -9,10 +9,6 @@ const { data: articles } = await useRelatedArticles()
         Articles en lien
       </NuxtLink>
     </h2>
-    <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
-      <template v-for="article in articles" :key="article._id">
-        <BlogCard :article="article" />
-      </template>
-    </div>
+    <BlogList :articles="articles" />
   </section>
 </template>

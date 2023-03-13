@@ -75,8 +75,14 @@ Merci Hum'am pour cette invitation et d'avoir permis au Classement des Associati
 
 Le Tour Asso, c'est 6 mois durant lesquels le Classement part à la rencontre des associations étudiantes pour découvrir et partager leurs projets !
 
-::tour-asso-registration-link
+::centered-content
 ---
-buttonText: Inviter le Classement
+sectionClass: mt-8
 ---
+#content
+  ::tour-asso-registration-link
+  ---
+  buttonText: Inviter le Classement
+  ---
+  ::
 ::

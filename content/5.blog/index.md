@@ -18,39 +18,32 @@ Le Blog
 Entrevoir la vie associative avec nos histoires,<br /> des témoignages, des associations et nos partenaires !
 
 #actions
-  ::hero-buttons
-    ::hero-button
-    ---
-    href: '#articles'
-    filled: true
-    ---
-    Lire les articles
-    ::
-
-    ::hero-button
-    ---
-    href: /classement/concours
-    filled: false
-    ---
-    Le concours
-    ::
+  ::blog-hero-buttons
+  ---
+  primaryButtonText: Lire les articles
+  primaryButtonLink: '#articles'
+  secondaryButtonText: Le concours
+  secondaryButtonLink: /classement/concours
+  ---
   ::
 ::
 
-::blog-section{id="articles"}
+::blog-list-section{id="articles"}
 ---
 sectionClass: mt-16
 ---
-#title
+#srTitle
 Les articles
-#content
-  ::blog-list
-  ::
 ::
 
 ::newsletter-section
 ---
-sectionClass: my-32
-visible: true
+sectionClass: my-16 md:my-32
+buttonText: S'abonner
+buttonLink: newsletterSubscriptionLink
 ---
+#title
+S'abonner au Classement
+#subtitle
+Une newsletter pour tous ceux qui veulent prolonger l’aventure du Classement avec des exclusivités et des actualités sur la vie associative étudiante.
 ::

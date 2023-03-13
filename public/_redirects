@@ -22,5 +22,9 @@
 /partenariats /devenir-partenaire
 /bons-plans /
 
+/associations/ https://annuaire.le-classement.fr/associations-etudiantes/
+/associations/* https://annuaire.le-classement.fr/associations-etudiantes/:splat
+/ecoles/ https://annuaire.le-classement.fr/ecoles/
+/ecoles/* https://annuaire.le-classement.fr/ecoles/:splat
 
 /clap-de-fin-2022 /clap-de-fin-pour-ledition-2022-du-classement-des-associations

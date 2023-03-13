@@ -8,7 +8,7 @@ release:
   to: /assets/press/releases/2023-02-27-le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement.pdf
 datePublished: 2023-02-27
 dateModified: 2023-02-27
-layout: presse
+layout: press
 ---
 
 **Durant 2 semaines, 64 associations étudiantes se sont battues en duel lors de la Battle du Classement. À la clé, 2 000 € pour la grande association gagnante lors de ce tournoi sur Instagram.**

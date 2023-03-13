@@ -1,9 +1,7 @@
 import type { PressArticle } from '~~/types/press-article'
-import type { Association } from '~~/types/association'
 import { Duel } from '~~/types/duel'
 import { ConcoursExercice } from '~~/types/concours-exercice'
 import { TimelineItem } from '~~/types/timeline'
-import { School } from '~~/types/school'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -36,6 +34,12 @@ export const useHomeAssociations = () => {
 export const useDumpThinkerArticles = () => {
   return useAsyncData('content:dump-thinker-articles', () =>
     queryContent('/blog/').sort({ datePublished: -1 }).limit(3).find()
+  )
+}
+
+export const useArticles = () => {
+  return useAsyncData('content:articles', () =>
+    queryContent('/blog/').sort({ datePublished: -1 }).find()
   )
 }
 
@@ -77,61 +81,6 @@ export const useArticlesByCategories = (
         .limit(limit)
         .sort({ datePublished: -1 })
         .find()
-  )
-}
-
-export const useAssociations = () => {
-  return useAsyncData('content:associations', () =>
-    queryContent<Association>('/associations/').where({
-      _partial: true,
-      _extension: 'json'
-    }).find()
-  )
-}
-
-export const useAssociation = (id: string) => {
-  return useAsyncData(`content:association:${id}`, () =>
-    queryContent<Association>(`/associations/_${id}`).where({
-      _partial: true,
-      _extension: 'json'
-    }).findOne()
-  )
-}
-
-export const useRelatedAssociations = (id: string, category = '') => {
-  return useAsyncData(`content:related-associations:${id}:${category}`, () =>
-    queryContent<Association>('/associations/')
-      .where({
-        id: {
-          $ne: id
-        },
-        category: {
-          $eq: category
-        },
-        _partial: true,
-        _extension: 'json'
-      })
-      .limit(3)
-      .sort({ name: 1 })
-      .find()
-  )
-}
-
-export const useSchools = () => {
-  return useAsyncData('content:schools', () =>
-    queryContent<School>('/ecoles/').where({
-      _partial: true,
-      _extension: 'json'
-    }).find()
-  )
-}
-
-export const useSchool = (id: string) => {
-  return useAsyncData(`content:school:${id}`, () =>
-    queryContent<School>(`/ecoles/_${id}`).where({
-      _partial: true,
-      _extension: 'json'
-    }).findOne()
   )
 }
 

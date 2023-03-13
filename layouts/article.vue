@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Part } from '~~/types/part.js'
+import { Part } from '@classement-des-associations/website-theme/types'
 
 const { page } = useContent()
 
@@ -77,6 +77,13 @@ onMounted(() => {
 
     <BlogRelatedArticlesSection class="mt-8 md:mt-16 lg:mt-32" />
 
-    <Newsletter class="mt-16" />
+    <Newsletter button-link="newsletterSubscriptionLink" button-text="S'abonner" class="mt-16">
+      <template #title>
+        S'abonner au Classement
+      </template>
+      <template #subtitle>
+        Une newsletter pour tous ceux qui veulent prolonger l'aventure du Classement avec des exclusivités et des actualités sur la vie associative étudiante.
+      </template>
+    </Newsletter>
   </LayoutSection>
 </template>

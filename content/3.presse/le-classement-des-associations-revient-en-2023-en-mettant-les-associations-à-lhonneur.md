@@ -8,7 +8,7 @@ release:
   to: /assets/press/releases/2023-20-02-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
 datePublished: 2023-02-20
 dateModified: 2022-02-20
-layout: presse
+layout: press
 ---
 
 **Un nouveau concept déjà apprécié des associations pour l’édition 2023**
