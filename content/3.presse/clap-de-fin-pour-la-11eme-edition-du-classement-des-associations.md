@@ -6,9 +6,10 @@ image:
   alt: Photo de groupe lors de la cérémonie finale
 release:
   to: /assets/press/releases/2022-12-14-clap-de-fin-pour-la-11eme-edition-du-classement-des-associations.pdf
+press: le-classement.fr
 datePublished: 2022-12-14
 dateModified: 2022-12-14
-layout: presse
+layout: press
 ---
 
 **Le concours national pour rassembler, promouvoir et valoriser la vie associative étudiante**

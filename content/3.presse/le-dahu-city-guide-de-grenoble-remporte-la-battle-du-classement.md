@@ -2,13 +2,14 @@
 title: Le Dahu, city-guide de Grenoble, remporte la Battle du Classement
 description: Durant 2 semaines, 64 associations étudiantes se sont battues en duel lors de la Battle du Classement. À la clé, 2 000 € pour la grande association gagnante lors de ce tournoi sur Instagram.
 image: 
-  src: /assets/press/images/le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement.webp
-  alt: Logos des 64 associations participant à la Battle du Classement
+  src: /assets/press/images/le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement/cover.webp
+  alt: Logo du Dahu avec le texte "Le Dahu remporte la Battle"
 release:
   to: /assets/press/releases/2023-02-27-le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement.pdf
+press: le-classement.fr
 datePublished: 2023-02-27
 dateModified: 2023-02-27
-layout: presse
+layout: press
 ---
 
 **Durant 2 semaines, 64 associations étudiantes se sont battues en duel lors de la Battle du Classement. À la clé, 2 000 € pour la grande association gagnante lors de ce tournoi sur Instagram.**
@@ -17,7 +18,7 @@ layout: presse
 
 Ainsi, la Battle du Classement est une occasion de mettre en avant les associations à une nouvelle audience et d’animer et mobiliser le tissu associatif étudiant.
 
-![Logo des 64 associations participant à la Battle du Classement](/assets/press/images/le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement.webp)
+![Logo des 64 associations participant à la Battle du Classement](/assets/press/images/le-dahu-city-guide-de-grenoble-remporte-la-battle-du-classement/battle-64-associations.webp)
 
 Cette première édition a su convaincre ! Durant 2 semaines intenses, c’est plus de 130 stories qui se sont enchainées avec des associations et leurs communautés qui ont su garder le rythme pour repousser les limites de la veille. Chaque jour a eu son lot de défis et de surprises avec des duels parfois remportés à quelques votes comme celui entre Tuong Laï Essec et Savoir Oser la Solidarité où seulement 5 votes sur plus de 2 230 les séparés.
 

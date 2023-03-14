@@ -1,36 +1,23 @@
 export default defineNuxtConfig({
-  extends: ['nuxt-seo-kit'],
+  extends: ['@classement-des-associations/website-theme'],
+
   modules: [
     '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/fontaine',
-    '@nuxt/content',
-    'nuxt-icon'
+    'nuxt-clarity-analytics'
   ],
 
   runtimeConfig: {
     public: {
+      newsletterSubscriptionLink: 'https://example.com',
+      concoursRegistrationLink: 'https://example.com',
+      tourAssoRegistrationLink: 'https://example.com',
+      afterworkBattleRegistrationLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
       siteDescription:
         'L\'aventure humaine de référence qui rassemble, promeut et valorise la vie associative étudiante.',
       language: 'fr-FR',
-      titleSeparator: '·',
-      classement: {
-        tourAsso: {
-          registrationLink: process.env.TOUR_ASSO_REGISTRATION_LINK
-        },
-        concours: {
-          registrationLink: process.env.CONCOURS_REGISTRATION_LINK
-        },
-        newsletter: {
-          subscribeLink: process.env.NEWSLETTER_SUBSCRIBE_LINK
-        },
-        battle: {
-          registrationLink: process.env.BATTLE_REGISTRATION_LINK
-        }
-      },
-      afterworkBattle: 'https://example.com'
+      titleSeparator: '·'
     }
   },
 

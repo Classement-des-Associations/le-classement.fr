@@ -2,11 +2,11 @@
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 import type { PressArticle } from '~~/types/press-article'
 
-const { limit } = defineProps<{
+const props = defineProps<{
   limit?: number
 }>()
 
-const { data: releases } = await usePressReleases(limit)
+const { data: releases } = await usePressReleases(props.limit)
 
 const toArticle = (release: Pick<ParsedContent, string>): PressArticle => {
   return {
@@ -14,6 +14,7 @@ const toArticle = (release: Pick<ParsedContent, string>): PressArticle => {
     date: release.datePublished,
     link: release._path!,
     image: release.image,
+    press: release.press
   }
 }
 </script>

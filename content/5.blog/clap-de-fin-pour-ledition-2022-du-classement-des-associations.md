@@ -30,7 +30,7 @@ Cette année, la thématique imposée était la suivante :
 
 Ainsi, les unes après les autres et sous l’œil attentif du public et du jury, les associations sont passées sur scène. Chacune avec son style, sa vision mais avec la même envie de montrer ce qu'elle mérite le titre.
 
-::carousel
+::carousel-content
 ---
 id: associations
 path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/associations/
@@ -123,7 +123,7 @@ Vous pouvez aussi retrouver le [palmarès des années précédentes](/le-palmare
 
 L’annonce de l’association victorieuse a laissé place au cocktail dînatoire pour permettre à l’ensemble des associations, des membres du jury et des partenaires d’échanger et de discuter.
 
-::carousel
+::carousel-content
 ---
 id: cocktail
 path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/cocktail/
@@ -178,7 +178,7 @@ Les différents membres du jury :
 
 Et l'ensemble des associations qui ont participé à cette édition 2022 !
 
-::carousel
+::carousel-content
 ---
 id: participants
 path: /assets/blog/images/clap-de-fin-pour-ledition-2022-du-classement-des-associations/participants/

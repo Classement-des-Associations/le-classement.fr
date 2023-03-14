@@ -18,7 +18,7 @@ Notre liste de liens
     ::dump-thinker-list-item
     ---
     icon: fluent-emoji:bottle-with-popping-cork
-    buttonLink: afterwork
+    buttonLink: afterworkBattleRegistrationLink
     buttonText: Afterwork Battle
     ---
     ::
@@ -71,6 +71,14 @@ Notre liste de liens
   ::
 
   ::dump-thinker-list
+  #title
+  Nos derniers communiqués
+  #items
+    ::dump-thinker-last-releases
+    ::
+  ::
+
+  ::dump-thinker-list
   ---
   id: nos-reseaux-sociaux
   ---
@@ -91,14 +99,6 @@ Notre liste de liens
     icon: mdi:linkedin
     buttonLink: https://www.linkedin.com/company/classement-des-associations/
     buttonText: LinkedIn
-    ---
-    ::
-    
-    ::dump-thinker-list-item
-    ---
-    icon: mdi:twitter
-    buttonLink: https://twitter.com/classement_asso
-    buttonText: Twitter
     ---
     ::
   ::

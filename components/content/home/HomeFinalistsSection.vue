@@ -41,7 +41,7 @@ const timing = computed(() => {
 
 <template>
   <div aria-hidden="true" class="relative overflow-hidden" :class="sectionClass">
-    <HomeSlider
+    <Slider
       :images="images"
       :slides-per-view="slidesPerView"
       :slide-width="slideWidth"
@@ -52,6 +52,6 @@ const timing = computed(() => {
       <template #default="{ image }">
         <img class="rounded-2xl md:rounded-[2rem]" :src="image.src" :alt="image.alt" :width="image.width" :height="image.height">
       </template>
-    </HomeSlider>
+    </Slider>
   </div>
 </template>

@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 import type { PressArticle } from '~~/types/press-article'
 
-const { article } = defineProps<{
+const props = defineProps<{
   article: PressArticle
 }>()
 
-const datetime = useDateToISOString(article.date)
-const formattedDate = useDateToLocaleDateString(article.date)
+const datetime = useDateToISOString(props.article.date)
+const formattedDate = useDateToLocaleDateString(props.article.date)
 </script>
 
 <template>
@@ -14,7 +14,7 @@ const formattedDate = useDateToLocaleDateString(article.date)
     <div class="overflow-hidden rounded-lg">
       <img
         v-if="article.image"
-        class="group-hover:scale-[101%] transition-transform duration-200"
+        class="group-hover:scale-[101%] transition-transform duration-200 aspect-video w-full"
         :src="article.image.src"
         :alt="article.image.alt"
         loading="lazy"

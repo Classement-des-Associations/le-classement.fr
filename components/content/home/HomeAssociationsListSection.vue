@@ -7,13 +7,12 @@ defineProps<{
 
 const { data } = await useHomeAssociations()
 
-const toImg = function (src: string) {
+const createFullSrc = function (src: string) {
   return 'assets/home/images/associations/' + src
 }
 
 const { smaller } = useBreakpoints(breakpointsTailwind)
 const xs = smaller('sm')
-const md = smaller('md')
 
 const slidesPerView = 9
 const slideWidth = computed(() => {
@@ -42,7 +41,7 @@ const timing = computed(() => {
 
 <template>
   <div v-if="data" aria-hidden="true" :class="sectionClass" class="relative overflow-hidden flex flex-col gap-6">
-    <HomeSlider
+    <Slider
       v-for="(line, index) in data.lines"
       :key="index"
       :images="line"
@@ -54,8 +53,8 @@ const timing = computed(() => {
       :timing="timing"
     >
       <template #default="{ image }">
-        <img class="rounded-lg" :src="toImg(image.src)" :alt="image.alt" :width="imageWidth" :height="imageHeight">
+        <img class="rounded-lg" :src="createFullSrc(image.src)" :alt="image.alt" :width="imageWidth" :height="imageHeight">
       </template>
-    </HomeSlider>
+    </Slider>
   </div>
 </template>
