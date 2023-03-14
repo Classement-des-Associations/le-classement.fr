@@ -27,9 +27,9 @@ if (process.client) {
     renderer.toneMapping = THREE.ACESFilmicToneMapping
     renderer.toneMappingExposure = 1
     if (window.matchMedia('(min-width: 768px)').matches) {
-      renderer.setSize(500, 500)
+      renderer.setSize(400, 400)
     } else if (window.matchMedia('(min-width: 640px)').matches) {
-      renderer.setSize(350, 350)
+      renderer.setSize(300, 300)
     } else {
       renderer.setSize(180, 180)
     }
@@ -45,7 +45,7 @@ if (process.client) {
 
     gltfLoader.load('/assets/home/trophy.glb', function (gltf) {
       gem = gltf.scene.children[0]
-      gem.scale.set(1, 1, 1)
+      gem.scale.set(1.2, 1.2, 1.2)
       gem.position.set(0, 0, 0)
       scene.add(gem)
 
@@ -57,9 +57,9 @@ if (process.client) {
     renderer.setPixelRatio(window.devicePixelRatio)
     function onWindowResize () {
       if (window.matchMedia('(min-width: 768px)').matches) {
-        renderer.setSize(500, 500)
+        renderer.setSize(400, 400)
       } else if (window.matchMedia('(min-width: 640px)').matches) {
-        renderer.setSize(350, 350)
+        renderer.setSize(300, 300)
       } else {
         renderer.setSize(180, 180)
       }
