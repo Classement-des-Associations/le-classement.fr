@@ -9,6 +9,6 @@ const { data: articles } = await useRelatedArticles()
         Articles en lien
       </NuxtLink>
     </h2>
-    <BlogList :articles="articles" />
+    <BlogList class="mt-6" :articles="articles" />
   </section>
 </template>
