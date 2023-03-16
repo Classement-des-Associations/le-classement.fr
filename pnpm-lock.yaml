@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@classement-des-associations/website-theme': ^0.8.0
+  '@classement-des-associations/website-theme': ^0.9.0
   '@nuxtjs/eslint-config-typescript': ^12.0.0
   '@vueuse/components': ^9.13.0
   '@vueuse/core': ^9.13.0
@@ -13,7 +13,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@classement-des-associations/website-theme': 0.8.0_vgl77cfdswitgr47lm5swmv43m
+  '@classement-des-associations/website-theme': 0.9.0_vgl77cfdswitgr47lm5swmv43m
   '@nuxtjs/eslint-config-typescript': 12.0.0_vgl77cfdswitgr47lm5swmv43m
   '@vueuse/components': 9.13.0
   '@vueuse/core': 9.13.0
@@ -684,8 +684,8 @@ packages:
       - encoding
     dev: false
 
-  /@classement-des-associations/website-theme/0.8.0_vgl77cfdswitgr47lm5swmv43m:
-    resolution: {integrity: sha512-9Ep+MumFinzh0IIjFj6sS6hRCq/jawNQvRnOgl6b1Skl1a/Ld6veguak7QWbX7BGXvx/lgUMJKSrSaK39s99uA==}
+  /@classement-des-associations/website-theme/0.9.0_vgl77cfdswitgr47lm5swmv43m:
+    resolution: {integrity: sha512-Z+65tS54pyOPZcZGugs5zDIcA2kuVmpENsWE5pDe8yUzVqL5gtsZmTmVAlWC9h5DA8Dyx+YM7gF/l/Ais/UuIQ==}
     dependencies:
       '@headlessui/vue': 1.7.12
       '@nuxt/content': 2.5.2
@@ -2132,7 +2132,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.15.2
     dev: false
 
   /@types/semver/7.3.13:
