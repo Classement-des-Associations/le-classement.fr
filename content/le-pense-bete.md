@@ -55,6 +55,22 @@ Notre liste de liens
 
     ::dump-thinker-list-item
     ---
+    icon: discovery
+    buttonLink: /classement/discovery
+    buttonText: Classement Discovery
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: ceremonie-finale
+    buttonLink: /classement/ceremonie-finale
+    buttonText: Cérémonie Finale
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
     icon: heroicons:question-mark-circle-solid
     buttonLink: /faq
     buttonText: Questions / Réponses
