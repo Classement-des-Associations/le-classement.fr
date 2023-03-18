@@ -1,8 +1,12 @@
 <script lang="ts" setup>
-defineProps<{
+const props = defineProps<{
   mail?: string
   tel?: string
+  appointmentText?: string
+  appointmentLink?: string
 }>()
+
+const link = useClassementLink(props.appointmentLink)
 </script>
 
 <template>
@@ -11,16 +15,22 @@ defineProps<{
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
     <div class="mt-8 px-4 py-6 flex flex-col bg-white text-sm">
-      <NuxtLink :to="`tel:${tel}`" class="py-3 flex flex-row space-x-4 items-center">
-        <Icon name="heroicons:device-phone-mobile" class="w-6 h-6" />
+      <NuxtLink :to="link" class="py-3 flex flex-row space-x-4 items-center">
+        <Icon name="heroicons:bell-alert" class="w-6 h-6" />
         <span>
-          {{ tel }}
+          {{ appointmentText }}
         </span>
       </NuxtLink>
       <NuxtLink :to="`mailto:${mail}`" class="py-3 flex flex-row space-x-4 items-center">
         <Icon name="heroicons:envelope" class="w-6 h-6" />
         <span>
           {{ mail }}
+        </span>
+      </NuxtLink>
+      <NuxtLink :to="`tel:${tel}`" class="py-3 flex flex-row space-x-4 items-center">
+        <Icon name="heroicons:device-phone-mobile" class="w-6 h-6" />
+        <span>
+          {{ tel }}
         </span>
       </NuxtLink>
     </div>

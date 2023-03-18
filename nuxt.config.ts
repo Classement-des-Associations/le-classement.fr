@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       concoursRegistrationLink: 'https://example.com',
       tourAssoRegistrationLink: 'https://example.com',
       afterworkBattleRegistrationLink: 'https://example.com',
+      bookAnAppointmentLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
       siteDescription:
