@@ -24,8 +24,8 @@ Rejoignez l'aventure avec nous !
   ::
   ::classement-link
   ---
-  buttonLink: /nous-contacter
-  buttonText: Nous contacter
+  buttonLink: '#nos-offers'
+  buttonText: Nos offres
   ---
   ::
 ::
@@ -39,6 +39,8 @@ sectionClass: mt-20
 Le Classement des Associations, c'est un évènement créé par [Aneo](https://aneo.eu) qui existe depuis plus de 10 ans. Il a pour but de mettre en avant la vie associative étudiante auprès des étudiants, des entreprises et des médias en se positionnant comme un carrefour.
 
 Le cɶur de Classement est le [Concours](/classement/concours), qui compare et classe les associations des écoles d'ingénieurs et de commerce et des universités. Avec son classement par prix sur le budget des associations et par trophées sur la catégorie des associations, le Classement permet de mettre en avant une diversité d'associations.
+
+**En prenant part au Classement**, vous aurez la possibilité selon [votre envie](#nos-offers), de choisir un **prix** ou un **trophée** et de **le modeler selon votre image et vos valeurs** pour le mettre en avant auprès des étudiants.
 
 ![Cocktail dînatoire durant la Cérémonie finale 2022](/assets/become-partner/images/1.webp)
 
@@ -60,26 +62,6 @@ Il existe 4 Prix différents.
 Dans le même temps, les associations sont également amenées à s'affronter selon leur **catégorie**, c'est à dire leur **domaine d'activité** principale.
 
 Il existe différents trophées et selon les partenaires, certains trophées seront mis à l'honneur lors de [la Cérémonie Finale](./classement/4.ceremonie-finale.md).
-
-Les trophées sont les suivants :
-
-- Artistique
-- Bureau des Élèves
-- City-Guide
-- Communication
-- Culturelle
-- Environnementale
-- Gala
-- Gastronomie
-- Géopolitique
-- Humanitaire
-- Œnologie
-- Professionnalisante
-- Sociale
-- Sportive
-- Technique
-
-*La liste des trophées n'est pas définitive*
 
 ### Le Planning
 
@@ -108,7 +90,7 @@ Il organise aussi différents évènements pour permettre aux étudiants de s'ex
 
 ## L'expérience partenaire
 
-En vous associant avec le Classement, vous bénéficierez d'une expérience unique. Nous vous aiderons à découvrir et pénétrer le monde étudiant grâce à nos évènements et notre expertise.
+En vous associant avec le Classement, vous bénéficierez d'une expérience unique. Nous vous aiderons à découvrir et pénétrer le monde étudiant grâce à nos évènements et notre expertise. Selon votre envie, vous aurez la possibilité de faire cela grâce à un **prix** ou un **trophée** que vous pourrez **modeler** selon votre image et vos valeurs. Ainsi, vous mettrez en oeuvre une **communication** et une **visibilité** auprès des étudiants parfaitement en lien avec votre stratégie et vos objectifs pour toucher au mieux la cible étudiante.
 
 Dans le même temps, le Classement se veut être **un accélérateur** pour vous permettre de vous immiscer sereinement et progressivement dans le monde étudiant. Ainsi, vous pourrez y développer votre **marque employeur** et votre **image** auprès des étudiants.
 
@@ -127,9 +109,9 @@ sectionClass: my-8
 
 ::prose-section
 ---
-sectionClass: my-20
+sectionClass: mb-20
 ---
-::centered-content{.mt-16}
+::centered-content
 #content
   ::classement-link
   ---

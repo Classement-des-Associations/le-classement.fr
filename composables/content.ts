@@ -2,6 +2,7 @@ import type { PressArticle } from '~~/types/press-article'
 import { Duel } from '~~/types/duel'
 import { ConcoursExercice } from '~~/types/concours-exercice'
 import { TimelineItem } from '~~/types/timeline'
+import { Offer } from '~~/types/offer'
 
 export const usePressExternalArticles = () => {
   return useAsyncData('content:press-external-articles', () =>
@@ -116,5 +117,11 @@ export const useConcoursExercices = () => {
 export const useTimeline = () => {
   return useAsyncData('content:timeline', () =>
     queryContent<{ body: TimelineItem[] }>('/calendrier/data').where({ _extension: 'json' }).findOne()
+  )
+}
+
+export const useOffers = () => {
+  return useAsyncData('content:offers', () =>
+    queryContent<{ body: Offer[] }>('/_offers').where({ _extension: 'json', _partial: true }).findOne()
   )
 }

@@ -1,0 +1,41 @@
+{
+  "body": [
+    {
+      "title": "La Découverte",
+      "price": "3 000 € HT",
+      "description": "Une offre pour ceux qui veulent découvrir le Classement et s'immerger doucement dans cet univers.",
+      "features": [
+        "Découverte de la vie associative étudiante",
+        "2 entrées pour la Cérémonie Finale",
+        "1 communication digitale standard",
+        "Afterwork"
+      ]
+    },
+    {
+      "title": "Le Prix",
+      "price": "6 000 € HT",
+      "description": "Adaptée pour ceux qui souhaite s'impliquer dans l'aventure et soutenir les associations étudiantes.",
+      "features": [
+        "Découverte de la vie associative étudiante",
+        "Soutien d'un Prix",
+        "3 entrées pour la Cérémonie Finale",
+        "Jury lors de la Cérémonie Finale",
+        "1 communication digitale étendue",
+        "Afterwork"
+      ]
+    },
+    {
+      "title": "Le Trophée",
+      "price": "8 000 € HT",
+      "description": "Parfaite pour être au plus proche des étudiants et des associations étudiantes tout au long de l'année.",
+      "features": [
+        "Découverte de la vie associative étudiante",
+        "Soutien d'un Trophée",
+        "5 entrées pour la Cérémonie Finale",
+        "Jury lors de la Cérémonie Finale",
+        "1 communication digitale étendue",
+        "Afterwork"
+      ]
+    }
+  ]
+}
