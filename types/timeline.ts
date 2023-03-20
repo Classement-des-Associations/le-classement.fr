@@ -3,6 +3,7 @@ export type TimelineNormalItem = {
   startAt?: string;
   endAt?: string;
   title: string;
+  link?: string;
 };
 
 export type TimelineLargeItem = {
@@ -12,6 +13,7 @@ export type TimelineLargeItem = {
   icon: string;
   title: string;
   description: string;
+  link?: string;
 };
 
 export type TimelineItem = TimelineNormalItem | TimelineLargeItem;

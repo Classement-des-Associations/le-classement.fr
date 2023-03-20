@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       concoursRegistrationLink: 'https://example.com',
       tourAssoRegistrationLink: 'https://example.com',
       afterworkBattleRegistrationLink: 'https://example.com',
+      bookAnAppointmentLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
       siteDescription:
@@ -51,7 +52,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/newsletter', '/newsletter/merci', '/404'],
+      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/newsletter', '/newsletter/merci', '/404', '/classement/palmares'],
       crawlLinks: true
     }
   },

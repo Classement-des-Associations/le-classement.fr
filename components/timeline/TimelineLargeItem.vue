@@ -1,11 +1,13 @@
 <script lang="ts" setup>
 import { TimelineLargeItem } from '~~/types/timeline'
 
-defineProps<{item: TimelineLargeItem}>()
+const props = defineProps<{item: TimelineLargeItem}>()
+
+const link = props.item.link ? useClassementLink(props.item.link) : null
 </script>
 
 <template>
-  <article class="gradient-border-2 border-gradient-br-associations-white rounded-2xl p-6 flex flex-col gap-3">
+  <article class="relative gradient-border-2 border-gradient-br-associations-white rounded-2xl p-6 flex flex-col gap-3">
     <div class="flex flex-col gap-1">
       <div class="flex flex-row items-center gap-2">
         <Icon
@@ -13,7 +15,13 @@ defineProps<{item: TimelineLargeItem}>()
           class="w-5 h-5"
         />
         <h3 class="text-xl font-bold">
-          {{ item.title }}
+          <NuxtLink v-if="link" :to="link">
+            {{ item.title }}
+            <div class="absolute inset-0" />
+          </NuxtLink>
+          <span v-else>
+            {{ item.title }}
+          </span>
         </h3>
       </div>
       <dl class="order-first flex flex-row text-sm font-light">

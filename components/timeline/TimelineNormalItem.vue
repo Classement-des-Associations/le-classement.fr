@@ -1,11 +1,13 @@
 <script lang="ts" setup>
 import { TimelineNormalItem } from '~~/types/timeline'
 
-defineProps<{item: TimelineNormalItem}>()
+const props = defineProps<{item: TimelineNormalItem}>()
+
+const link = props.item.link ? useClassementLink(props.item.link) : null
 </script>
 
 <template>
-  <article class="flex flex-row items-start gap-5">
+  <article class="relative flex flex-row items-start gap-5">
     <div class="rounded-full bg-white w-7 h-7 flex flex-col items-center justify-center">
       <Icon
         name="ph:git-commit"
@@ -14,7 +16,13 @@ defineProps<{item: TimelineNormalItem}>()
     </div>
     <div class="flex flex-col gap-1">
       <h3 class="text-xl font-bold">
-        {{ item.title }}
+        <NuxtLink v-if="link" :to="link">
+          {{ item.title }}
+          <div class="absolute inset-0" />
+        </NuxtLink>
+        <span v-else>
+          {{ item.title }}
+        </span>
       </h3>
       <dl class="order-first flex flex-row text-sm font-light">
         <dt v-if="item.startAt" class="sr-only">
