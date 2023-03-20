@@ -24,8 +24,10 @@ Rejoignez l'aventure avec nous !
   ::
   ::classement-link
   ---
-  buttonLink: '#nos-offers'
+  buttonLink: '#nos-offres'
   buttonText: Nos offres
+  part: partenaires
+  dimmed: true
   ---
   ::
 ::
