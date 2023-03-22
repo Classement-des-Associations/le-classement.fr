@@ -20,7 +20,7 @@ Aujourd’hui, nous vous présentons Cheer Up! EDHEC qui organise une course con
 
 *Vous êtes une association étudiante et vous voulez partager votre projet, [contactez-nous](/nous-contacter) !*
 
-## Cheer Up! EDHEC qu’est-ce que c’est ?
+## Cheer Up! EDHEC, qu’est-ce que c’est ?
 
 Durant sa classe préparatoire, **Pierre Janicot** était atteint d’un cancer. Pendant cette période, deux évidences lui sont apparues :
 
