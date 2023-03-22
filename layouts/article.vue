@@ -13,7 +13,8 @@ useSchemaOrg([
 ])
 
 const datetime = useDateToISOString(page.value.datePublished)
-const formattedDate = useDateToLocaleDateString(page.value.datePublished)
+const formattedPublishedDate = useDateToLocaleDateString(page.value.datePublished)
+const formattedUpdatedDate = useDateToLocaleDateString(page.value.dateModified)
 
 const colors = useColorsByPart(page.value.part)
 
@@ -52,15 +53,17 @@ onMounted(() => {
       <LayoutTitle class="bg-clip-text text-transparent" :class="colors.backgroundGradient">
         {{ page.title }}
       </LayoutTitle>
+      <time class="mt-2 italic" :datetime="datetime">
+        Publié le {{ formattedPublishedDate }}
+        <span v-if="formattedPublishedDate !== formattedUpdatedDate">
+          , mis à jour le {{ formattedUpdatedDate }}
+        </span>
+      </time>
       <figure class="mt-2 sm:mt-4 md:mt-8">
         <img v-if="page.cover" :src="page.cover.src" :alt="page.cover.alt" class="rounded-2xl" loading="lazy">
         <figcaption class="mt-1 md:mt-2 text-sm md:text-base flex flex-row text-black font-light">
           <p>
             {{ page.cover.alt }}
-            <span />
-            <time :datetime="datetime">
-              Publié le {{ formattedDate }}.
-            </time>
           </p>
         </figcaption>
       </figure>
