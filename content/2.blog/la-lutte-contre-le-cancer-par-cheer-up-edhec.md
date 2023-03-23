@@ -29,13 +29,13 @@ Durant sa classe préparatoire, **Pierre Janicot** était atteint d’un cance
 
 C’est donc tout naturellement, en intégrant l’ESSEC en 2003, qu’il a décidé de créer une fédération d’associations avec son ami **Marc Sudreau** (EDHEC). **Des jeunes qui accompagnent les jeunes atteints de cancer dans la réalisation de projets** qui leur tiennent à cœur : telle est l’action de **Cheer Up!**
 
-Ainsi, Cheer Up! EDHEC est l'une des antennes fondatrices de la fédération depuis 2003. C'est **la plus grande association étudiante de lutte contre le cancer en France** et la seule à cibler les jeunes, souvent délaissés par les autres associations de ce type. Nous avons pour objectif d’accompagner les jeunes entre 15 et 25 ans atteints du cancer dans la réalisation de projets qui leur tiennent à cœur. Nos bénévoles interviennent à l'hôpital Oscar Lambret de Lille en rendant **visite quotidiennement à des jeunes atteints du cancer**.
+Ainsi, Cheer Up! EDHEC est l'une des antennes fondatrices de la fédération depuis 2003. C'est **la plus grande association étudiante de lutte contre le cancer en France** et la seule à cibler les jeunes, souvent délaissés par les autres associations de ce type. Nous avons pour objectif d’accompagner les jeunes entre 15 et 25 ans atteints du cancer dans la réalisation de projets qui leur tiennent à cœur. Nos bénévoles interviennent à l'hôpital Oscar Lambret de Lille en rendant **visite quotidiennement à des jeunes atteints de cancer**.
 
 L'équipe est composée de **deux générations d’étudiants** et se renouvelle tous les ans avec une période de recrutement en septembre et une période de formation afin d’appréhender correctement et de dédramatiser les visites à l’hôpital qui peuvent être impressionnantes pour certains. Ainsi, Cheer Up! EDHEC c’est 31 bénévoles formés pour rendre visite aux jeunes chaque année.
 
 ## Nos projets
 
-Pour faire rayonner notre association et augmenter la porter de nos actions, nous réalisons différents projets.
+Pour faire rayonner notre association et augmenter la portée de nos actions, nous réalisons différents projets.
 
 ### Les visites à l’hôpital
 
@@ -49,11 +49,11 @@ A côté de cela, nous développons de nombreux projets de sensibilisation, de l
 
 Cette année, notre projet phare fait son grand retour : la **Course Contre le Cancer** aura lieu à la Citadelle de Lille le jeudi 23 mars 2023 à partir de 17h. La nouveauté de cette année est que la course est ouverte même à ceux qui n’habitent pas à Lille grâce à sa version à distance (un lien est envoyé via une application de running) le week-end du 25 et 26 mars. Vous pouvez prendre une place en sélectionnant cette option, et réaliser vos 2, 5, 10 ou 15 kilomètres d’où vous voulez partout en France ou dans le monde !
 
-Que ce soit pour 2, 5, 10 ou 15 kilomètres, l’intérêt est de se réunir en un lieu où chacun est le bienvenu quel que soit son âge ou sa capacité physique. C’est un événement destiné au grand public, dont le but est à la fois de sensibiliser à la lutte contre le cancer et d’informer sur les actions de Cheer Up! au quotidien.
+Que ce soit pour 2, 5, 10 ou 15 kilomètres, l’intérêt est de se réunir en un lieu où chacun est le bienvenu quel que soit son âge ou sa capacité physique. C’est un événement destiné au grand public dont le but est à la fois de sensibiliser à la lutte contre le cancer et d’informer sur les actions de Cheer Up! au quotidien.
 
 Les bénéfices générés lors de l'événement sont ensuite reversés dans leur intégralité à la recherche contre le cancer au Centre de Recherche Contre le Cancer des Hauts-de-France de l'Hôpital Oscar Lambret.
 
-La seconde nouveauté est une billetterie parrains ouverte pour sensibiliser un maximum de monde. En effet, si vous ne souhaitez pas courir, vous pouvez parrainer un ami qui court en donnant à hauteur du prix de sa course et ainsi lui donner davantage de chances de remporter l’un des nombreux lots mis en jeu grâce à nos nombreux partenaires !
+La seconde nouveauté est une billetterie Parrains ouverte pour sensibiliser un maximum de monde. En effet, si vous ne souhaitez pas courir, vous pouvez parrainer un ami qui court en donnant à hauteur du prix de sa course et ainsi lui donner davantage de chances de remporter l’un des nombreux lots mis en jeu grâce à nos nombreux partenaires !
 
 Nous vous attendons nombreux pour aider à faire avancer la recherche !
 
