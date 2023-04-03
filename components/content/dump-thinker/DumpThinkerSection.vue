@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 useSchemaOrg([
-  defineItemList(),
+  defineItemList()
 ])
 </script>
 
