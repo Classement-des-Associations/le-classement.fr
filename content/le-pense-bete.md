@@ -2,7 +2,7 @@
 navigation: false
 title: Le Pense Bête
 image: /socials/le-pense-bete.jpg
-description: buttonLinkus les liens importants du Classement des Associations.
+description: Tous les liens importants du Classement des Associations.
 ---
 
 ::dump-thinker-section
@@ -12,14 +12,22 @@ Notre liste de liens
 #lists
   ::dump-thinker-list
   #title
-  Événements
+  Pour le Concours
 
   #items
     ::dump-thinker-list-item
     ---
-    icon: fluent-emoji:bottle-with-popping-cork
-    buttonLink: afterworkBattleRegistrationLink
-    buttonText: Afterwork Battle
+    icon: heroicons:megaphone-solid
+    buttonLink: concoursRegistrationLink
+    buttonText: S'inscrire au Concours
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: heroicons:pencil-solid
+    buttonLink: writeForClassement
+    buttonText: Écrire pour le Classement
     ---
     ::
   ::

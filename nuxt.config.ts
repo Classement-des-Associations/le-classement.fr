@@ -11,6 +11,7 @@ export default defineNuxtConfig({
       newsletterSubscriptionLink: 'https://example.com',
       concoursRegistrationLink: 'https://example.com',
       tourAssoRegistrationLink: 'https://example.com',
+      writeForClassement: 'https://example.com',
       afterworkBattleRegistrationLink: 'https://example.com',
       bookAnAppointmentLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
