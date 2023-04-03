@@ -2,7 +2,7 @@
 navigation: false
 title: Le Pense Bête
 image: /socials/le-pense-bete.jpg
-description: buttonLinkus les liens importants du Classement des Associations.
+description: Tous les liens importants du Classement des Associations.
 ---
 
 ::dump-thinker-section
