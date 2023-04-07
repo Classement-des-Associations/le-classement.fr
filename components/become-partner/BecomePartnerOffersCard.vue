@@ -12,15 +12,6 @@ defineProps<{
       {{ offer.title }}
     </h3>
 
-    <dl class="mt-2 text-lg md:text-xl lg:text-2xl font-medium text-center">
-      <dt class="sr-only">
-        Le prix de l'offre
-      </dt>
-      <dd>
-        {{ offer.price }}
-      </dd>
-    </dl>
-
     <p class="mt-8 text-lg">
       {{ offer.description }}
     </p>

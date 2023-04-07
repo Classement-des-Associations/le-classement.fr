@@ -2,7 +2,6 @@
   "body": [
     {
       "title": "La Découverte",
-      "price": "3 000 € HT",
       "description": "Une offre pour ceux qui veulent découvrir le Classement et s'immerger doucement dans cet univers.",
       "features": [
         "Découverte de la vie associative étudiante",
@@ -13,7 +12,6 @@
     },
     {
       "title": "Le Prix",
-      "price": "6 000 € HT",
       "description": "Adaptée pour ceux qui souhaite s'impliquer dans l'aventure et soutenir les associations étudiantes.",
       "features": [
         "Découverte de la vie associative étudiante",
@@ -26,7 +24,6 @@
     },
     {
       "title": "Le Trophée",
-      "price": "8 000 € HT",
       "description": "Parfaite pour être au plus proche des étudiants et des associations étudiantes tout au long de l'année.",
       "features": [
         "Découverte de la vie associative étudiante",
