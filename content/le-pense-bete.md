@@ -12,7 +12,7 @@ Notre liste de liens
 #lists
   ::dump-thinker-list
   #title
-  Pour le Concours
+  Liens utiles
 
   #items
     ::dump-thinker-list-item
@@ -28,6 +28,14 @@ Notre liste de liens
     icon: heroicons:pencil-solid
     buttonLink: writeForClassement
     buttonText: Écrire pour le Classement
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: discovery
+    buttonLink: afterworkToulouseRegistrationLink
+    buttonText: Afterwork à Toulouse
     ---
     ::
   ::
@@ -47,33 +55,9 @@ Notre liste de liens
 
     ::dump-thinker-list-item
     ---
-    icon: battle
-    buttonLink: /classement/battle
-    buttonText: Battle du Classement
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
     icon: concours
     buttonLink: /classement/concours
     buttonText: Concours du Classement
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    icon: discovery
-    buttonLink: /classement/discovery
-    buttonText: Classement Discovery
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    icon: ceremonie-finale
-    buttonLink: /classement/ceremonie-finale
-    buttonText: Cérémonie Finale
     ---
     ::
 

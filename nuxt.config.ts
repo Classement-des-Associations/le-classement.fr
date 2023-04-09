@@ -13,6 +13,7 @@ export default defineNuxtConfig({
       tourAssoRegistrationLink: 'https://example.com',
       writeForClassement: 'https://example.com',
       afterworkBattleRegistrationLink: 'https://example.com',
+      afterworkToulouseRegistrationLink: 'https://example.com',
       bookAnAppointmentLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
