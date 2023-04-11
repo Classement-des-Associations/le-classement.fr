@@ -22,7 +22,7 @@ Cette année, le concours revient avec une nouveauté, deux types de classement 
 
 Les prix sont au nombre de 4 et les associations inscrites y seront assignées en fonction de leur budget et pourront en fonction de leur secteur d’activité et de leur envie, se battre pour prétendre à un trophée. Pour celui-ci pas de budget, juste une thématique. Par exemple, les associations humanitaires pourront concourir pour le titre de "Meilleure Association Humanitaire Étudiante 2023".
 
-[Photo de SupBio’Dance, association gagnante du Concours 2022 - © Vanessa Buhrig](/assets/press/images/le-concours-du-classement-des-associations-revient/content.webp)
+![Photo de SupBio’Dance, association gagnante du Concours 2022 - © Vanessa Buhrig](/assets/press/images/le-concours-du-classement-des-associations-revient/content.webp)
 
 Pour le Classement des Associations, il est important de mettre en avant l’ensemble des associations étudiantes car les compétences acquises durant ces engagements sont une vraie plus-value pour la vie professionnelle quel qu'y soit le budget ou la thématique.
 
