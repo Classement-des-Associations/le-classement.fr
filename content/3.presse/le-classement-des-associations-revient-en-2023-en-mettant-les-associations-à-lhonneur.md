@@ -5,7 +5,7 @@ image:
   src: /assets/press/images/le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur/cover.webp
   alt: Logos des 64 associations participant à la Battle du Classement
 release:
-  to: /assets/press/releases/2023-20-02-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
+  to: /assets/press/releases/2023-02-20-le-classement-des-associations-revient-en-2023-en-mettant-les-associations-a-lhonneur.pdf
 press: le-classement.fr
 datePublished: 2023-02-20
 dateModified: 2022-02-20
