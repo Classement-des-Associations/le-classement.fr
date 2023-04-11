@@ -9,7 +9,7 @@ release:
 press: le-classement.fr
 datePublished: 2023-04-11
 dateModified: 2023-04-11
-layout: presse
+layout: press
 ---
 
 **Envie de montrer que votre association étudiante est la meilleure de France ?**
