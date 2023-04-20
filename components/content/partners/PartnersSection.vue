@@ -61,7 +61,7 @@ const useItemClass = function (level: Level) {
           <ul :class="useLevelClassGrid(level)" class="mt-4 gap-8">
             <template v-for="partner in partners[level]" :key="partner._id">
               <li :class="useItemClass(level)">
-                <NuxtLink class="w-full h-full flex flex-col items-center rounded p-8" :to="partner._path">
+                <NuxtLink class="w-full h-full flex flex-col items-center rounded p-8" :to="partner.externalLink ?? partner._path" :rel="partner.rel">
                   <img :src="partner.image.src" :alt="partner.image.alt" class="h-full">
                 </NuxtLink>
               </li>
