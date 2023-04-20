@@ -4760,7 +4760,7 @@ packages:
   /externality@1.0.0:
     resolution: {integrity: sha512-MAU9ci3XdpqOX1aoIoyL2DMzW97P8LYeJxIUkfXhOfsrkH4KLHFaYDwKN0B2l6tqedVJWiTIJtWmxmZfa05vOQ==}
     dependencies:
-      enhanced-resolve: 5.12.0
+      enhanced-resolve: 5.13.0
       mlly: 1.2.0
       pathe: 1.1.0
       ufo: 1.1.1
