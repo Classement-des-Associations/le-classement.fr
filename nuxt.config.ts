@@ -1,9 +1,16 @@
 export default defineNuxtConfig({
   extends: ['@classement-des-associations/website-theme'],
 
+  // experimental: {
+  //   watcher: 'parcel'
+  // },
+
+  devtools: true,
+
   modules: [
     '@vueuse/nuxt',
-    'nuxt-clarity-analytics'
+    'nuxt-clarity-analytics',
+    '@nuxt/devtools'
   ],
 
   runtimeConfig: {
