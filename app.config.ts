@@ -1,4 +1,11 @@
 export default defineAppConfig({
+  classement: {
+    contact: {
+      email: 'contact@le-classement.fr',
+      phone: '07 52 64 82 98',
+      appointment: 'bookAnAppointmentLink'
+    }
+  },
   nuxtIcon: {
     aliases: {
       annuaire: 'fluent-emoji:books',
