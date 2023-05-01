@@ -16,7 +16,7 @@ layout: article
 ---
 
 
-[Hum'am](/associations/humam) c'est l'**association humanitaire des apprentis des Arts et Métiers**. Fondée en 2016, elle regroupe en 2022 une vingtaine d'apprentis qui donne de leur temps pour améliorer la qualité de vie des populations dans le besoin.
+[Hum'am](https://annuaire.le-classement.fr/associations-etudiantes/humam/){noRel="true"} c'est l'**association humanitaire des apprentis des Arts et Métiers**. Fondée en 2016, elle regroupe en 2022 une vingtaine d'apprentis qui donne de leur temps pour améliorer la qualité de vie des populations dans le besoin.
 
 Depuis sa création, Hum'am a vu passer plus de **160 bénévoles** qui ont pu soutenir plus de **25 000 personnes** dont plus de **10 000 enfants**.
 
