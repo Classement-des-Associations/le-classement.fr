@@ -40,7 +40,7 @@ export const useDumpThinkerArticles = () => {
 
 export const useDumpThinkerReleases = () => {
   return useAsyncData('content:dump-thinker-releases', () =>
-    queryContent('/presse/').where({ _extension: 'md' }).sort({ datePublished: -1 }).limit(3).find()
+    queryContent('/presse/').where({ _extension: 'md' }).sort({ datePublished: -1 }).limit(1).find()
   )
 }
 

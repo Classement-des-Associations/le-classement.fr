@@ -33,9 +33,19 @@ Notre liste de liens
 
     ::dump-thinker-list-item
     ---
-    icon: discovery
-    buttonLink: afterworkToulouseRegistrationLink
-    buttonText: Afterwork à Toulouse
+    icon: rendu-ecrit
+    buttonLink: /assets/classement/concours/criteres_rendu_ecrit.pdf
+    buttonText: Critères rendu écrit
+    target: _blank
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: rendu-video
+    buttonLink: /assets/classement/concours/criteres_rendu_video.pdf
+    buttonText: Critères rendu vidéo
+    target: _blank
     ---
     ::
   ::
