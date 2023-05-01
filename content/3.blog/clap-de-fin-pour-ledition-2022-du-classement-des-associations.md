@@ -117,7 +117,7 @@ C'est donc après l'ensemble de ces épreuves que nous vous dévoilons le top 16
 | 15 | **Les Ovalies** | UniLaSalle |
 | 16 | **La Nuit de l’Institut** | UniLaSalle |
 
-Vous pouvez aussi retrouver le [palmarès des années précédentes](/le-palmares).
+Vous pouvez aussi retrouver le [palmarès des années précédentes](/classement/palmares/).
 
 ## Le cocktail dinatoire
 
