@@ -48,6 +48,14 @@ Notre liste de liens
     target: _blank
     ---
     ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: ph:instagram-logo-duotone
+    buttonLink: /reglement-jeu-concours-instagram
+    buttonText: Règlement jeu concours
+    ---
+    ::
   ::
 
   ::dump-thinker-list
