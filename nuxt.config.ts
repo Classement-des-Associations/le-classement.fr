@@ -67,6 +67,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/newsletter/merci': { index: false }
+    '/newsletter/merci': { index: false },
+    '/reglement-jeu-concours-instagram': { index: false }
   }
 })

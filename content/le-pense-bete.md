@@ -38,6 +38,14 @@ Notre liste de liens
     buttonText: Afterwork à Toulouse
     ---
     ::
+
+    ::dump-thinker-list-item
+    ---
+    icon: ph:instagram-logo-duotone
+    buttonLink: /reglement-jeu-concours-instagram
+    buttonText: Règlement jeu concours
+    ---
+    ::
   ::
 
   ::dump-thinker-list
