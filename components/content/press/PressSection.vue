@@ -5,6 +5,7 @@ defineProps<{
 </script>
 
 <template>
+  <!-- Need to be rework and simplify -->
   <section :class="sectionClass" class="mx-auto sm:px-6 lg:px-8 px-4 max-w-7xl">
     <p v-if="$slots.category" class="text-sm font-semibold text-zinc-400">
       <ContentSlot :use="$slots.category" unwrap="p" />

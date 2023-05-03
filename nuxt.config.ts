@@ -5,8 +5,8 @@ export default defineNuxtConfig({
 
   modules: [
     '@vueuse/nuxt',
-    'nuxt-clarity-analytics',
-    '@nuxt/devtools'
+    'nuxt-clarity-analytics'
+    // '@nuxt/devtools'
   ],
 
   runtimeConfig: {

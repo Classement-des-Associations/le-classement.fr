@@ -5,27 +5,12 @@ navigation:
 title: La Presse
 description: Retrouvez toutes les informations presses du Classement des Associations
 image: /socials/presse.jpg
+layout: hero
+actions:
+  - part: classement
+    button-link: /nous-contacter
+    button-text: Nous contacter
 ---
-
-::hero
----
-part: classement
----
-#title
-Presse
-
-#subtitle
-Retrouvez toutes les informations presses du Classement des Associations
-
-#actions
-  ::classement-link
-  ---
-  part: classement
-  button-link: /nous-contacter
-  button-text: Nous contacter
-  ---
-  ::
-::
 
 ::press-section
 ---
