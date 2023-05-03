@@ -1,6 +1,8 @@
 ---
 navigation: false
 title: Règlement jeu concours Instagram
+description: Règlement du jeu concours Instagram du Classement des Associations.
+layout: content
 ---
 
 # Règlement jeu concours Instagram
