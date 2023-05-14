@@ -4,6 +4,8 @@ export const useLevel = (level: Level) => {
   switch (level) {
     case 'creator':
       return 'Créateur'
+    case 'media':
+      return 'Média'
     case 'platinum':
       return 'Platinum'
     case 'gold':
