@@ -8,7 +8,7 @@ defineProps<{
 
 const { data } = await usePartners()
 
-const levels: Level[] = ['creator', 'platinum', 'gold', 'silver', 'bronze']
+const levels: Level[] = ['creator', 'media', 'platinum', 'gold', 'silver', 'bronze']
 const partners = ref<Record<Level, ParsedContent[]>>({} as Record<Level, ParsedContent[]>)
 
 partners.value = data.value?.reduce((acc, partner) => {
@@ -23,6 +23,8 @@ const useLevelClassGrid = function (level: Level) {
   switch (level) {
     case 'creator':
       return 'grid grid-cols-1 md:grid-cols-4'
+    case 'media':
+      return 'grid grid-cols-1 md:grid-cols-3'
     case 'platinum':
       return 'grid grid-cols-2'
     case 'gold':
@@ -38,6 +40,8 @@ const useItemClass = function (level: Level) {
   switch (level) {
     case 'creator':
       return 'md:col-start-2 md:col-end-4 max-h-48'
+    case 'media':
+      return 'max-h-48'
     case 'platinum':
       return 'max-h-40'
     case 'gold':
@@ -62,7 +66,7 @@ const useItemClass = function (level: Level) {
             <template v-for="partner in partners[level]" :key="partner._id">
               <li :class="useItemClass(level)">
                 <NuxtLink class="w-full h-full flex flex-col items-center rounded p-8" :to="partner.externalLink ?? partner._path" :rel="partner.rel">
-                  <img :src="partner.image.src" :alt="partner.image.alt" class="h-full">
+                  <img :src="partner.image.src" :alt="partner.image.alt" class="h-full object-contain">
                 </NuxtLink>
               </li>
             </template>
