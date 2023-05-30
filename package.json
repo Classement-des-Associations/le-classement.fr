@@ -21,7 +21,7 @@
     "nuxt": "^3.5.2",
     "nuxt-clarity-analytics": "^0.0.2",
     "three": "^0.149.0",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.5.5"
