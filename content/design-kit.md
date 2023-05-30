@@ -250,7 +250,7 @@ Gradients
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
-  Tour Asso
+  Discovery - Tour Asso
   #buttonText
   copier
   ::
@@ -261,7 +261,7 @@ Gradients
   hexaColor: 'linear-gradient(135deg, #FF6944 9.05%, #4B3069 100%)'
   ---
   #color
-  Discovery
+  Battle
   #buttonText
   copier
   ::
