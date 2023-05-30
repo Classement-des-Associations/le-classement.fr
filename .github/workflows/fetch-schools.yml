@@ -65,7 +65,7 @@ jobs:
         run: node ./scripts/fetch-schools/index.mjs
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           branch: feat-schools-automatic-update
           commit-message: "feat(schools): automatic update"
