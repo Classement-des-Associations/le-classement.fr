@@ -30,12 +30,13 @@ Entrevoir la vie associative avec nos histoires,<br /> des témoignages, des ass
 
 ::blog-list-section{id="articles"}
 ---
-sectionClass: mt-16
+sectionClass: mt-16 mb-16 md:mb-32
 ---
 #srTitle
 Les articles
 ::
 
+<!--
 ::newsletter-section
 ---
 sectionClass: my-16 md:my-32
@@ -47,3 +48,4 @@ S'abonner au Classement
 #subtitle
 Une newsletter pour tous ceux qui veulent prolonger l’aventure du Classement avec des exclusivités et des actualités sur la vie associative étudiante.
 ::
+-->

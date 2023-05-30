@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      newsletterSubscriptionLink: 'https://example.com',
+      // newsletterSubscriptionLink: 'https://example.com',
       concoursRegistrationLink: 'https://example.com',
       tourAssoRegistrationLink: 'https://example.com',
       writeForClassement: 'https://example.com',
@@ -61,7 +61,16 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/design-kit', '/le-pense-bete', '/associations', '/newsletter', '/newsletter/merci', '/404', '/classement/palmares'],
+      routes: [
+        '/',
+        '/design-kit',
+        '/le-pense-bete',
+        '/associations',
+        // '/newsletter',
+        // '/newsletter/merci',
+        '/404',
+        '/classement/palmares'
+      ],
       crawlLinks: true
     }
   },
