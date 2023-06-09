@@ -19,8 +19,7 @@ export default defineNuxtConfig({
       concoursRegistrationLink: 'https://example.com',
       tourAssoRegistrationLink: 'https://example.com',
       writeForClassement: 'https://example.com',
-      afterworkBattleRegistrationLink: 'https://example.com',
-      afterworkToulouseRegistrationLink: 'https://example.com',
+      meetupLink: 'https://example.com',
       bookAnAppointmentLink: 'https://example.com',
       siteUrl: 'https://le-classement.fr/',
       siteName: 'Le Classement des Associations',
@@ -76,7 +75,6 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/newsletter/merci': { index: false },
-    '/reglement-jeu-concours-instagram': { index: false }
+    // '/newsletter/merci': { index: false },
   }
 })

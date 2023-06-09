@@ -17,6 +17,14 @@ Notre liste de liens
   #items
     ::dump-thinker-list-item
     ---
+    icon: fluent-emoji:tropical-drink
+    buttonLink: meetupLink
+    buttonText: Venir au meetup
+    ---
+    ::
+
+    ::dump-thinker-list-item
+    ---
     icon: heroicons:megaphone-solid
     buttonLink: concoursRegistrationLink
     buttonText: S'inscrire au Concours
@@ -46,14 +54,6 @@ Notre liste de liens
     buttonLink: /assets/classement/concours/criteres_rendu_video.pdf
     buttonText: Critères rendu vidéo
     target: _blank
-    ---
-    ::
-
-    ::dump-thinker-list-item
-    ---
-    icon: ph:instagram-logo-duotone
-    buttonLink: /reglement-jeu-concours-instagram
-    buttonText: Règlement jeu concours
     ---
     ::
   ::
