@@ -17,7 +17,7 @@ Notre liste de liens
   #items
     ::dump-thinker-list-item
     ---
-    icon: fluent-emoji:tropical-drink
+    icon: annuaire
     buttonLink: https://annuaire.le-classement.fr
     buttonText: L'Annuaire du Classement
     ---
