@@ -18,8 +18,8 @@ Notre liste de liens
     ::dump-thinker-list-item
     ---
     icon: fluent-emoji:tropical-drink
-    buttonLink: meetupLink
-    buttonText: Venir au meetup
+    buttonLink: https://annuaire.le-classement.fr
+    buttonText: L'Annuaire du Classement
     ---
     ::
 
