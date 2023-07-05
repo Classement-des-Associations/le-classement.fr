@@ -69,7 +69,7 @@ Nous organisons également d’autres événements comme des Dons du Sang sur le
 
 ![Une personne est en train d'effectuer une prise de sang à une personne allongée sur un fauteuil bleu. Dans le fond, des personnes font la queue pour donner leur sang. Par © Cheer Up! EDHEC.](/assets/blog/images/la-lutte-contre-le-cancer-par-cheer-up-edhec/les-dons-du-sang.webp)
 
-### Le Spring Break 
+### Le Spring Break
 
 Nous organisons également le Spring Break, une semaine de vacances sur les lieux de la [Course Croisière EDHEC](https://cce.fr/) (CCE) avec des jeunes en rémission. Il s'agit de permettre à des jeunes en rémission de s'évader durant une semaine. En effet, les jeunes atteints du cancer sont souvent enfermés dans leur quotidien, ce qui les éloigne du train de vie des jeunes de leur âge.
 
@@ -111,7 +111,7 @@ Cheers
 
 ## Participer au Tour Asso
 
-Merci à Cheer UP: EDHEC d’avoir partager son association et si vous souhaitez aussi partager votre association, [contactez-nous](/nous-contacter) sur les réseaux, par mail ou avec le formulaire ci-dessous !
+Merci à Cheer UP: EDHEC d’avoir partagé son association et si vous souhaitez aussi partager votre association, [contactez-nous](/nous-contacter) sur les réseaux, par mail ou avec le formulaire ci-dessous !
 
 ::centered-content
 ---
