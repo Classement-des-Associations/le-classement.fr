@@ -19,9 +19,9 @@ layout: article
 
 Créée en 1994, Total EDHEC Entreprendre (TEE), association étudiante de l'[EDHEC Business School](https://www.edhec.edu/fr), organise chaque année un concours de start-ups à Station F.
 
-L'association a pour but de promouvoir l'entreprenariat pour tous en allant dénicher les talents directement au cœur des incubateurs. De [Bordeaux TechnoWest](https://technowest.com/) à [Station F](https://stationf.co/) en passant par [Euratechnologies](https://www.euratechnologies.com/), toutes les start-ups sont mises à l'honneur.
+L'association a pour but de promouvoir l'entrepreneuriat pour tous en allant dénicher les talents directement au cœur des incubateurs. De [Bordeaux TechnoWest](https://technowest.com/) à [Station F](https://stationf.co/) en passant par [Euratechnologies](https://www.euratechnologies.com/), toutes les start-ups sont mises à l'honneur.
 
-Le concours Total EDHEC Entreprendre, ce sont aussi des pépites revalorisées dans les plus grands classements presse. Depuis sa création, de nombreuses start-ups sont promues au sein du classement des 100 start-ups dans lesquelles investir de Challenges comme les start-ups Circul'Egg, [Reutec](https://www.reutec.fr/) ou même [We Barak](https://webarak.fr/) qui sont passés par TEE.
+Le concours Total EDHEC Entreprendre, ce sont aussi des pépites revalorisées dans les plus grands classements presse. Depuis sa création, de nombreuses start-ups sont promues au sein du [classement Challenges](https://www.challenges.fr/classements/start-up/2023/) des 100 start-ups dans lesquelles investir comme les start-ups Circul'Egg, [Reutec](https://www.reutec.fr/) ou même [We Barak](https://webarak.fr/) qui sont passés par TEE.
 
 ![Station F à Paris](/assets/blog/images/le-concours-total-edhec-entreprendre-part-a-la-chasse-aux-start-ups/station-f.webp)
 
@@ -33,11 +33,11 @@ En **janvier**, les jeunes pousses déposent leurs candidatures :
 
 - Business plan
 - Plan de financement
-- Questionnaires sont attendus.
+- Questionnaires.
 
 En 2023, près de **400 dossiers** ont été reçus par l'association.
 
-**Mi-Février**, les dossiers sont analysés par les membres de l'association où la solidité du plan de financement, l'analyse de la concurrence, l'équipe et le caractère innovant de la start-up sont passées au crible.
+**Mi-février**, les dossiers sont analysés par les membres de l'association où la solidité du plan de financement, l'analyse de la concurrence, l'équipe et le caractère innovant de la start-up sont passés au crible.
 
 Les **12 start-ups** sélectionnées participent au Grand Oral qui a lieu à Station F début **avril**. Chacune d'elles devra, en un temps restreint, réaliser son pitch devant les partenaires du concours.
 
@@ -55,7 +55,7 @@ Des prix financiers, matériels ou de conseils, de quoi satisfaire l'ensemble de
 
 ## Les participants du Grand Oral 2023
 
-Lors du Grand Oral 2023, c'est 12 start-ups qui ont eu la chance de pitcher leur projet devant un jury de professionnels composés des partenaires du concours.
+Lors du Grand Oral 2023, ce sont 12 start-ups qui ont eu la chance de pitcher leur projet devant un jury de professionnels composé de partenaires du concours.
 
 ::carousel-content
 ---
