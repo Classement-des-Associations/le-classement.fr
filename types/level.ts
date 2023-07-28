@@ -1,1 +1,1 @@
-export type Level = 'creator' | 'platinum' | 'gold' | 'silver' | 'bronze' | 'media'
+export type Level = 'creator' | 'platinum' | 'gold' | 'silver' | 'bronze' | 'media' | 'heart'

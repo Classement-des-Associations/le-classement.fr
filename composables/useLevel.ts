@@ -14,5 +14,7 @@ export const useLevel = (level: Level) => {
       return 'Silver'
     case 'bronze':
       return 'Bronze'
+    case 'heart':
+      return 'Coup de coeur'
   }
 }

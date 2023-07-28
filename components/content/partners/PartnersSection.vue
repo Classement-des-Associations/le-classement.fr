@@ -8,7 +8,7 @@ defineProps<{
 
 const { data } = await usePartners()
 
-const levels: Level[] = ['creator', 'media', 'platinum', 'gold', 'silver', 'bronze']
+const levels: Level[] = ['creator', 'media', 'platinum', 'gold', 'silver', 'bronze', 'heart']
 const partners = ref<Record<Level, ParsedContent[]>>({} as Record<Level, ParsedContent[]>)
 
 partners.value = data.value?.reduce((acc, partner) => {
@@ -33,6 +33,8 @@ const useLevelClassGrid = function (level: Level) {
       return 'grid grid-cols-4'
     case 'bronze':
       return 'grid grid-cols-5'
+    case 'heart':
+      return 'grid grid-cols-1 md:grid-cols-5'
   }
 }
 
@@ -50,6 +52,8 @@ const useItemClass = function (level: Level) {
       return 'max-h-24'
     case 'bronze':
       return 'max-h-20'
+    case 'heart':
+      return 'max-h-48'
   }
 }
 </script>
