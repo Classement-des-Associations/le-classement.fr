@@ -24,6 +24,6 @@
     "typescript": "^5.0.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.5.5"
+    "@nuxt/devtools": "^0.8.0"
   }
 }
