@@ -33,8 +33,8 @@ dependencies:
     specifier: ^0.0.2
     version: 0.0.2
   three:
-    specifier: ^0.152.2
-    version: 0.152.2
+    specifier: ^0.175.0
+    version: 0.175.0
   typescript:
     specifier: ^5.0.4
     version: 5.0.4
@@ -2335,6 +2335,7 @@ packages:
 
   /acorn-import-assertions@1.8.0(acorn@8.8.2):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -9125,8 +9126,8 @@ packages:
       any-promise: 1.3.0
     dev: false
 
-  /three@0.152.2:
-    resolution: {integrity: sha512-Ff9zIpSfkkqcBcpdiFo2f35vA9ZucO+N8TNacJOqaEE6DrB0eufItVMib8bK8Pcju/ZNT6a7blE1GhTpkdsILw==}
+  /three@0.175.0:
+    resolution: {integrity: sha512-nNE3pnTHxXN/Phw768u0Grr7W4+rumGg/H6PgeseNJojkJtmeHJfZWi41Gp2mpXl1pg1pf1zjwR4McM1jTqkpg==}
     dev: false
 
   /through@2.3.8:
